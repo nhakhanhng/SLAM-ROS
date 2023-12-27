@@ -1,0 +1,60 @@
+[0.051s] Invoking command in '/home/khanh/Documents/microros_ws/build/microcdr': /usr/bin/cmake /home/khanh/Documents/microros_ws/src/eProsima/Micro-CDR -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCDR_ISOLATED_INSTALL=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/khanh/Documents/microros_ws/install/microcdr
+[0.058s] -- Setting build type to 'Release' as none was specified.
+[0.158s] -- The C compiler identification is GNU 11.4.0
+[0.174s] -- Detecting C compiler ABI info
+[0.239s] -- Detecting C compiler ABI info - done
+[0.245s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.245s] -- Detecting C compile features
+[0.246s] -- Detecting C compile features - done
+[0.359s] -- The CXX compiler identification is GNU 11.4.0
+[0.365s] -- Detecting CXX compiler ABI info
+[0.441s] -- Detecting CXX compiler ABI info - done
+[0.447s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.447s] -- Detecting CXX compile features
+[0.447s] -- Detecting CXX compile features - done
+[0.453s] -- Configuring done
+[0.455s] -- Generating done
+[0.456s] [33mCMake Warning:
+[0.456s]   Manually-specified variables were not used by the project:
+[0.456s] 
+[0.456s]     BUILD_TESTING
+[0.456s] 
+[0.456s] [0m
+[0.456s] -- Build files have been written to: /home/khanh/Documents/microros_ws/build/microcdr
+[0.460s] Invoked command in '/home/khanh/Documents/microros_ws/build/microcdr' returned '0': /usr/bin/cmake /home/khanh/Documents/microros_ws/src/eProsima/Micro-CDR -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCDR_ISOLATED_INSTALL=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/khanh/Documents/microros_ws/install/microcdr
+[0.461s] Invoking command in '/home/khanh/Documents/microros_ws/build/microcdr': /usr/bin/cmake --build /home/khanh/Documents/microros_ws/build/microcdr -- -j16 -l16
+[0.505s] [ 12%] [34m[1mCreating directories for 'ucdr'[0m
+[0.575s] [ 25%] [34m[1mNo download step for 'ucdr'[0m
+[0.599s] [ 37%] [34m[1mNo update step for 'ucdr'[0m
+[0.623s] [ 50%] [34m[1mNo patch step for 'ucdr'[0m
+[0.646s] [ 62%] [34m[1mPerforming configure step for 'ucdr'[0m
+[0.655s] loading initial cache file /home/khanh/Documents/microros_ws/build/microcdr/ucdr-prefix/tmp/ucdr-cache-Release.cmake
+[0.661s] -- Configuring done
+[0.664s] -- Generating done
+[0.665s] -- Build files have been written to: /home/khanh/Documents/microros_ws/build/microcdr
+[0.682s] [ 75%] [34m[1mPerforming build step for 'ucdr'[0m
+[0.721s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/basic.c.o[0m
+[0.721s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/string.c.o[0m
+[0.721s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/array.c.o[0m
+[0.721s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/types/sequence.c.o[0m
+[0.722s] [ 83%] [32mBuilding C object CMakeFiles/microcdr.dir/src/c/common.c.o[0m
+[1.109s] [100%] [32m[1mLinking C shared library libmicrocdr.so[0m
+[1.162s] [100%] Built target microcdr
+[1.186s] [34m[1mNo install step for 'ucdr'[0m
+[1.212s] [34m[1mCompleted 'ucdr'[0m
+[1.244s] Built target ucdr
+[1.256s] Invoked command in '/home/khanh/Documents/microros_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/khanh/Documents/microros_ws/build/microcdr -- -j16 -l16
+[1.301s] Invoking command in '/home/khanh/Documents/microros_ws/build/microcdr': /usr/bin/cmake --install /home/khanh/Documents/microros_ws/build/microcdr
+[1.308s] -- Install configuration: "Release"
+[1.308s] -- Installing: /home/khanh/Documents/microros_ws/install/microcdr/lib/libmicrocdr.so.2.0.1
+[1.308s] -- Installing: /home/khanh/Documents/microros_ws/install/microcdr/lib/libmicrocdr.so.2.0
+[1.308s] -- Installing: /home/khanh/Documents/microros_ws/install/microcdr/lib/libmicrocdr.so
+[1.308s] -- Installing: /home/khanh/Documents/microros_ws/install/microcdr/include/ucdr
+[1.308s] -- Installing: /home/khanh/Documents/microros_ws/install/microcdr/include/ucdr/microcdr.h
+[1.309s] -- Installing: /home/khanh/Documents/microros_ws/install/microcdr/include/ucdr/visibility.h
+[1.309s] -- Installing: /home/khanh/Documents/microros_ws/install/microcdr/include/ucdr/config.h
+[1.309s] -- Installing: /home/khanh/Documents/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[1.309s] -- Installing: /home/khanh/Documents/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[1.309s] -- Installing: /home/khanh/Documents/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[1.309s] -- Installing: /home/khanh/Documents/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[1.311s] Invoked command in '/home/khanh/Documents/microros_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/khanh/Documents/microros_ws/build/microcdr

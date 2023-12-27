@@ -1,0 +1,140 @@
+[0.081s] Invoking command in '/home/khanh/Documents/microros_ws/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/microcdr:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/khanh/Documents/microros_ws/install/micro_ros_setup:/home/khanh/Documents/microros_ws/install/micro_ros_agent:/home/khanh/Documents/microros_ws/install/micro_ros_msgs LD_LIBRARY_PATH=/home/khanh/Documents/microros_ws/install/microcdr/lib:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/khanh/Documents/microros_ws/install/micro_ros_agent/lib:/home/khanh/Documents/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/khanh/Documents/microros_ws/src/eProsima/Micro-XRCE-DDS-Client -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_PROFILE_MULTITHREAD=ON -DCMAKE_INSTALL_PREFIX=/home/khanh/Documents/microros_ws/install/microxrcedds_client
+[0.159s] -- The C compiler identification is GNU 11.4.0
+[0.176s] -- Detecting C compiler ABI info
+[0.272s] -- Detecting C compiler ABI info - done
+[0.283s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.283s] -- Detecting C compile features
+[0.284s] -- Detecting C compile features - done
+[0.285s] -- Setting build type to 'Release' as none was specified.
+[0.292s] -- Looking for pthread.h
+[0.383s] -- Looking for pthread.h - found
+[0.384s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.466s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.467s] -- Found Threads: TRUE  
+[0.469s] -- Configuring done
+[0.477s] -- Generating done
+[0.477s] [33mCMake Warning:
+[0.477s]   Manually-specified variables were not used by the project:
+[0.477s] 
+[0.477s]     BUILD_TESTING
+[0.477s] 
+[0.477s] [0m
+[0.478s] -- Build files have been written to: /home/khanh/Documents/microros_ws/build/microxrcedds_client
+[0.481s] Invoked command in '/home/khanh/Documents/microros_ws/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/microcdr:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/khanh/Documents/microros_ws/install/micro_ros_setup:/home/khanh/Documents/microros_ws/install/micro_ros_agent:/home/khanh/Documents/microros_ws/install/micro_ros_msgs LD_LIBRARY_PATH=/home/khanh/Documents/microros_ws/install/microcdr/lib:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/khanh/Documents/microros_ws/install/micro_ros_agent/lib:/home/khanh/Documents/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/khanh/Documents/microros_ws/src/eProsima/Micro-XRCE-DDS-Client -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_ISOLATED_INSTALL=OFF -DUCLIENT_SUPERBUILD=OFF -DBUILD_SHARED_LIBS=ON -DUCLIENT_PROFILE_MULTITHREAD=ON -DCMAKE_INSTALL_PREFIX=/home/khanh/Documents/microros_ws/install/microxrcedds_client
+[0.483s] Invoking command in '/home/khanh/Documents/microros_ws/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/microcdr:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/khanh/Documents/microros_ws/install/micro_ros_setup:/home/khanh/Documents/microros_ws/install/micro_ros_agent:/home/khanh/Documents/microros_ws/install/micro_ros_msgs LD_LIBRARY_PATH=/home/khanh/Documents/microros_ws/install/microcdr/lib:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/khanh/Documents/microros_ws/install/micro_ros_agent/lib:/home/khanh/Documents/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/khanh/Documents/microros_ws/build/microxrcedds_client -- -j16 -l16
+[0.556s] [ 11%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_reliable_stream.c.o[0m
+[0.557s] [ 11%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_storage.c.o[0m
+[0.558s] [ 11%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/seq_num.c.o[0m
+[0.558s] [ 14%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/stream_id.c.o[0m
+[0.558s] [ 17%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_best_effort_stream.c.o[0m
+[0.561s] [ 20%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/input_reliable_stream.c.o[0m
+[0.561s] [ 11%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/stream/output_best_effort_stream.c.o[0m
+[0.563s] [ 28%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_header.c.o[0m
+[0.563s] [ 28%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/object_id.c.o[0m
+[0.564s] [ 28%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_types.c.o[0m
+[0.569s] [ 31%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/submessage.c.o[0m
+[0.571s] [ 34%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session.c.o[0m
+[0.572s] [ 37%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/serialization/xrce_subheader.c.o[0m
+[0.579s] [ 42%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/time.c.o[0m
+[0.579s] [ 42%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/session_info.c.o[0m
+[0.655s] [ 45%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/common_create_entities.c.o[0m
+[0.668s] [ 48%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/util/ping.c.o[0m
+[0.669s] [ 51%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_xml.c.o[0m
+[0.675s] [ 54%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_ref.c.o[0m
+[0.698s] [ 60%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/read_access.c.o[0m
+[0.698s] [ 60%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/create_entities_bin.c.o[0m
+[0.699s] [ 62%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/core/session/write_access.c.o[0m
+[0.705s] [ 65%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/multithread/multithread.c.o[0m
+[0.710s] [ 68%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/stream_framing/stream_framing_protocol.c.o[0m
+[0.756s] [ 71%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport.c.o[0m
+[0.762s] [ 74%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/udp/udp_transport_posix.c.o[0m
+[0.779s] [ 77%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport.c.o[0m
+[0.787s] [ 80%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/tcp/tcp_transport_posix.c.o[0m
+[0.798s] [ 82%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport_posix.c.o[0m
+[0.799s] [ 85%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/serial/serial_transport.c.o[0m
+[0.814s] [ 88%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/ip/ip_posix.c.o[0m
+[0.844s] [ 91%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/transport/custom/custom_transport.c.o[0m
+[0.847s] [ 97%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/transport/udp_transport_datagram_posix.c.o[0m
+[0.848s] [ 97%] [32mBuilding C object CMakeFiles/microxrcedds_client.dir/src/c/profile/discovery/discovery.c.o[0m
+[1.148s] [100%] [32m[1mLinking C shared library libmicroxrcedds_client.so[0m
+[1.250s] [100%] Built target microxrcedds_client
+[1.270s] Invoked command in '/home/khanh/Documents/microros_ws/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/microcdr:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/khanh/Documents/microros_ws/install/micro_ros_setup:/home/khanh/Documents/microros_ws/install/micro_ros_agent:/home/khanh/Documents/microros_ws/install/micro_ros_msgs LD_LIBRARY_PATH=/home/khanh/Documents/microros_ws/install/microcdr/lib:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/khanh/Documents/microros_ws/install/micro_ros_agent/lib:/home/khanh/Documents/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/khanh/Documents/microros_ws/build/microxrcedds_client -- -j16 -l16
+[1.472s] Invoking command in '/home/khanh/Documents/microros_ws/build/microxrcedds_client': CMAKE_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/microcdr:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/khanh/Documents/microros_ws/install/micro_ros_setup:/home/khanh/Documents/microros_ws/install/micro_ros_agent:/home/khanh/Documents/microros_ws/install/micro_ros_msgs LD_LIBRARY_PATH=/home/khanh/Documents/microros_ws/install/microcdr/lib:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/khanh/Documents/microros_ws/install/micro_ros_agent/lib:/home/khanh/Documents/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/khanh/Documents/microros_ws/build/microxrcedds_client
+[1.482s] -- Install configuration: "Release"
+[1.482s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4.2
+[1.485s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4
+[1.487s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/microxrcedds_client/lib/libmicroxrcedds_client.so.2.4.2" to ""
+[1.487s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/lib/libmicroxrcedds_client.so
+[1.487s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client
+[1.487s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/client.h
+[1.487s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/defines.h
+[1.487s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/transport.h
+[1.487s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/util
+[1.487s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/util/ping.h
+[1.488s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/util/time.h
+[1.488s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core
+[1.488s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/communication
+[1.488s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/communication/communication.h
+[1.488s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session
+[1.488s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream
+[1.488s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/reliable_stream.h
+[1.489s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/stream_storage.h
+[1.489s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/seq_num.h
+[1.489s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/output_best_effort_stream.h
+[1.489s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/output_reliable_stream.h
+[1.490s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/input_reliable_stream.h
+[1.498s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/stream_id.h
+[1.499s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/stream/input_best_effort_stream.h
+[1.499s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/create_entities_xml.h
+[1.499s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/create_entities_ref.h
+[1.499s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/create_entities_bin.h
+[1.499s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/common_create_entities.h
+[1.500s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/time_sync.h
+[1.500s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/session.h
+[1.501s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/read_access.h
+[1.501s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/object_id.h
+[1.502s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/session_info.h
+[1.502s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/session/write_access.h
+[1.503s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/type
+[1.503s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/core/type/xrce_types.h
+[1.503s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/visibility.h
+[1.504s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile
+[1.506s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport
+[1.506s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/can
+[1.507s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/can/can_transport_posix.h
+[1.507s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/can/can_transport.h
+[1.507s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial
+[1.508s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_rtems_bsd_net.h
+[1.508s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_posix.h
+[1.508s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport_platform.h
+[1.509s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/serial/serial_transport.h
+[1.509s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/stream_framing
+[1.510s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/stream_framing/stream_framing_protocol.h
+[1.510s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/custom
+[1.511s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/custom/custom_transport.h
+[1.511s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip
+[1.511s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp
+[1.512s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix.h
+[1.512s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_rtems_bsd_net.h
+[1.513s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_freertos_plus_tcp.h
+[1.513s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_posix_nopoll.h
+[1.513s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport_windows.h
+[1.513s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/tcp/tcp_transport.h
+[1.514s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/ip.h
+[1.514s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp
+[1.514s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix.h
+[1.515s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_posix_nopoll.h
+[1.515s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_freertos_plus_tcp.h
+[1.516s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport.h
+[1.516s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_rtems_bsd_net.h
+[1.517s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/transport/ip/udp/udp_transport_windows.h
+[1.517s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/multithread
+[1.517s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/multithread/multithread.h
+[1.518s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/discovery
+[1.518s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/profile/discovery/discovery.h
+[1.519s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/include/uxr/client/config.h
+[1.519s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientTargets.cmake
+[1.520s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientTargets-release.cmake
+[1.520s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientConfig.cmake
+[1.520s] -- Installing: /home/khanh/Documents/microros_ws/install/microxrcedds_client/share/microxrcedds_client/cmake/microxrcedds_clientConfigVersion.cmake
+[1.521s] Invoked command in '/home/khanh/Documents/microros_ws/build/microxrcedds_client' returned '0': CMAKE_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/microcdr:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/khanh/Documents/microros_ws/install/micro_ros_setup:/home/khanh/Documents/microros_ws/install/micro_ros_agent:/home/khanh/Documents/microros_ws/install/micro_ros_msgs LD_LIBRARY_PATH=/home/khanh/Documents/microros_ws/install/microcdr/lib:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp/lib:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c/lib:/home/khanh/Documents/microros_ws/install/micro_ros_agent/lib:/home/khanh/Documents/microros_ws/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/khanh/Documents/microros_ws/build/microxrcedds_client

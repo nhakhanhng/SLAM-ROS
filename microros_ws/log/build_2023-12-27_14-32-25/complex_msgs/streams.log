@@ -1,0 +1,290 @@
+[0.277s] Invoking command in '/home/khanh/Documents/microros_ws/build/complex_msgs': AMENT_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/khanh/Documents/microros_ws/install/microcdr:/home/khanh/Documents/microros_ws/install/micro_ros_setup:/home/khanh/Documents/microros_ws/install/micro_ros_agent:/home/khanh/Documents/microros_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/khanh/Documents/microros_ws/src/uros/micro-ROS-demos/messages/complex_msg -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/khanh/Documents/microros_ws/install/complex_msgs
+[0.364s] -- The C compiler identification is GNU 11.4.0
+[0.471s] -- The CXX compiler identification is GNU 11.4.0
+[0.480s] -- Detecting C compiler ABI info
+[0.582s] -- Detecting C compiler ABI info - done
+[0.591s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.591s] -- Detecting C compile features
+[0.591s] -- Detecting C compile features - done
+[0.594s] -- Detecting CXX compiler ABI info
+[0.721s] -- Detecting CXX compiler ABI info - done
+[0.731s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.732s] -- Detecting CXX compile features
+[0.733s] -- Detecting CXX compile features - done
+[0.737s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.998s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.130s] -- Found builtin_interfaces: 1.2.1 (/home/khanh/Documents/microros_ws/install/builtin_interfaces/share/builtin_interfaces/cmake)
+[1.188s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.198s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.213s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.236s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.281s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.311s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.665s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.167s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_microxrcedds_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.375s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_microxrcedds_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.399s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.401s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.433s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.434s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.434s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.435s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.461s] -- Found PythonExtra: .so  
+[2.531s] -- Configuring done
+[2.603s] -- Generating done
+[2.608s] -- Build files have been written to: /home/khanh/Documents/microros_ws/build/complex_msgs
+[2.621s] Invoked command in '/home/khanh/Documents/microros_ws/build/complex_msgs' returned '0': AMENT_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/khanh/Documents/microros_ws/install/microcdr:/home/khanh/Documents/microros_ws/install/micro_ros_setup:/home/khanh/Documents/microros_ws/install/micro_ros_agent:/home/khanh/Documents/microros_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/khanh/Documents/microros_ws/src/uros/micro-ROS-demos/messages/complex_msg -DBUILD_TESTING=OFF -DBUILD_SHARED_LIBS=ON -DCMAKE_INSTALL_PREFIX=/home/khanh/Documents/microros_ws/install/complex_msgs
+[2.623s] Invoking command in '/home/khanh/Documents/microros_ws/build/complex_msgs': AMENT_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/khanh/Documents/microros_ws/install/microcdr:/home/khanh/Documents/microros_ws/install/micro_ros_setup:/home/khanh/Documents/microros_ws/install/micro_ros_agent:/home/khanh/Documents/microros_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/khanh/Documents/microros_ws/build/complex_msgs -- -j16 -l16
+[2.695s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.744s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.748s] [  4%] Built target ament_cmake_python_copy_complex_msgs
+[3.113s] running egg_info
+[3.114s] creating complex_msgs.egg-info
+[3.115s] writing complex_msgs.egg-info/PKG-INFO
+[3.115s] writing dependency_links to complex_msgs.egg-info/dependency_links.txt
+[3.115s] writing top-level names to complex_msgs.egg-info/top_level.txt
+[3.116s] writing manifest file 'complex_msgs.egg-info/SOURCES.txt'
+[3.119s] reading manifest file 'complex_msgs.egg-info/SOURCES.txt'
+[3.119s] writing manifest file 'complex_msgs.egg-info/SOURCES.txt'
+[3.166s] [  4%] Built target ament_cmake_python_build_complex_msgs_egg
+[3.349s] [  4%] Built target complex_msgs__cpp
+[3.410s] [  6%] [34m[1mGenerating C++ type support for eProsima Micro XRCE-DDS[0m
+[3.415s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.424s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.434s] [ 12%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_c.dir/rosidl_generator_c/complex_msgs/msg/detail/multi_string_test__functions.c.o[0m
+[3.440s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.480s] [ 16%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_c.dir/rosidl_generator_c/complex_msgs/msg/detail/nested_msg_test__functions.c.o[0m
+[3.686s] [ 18%] [32m[1mLinking C shared library libcomplex_msgs__rosidl_generator_c.so[0m
+[3.822s] [ 18%] Built target complex_msgs__rosidl_generator_c
+[3.908s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.917s] [ 22%] [34m[1mGenerating C type support for eProsima Micro XRCE-DDS[0m
+[3.931s] [ 24%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.939s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.195s] [ 28%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/complex_msgs/msg/multi_string_test__type_support.cpp.o[0m
+[4.232s] [ 30%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/complex_msgs/msg/nested_msg_test__type_support.cpp.o[0m
+[4.255s] [ 32%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/complex_msgs/msg/detail/microxrcedds/multi_string_test__type_support_cpp.cpp.o[0m
+[4.293s] [ 34%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_microxrcedds_cpp.dir/rosidl_typesupport_microxrcedds_cpp/complex_msgs/msg/detail/microxrcedds/nested_msg_test__type_support_cpp.cpp.o[0m
+[4.421s] [ 36%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/complex_msgs/msg/detail/dds_fastrtps/nested_msg_test__type_support.cpp.o[0m
+[4.435s] [ 38%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/complex_msgs/msg/detail/dds_fastrtps/multi_string_test__type_support.cpp.o[0m
+[4.532s] [ 40%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/complex_msgs/msg/detail/multi_string_test__type_support.cpp.o[0m
+[4.581s] [ 42%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/complex_msgs/msg/detail/nested_msg_test__type_support.cpp.o[0m
+[5.083s] [ 44%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/complex_msgs/msg/nested_msg_test__type_support.cpp.o[0m
+[5.099s] [ 46%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/complex_msgs/msg/multi_string_test__type_support.cpp.o[0m
+[5.191s] [ 48%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/complex_msgs/msg/detail/microxrcedds/multi_string_test__type_support_c.c.o[0m
+[5.254s] [ 51%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_microxrcedds_c.dir/rosidl_typesupport_microxrcedds_c/complex_msgs/msg/detail/microxrcedds/nested_msg_test__type_support_c.c.o[0m
+[5.300s] [ 53%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/complex_msgs/msg/detail/multi_string_test__type_support.c.o[0m
+[5.351s] [ 55%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_c.so[0m
+[5.359s] [ 57%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/complex_msgs/msg/detail/nested_msg_test__type_support.c.o[0m
+[5.488s] [ 59%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/complex_msgs/msg/detail/multi_string_test__type_support_c.cpp.o[0m
+[5.506s] [ 61%] [32m[1mLinking C shared library libcomplex_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.512s] [ 63%] [32mBuilding CXX object CMakeFiles/complex_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/complex_msgs/msg/detail/nested_msg_test__type_support_c.cpp.o[0m
+[5.517s] [ 65%] [32m[1mLinking C shared library libcomplex_msgs__rosidl_typesupport_microxrcedds_c.so[0m
+[5.540s] [ 65%] Built target complex_msgs__rosidl_typesupport_c
+[5.598s] [ 67%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_cpp.so[0m
+[5.634s] [ 69%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_microxrcedds_cpp.so[0m
+[5.731s] [ 69%] Built target complex_msgs__rosidl_typesupport_introspection_c
+[5.834s] [ 69%] Built target complex_msgs__rosidl_typesupport_microxrcedds_c
+[5.945s] [ 69%] Built target complex_msgs__rosidl_typesupport_cpp
+[6.167s] [ 69%] Built target complex_msgs__rosidl_typesupport_microxrcedds_cpp
+[6.206s] [ 71%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.321s] [ 73%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.533s] [ 73%] Built target complex_msgs__rosidl_typesupport_introspection_cpp
+[6.563s] [ 73%] Built target complex_msgs__rosidl_typesupport_fastrtps_cpp
+[6.798s] [ 75%] [32m[1mLinking CXX shared library libcomplex_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.189s] [ 75%] Built target complex_msgs__rosidl_typesupport_fastrtps_c
+[7.343s] [ 75%] Built target complex_msgs
+[7.396s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[8.626s] [ 77%] Built target complex_msgs__py
+[8.672s] [ 79%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_py.dir/rosidl_generator_py/complex_msgs/msg/_multi_string_test_s.c.o[0m
+[8.675s] [ 81%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_generator_py.dir/rosidl_generator_py/complex_msgs/msg/_nested_msg_test_s.c.o[0m
+[8.865s] [ 83%] [32m[1mLinking C shared library rosidl_generator_py/complex_msgs/libcomplex_msgs__rosidl_generator_py.so[0m
+[8.937s] [ 83%] Built target complex_msgs__rosidl_generator_py
+[8.994s] [ 85%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_microxrcedds_c__pyext.dir/rosidl_generator_py/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c.o[0m
+[8.997s] [ 87%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[9.004s] [ 89%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[9.024s] [ 91%] [32mBuilding C object CMakeFiles/complex_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[9.188s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/complex_msgs/complex_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.198s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/complex_msgs/complex_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.214s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/complex_msgs/complex_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.271s] [ 97%] Built target complex_msgs__rosidl_typesupport_fastrtps_c__pyext
+[9.302s] [ 97%] Built target complex_msgs__rosidl_typesupport_introspection_c__pyext
+[9.320s] [100%] [32m[1mLinking C shared library rosidl_generator_py/complex_msgs/complex_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[9.337s] [100%] Built target complex_msgs__rosidl_typesupport_microxrcedds_c__pyext
+[9.437s] [100%] Built target complex_msgs__rosidl_typesupport_c__pyext
+[9.589s] Invoked command in '/home/khanh/Documents/microros_ws/build/complex_msgs' returned '0': AMENT_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/khanh/Documents/microros_ws/install/microcdr:/home/khanh/Documents/microros_ws/install/micro_ros_setup:/home/khanh/Documents/microros_ws/install/micro_ros_agent:/home/khanh/Documents/microros_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/khanh/Documents/microros_ws/build/complex_msgs -- -j16 -l16
+[10.018s] Invoking command in '/home/khanh/Documents/microros_ws/build/complex_msgs': AMENT_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/khanh/Documents/microros_ws/install/microcdr:/home/khanh/Documents/microros_ws/install/micro_ros_setup:/home/khanh/Documents/microros_ws/install/micro_ros_agent:/home/khanh/Documents/microros_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/khanh/Documents/microros_ws/build/complex_msgs
+[10.035s] -- Install configuration: ""
+[10.036s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/ament_index/resource_index/rosidl_interfaces/complex_msgs
+[10.036s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs
+[10.038s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[10.038s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.039s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/nested_msg_test.h
+[10.041s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/multi_string_test.h
+[10.042s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[10.042s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__functions.c
+[10.043s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__functions.c
+[10.043s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__type_support.h
+[10.044s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__struct.h
+[10.044s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__functions.h
+[10.044s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__type_support.h
+[10.047s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__struct.h
+[10.047s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__functions.h
+[10.048s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/environment/library_path.sh
+[10.049s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/environment/library_path.dsv
+[10.049s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_generator_c.so
+[10.051s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_generator_c.so" to ""
+[10.052s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs
+[10.052s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[10.052s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.052s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[10.052s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_fastrtps_c.h
+[10.052s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_fastrtps_c.h
+[10.052s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_fastrtps_c.so
+[10.053s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[10.053s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs
+[10.053s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[10.063s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/multi_string_test.hpp
+[10.063s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/nested_msg_test.hpp
+[10.063s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[10.064s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__traits.hpp
+[10.064s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__builder.hpp
+[10.064s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__struct.hpp
+[10.064s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__builder.hpp
+[10.064s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__traits.hpp
+[10.064s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__struct.hpp
+[10.065s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs
+[10.065s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[10.065s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.065s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[10.065s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_fastrtps_cpp.hpp
+[10.065s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/dds_fastrtps
+[10.065s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_fastrtps_cpp.hpp
+[10.066s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.066s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[10.066s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs
+[10.066s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/msg
+[10.066s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/msg/rosidl_typesupport_microxrcedds_c__visibility_control.h
+[10.066s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail
+[10.067s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_microxrcedds_c.h
+[10.067s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_microxrcedds_c.h
+[10.067s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds
+[10.067s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_microxrcedds_c.so
+[10.067s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_microxrcedds_c.so" to ""
+[10.067s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs
+[10.067s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[10.068s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[10.068s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__type_support.c
+[10.068s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_introspection_c.h
+[10.068s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__type_support.c
+[10.068s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_introspection_c.h
+[10.068s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.068s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_introspection_c.so
+[10.069s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_introspection_c.so" to ""
+[10.069s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_c.so
+[10.069s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_c.so" to ""
+[10.069s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs
+[10.069s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/msg
+[10.069s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail
+[10.069s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_microxrcedds_cpp.hpp
+[10.069s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_microxrcedds_cpp.hpp
+[10.070s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds
+[10.070s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds/multi_string_test__type_support_cpp.cpp
+[10.070s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/msg/detail/microxrcedds/nested_msg_test__type_support_cpp.cpp
+[10.070s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/msg/rosidl_typesupport_microxrcedds_cpp__visibility_control.h
+[10.070s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_microxrcedds_cpp.so
+[10.070s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_microxrcedds_cpp.so" to ""
+[10.070s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs
+[10.070s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg
+[10.070s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail
+[10.071s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__type_support.cpp
+[10.071s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__rosidl_typesupport_introspection_cpp.hpp
+[10.071s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/nested_msg_test__type_support.cpp
+[10.071s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/include/complex_msgs/complex_msgs/msg/detail/multi_string_test__rosidl_typesupport_introspection_cpp.hpp
+[10.071s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_introspection_cpp.so
+[10.071s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[10.071s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_cpp.so
+[10.071s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_typesupport_cpp.so" to ""
+[10.072s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/environment/pythonpath.sh
+[10.072s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/environment/pythonpath.dsv
+[10.072s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.1-py3.10.egg-info
+[10.072s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.1-py3.10.egg-info/PKG-INFO
+[10.072s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.1-py3.10.egg-info/dependency_links.txt
+[10.072s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.1-py3.10.egg-info/top_level.txt
+[10.079s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs-3.0.1-py3.10.egg-info/SOURCES.txt
+[10.079s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs
+[10.079s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[10.079s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_microxrcedds_c.c
+[10.080s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg
+[10.080s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_nested_msg_test_s.c
+[10.080s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_multi_string_test.py
+[10.080s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_multi_string_test_s.c
+[10.080s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_nested_msg_test.py
+[10.080s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/__init__.py
+[10.080s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/libcomplex_msgs__rosidl_generator_py.so
+[10.080s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[10.081s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.081s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.081s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_c.c
+[10.081s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/_complex_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[10.081s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.081s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/__init__.py
+[10.163s] Listing '/home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs'...
+[10.163s] Compiling '/home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/__init__.py'...
+[10.163s] Listing '/home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg'...
+[10.163s] Compiling '/home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/__init__.py'...
+[10.163s] Compiling '/home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_multi_string_test.py'...
+[10.163s] Compiling '/home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/msg/_nested_msg_test.py'...
+[10.171s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so
+[10.172s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_microxrcedds_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.172s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[10.173s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.173s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[10.173s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.176s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[10.176s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/complex_msgs/local/lib/python3.10/dist-packages/complex_msgs/complex_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[10.176s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_generator_py.so
+[10.176s] -- Set runtime path of "/home/khanh/Documents/microros_ws/install/complex_msgs/lib/libcomplex_msgs__rosidl_generator_py.so" to ""
+[10.176s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/msg/MultiStringTest.idl
+[10.176s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/msg/NestedMsgTest.idl
+[10.177s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/msg/MultiStringTest.msg
+[10.177s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/msg/NestedMsgTest.msg
+[10.179s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/ament_index/resource_index/package_run_dependencies/complex_msgs
+[10.181s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/ament_index/resource_index/parent_prefix_path/complex_msgs
+[10.181s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/environment/ament_prefix_path.sh
+[10.181s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/environment/ament_prefix_path.dsv
+[10.183s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/environment/path.sh
+[10.183s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/environment/path.dsv
+[10.183s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/local_setup.bash
+[10.183s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/local_setup.sh
+[10.185s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/local_setup.zsh
+[10.185s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/local_setup.dsv
+[10.185s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/package.dsv
+[10.185s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/ament_index/resource_index/packages/complex_msgs
+[10.186s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_cExport.cmake
+[10.186s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.186s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.186s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.186s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_cppExport.cmake
+[10.186s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.186s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.186s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.187s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.187s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cExport.cmake
+[10.187s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.194s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.194s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.194s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cppExport.cmake
+[10.195s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.195s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_pyExport.cmake
+[10.195s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/export_complex_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.195s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/rosidl_cmake-extras.cmake
+[10.196s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.196s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.196s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.197s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[10.197s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[10.197s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[10.197s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgsConfig.cmake
+[10.197s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/cmake/complex_msgsConfig-version.cmake
+[10.198s] -- Installing: /home/khanh/Documents/microros_ws/install/complex_msgs/share/complex_msgs/package.xml
+[10.201s] Invoked command in '/home/khanh/Documents/microros_ws/build/complex_msgs' returned '0': AMENT_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_cpp:/home/khanh/Documents/microros_ws/install/rosidl_typesupport_microxrcedds_c:/home/khanh/Documents/microros_ws/install/microcdr:/home/khanh/Documents/microros_ws/install/micro_ros_setup:/home/khanh/Documents/microros_ws/install/micro_ros_agent:/home/khanh/Documents/microros_ws/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/khanh/Documents/microros_ws/install/builtin_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/khanh/Documents/microros_ws/build/complex_msgs

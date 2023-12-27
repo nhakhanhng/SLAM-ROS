@@ -1,0 +1,18 @@
+[0.050s] Invoking command in '/home/khanh/Documents/microros_ws/build/microcdr': /usr/bin/cmake --build /home/khanh/Documents/microros_ws/build/microcdr -- -j16 -l16
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target microcdr[0m
+[0.099s] [100%] Built target microcdr
+[0.110s] Invoked command in '/home/khanh/Documents/microros_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/khanh/Documents/microros_ws/build/microcdr -- -j16 -l16
+[0.153s] Invoking command in '/home/khanh/Documents/microros_ws/build/microcdr': /usr/bin/cmake --install /home/khanh/Documents/microros_ws/build/microcdr
+[0.160s] -- Install configuration: "Release"
+[0.160s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/microcdr/lib/libmicrocdr.so.2.0.1
+[0.160s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/microcdr/lib/libmicrocdr.so.2.0
+[0.160s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/microcdr/lib/libmicrocdr.so
+[0.160s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/microcdr/include/ucdr
+[0.160s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/microcdr/include/ucdr/microcdr.h
+[0.160s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/microcdr/include/ucdr/visibility.h
+[0.160s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/microcdr/include/ucdr/config.h
+[0.160s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets.cmake
+[0.161s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/microcdr/share/microcdr/cmake/microcdrTargets-release.cmake
+[0.161s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfig.cmake
+[0.161s] -- Up-to-date: /home/khanh/Documents/microros_ws/install/microcdr/share/microcdr/cmake/microcdrConfigVersion.cmake
+[0.162s] Invoked command in '/home/khanh/Documents/microros_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/khanh/Documents/microros_ws/build/microcdr
