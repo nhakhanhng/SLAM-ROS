@@ -1,0 +1,51 @@
+[0.067s] Invoking command in '/SLAM/ros_ws/build/rtabmap_odom': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap LD_LIBRARY_PATH=/SLAM/ros_ws/install/rtabmap_util/lib:/SLAM/ros_ws/install/rtabmap_sync/lib:/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/SLAM/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/SLAM/ros_ws/install/rtabmap_msgs/share /usr/bin/cmake /SLAM/ros_ws/src/rtabmap_ros/rtabmap_odom -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/rtabmap_odom
+[0.089s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.219s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.245s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[0.302s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.306s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.315s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.330s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.349s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.543s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[0.550s] -- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)
+[0.614s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.617s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.785s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.923s] -- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)
+[0.929s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.995s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.092s] -- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)
+[1.177s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.499s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.541s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.934s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.940s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.067s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.073s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.079s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.198s] -- Found Qhull version 8.0.2
+[2.322s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.471s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[2.502s] -- Found rtabmap_conversions: 0.21.3 (/SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake)
+[2.682s] -- Found rtabmap_util: 0.21.3 (/SLAM/ros_ws/install/rtabmap_util/share/rtabmap_util/cmake)
+[3.843s] [31mCMake Error at CMakeLists.txt:28 (find_package):
+[3.843s]   By not providing "Findrtabmap_sync.cmake" in CMAKE_MODULE_PATH this project
+[3.843s]   has asked CMake to find a package configuration file provided by
+[3.843s]   "rtabmap_sync", but CMake did not find one.
+[3.843s] 
+[3.843s]   Could not find a package configuration file provided by "rtabmap_sync" with
+[3.843s]   any of the following names:
+[3.843s] 
+[3.843s]     rtabmap_syncConfig.cmake
+[3.843s]     rtabmap_sync-config.cmake
+[3.844s] 
+[3.844s]   Add the installation prefix of "rtabmap_sync" to CMAKE_PREFIX_PATH or set
+[3.844s]   "rtabmap_sync_DIR" to a directory containing one of the above files.  If
+[3.844s]   "rtabmap_sync" provides a separate development package or SDK, be sure it
+[3.844s]   has been installed.
+[3.844s] 
+[3.844s] [0m
+[3.844s] -- Configuring incomplete, errors occurred!
+[3.844s] See also "/SLAM/ros_ws/build/rtabmap_odom/CMakeFiles/CMakeOutput.log".
+[3.856s] Invoked command in '/SLAM/ros_ws/build/rtabmap_odom' returned '1': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap LD_LIBRARY_PATH=/SLAM/ros_ws/install/rtabmap_util/lib:/SLAM/ros_ws/install/rtabmap_sync/lib:/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/SLAM/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/SLAM/ros_ws/install/rtabmap_msgs/share /usr/bin/cmake /SLAM/ros_ws/src/rtabmap_ros/rtabmap_odom -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/rtabmap_odom

@@ -1,0 +1,1 @@
+/SLAM/ros_ws/src/image_pipeline/stereo_image_proc/include/stereo_image_proc/stereo_processor.hpp

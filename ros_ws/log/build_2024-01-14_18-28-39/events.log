@@ -1,0 +1,316 @@
+[0.000000] (-) TimerEvent: {}
+[0.000173] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000215] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000244] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000262] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000279] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.000296] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.000313] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000338] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.000360] (-) JobUnselected: {'identifier': 'image_view'}
+[0.000378] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.000395] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000414] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.000431] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.000453] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.000471] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.000487] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.000502] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.000519] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.000535] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.000551] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.000573] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.000595] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.000612] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.000628] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.000644] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.000671] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.000686] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.000702] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.000717] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.000733] (-) JobUnselected: {'identifier': 'tutourial_intefaces'}
+[0.000752] (rf2o_laser_odometry) JobQueued: {'identifier': 'rf2o_laser_odometry', 'dependencies': OrderedDict()}
+[0.000782] (rf2o_laser_odometry) JobStarted: {'identifier': 'rf2o_laser_odometry'}
+[0.041133] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'cmake'}
+[0.041762] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'build'}
+[0.042389] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/rf2o_laser_odometry', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-d40ccf79-16d6-4698-9bb1-522eaa1a6ef2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c5f39382-1fbd-43bd-bb04-ff07af3c26f3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c5f39382-1fbd-43bd-bb04-ff07af3c26f3.sock","/tmp/.X11-unix/X4","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c5f39382-1fbd-43bd-bb04-ff07af3c26f3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/rf2o_laser_odometry'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069894] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099253] (-) TimerEvent: {}
+[0.181764] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.188785] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199355] (-) TimerEvent: {}
+[0.215778] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.217908] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.222966] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.232425] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.244881] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.290766] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.291926] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299433] (-) TimerEvent: {}
+[0.399652] (-) TimerEvent: {}
+[0.440847] (rf2o_laser_odometry) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.499764] (-) TimerEvent: {}
+[0.562360] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.595376] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[0.598557] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[0.599657] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.599782] (-) TimerEvent: {}
+[0.700006] (-) TimerEvent: {}
+[0.800330] (-) TimerEvent: {}
+[0.865696] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.900435] (-) TimerEvent: {}
+[0.928932] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.000551] (-) TimerEvent: {}
+[1.053798] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.070057] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Generating done\n'}
+[1.071824] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Build files have been written to: /SLAM/ros_ws/build/rf2o_laser_odometry\n'}
+[1.097628] (rf2o_laser_odometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry\x1b[0m\n'}
+[1.098353] (rf2o_laser_odometry) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rf2o_laser_odometry_node\x1b[0m\n'}
+[1.100620] (-) TimerEvent: {}
+[1.125461] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[1.128934] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2D.cpp.o\x1b[0m\n'}
+[1.129083] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/rf2o_laser_odometry_node.dir/src/CLaserOdometry2DNode.cpp.o\x1b[0m\n'}
+[1.200756] (-) TimerEvent: {}
+[1.301060] (-) TimerEvent: {}
+[1.401356] (-) TimerEvent: {}
+[1.501665] (-) TimerEvent: {}
+[1.601965] (-) TimerEvent: {}
+[1.702285] (-) TimerEvent: {}
+[1.802591] (-) TimerEvent: {}
+[1.902903] (-) TimerEvent: {}
+[2.003245] (-) TimerEvent: {}
+[2.103639] (-) TimerEvent: {}
+[2.204074] (-) TimerEvent: {}
+[2.304535] (-) TimerEvent: {}
+[2.404875] (-) TimerEvent: {}
+[2.505189] (-) TimerEvent: {}
+[2.605491] (-) TimerEvent: {}
+[2.705786] (-) TimerEvent: {}
+[2.806091] (-) TimerEvent: {}
+[2.906418] (-) TimerEvent: {}
+[3.006733] (-) TimerEvent: {}
+[3.107030] (-) TimerEvent: {}
+[3.207419] (-) TimerEvent: {}
+[3.307790] (-) TimerEvent: {}
+[3.408215] (-) TimerEvent: {}
+[3.508667] (-) TimerEvent: {}
+[3.608978] (-) TimerEvent: {}
+[3.709300] (-) TimerEvent: {}
+[3.809783] (-) TimerEvent: {}
+[3.910138] (-) TimerEvent: {}
+[4.010555] (-) TimerEvent: {}
+[4.110839] (-) TimerEvent: {}
+[4.211142] (-) TimerEvent: {}
+[4.311451] (-) TimerEvent: {}
+[4.411767] (-) TimerEvent: {}
+[4.512067] (-) TimerEvent: {}
+[4.612384] (-) TimerEvent: {}
+[4.712740] (-) TimerEvent: {}
+[4.813050] (-) TimerEvent: {}
+[4.913371] (-) TimerEvent: {}
+[5.013701] (-) TimerEvent: {}
+[5.114013] (-) TimerEvent: {}
+[5.214328] (-) TimerEvent: {}
+[5.314671] (-) TimerEvent: {}
+[5.415036] (-) TimerEvent: {}
+[5.515403] (-) TimerEvent: {}
+[5.615929] (-) TimerEvent: {}
+[5.716312] (-) TimerEvent: {}
+[5.816647] (-) TimerEvent: {}
+[5.916979] (-) TimerEvent: {}
+[6.017396] (-) TimerEvent: {}
+[6.117751] (-) TimerEvent: {}
+[6.218110] (-) TimerEvent: {}
+[6.318478] (-) TimerEvent: {}
+[6.418860] (-) TimerEvent: {}
+[6.519307] (-) TimerEvent: {}
+[6.619635] (-) TimerEvent: {}
+[6.719976] (-) TimerEvent: {}
+[6.820271] (-) TimerEvent: {}
+[6.920574] (-) TimerEvent: {}
+[7.020878] (-) TimerEvent: {}
+[7.121236] (-) TimerEvent: {}
+[7.221642] (-) TimerEvent: {}
+[7.322131] (-) TimerEvent: {}
+[7.422490] (-) TimerEvent: {}
+[7.522781] (-) TimerEvent: {}
+[7.623078] (-) TimerEvent: {}
+[7.723377] (-) TimerEvent: {}
+[7.823715] (-) TimerEvent: {}
+[7.924012] (-) TimerEvent: {}
+[8.024329] (-) TimerEvent: {}
+[8.124648] (-) TimerEvent: {}
+[8.224980] (-) TimerEvent: {}
+[8.325306] (-) TimerEvent: {}
+[8.425628] (-) TimerEvent: {}
+[8.525945] (-) TimerEvent: {}
+[8.626295] (-) TimerEvent: {}
+[8.726711] (-) TimerEvent: {}
+[8.827039] (-) TimerEvent: {}
+[8.927393] (-) TimerEvent: {}
+[9.027799] (-) TimerEvent: {}
+[9.128222] (-) TimerEvent: {}
+[9.228572] (-) TimerEvent: {}
+[9.328874] (-) TimerEvent: {}
+[9.429168] (-) TimerEvent: {}
+[9.529470] (-) TimerEvent: {}
+[9.629748] (-) TimerEvent: {}
+[9.730054] (-) TimerEvent: {}
+[9.830374] (-) TimerEvent: {}
+[9.930744] (-) TimerEvent: {}
+[10.031190] (-) TimerEvent: {}
+[10.131497] (-) TimerEvent: {}
+[10.231779] (-) TimerEvent: {}
+[10.332099] (-) TimerEvent: {}
+[10.432559] (-) TimerEvent: {}
+[10.532880] (-) TimerEvent: {}
+[10.633184] (-) TimerEvent: {}
+[10.733680] (-) TimerEvent: {}
+[10.834138] (-) TimerEvent: {}
+[10.934570] (-) TimerEvent: {}
+[11.035086] (-) TimerEvent: {}
+[11.135465] (-) TimerEvent: {}
+[11.235848] (-) TimerEvent: {}
+[11.336141] (-) TimerEvent: {}
+[11.436444] (-) TimerEvent: {}
+[11.536760] (-) TimerEvent: {}
+[11.637075] (-) TimerEvent: {}
+[11.737419] (-) TimerEvent: {}
+[11.837746] (-) TimerEvent: {}
+[11.938054] (-) TimerEvent: {}
+[12.038379] (-) TimerEvent: {}
+[12.138718] (-) TimerEvent: {}
+[12.239034] (-) TimerEvent: {}
+[12.339354] (-) TimerEvent: {}
+[12.439654] (-) TimerEvent: {}
+[12.540018] (-) TimerEvent: {}
+[12.640321] (-) TimerEvent: {}
+[12.740668] (-) TimerEvent: {}
+[12.840991] (-) TimerEvent: {}
+[12.941325] (-) TimerEvent: {}
+[13.041612] (-) TimerEvent: {}
+[13.141922] (-) TimerEvent: {}
+[13.242273] (-) TimerEvent: {}
+[13.342602] (-) TimerEvent: {}
+[13.442945] (-) TimerEvent: {}
+[13.543301] (-) TimerEvent: {}
+[13.643739] (-) TimerEvent: {}
+[13.744259] (-) TimerEvent: {}
+[13.844572] (-) TimerEvent: {}
+[13.944860] (-) TimerEvent: {}
+[14.045170] (-) TimerEvent: {}
+[14.145498] (-) TimerEvent: {}
+[14.245790] (-) TimerEvent: {}
+[14.346051] (-) TimerEvent: {}
+[14.446347] (-) TimerEvent: {}
+[14.546649] (-) TimerEvent: {}
+[14.646965] (-) TimerEvent: {}
+[14.747266] (-) TimerEvent: {}
+[14.847564] (-) TimerEvent: {}
+[14.947949] (-) TimerEvent: {}
+[15.048387] (-) TimerEvent: {}
+[15.148688] (-) TimerEvent: {}
+[15.249039] (-) TimerEvent: {}
+[15.349365] (-) TimerEvent: {}
+[15.449669] (-) TimerEvent: {}
+[15.549976] (-) TimerEvent: {}
+[15.650258] (-) TimerEvent: {}
+[15.750564] (-) TimerEvent: {}
+[15.850906] (-) TimerEvent: {}
+[15.951190] (-) TimerEvent: {}
+[16.051489] (-) TimerEvent: {}
+[16.151862] (-) TimerEvent: {}
+[16.252201] (-) TimerEvent: {}
+[16.352491] (-) TimerEvent: {}
+[16.452844] (-) TimerEvent: {}
+[16.553146] (-) TimerEvent: {}
+[16.653466] (-) TimerEvent: {}
+[16.753758] (-) TimerEvent: {}
+[16.854068] (-) TimerEvent: {}
+[16.954403] (-) TimerEvent: {}
+[17.054671] (-) TimerEvent: {}
+[17.154945] (-) TimerEvent: {}
+[17.255238] (-) TimerEvent: {}
+[17.355550] (-) TimerEvent: {}
+[17.455835] (-) TimerEvent: {}
+[17.556103] (-) TimerEvent: {}
+[17.656362] (-) TimerEvent: {}
+[17.756627] (-) TimerEvent: {}
+[17.856912] (-) TimerEvent: {}
+[17.957183] (-) TimerEvent: {}
+[18.057533] (-) TimerEvent: {}
+[18.157838] (-) TimerEvent: {}
+[18.258155] (-) TimerEvent: {}
+[18.358434] (-) TimerEvent: {}
+[18.458745] (-) TimerEvent: {}
+[18.559039] (-) TimerEvent: {}
+[18.659358] (-) TimerEvent: {}
+[18.759632] (-) TimerEvent: {}
+[18.859904] (-) TimerEvent: {}
+[18.960189] (-) TimerEvent: {}
+[19.060475] (-) TimerEvent: {}
+[19.160754] (-) TimerEvent: {}
+[19.261043] (-) TimerEvent: {}
+[19.361312] (-) TimerEvent: {}
+[19.461612] (-) TimerEvent: {}
+[19.561908] (-) TimerEvent: {}
+[19.662190] (-) TimerEvent: {}
+[19.762462] (-) TimerEvent: {}
+[19.862768] (-) TimerEvent: {}
+[19.963034] (-) TimerEvent: {}
+[20.063304] (-) TimerEvent: {}
+[20.163580] (-) TimerEvent: {}
+[20.263858] (-) TimerEvent: {}
+[20.364130] (-) TimerEvent: {}
+[20.464416] (-) TimerEvent: {}
+[20.564749] (-) TimerEvent: {}
+[20.665054] (-) TimerEvent: {}
+[20.765327] (-) TimerEvent: {}
+[20.865632] (-) TimerEvent: {}
+[20.965942] (-) TimerEvent: {}
+[21.066273] (-) TimerEvent: {}
+[21.166608] (-) TimerEvent: {}
+[21.249819] (rf2o_laser_odometry) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX static library librf2o_laser_odometry.a\x1b[0m\n'}
+[21.266727] (-) TimerEvent: {}
+[21.281697] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rf2o_laser_odometry_node\x1b[0m\n'}
+[21.366858] (-) TimerEvent: {}
+[21.467190] (-) TimerEvent: {}
+[21.561050] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] Built target rf2o_laser_odometry\n'}
+[21.567301] (-) TimerEvent: {}
+[21.667647] (-) TimerEvent: {}
+[21.768031] (-) TimerEvent: {}
+[21.868333] (-) TimerEvent: {}
+[21.968636] (-) TimerEvent: {}
+[22.068934] (-) TimerEvent: {}
+[22.169239] (-) TimerEvent: {}
+[22.269586] (-) TimerEvent: {}
+[22.333960] (rf2o_laser_odometry) StdoutLine: {'line': b'[100%] Built target rf2o_laser_odometry_node\n'}
+[22.345263] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[22.369676] (-) TimerEvent: {}
+[22.376588] (rf2o_laser_odometry) JobProgress: {'identifier': 'rf2o_laser_odometry', 'progress': 'install'}
+[22.387763] (rf2o_laser_odometry) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/rf2o_laser_odometry'], 'cwd': '/SLAM/ros_ws/build/rf2o_laser_odometry', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM/ros_ws/src'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-d40ccf79-16d6-4698-9bb1-522eaa1a6ef2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-c5f39382-1fbd-43bd-bb04-ff07af3c26f3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-c5f39382-1fbd-43bd-bb04-ff07af3c26f3.sock","/tmp/.X11-unix/X4","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-c5f39382-1fbd-43bd-bb04-ff07af3c26f3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X4'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/rf2o_laser_odometry'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[22.395204] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.395526] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[22.396228] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/lib/rf2o_laser_odometry/rf2o_laser_odometry_node\n'}
+[22.405849] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/launch/rf2o_laser_odometry.launch.py\n'}
+[22.415083] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/package_run_dependencies/rf2o_laser_odometry\n'}
+[22.424782] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/parent_prefix_path/rf2o_laser_odometry\n'}
+[22.434326] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.sh\n'}
+[22.443613] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/ament_prefix_path.dsv\n'}
+[22.453226] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.sh\n'}
+[22.462680] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/environment/path.dsv\n'}
+[22.469766] (-) TimerEvent: {}
+[22.472041] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.bash\n'}
+[22.481899] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.sh\n'}
+[22.491656] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.zsh\n'}
+[22.501472] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/local_setup.dsv\n'}
+[22.510840] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.dsv\n'}
+[22.519900] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/ament_index/resource_index/packages/rf2o_laser_odometry\n'}
+[22.529024] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig.cmake\n'}
+[22.537880] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/cmake/rf2o_laser_odometryConfig-version.cmake\n'}
+[22.546873] (rf2o_laser_odometry) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rf2o_laser_odometry/share/rf2o_laser_odometry/package.xml\n'}
+[22.557672] (rf2o_laser_odometry) CommandEnded: {'returncode': 0}
+[22.569884] (-) TimerEvent: {}
+[22.670224] (-) TimerEvent: {}
+[22.690382] (rf2o_laser_odometry) JobEnded: {'identifier': 'rf2o_laser_odometry', 'rc': 0}
+[22.691104] (-) EventReactorShutdown: {}

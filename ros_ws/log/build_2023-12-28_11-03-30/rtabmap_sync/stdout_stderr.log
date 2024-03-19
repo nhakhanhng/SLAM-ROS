@@ -1,0 +1,15 @@
+[ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberStereo.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGB.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBD.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbdx_sync.cpp.o[0m
+gmake[2]: *** [CMakeFiles/rtabmap_sync_plugins.dir/build.make:76: CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbdx_sync.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_sync.dir/build.make:90: CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_sync.dir/build.make:76: CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_sync.dir/build.make:104: CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberStereo.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_sync.dir/build.make:118: CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGB.cpp.o] Interrupt
+gmake[2]: *** [CMakeFiles/rtabmap_sync.dir/build.make:132: CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBD.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:173: CMakeFiles/rtabmap_sync_plugins.dir/all] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/rtabmap_sync.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

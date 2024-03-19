@@ -1,0 +1,22 @@
+[2.232s] Invoking command in '/SLAM/ros_ws/build/rtabmap_python': PYTHONPATH=/SLAM/ros_ws/build/rtabmap_python/prefix_override:/SLAM/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /SLAM/ros_ws/build/rtabmap_python/build --no-deps install_data
+[4.210s] running develop
+[4.211s] running egg_info
+[4.211s] creating rtabmap_python.egg-info
+[4.211s] writing rtabmap_python.egg-info/PKG-INFO
+[4.211s] writing dependency_links to rtabmap_python.egg-info/dependency_links.txt
+[4.211s] writing entry points to rtabmap_python.egg-info/entry_points.txt
+[4.211s] writing requirements to rtabmap_python.egg-info/requires.txt
+[4.212s] writing top-level names to rtabmap_python.egg-info/top_level.txt
+[4.212s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[4.212s] reading manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[4.212s] writing manifest file 'rtabmap_python.egg-info/SOURCES.txt'
+[4.212s] running build_ext
+[4.212s] Creating /SLAM/ros_ws/install/rtabmap_python/lib/python3.10/site-packages/rtabmap-python.egg-link (link to .)
+[4.213s] 
+[4.213s] Installed /SLAM/ros_ws/build/rtabmap_python
+[4.213s] running install_data
+[4.218s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[4.219s]   warnings.warn(
+[4.219s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.220s]   warnings.warn(
+[4.229s] Invoked command in '/SLAM/ros_ws/build/rtabmap_python' returned '0': PYTHONPATH=/SLAM/ros_ws/build/rtabmap_python/prefix_override:/SLAM/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /SLAM/ros_ws/build/rtabmap_python/build --no-deps install_data

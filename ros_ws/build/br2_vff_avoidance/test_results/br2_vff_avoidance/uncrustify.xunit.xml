@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="br2_vff_avoidance.uncrustify"
+  tests="4"
+  failures="0"
+  errors="0"
+  time="0.025"
+>
+  <testcase
+    name="include/br2_vff_avoidance/AvoidanceNode.hpp"
+    classname="br2_vff_avoidance.uncrustify"/>
+  <testcase
+    name="src/avoidance_vff_main.cpp"
+    classname="br2_vff_avoidance.uncrustify"/>
+  <testcase
+    name="src/br2_vff_avoidance/AvoidanceNode.cpp"
+    classname="br2_vff_avoidance.uncrustify"/>
+  <testcase
+    name="tests/vff_test.cpp"
+    classname="br2_vff_avoidance.uncrustify"/>
+  <system-out>Checked files:
+* include/br2_vff_avoidance/AvoidanceNode.hpp
+* src/avoidance_vff_main.cpp
+* src/br2_vff_avoidance/AvoidanceNode.cpp
+* tests/vff_test.cpp</system-out>
+</testsuite>

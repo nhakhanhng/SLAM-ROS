@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target br2_recharge_bt_node[0m
+[35m[1mConsolidate compiler generated dependencies of target br2_move_bt_node[0m
+[35m[1mConsolidate compiler generated dependencies of target br2_patrol_bt_node[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target br2_track_objects_bt_node[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target br2_battery_checker_bt_node[0m
+[35m[1mConsolidate compiler generated dependencies of target br2_get_waypoint_bt_node[0m
+[35m[1mConsolidate compiler generated dependencies of target patrolling_main[0m
+[ 10%] Built target br2_recharge_bt_node
+[ 20%] Built target br2_move_bt_node
+[ 30%] Built target gtest
+[ 40%] Built target br2_patrol_bt_node
+[ 50%] Built target br2_get_waypoint_bt_node
+[ 60%] Built target patrolling_main
+[ 70%] Built target br2_battery_checker_bt_node
+[ 80%] Built target br2_track_objects_bt_node
+[ 90%] Built target gtest_main
+[35m[1mConsolidate compiler generated dependencies of target bt_action_test[0m
+[100%] Built target bt_action_test

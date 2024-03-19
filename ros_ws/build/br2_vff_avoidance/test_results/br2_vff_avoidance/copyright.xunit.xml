@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="br2_vff_avoidance.copyright"
+  tests="5"
+  errors="0"
+  failures="0"
+  time="0.113"
+>
+  <testcase
+    name="include/br2_vff_avoidance/AvoidanceNode.hpp"
+    classname="br2_vff_avoidance.copyright"/>
+  <testcase
+    name="launch/avoidance_vff.launch.py"
+    classname="br2_vff_avoidance.copyright"/>
+  <testcase
+    name="src/avoidance_vff_main.cpp"
+    classname="br2_vff_avoidance.copyright"/>
+  <testcase
+    name="src/br2_vff_avoidance/AvoidanceNode.cpp"
+    classname="br2_vff_avoidance.copyright"/>
+  <testcase
+    name="tests/vff_test.cpp"
+    classname="br2_vff_avoidance.copyright"/>
+  <system-out>Checked files:
+* include/br2_vff_avoidance/AvoidanceNode.hpp
+* launch/avoidance_vff.launch.py
+* src/avoidance_vff_main.cpp
+* src/br2_vff_avoidance/AvoidanceNode.cpp
+* tests/vff_test.cpp</system-out>
+</testsuite>

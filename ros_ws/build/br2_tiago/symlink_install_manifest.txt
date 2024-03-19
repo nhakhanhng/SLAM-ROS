@@ -1,0 +1,16 @@
+/SLAM/ros_ws/install/br2_tiago/share/br2_tiago/launch/sim.launch.py
+/SLAM/ros_ws/install/br2_tiago/share/ament_index/resource_index/package_run_dependencies/br2_tiago
+/SLAM/ros_ws/install/br2_tiago/share/ament_index/resource_index/parent_prefix_path/br2_tiago
+/SLAM/ros_ws/install/br2_tiago/share/br2_tiago/environment/ament_prefix_path.sh
+/SLAM/ros_ws/install/br2_tiago/share/br2_tiago/environment/ament_prefix_path.dsv
+/SLAM/ros_ws/install/br2_tiago/share/br2_tiago/environment/path.sh
+/SLAM/ros_ws/install/br2_tiago/share/br2_tiago/environment/path.dsv
+/SLAM/ros_ws/install/br2_tiago/share/br2_tiago/local_setup.bash
+/SLAM/ros_ws/install/br2_tiago/share/br2_tiago/local_setup.sh
+/SLAM/ros_ws/install/br2_tiago/share/br2_tiago/local_setup.zsh
+/SLAM/ros_ws/install/br2_tiago/share/br2_tiago/local_setup.dsv
+/SLAM/ros_ws/install/br2_tiago/share/br2_tiago/package.dsv
+/SLAM/ros_ws/install/br2_tiago/share/ament_index/resource_index/packages/br2_tiago
+/SLAM/ros_ws/install/br2_tiago/share/br2_tiago/cmake/br2_tiagoConfig.cmake
+/SLAM/ros_ws/install/br2_tiago/share/br2_tiago/cmake/br2_tiagoConfig-version.cmake
+/SLAM/ros_ws/install/br2_tiago/share/br2_tiago/package.xml

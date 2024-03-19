@@ -1,0 +1,8 @@
+{
+  "package_name": "tutourial_intefaces",
+  "non_idl_tuples": [
+    "/SLAM/ros_ws/src/tutourial_intefaces:msg/Num.msg",
+    "/SLAM/ros_ws/src/tutourial_intefaces:msg/Sphere.msg",
+    "/SLAM/ros_ws/src/tutourial_intefaces:srv/AddThreeInts.srv"
+  ]
+}

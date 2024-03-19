@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="2" failures="0" disabled="0" errors="0" time="10.158" timestamp="2024-01-16T05:34:58" name="AllTests">
+  <testsuite name="vff_tests" tests="2" failures="0" disabled="0" errors="0" time="10.158" timestamp="2024-01-16T05:34:58">
+    <testcase name="get_vff" status="run" result="completed" time="0.014" timestamp="2024-01-16T05:34:58" classname="br2_vff_avoidance.vff_tests" />
+    <testcase name="ouput_vels" status="run" result="completed" time="10.144" timestamp="2024-01-16T05:34:58" classname="br2_vff_avoidance.vff_tests" />
+  </testsuite>
+</testsuites>

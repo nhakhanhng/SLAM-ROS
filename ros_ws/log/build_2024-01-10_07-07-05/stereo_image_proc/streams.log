@@ -1,0 +1,38 @@
+[0.046s] Invoking command in '/SLAM/ros_ws/build/stereo_image_proc': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} PATH=/SLAM/ros_ws/install/image_proc/bin:${PATH} /usr/bin/cmake --build /SLAM/ros_ws/build/stereo_image_proc
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target disparity_node[0m
+[0.094s] [35m[1mConsolidate compiler generated dependencies of target point_cloud_node[0m
+[0.096s] [35m[1mConsolidate compiler generated dependencies of target stereo_image_proc[0m
+[0.115s] [ 50%] Built target disparity_node
+[0.115s] [ 50%] Built target point_cloud_node
+[0.125s] [100%] Built target stereo_image_proc
+[0.136s] Invoked command in '/SLAM/ros_ws/build/stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} PATH=/SLAM/ros_ws/install/image_proc/bin:${PATH} /usr/bin/cmake --build /SLAM/ros_ws/build/stereo_image_proc
+[0.172s] Invoking command in '/SLAM/ros_ws/build/stereo_image_proc': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} PATH=/SLAM/ros_ws/install/image_proc/bin:${PATH} /usr/bin/cmake --install /SLAM/ros_ws/build/stereo_image_proc
+[0.181s] -- Install configuration: "Release"
+[0.182s] -- Execute custom install script
+[0.182s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/lib/stereo_image_proc/disparity_node
+[0.182s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/lib/stereo_image_proc/point_cloud_node
+[0.183s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/include/stereo_image_proc/stereo_processor.hpp
+[0.183s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/environment/library_path.sh
+[0.183s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/environment/library_path.dsv
+[0.184s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/lib/libstereo_image_proc.so
+[0.184s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/launch/stereo_image_proc.launch.py
+[0.184s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/ament_index/resource_index/package_run_dependencies/stereo_image_proc
+[0.184s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/ament_index/resource_index/parent_prefix_path/stereo_image_proc
+[0.185s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/environment/ament_prefix_path.sh
+[0.185s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/environment/ament_prefix_path.dsv
+[0.185s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/environment/path.sh
+[0.185s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/environment/path.dsv
+[0.185s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/local_setup.bash
+[0.186s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/local_setup.sh
+[0.186s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/local_setup.zsh
+[0.186s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/local_setup.dsv
+[0.186s] -- Symlinking: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/package.dsv
+[0.195s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/ament_index/resource_index/packages/stereo_image_proc
+[0.195s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/ament_index/resource_index/rclcpp_components/stereo_image_proc
+[0.195s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.195s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.196s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[0.196s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/stereo_image_procConfig.cmake
+[0.196s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/cmake/stereo_image_procConfig-version.cmake
+[0.196s] -- Up-to-date symlink: /SLAM/ros_ws/install/stereo_image_proc/share/stereo_image_proc/package.xml
+[0.244s] Invoked command in '/SLAM/ros_ws/build/stereo_image_proc' returned '0': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} PATH=/SLAM/ros_ws/install/image_proc/bin:${PATH} /usr/bin/cmake --install /SLAM/ros_ws/build/stereo_image_proc

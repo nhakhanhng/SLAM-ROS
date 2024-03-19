@@ -1,0 +1,20 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[0m** WARNING ** io features related to png will be disabled[0m
+In file included from [01m[K/home/khanh/Documents/SLAM/ros_ws/src/rtabmap_ros/rtabmap_util/src/nodelets/obstacles_detection.cpp:28[m[K:
+[01m[K/home/khanh/Documents/SLAM/ros_ws/src/rtabmap_ros/rtabmap_util/include/rtabmap_util/obstacles_detection.hpp:36:10:[m[K [01;31m[Kfatal error: [m[Krtabmap/core/LocalGridMaker.h: No such file or directory
+   36 | #include [01;31m[K<rtabmap/core/LocalGridMaker.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rtabmap_util_plugins.dir/build.make:146: CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/obstacles_detection.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/khanh/Documents/SLAM/ros_ws/src/rtabmap_ros/rtabmap_util/src/MapsManager.cpp:27[m[K:
+[01m[K/home/khanh/Documents/SLAM/ros_ws/src/rtabmap_ros/rtabmap_util/include/rtabmap_util/MapsManager.h:34:10:[m[K [01;31m[Kfatal error: [m[Krtabmap/core/LocalGrid.h: No such file or directory
+   34 | #include [01;31m[K<rtabmap/core/LocalGrid.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rtabmap_util_plugins.dir/build.make:76: CMakeFiles/rtabmap_util_plugins.dir/src/MapsManager.cpp.o] Error 1
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rtabmap_util_plugins.dir/build.make:104: CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyz.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/rtabmap_util_plugins.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

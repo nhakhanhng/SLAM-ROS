@@ -1,0 +1,108 @@
+[0.157s] Invoking command in '/SLAM/ros_ws/build/image_proc': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /SLAM/ros_ws/build/image_proc -- -j16 -l16
+[0.196s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.451s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.454s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.461s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.475s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.496s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.836s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.838s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.184s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.860s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.901s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.904s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.908s] -- Configured cppcheck include dirs: /SLAM/ros_ws/src/image_pipeline/image_proc/include
+[1.908s] -- Configured cppcheck exclude dirs and/or files: 
+[1.916s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.917s] -- Configured cpplint exclude dirs and/or files: 
+[1.918s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.919s] -- Added test 'lint_cmake' to check CMake code style
+[1.925s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.928s] -- Added test 'uncrustify' to check C / C++ code style
+[1.929s] -- Configured uncrustify additional arguments: 
+[1.932s] -- Added test 'xmllint' to check XML markup files
+[1.948s] -- Configuring done
+[2.292s] -- Generating done
+[2.305s] -- Build files have been written to: /SLAM/ros_ws/build/image_proc
+[2.529s] [35m[1mConsolidate compiler generated dependencies of target image_proc[0m
+[2.630s] [  6%] [32mBuilding CXX object CMakeFiles/image_proc.dir/src/image_proc/processor.cpp.o[0m
+[5.034s] [ 13%] [32m[1mLinking CXX shared library libimage_proc.so[0m
+[5.709s] [ 13%] Built target image_proc
+[5.793s] [35m[1mConsolidate compiler generated dependencies of target rectify[0m
+[5.920s] [ 20%] [32mBuilding CXX object CMakeFiles/rectify.dir/src/rectify.cpp.o[0m
+[14.264s] [ 26%] [32m[1mLinking CXX shared library librectify.so[0m
+[14.612s] [ 26%] Built target rectify
+[14.637s] [35m[1mConsolidate compiler generated dependencies of target debayer[0m
+[14.679s] [ 33%] [32mBuilding CXX object CMakeFiles/debayer.dir/src/debayer.cpp.o[0m
+[14.681s] [ 40%] [32mBuilding CXX object CMakeFiles/debayer.dir/src/edge_aware.cpp.o[0m
+[20.397s] [ 46%] [32m[1mLinking CXX shared library libdebayer.so[0m
+[20.644s] [ 46%] Built target debayer
+[20.661s] [35m[1mConsolidate compiler generated dependencies of target resize[0m
+[20.695s] [ 53%] [32mBuilding CXX object CMakeFiles/resize.dir/src/resize.cpp.o[0m
+[25.358s] [ 60%] [32m[1mLinking CXX shared library libresize.so[0m
+[25.631s] [ 60%] Built target resize
+[25.647s] [35m[1mConsolidate compiler generated dependencies of target crop_decimate[0m
+[25.681s] [ 66%] [32mBuilding CXX object CMakeFiles/crop_decimate.dir/src/crop_decimate.cpp.o[0m
+[30.996s] [ 73%] [32m[1mLinking CXX shared library libcrop_decimate.so[0m
+[31.197s] [ 73%] Built target crop_decimate
+[31.210s] [35m[1mConsolidate compiler generated dependencies of target crop_non_zero[0m
+[31.236s] [ 80%] [32mBuilding CXX object CMakeFiles/crop_non_zero.dir/src/crop_non_zero.cpp.o[0m
+[34.612s] [ 86%] [32m[1mLinking CXX shared library libcrop_non_zero.so[0m
+[34.764s] [ 86%] Built target crop_non_zero
+[34.776s] [35m[1mConsolidate compiler generated dependencies of target image_proc_exe[0m
+[34.798s] [ 93%] [32mBuilding CXX object CMakeFiles/image_proc_exe.dir/src/image_proc.cpp.o[0m
+[37.710s] [100%] [32m[1mLinking CXX executable image_proc[0m
+[38.036s] [100%] Built target image_proc_exe
+[38.048s] Invoked command in '/SLAM/ros_ws/build/image_proc' returned '0': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /SLAM/ros_ws/build/image_proc -- -j16 -l16
+[38.098s] Invoking command in '/SLAM/ros_ws/build/image_proc': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /SLAM/ros_ws/build/image_proc
+[38.106s] -- Install configuration: ""
+[38.107s] -- Installing: /SLAM/ros_ws/install/image_proc/bin/image_proc
+[38.107s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/bin/image_proc" to ""
+[38.107s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/include
+[38.107s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/include/image_proc
+[38.108s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/edge_aware.hpp
+[38.108s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/processor.hpp
+[38.108s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/crop_decimate.hpp
+[38.108s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/debayer.hpp
+[38.108s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/resize.hpp
+[38.108s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/crop_non_zero.hpp
+[38.108s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/rectify.hpp
+[38.108s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/utils.hpp
+[38.109s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/library_path.sh
+[38.109s] -- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/library_path.dsv
+[38.110s] -- Installing: /SLAM/ros_ws/install/image_proc/lib/libimage_proc.so
+[38.110s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libimage_proc.so" to ""
+[38.111s] -- Installing: /SLAM/ros_ws/install/image_proc/lib/librectify.so
+[38.112s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/librectify.so" to ""
+[38.113s] -- Installing: /SLAM/ros_ws/install/image_proc/lib/libdebayer.so
+[38.114s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libdebayer.so" to ""
+[38.115s] -- Installing: /SLAM/ros_ws/install/image_proc/lib/libresize.so
+[38.116s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libresize.so" to ""
+[38.117s] -- Installing: /SLAM/ros_ws/install/image_proc/lib/libcrop_decimate.so
+[38.118s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libcrop_decimate.so" to ""
+[38.118s] -- Installing: /SLAM/ros_ws/install/image_proc/lib/libcrop_non_zero.so
+[38.119s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libcrop_non_zero.so" to ""
+[38.120s] -- Installing: /SLAM/ros_ws/install/image_proc/lib/image_proc/image_proc
+[38.121s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/image_proc/image_proc" to ""
+[38.121s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/launch
+[38.121s] -- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/launch/image_proc.launch.py
+[38.121s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/package_run_dependencies/image_proc
+[38.121s] -- Installing: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/parent_prefix_path/image_proc
+[38.121s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/ament_prefix_path.sh
+[38.122s] -- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/ament_prefix_path.dsv
+[38.122s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/path.sh
+[38.122s] -- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/path.dsv
+[38.122s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.bash
+[38.122s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.sh
+[38.122s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.zsh
+[38.122s] -- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.dsv
+[38.122s] -- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/package.dsv
+[38.122s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/packages/image_proc
+[38.122s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/rclcpp_components/image_proc
+[38.123s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[38.123s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[38.123s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[38.123s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/image_procConfig.cmake
+[38.123s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/image_procConfig-version.cmake
+[38.123s] -- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/package.xml
+[38.125s] Invoked command in '/SLAM/ros_ws/build/image_proc' returned '0': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /SLAM/ros_ws/build/image_proc

@@ -1,0 +1,30 @@
+[  8%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberStereo.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGB.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberRGBD.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbdx_sync.cpp.o[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rtabmap_sync.dir/build.make:76: CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[ 30%] [32mBuilding CXX object CMakeFiles/rtabmap_sync_plugins.dir/src/nodelets/rgbd_sync.cpp.o[0m
+[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+compilation terminated.
+gmake[2]: *** [CMakeFiles/rtabmap_sync.dir/build.make:90: CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o] Error 1
+[ 34%] [32m[1mLinking CXX shared library librtabmap_sync_plugins.so[0m
+[ 43%] Built target rtabmap_sync_plugins
+[ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_rgb_sync.dir/src/RGBSyncNode.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_stereo_sync.dir/src/StereoSyncNode.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbdx_sync.dir/src/RGBDXSyncNode.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/rtabmap_rgbd_sync.dir/src/RGBDSyncNode.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable stereo_sync[0m
+[ 73%] [32m[1mLinking CXX executable rgb_sync[0m
+[ 73%] [32m[1mLinking CXX executable rgbd_sync[0m
+[ 78%] [32m[1mLinking CXX executable rgbdx_sync[0m
+[ 78%] Built target rtabmap_rgb_sync
+[ 78%] Built target rtabmap_stereo_sync
+[ 78%] Built target rtabmap_rgbd_sync
+[ 78%] Built target rtabmap_rgbdx_sync
+gmake[1]: *** [CMakeFiles/Makefile2:147: CMakeFiles/rtabmap_sync.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

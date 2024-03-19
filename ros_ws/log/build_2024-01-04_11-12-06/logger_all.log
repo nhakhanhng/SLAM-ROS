@@ -1,0 +1,968 @@
+[0.855s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.855s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f5671519060>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f56714a37c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f56714a37c0>>, mixin_verb=('build',))
+[0.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.891s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.891s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/SLAM/ros_ws'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.891s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['ignore', 'ignore_ament_install']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ignore'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ignore_ament_install'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['colcon_pkg']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'colcon_pkg'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['colcon_meta']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'colcon_meta'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['ros']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'ros'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['cmake', 'python']
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'cmake'
+[0.901s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'python'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extensions ['python_setup_py']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(Log) by extension 'python_setup_py'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.902s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['ignore', 'ignore_ament_install']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ignore'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ignore_ament_install'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['colcon_pkg']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'colcon_pkg'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['colcon_meta']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'colcon_meta'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['ros']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'ros'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['cmake', 'python']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'cmake'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'python'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extensions ['python_setup_py']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2) by extension 'python_setup_py'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ignore'
+[0.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ignore_ament_install'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['colcon_pkg']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'colcon_pkg'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['colcon_meta']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'colcon_meta'
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extensions ['ros']
+[0.904s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera) by extension 'ros'
+[0.906s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_camera' with type 'ros.ament_cmake' and name 'orbbec_camera'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ignore'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ignore_ament_install'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['colcon_pkg']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'colcon_pkg'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['colcon_meta']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'colcon_meta'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extensions ['ros']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_camera_msgs) by extension 'ros'
+[0.907s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_camera_msgs' with type 'ros.ament_cmake' and name 'orbbec_camera_msgs'
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['ignore', 'ignore_ament_install']
+[0.907s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ignore'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ignore_ament_install'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['colcon_pkg']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'colcon_pkg'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['colcon_meta']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'colcon_meta'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extensions ['ros']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/OrbbecSDK_ROS2/orbbec_description) by extension 'ros'
+[0.908s] DEBUG:colcon.colcon_core.package_identification:Package 'src/OrbbecSDK_ROS2/orbbec_description' with type 'ros.ament_cmake' and name 'orbbec_description'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'ignore'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'ignore_ament_install'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['colcon_pkg']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'colcon_pkg'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['colcon_meta']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'colcon_meta'
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['ros']
+[0.908s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'ros'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['cmake', 'python']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'cmake'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'python'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extensions ['python_setup_py']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline) by extension 'python_setup_py'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'ignore'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'ignore_ament_install'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['colcon_pkg']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'colcon_pkg'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['colcon_meta']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'colcon_meta'
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extensions ['ros']
+[0.909s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/camera_calibration) by extension 'ros'
+[0.910s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/camera_calibration' with type 'ros.ament_python' and name 'camera_calibration'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'ignore'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'ignore_ament_install'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['colcon_pkg']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'colcon_pkg'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['colcon_meta']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'colcon_meta'
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extensions ['ros']
+[0.910s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/depth_image_proc) by extension 'ros'
+[0.911s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/depth_image_proc' with type 'ros.ament_cmake' and name 'depth_image_proc'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'ignore'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'ignore_ament_install'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['colcon_pkg']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'colcon_pkg'
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['colcon_meta']
+[0.911s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'colcon_meta'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extensions ['ros']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_pipeline) by extension 'ros'
+[0.912s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_pipeline' with type 'ros.ament_cmake' and name 'image_pipeline'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'ignore'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'ignore_ament_install'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['colcon_pkg']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'colcon_pkg'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['colcon_meta']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'colcon_meta'
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extensions ['ros']
+[0.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_proc) by extension 'ros'
+[0.913s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_proc' with type 'ros.ament_cmake' and name 'image_proc'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'ignore'
+[0.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'ignore_ament_install'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['colcon_pkg']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'colcon_pkg'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['colcon_meta']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'colcon_meta'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extensions ['ros']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_publisher) by extension 'ros'
+[0.914s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_publisher' with type 'ros.ament_cmake' and name 'image_publisher'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['ignore', 'ignore_ament_install']
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'ignore'
+[0.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'ignore_ament_install'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['colcon_pkg']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'colcon_pkg'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['colcon_meta']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'colcon_meta'
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extensions ['ros']
+[0.915s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_rotate) by extension 'ros'
+[0.916s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_rotate' with type 'ros.ament_cmake' and name 'image_rotate'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['ignore', 'ignore_ament_install']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'ignore'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'ignore_ament_install'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['colcon_pkg']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'colcon_pkg'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['colcon_meta']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'colcon_meta'
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extensions ['ros']
+[0.916s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/image_view) by extension 'ros'
+[0.917s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/image_view' with type 'ros.ament_cmake' and name 'image_view'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['ignore', 'ignore_ament_install']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'ignore'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'ignore_ament_install'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['colcon_pkg']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'colcon_pkg'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['colcon_meta']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'colcon_meta'
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extensions ['ros']
+[0.917s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/stereo_image_proc) by extension 'ros'
+[0.918s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/stereo_image_proc' with type 'ros.ament_cmake' and name 'stereo_image_proc'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['ignore', 'ignore_ament_install']
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'ignore'
+[0.918s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'ignore_ament_install'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['colcon_pkg']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'colcon_pkg'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['colcon_meta']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'colcon_meta'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['ros']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'ros'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['cmake', 'python']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'cmake'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'python'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extensions ['python_setup_py']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tools) by extension 'python_setup_py'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['ignore', 'ignore_ament_install']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'ignore'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'ignore_ament_install'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['colcon_pkg']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'colcon_pkg'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['colcon_meta']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'colcon_meta'
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extensions ['ros']
+[0.919s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/tracetools_image_pipeline) by extension 'ros'
+[0.920s] DEBUG:colcon.colcon_core.package_identification:Package 'src/image_pipeline/tracetools_image_pipeline' with type 'ros.ament_cmake' and name 'tracetools_image_pipeline'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['ignore', 'ignore_ament_install']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'ignore'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'ignore_ament_install'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['colcon_pkg']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'colcon_pkg'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['colcon_meta']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'colcon_meta'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['ros']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'ros'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['cmake', 'python']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'cmake'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'python'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extensions ['python_setup_py']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/image_pipeline/wiki_files) by extension 'python_setup_py'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extensions ['ignore', 'ignore_ament_install']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extension 'ignore'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extension 'ignore_ament_install'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extensions ['colcon_pkg']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extension 'colcon_pkg'
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extensions ['colcon_meta']
+[0.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extension 'colcon_meta'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extensions ['ros']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extension 'ros'
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extensions ['cmake', 'python']
+[0.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extension 'cmake'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/libuvc) by extension 'python'
+[0.925s] DEBUG:colcon.colcon_core.package_identification:Package 'src/libuvc' with type 'cmake' and name 'libuvc'
+[0.925s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extension 'ignore'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extension 'ignore_ament_install'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extensions ['colcon_pkg']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extension 'colcon_pkg'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extensions ['colcon_meta']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extension 'colcon_meta'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extensions ['ros']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extension 'ros'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extensions ['cmake', 'python']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extension 'cmake'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extension 'python'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extensions ['python_setup_py']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera) by extension 'python_setup_py'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera) by extensions ['ignore', 'ignore_ament_install']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera) by extension 'ignore'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera) by extension 'ignore_ament_install'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera) by extensions ['colcon_pkg']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera) by extension 'colcon_pkg'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera) by extensions ['colcon_meta']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera) by extension 'colcon_meta'
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera) by extensions ['ros']
+[0.926s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera) by extension 'ros'
+[0.928s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_astra_camera/astra_camera' with type 'ros.ament_cmake' and name 'astra_camera'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera_msgs) by extension 'ignore'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera_msgs) by extension 'ignore_ament_install'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera_msgs) by extensions ['colcon_pkg']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera_msgs) by extension 'colcon_pkg'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera_msgs) by extensions ['colcon_meta']
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera_msgs) by extension 'colcon_meta'
+[0.928s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera_msgs) by extensions ['ros']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_astra_camera/astra_camera_msgs) by extension 'ros'
+[0.929s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_astra_camera/astra_camera_msgs' with type 'ros.ament_cmake' and name 'astra_camera_msgs'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.929s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.930s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.992s] Level 5:colcon.colcon_core.verb:set package 'astra_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.992s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/astra_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/astra_camera_msgs', 'merge_install': False, 'path': '/SLAM/ros_ws/src/ros_astra_camera/astra_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_args' from command line to 'None'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_target' from command line to 'None'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_clean_first' from command line to 'False'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'cmake_force_configure' from command line to 'False'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'ament_cmake_args' from command line to 'None'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[1.003s] Level 5:colcon.colcon_core.verb:set package 'camera_calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.003s] DEBUG:colcon.colcon_core.verb:Building package 'camera_calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/camera_calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/camera_calibration', 'merge_install': False, 'path': '/SLAM/ros_ws/src/image_pipeline/camera_calibration', 'symlink_install': False, 'test_result_base': None}
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_args' from command line to 'None'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_target' from command line to 'None'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_clean_cache' from command line to 'False'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_clean_first' from command line to 'False'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'cmake_force_configure' from command line to 'False'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'ament_cmake_args' from command line to 'None'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'catkin_cmake_args' from command line to 'None'
+[1.013s] Level 5:colcon.colcon_core.verb:set package 'depth_image_proc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.013s] DEBUG:colcon.colcon_core.verb:Building package 'depth_image_proc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/depth_image_proc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/depth_image_proc', 'merge_install': False, 'path': '/SLAM/ros_ws/src/image_pipeline/depth_image_proc', 'symlink_install': False, 'test_result_base': None}
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_target' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'image_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.024s] DEBUG:colcon.colcon_core.verb:Building package 'image_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/image_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/image_publisher', 'merge_install': False, 'path': '/SLAM/ros_ws/src/image_pipeline/image_publisher', 'symlink_install': False, 'test_result_base': None}
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_args' from command line to 'None'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_target' from command line to 'None'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_clean_cache' from command line to 'False'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_clean_first' from command line to 'False'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'cmake_force_configure' from command line to 'False'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'ament_cmake_args' from command line to 'None'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'catkin_cmake_args' from command line to 'None'
+[1.034s] Level 5:colcon.colcon_core.verb:set package 'image_rotate' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.034s] DEBUG:colcon.colcon_core.verb:Building package 'image_rotate' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/image_rotate', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/image_rotate', 'merge_install': False, 'path': '/SLAM/ros_ws/src/image_pipeline/image_rotate', 'symlink_install': False, 'test_result_base': None}
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_target' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_clean_cache' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_clean_first' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'cmake_force_configure' from command line to 'False'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'ament_cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'catkin_cmake_args' from command line to 'None'
+[1.045s] Level 5:colcon.colcon_core.verb:set package 'image_view' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.045s] DEBUG:colcon.colcon_core.verb:Building package 'image_view' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/image_view', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/image_view', 'merge_install': False, 'path': '/SLAM/ros_ws/src/image_pipeline/image_view', 'symlink_install': False, 'test_result_base': None}
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_target' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_clean_cache' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_clean_first' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'cmake_force_configure' from command line to 'False'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'ament_cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'catkin_cmake_args' from command line to 'None'
+[1.055s] Level 5:colcon.colcon_core.verb:set package 'libuvc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.055s] DEBUG:colcon.colcon_core.verb:Building package 'libuvc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/libuvc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/libuvc', 'merge_install': False, 'path': '/SLAM/ros_ws/src/libuvc', 'symlink_install': False, 'test_result_base': None}
+[1.067s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_args' from command line to 'None'
+[1.067s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_target' from command line to 'None'
+[1.067s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.067s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.067s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.067s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.067s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.067s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.067s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.067s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_camera_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/orbbec_camera_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/orbbec_camera_msgs', 'merge_install': False, 'path': '/SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.077s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_args' from command line to 'None'
+[1.077s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_target' from command line to 'None'
+[1.077s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.077s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.077s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.077s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.078s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.078s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.078s] Level 5:colcon.colcon_core.verb:set package 'orbbec_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.078s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/orbbec_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/orbbec_description', 'merge_install': False, 'path': '/SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_description', 'symlink_install': False, 'test_result_base': None}
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.088s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.088s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/SLAM/ros_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_args' from command line to 'None'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_target' from command line to 'None'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.098s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_clean_cache' from command line to 'False'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_clean_first' from command line to 'False'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'cmake_force_configure' from command line to 'False'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'ament_cmake_args' from command line to 'None'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'catkin_cmake_args' from command line to 'None'
+[1.099s] Level 5:colcon.colcon_core.verb:set package 'tracetools_image_pipeline' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.099s] DEBUG:colcon.colcon_core.verb:Building package 'tracetools_image_pipeline' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/tracetools_image_pipeline', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/tracetools_image_pipeline', 'merge_install': False, 'path': '/SLAM/ros_ws/src/image_pipeline/tracetools_image_pipeline', 'symlink_install': False, 'test_result_base': None}
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_args' from command line to 'None'
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target' from command line to 'None'
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_clean_first' from command line to 'False'
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'cmake_force_configure' from command line to 'False'
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'ament_cmake_args' from command line to 'None'
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.109s] Level 5:colcon.colcon_core.verb:set package 'astra_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.109s] DEBUG:colcon.colcon_core.verb:Building package 'astra_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/astra_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/astra_camera', 'merge_install': False, 'path': '/SLAM/ros_ws/src/ros_astra_camera/astra_camera', 'symlink_install': False, 'test_result_base': None}
+[1.119s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_args' from command line to 'None'
+[1.119s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_target' from command line to 'None'
+[1.119s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.119s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_clean_cache' from command line to 'False'
+[1.119s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_clean_first' from command line to 'False'
+[1.119s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'cmake_force_configure' from command line to 'False'
+[1.119s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'ament_cmake_args' from command line to 'None'
+[1.119s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'catkin_cmake_args' from command line to 'None'
+[1.119s] Level 5:colcon.colcon_core.verb:set package 'image_proc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.119s] DEBUG:colcon.colcon_core.verb:Building package 'image_proc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/image_proc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/image_proc', 'merge_install': False, 'path': '/SLAM/ros_ws/src/image_pipeline/image_proc', 'symlink_install': False, 'test_result_base': None}
+[1.130s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_args' from command line to 'None'
+[1.130s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_target' from command line to 'None'
+[1.130s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.130s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_clean_cache' from command line to 'False'
+[1.130s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_clean_first' from command line to 'False'
+[1.130s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'cmake_force_configure' from command line to 'False'
+[1.130s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'ament_cmake_args' from command line to 'None'
+[1.130s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'catkin_cmake_args' from command line to 'None'
+[1.130s] Level 5:colcon.colcon_core.verb:set package 'orbbec_camera' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.130s] DEBUG:colcon.colcon_core.verb:Building package 'orbbec_camera' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/orbbec_camera', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/orbbec_camera', 'merge_install': False, 'path': '/SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_camera', 'symlink_install': False, 'test_result_base': None}
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_args' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_target' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_clean_cache' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_clean_first' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'cmake_force_configure' from command line to 'False'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'ament_cmake_args' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'catkin_cmake_args' from command line to 'None'
+[1.140s] Level 5:colcon.colcon_core.verb:set package 'stereo_image_proc' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.140s] DEBUG:colcon.colcon_core.verb:Building package 'stereo_image_proc' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/stereo_image_proc', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/stereo_image_proc', 'merge_install': False, 'path': '/SLAM/ros_ws/src/image_pipeline/stereo_image_proc', 'symlink_install': False, 'test_result_base': None}
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_args' from command line to 'None'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_target' from command line to 'None'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_clean_cache' from command line to 'False'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_clean_first' from command line to 'False'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'cmake_force_configure' from command line to 'False'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'ament_cmake_args' from command line to 'None'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'catkin_cmake_args' from command line to 'None'
+[1.151s] Level 5:colcon.colcon_core.verb:set package 'image_pipeline' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.151s] DEBUG:colcon.colcon_core.verb:Building package 'image_pipeline' with the following arguments: {'ament_cmake_args': None, 'build_base': '/SLAM/ros_ws/build/image_pipeline', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/SLAM/ros_ws/install/image_pipeline', 'merge_install': False, 'path': '/SLAM/ros_ws/src/image_pipeline/image_pipeline', 'symlink_install': False, 'test_result_base': None}
+[1.161s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.172s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.172s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/SLAM/ros_ws/src/image_pipeline/image_publisher' with build type 'ament_cmake'
+[1.172s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/SLAM/ros_ws/src/image_pipeline/image_publisher'
+[1.185s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.220s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/SLAM/ros_ws/src/image_pipeline/tracetools_image_pipeline' with build type 'ament_cmake'
+[1.220s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/SLAM/ros_ws/src/image_pipeline/tracetools_image_pipeline'
+[1.231s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.231s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.265s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/SLAM/ros_ws/src/ros_astra_camera/astra_camera_msgs' with build type 'ament_cmake'
+[1.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/SLAM/ros_ws/src/ros_astra_camera/astra_camera_msgs'
+[1.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.316s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/SLAM/ros_ws/src/image_pipeline/camera_calibration' with build type 'ament_python'
+[1.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration', 'ament_prefix_path')
+[1.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.ps1'
+[1.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.dsv'
+[1.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/camera_calibration/share/camera_calibration/hook/ament_prefix_path.sh'
+[1.342s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.342s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.377s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/SLAM/ros_ws/src/image_pipeline/depth_image_proc' with build type 'ament_cmake'
+[1.377s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/SLAM/ros_ws/src/image_pipeline/depth_image_proc'
+[1.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.422s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/SLAM/ros_ws/src/image_pipeline/image_rotate' with build type 'ament_cmake'
+[1.422s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/SLAM/ros_ws/src/image_pipeline/image_rotate'
+[1.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.468s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/SLAM/ros_ws/src/image_pipeline/image_view' with build type 'ament_cmake'
+[1.468s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/SLAM/ros_ws/src/image_pipeline/image_view'
+[1.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.534s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs' with build type 'ament_cmake'
+[1.534s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs'
+[1.544s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.544s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.580s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/SLAM/ros_ws/src/libuvc'
+[1.591s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.591s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.627s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_description' with build type 'ament_cmake'
+[1.627s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_description'
+[1.637s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.637s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.671s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/SLAM/ros_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[1.672s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/SLAM/ros_ws/src/sllidar_ros2'
+[1.682s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.682s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_publisher -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_publisher
+[1.723s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/tracetools_image_pipeline -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/tracetools_image_pipeline
+[1.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/ros_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/astra_camera_msgs
+[1.929s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/SLAM/ros_ws/src/image_pipeline/camera_calibration'
+[1.940s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.940s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/depth_image_proc -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/depth_image_proc
+[1.981s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_rotate
+[1.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_view -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_view
+[1.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/orbbec_camera_msgs
+[1.987s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/libuvc': /usr/bin/cmake /SLAM/ros_ws/src/libuvc -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/libuvc
+[1.988s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/orbbec_description
+[2.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/sllidar_ros2
+[2.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/src/image_pipeline/camera_calibration': PYTHONPATH=/SLAM/ros_ws/build/camera_calibration/prefix_override:/SLAM/ros_ws/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/camera_calibration build --build-base /SLAM/ros_ws/build/camera_calibration/build install --record /SLAM/ros_ws/build/camera_calibration/install.log --single-version-externally-managed
+[2.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/libuvc' returned '0': /usr/bin/cmake /SLAM/ros_ws/src/libuvc -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/libuvc
+[2.721s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/libuvc': /usr/bin/cmake --build /SLAM/ros_ws/build/libuvc -- -j16 -l16
+[2.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/tracetools_image_pipeline -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/tracetools_image_pipeline
+[2.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/tracetools_image_pipeline -- -j16 -l16
+[2.953s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/src/image_pipeline/camera_calibration' returned '0': PYTHONPATH=/SLAM/ros_ws/build/camera_calibration/prefix_override:/SLAM/ros_ws/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/camera_calibration build --build-base /SLAM/ros_ws/build/camera_calibration/build install --record /SLAM/ros_ws/build/camera_calibration/install.log --single-version-externally-managed
+[2.982s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/camera_calibration' for CMake module files
+[2.982s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/camera_calibration' for CMake config files
+[2.983s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/camera_calibration/lib'
+[2.983s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/camera_calibration/bin'
+[2.984s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/camera_calibration/lib/pkgconfig/camera_calibration.pc'
+[2.984s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/camera_calibration/lib/python3.10/site-packages'
+[2.984s] Level 1:colcon.colcon_core.shell:create_environment_hook('camera_calibration', 'pythonpath')
+[3.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/camera_calibration/share/camera_calibration/hook/pythonpath.ps1'
+[3.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/camera_calibration/share/camera_calibration/hook/pythonpath.dsv'
+[3.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/camera_calibration/share/camera_calibration/hook/pythonpath.sh'
+[3.046s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/camera_calibration/bin'
+[3.046s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(camera_calibration)
+[3.069s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/camera_calibration/share/camera_calibration/package.ps1'
+[3.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/camera_calibration/share/camera_calibration/package.dsv'
+[3.071s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/camera_calibration/share/camera_calibration/package.sh'
+[3.078s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/camera_calibration/share/camera_calibration/package.bash'
+[3.082s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/camera_calibration/share/camera_calibration/package.zsh'
+[3.083s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/camera_calibration/share/colcon-core/packages/camera_calibration)
+[3.437s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/orbbec_description
+[3.439s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/orbbec_description -- -j16 -l16
+[3.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/orbbec_description -- -j16 -l16
+[3.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/orbbec_description
+[3.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_description)
+[3.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/orbbec_description
+[3.591s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_description' for CMake module files
+[3.592s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_description' for CMake config files
+[3.592s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_description', 'cmake_prefix_path')
+[3.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.ps1'
+[3.613s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.dsv'
+[3.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.sh'
+[3.614s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_description/bin'
+[3.614s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_description/lib/pkgconfig/orbbec_description.pc'
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_description/lib/python3.10/site-packages'
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_description/bin'
+[3.634s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/package.ps1'
+[3.635s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/package.dsv'
+[3.635s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/package.sh'
+[3.636s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/package.bash'
+[3.636s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/package.zsh'
+[3.637s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/orbbec_description/share/colcon-core/packages/orbbec_description)
+[3.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/tracetools_image_pipeline -- -j16 -l16
+[3.694s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_description)
+[3.709s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_description' for CMake module files
+[3.710s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_description' for CMake config files
+[3.710s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_description', 'cmake_prefix_path')
+[3.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.ps1'
+[3.722s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.dsv'
+[3.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/hook/cmake_prefix_path.sh'
+[3.723s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_description/bin'
+[3.723s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_description/lib/pkgconfig/orbbec_description.pc'
+[3.723s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_description/lib/python3.10/site-packages'
+[3.723s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_description/bin'
+[3.736s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/package.ps1'
+[3.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/package.dsv'
+[3.737s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/package.sh'
+[3.738s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/package.bash'
+[3.738s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_description/share/orbbec_description/package.zsh'
+[3.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/orbbec_description/share/colcon-core/packages/orbbec_description)
+[3.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/tracetools_image_pipeline
+[3.742s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/libuvc' returned '0': /usr/bin/cmake --build /SLAM/ros_ws/build/libuvc -- -j16 -l16
+[3.761s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracetools_image_pipeline)
+[3.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/tracetools_image_pipeline
+[3.780s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/tracetools_image_pipeline' for CMake module files
+[3.780s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/tracetools_image_pipeline' for CMake config files
+[3.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'cmake_prefix_path')
+[3.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.ps1'
+[3.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.dsv'
+[3.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.sh'
+[3.800s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/tracetools_image_pipeline/lib'
+[3.801s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'ld_library_path_lib')
+[3.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.ps1'
+[3.819s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.dsv'
+[3.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.sh'
+[3.820s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/tracetools_image_pipeline/bin'
+[3.820s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/tracetools_image_pipeline/lib/pkgconfig/tracetools_image_pipeline.pc'
+[3.821s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/tracetools_image_pipeline/lib/python3.10/site-packages'
+[3.821s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/tracetools_image_pipeline/bin'
+[3.839s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.ps1'
+[3.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv'
+[3.840s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.sh'
+[3.841s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.bash'
+[3.841s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.zsh'
+[3.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/tracetools_image_pipeline/share/colcon-core/packages/tracetools_image_pipeline)
+[3.845s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/libuvc': /usr/bin/cmake --install /SLAM/ros_ws/build/libuvc
+[3.863s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libuvc)
+[3.864s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/libuvc' returned '0': /usr/bin/cmake --install /SLAM/ros_ws/build/libuvc
+[3.882s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/libuvc' for CMake module files
+[3.883s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'cmake_module_path')
+[3.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/cmake_module_path.ps1'
+[3.903s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/cmake_module_path.dsv'
+[3.903s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/cmake_module_path.sh'
+[3.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'cmake_module_path1')
+[3.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/cmake_module_path1.ps1'
+[3.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/cmake_module_path1.dsv'
+[3.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/cmake_module_path1.sh'
+[3.925s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/libuvc' for CMake config files
+[3.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'cmake_prefix_path')
+[3.943s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/cmake_prefix_path.ps1'
+[3.944s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/cmake_prefix_path.dsv'
+[3.944s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/cmake_prefix_path.sh'
+[3.945s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/libuvc/lib'
+[3.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'ld_library_path_lib')
+[3.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/ld_library_path_lib.ps1'
+[3.962s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/ld_library_path_lib.dsv'
+[3.962s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/ld_library_path_lib.sh'
+[3.963s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/libuvc/bin'
+[3.963s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/libuvc/lib/pkgconfig/libuvc.pc'
+[3.963s] Level 1:colcon.colcon_core.shell:create_environment_hook('libuvc', 'pkg_config')
+[3.980s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/pkg_config.ps1'
+[3.981s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/pkg_config.dsv'
+[3.981s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/libuvc/share/libuvc/hook/pkg_config.sh'
+[3.982s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/libuvc/lib/python3.10/site-packages'
+[3.982s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/libuvc/bin'
+[3.999s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/libuvc/share/libuvc/package.ps1'
+[4.000s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/libuvc/share/libuvc/package.dsv'
+[4.001s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/libuvc/share/libuvc/package.sh'
+[4.001s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/libuvc/share/libuvc/package.bash'
+[4.002s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/libuvc/share/libuvc/package.zsh'
+[4.002s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/libuvc/share/colcon-core/packages/libuvc)
+[4.020s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tracetools_image_pipeline)
+[4.034s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/tracetools_image_pipeline' for CMake module files
+[4.035s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/tracetools_image_pipeline' for CMake config files
+[4.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'cmake_prefix_path')
+[4.050s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.ps1'
+[4.051s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.dsv'
+[4.051s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/cmake_prefix_path.sh'
+[4.051s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/tracetools_image_pipeline/lib'
+[4.051s] Level 1:colcon.colcon_core.shell:create_environment_hook('tracetools_image_pipeline', 'ld_library_path_lib')
+[4.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.ps1'
+[4.064s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.dsv'
+[4.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/hook/ld_library_path_lib.sh'
+[4.065s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/tracetools_image_pipeline/bin'
+[4.065s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/tracetools_image_pipeline/lib/pkgconfig/tracetools_image_pipeline.pc'
+[4.065s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/tracetools_image_pipeline/lib/python3.10/site-packages'
+[4.066s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/tracetools_image_pipeline/bin'
+[4.077s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.ps1'
+[4.078s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv'
+[4.078s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.sh'
+[4.079s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.bash'
+[4.079s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.zsh'
+[4.079s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/tracetools_image_pipeline/share/colcon-core/packages/tracetools_image_pipeline)
+[4.080s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/SLAM/ros_ws/src/image_pipeline/image_proc' with build type 'ament_cmake'
+[4.080s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/SLAM/ros_ws/src/image_pipeline/image_proc'
+[4.095s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.095s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/image_proc': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_proc -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_proc
+[4.557s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/sllidar_ros2
+[4.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/sllidar_ros2 -- -j16 -l16
+[4.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_publisher -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_publisher
+[4.683s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_publisher -- -j16 -l16
+[5.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/ros_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/astra_camera_msgs
+[5.425s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/astra_camera_msgs -- -j16 -l16
+[5.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_view -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_view
+[5.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/image_view': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_view -- -j16 -l16
+[6.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/orbbec_camera_msgs
+[6.107s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/orbbec_camera_msgs -- -j16 -l16
+[6.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_rotate
+[6.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_rotate -- -j16 -l16
+[6.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/depth_image_proc -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/depth_image_proc
+[6.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/depth_image_proc -- -j16 -l16
+[11.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/image_proc' returned '0': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_proc -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_proc
+[11.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/image_proc': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /SLAM/ros_ws/build/image_proc -- -j16 -l16
+[25.197s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/astra_camera_msgs -- -j16 -l16
+[26.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/orbbec_camera_msgs -- -j16 -l16
+[28.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/astra_camera_msgs
+[28.625s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/orbbec_camera_msgs
+[28.639s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera_msgs)
+[28.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/astra_camera_msgs
+[28.763s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera_msgs' for CMake module files
+[28.764s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera_msgs' for CMake config files
+[28.768s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'cmake_prefix_path')
+[28.793s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.ps1'
+[28.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.dsv'
+[28.795s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.sh'
+[28.796s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera_msgs/lib'
+[28.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'ld_library_path_lib')
+[28.816s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.ps1'
+[28.816s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.dsv'
+[28.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.sh'
+[28.818s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera_msgs/bin'
+[28.818s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera_msgs/lib/pkgconfig/astra_camera_msgs.pc'
+[28.818s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera_msgs/lib/python3.10/site-packages'
+[28.819s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera_msgs/bin'
+[28.836s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.ps1'
+[28.837s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv'
+[28.838s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.sh'
+[28.839s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.bash'
+[28.840s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.zsh'
+[28.841s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/astra_camera_msgs/share/colcon-core/packages/astra_camera_msgs)
+[28.954s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera_msgs)
+[28.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/orbbec_camera_msgs
+[28.972s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_camera_msgs' for CMake module files
+[28.973s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_camera_msgs' for CMake config files
+[28.975s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'cmake_prefix_path')
+[28.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.ps1'
+[28.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.dsv'
+[28.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.sh'
+[28.996s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_camera_msgs/lib'
+[28.996s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'ld_library_path_lib')
+[29.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.ps1'
+[29.019s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.dsv'
+[29.019s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.sh'
+[29.020s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_camera_msgs/bin'
+[29.020s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_camera_msgs/lib/pkgconfig/orbbec_camera_msgs.pc'
+[29.020s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_camera_msgs/lib/python3.10/site-packages'
+[29.020s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_camera_msgs/bin'
+[29.040s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.ps1'
+[29.041s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv'
+[29.041s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.sh'
+[29.042s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.bash'
+[29.042s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.zsh'
+[29.043s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/orbbec_camera_msgs/share/colcon-core/packages/orbbec_camera_msgs)
+[29.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/sllidar_ros2 -- -j16 -l16
+[29.552s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera_msgs)
+[29.573s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera_msgs' for CMake module files
+[29.574s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera_msgs' for CMake config files
+[29.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'cmake_prefix_path')
+[29.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.ps1'
+[29.600s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.dsv'
+[29.601s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/cmake_prefix_path.sh'
+[29.602s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera_msgs/lib'
+[29.602s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera_msgs', 'ld_library_path_lib')
+[29.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.ps1'
+[29.626s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.dsv'
+[29.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/hook/ld_library_path_lib.sh'
+[29.629s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera_msgs/bin'
+[29.629s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera_msgs/lib/pkgconfig/astra_camera_msgs.pc'
+[29.630s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera_msgs/lib/python3.10/site-packages'
+[29.630s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera_msgs/bin'
+[29.651s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.ps1'
+[29.652s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv'
+[29.653s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.sh'
+[29.654s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.bash'
+[29.656s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.zsh'
+[29.657s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/astra_camera_msgs/share/colcon-core/packages/astra_camera_msgs)
+[29.696s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/sllidar_ros2
+[29.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[29.737s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/sllidar_ros2
+[29.741s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/sllidar_ros2' for CMake module files
+[29.742s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/sllidar_ros2' for CMake config files
+[29.743s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[29.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[29.763s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[29.764s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[29.765s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/sllidar_ros2/lib'
+[29.766s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/sllidar_ros2/bin'
+[29.766s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[29.766s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[29.767s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/sllidar_ros2/bin'
+[29.787s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[29.788s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[29.788s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[29.789s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[29.789s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[29.790s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[29.816s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbbec_camera_msgs)
+[29.831s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_camera_msgs' for CMake module files
+[29.832s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_camera_msgs' for CMake config files
+[29.834s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'cmake_prefix_path')
+[29.853s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.ps1'
+[29.854s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.dsv'
+[29.854s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/cmake_prefix_path.sh'
+[29.855s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_camera_msgs/lib'
+[29.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbbec_camera_msgs', 'ld_library_path_lib')
+[29.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.ps1'
+[29.880s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.dsv'
+[29.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/hook/ld_library_path_lib.sh'
+[29.881s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_camera_msgs/bin'
+[29.881s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_camera_msgs/lib/pkgconfig/orbbec_camera_msgs.pc'
+[29.884s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_camera_msgs/lib/python3.10/site-packages'
+[29.885s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/orbbec_camera_msgs/bin'
+[29.912s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.ps1'
+[29.913s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.dsv'
+[29.915s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.sh'
+[29.916s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.bash'
+[29.917s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/orbbec_camera_msgs/share/orbbec_camera_msgs/package.zsh'
+[29.918s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/orbbec_camera_msgs/share/colcon-core/packages/orbbec_camera_msgs)
+[29.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[30.018s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/sllidar_ros2' for CMake module files
+[30.019s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/sllidar_ros2' for CMake config files
+[30.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[30.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[30.042s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[30.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[30.045s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/sllidar_ros2/lib'
+[30.045s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/sllidar_ros2/bin'
+[30.045s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[30.046s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/sllidar_ros2/lib/python3.10/site-packages'
+[30.046s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/sllidar_ros2/bin'
+[30.069s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[30.071s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[30.072s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[30.074s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[30.075s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[30.076s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[31.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_publisher -- -j16 -l16
+[31.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/image_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_publisher
+[31.820s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_publisher)
+[31.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_publisher
+[31.835s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_publisher' for CMake module files
+[31.836s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_publisher' for CMake config files
+[31.836s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'cmake_prefix_path')
+[31.850s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.ps1'
+[31.850s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.dsv'
+[31.851s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.sh'
+[31.851s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_publisher/lib'
+[31.852s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'ld_library_path_lib')
+[31.870s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.ps1'
+[31.871s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.dsv'
+[31.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.sh'
+[31.872s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_publisher/bin'
+[31.873s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_publisher/lib/pkgconfig/image_publisher.pc'
+[31.873s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_publisher/lib/python3.10/site-packages'
+[31.873s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_publisher/bin'
+[31.886s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_publisher/share/image_publisher/package.ps1'
+[31.887s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/image_publisher/share/image_publisher/package.dsv'
+[31.888s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_publisher/share/image_publisher/package.sh'
+[31.888s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_publisher/share/image_publisher/package.bash'
+[31.888s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_publisher/share/image_publisher/package.zsh'
+[31.889s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/image_publisher/share/colcon-core/packages/image_publisher)
+[31.961s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_publisher)
+[31.984s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_publisher' for CMake module files
+[31.985s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_publisher' for CMake config files
+[31.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'cmake_prefix_path')
+[32.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.ps1'
+[32.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.dsv'
+[32.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_publisher/share/image_publisher/hook/cmake_prefix_path.sh'
+[32.010s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_publisher/lib'
+[32.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_publisher', 'ld_library_path_lib')
+[32.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.ps1'
+[32.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.dsv'
+[32.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_publisher/share/image_publisher/hook/ld_library_path_lib.sh'
+[32.034s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_publisher/bin'
+[32.034s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_publisher/lib/pkgconfig/image_publisher.pc'
+[32.034s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_publisher/lib/python3.10/site-packages'
+[32.035s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_publisher/bin'
+[32.057s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_publisher/share/image_publisher/package.ps1'
+[32.058s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/image_publisher/share/image_publisher/package.dsv'
+[32.059s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_publisher/share/image_publisher/package.sh'
+[32.060s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_publisher/share/image_publisher/package.bash'
+[32.061s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_publisher/share/image_publisher/package.zsh'
+[32.061s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/image_publisher/share/colcon-core/packages/image_publisher)
+[32.063s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/SLAM/ros_ws/src/ros_astra_camera/astra_camera' with build type 'ament_cmake'
+[32.063s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/SLAM/ros_ws/src/ros_astra_camera/astra_camera'
+[32.084s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[32.084s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.162s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_camera' with build type 'ament_cmake'
+[32.163s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_camera'
+[32.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[32.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[32.266s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/astra_camera': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /SLAM/ros_ws/src/ros_astra_camera/astra_camera -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/astra_camera
+[32.282s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/orbbec_camera': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_camera -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/orbbec_camera
+[35.483s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_rotate -- -j16 -l16
+[35.552s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/SLAM/ros_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_rotate
+[35.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_rotate)
+[35.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_rotate
+[35.607s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_rotate' for CMake module files
+[35.608s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_rotate' for CMake config files
+[35.609s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_rotate', 'cmake_prefix_path')
+[35.632s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_rotate/share/image_rotate/hook/cmake_prefix_path.ps1'
+[35.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/image_rotate/share/image_rotate/hook/cmake_prefix_path.dsv'
+[35.633s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_rotate/share/image_rotate/hook/cmake_prefix_path.sh'
+[35.634s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_rotate/lib'
+[35.634s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_rotate', 'ld_library_path_lib')
+[35.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_rotate/share/image_rotate/hook/ld_library_path_lib.ps1'
+[35.656s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/image_rotate/share/image_rotate/hook/ld_library_path_lib.dsv'
+[35.657s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_rotate/share/image_rotate/hook/ld_library_path_lib.sh'
+[35.657s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_rotate/bin'
+[35.657s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_rotate/lib/pkgconfig/image_rotate.pc'
+[35.658s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_rotate/lib/python3.10/site-packages'
+[35.658s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_rotate/bin'
+[35.676s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_rotate/share/image_rotate/package.ps1'
+[35.677s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/image_rotate/share/image_rotate/package.dsv'
+[35.677s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_rotate/share/image_rotate/package.sh'
+[35.678s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_rotate/share/image_rotate/package.bash'
+[35.679s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_rotate/share/image_rotate/package.zsh'
+[35.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/image_rotate/share/colcon-core/packages/image_rotate)
+[35.766s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(image_rotate)
+[35.781s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_rotate' for CMake module files
+[35.782s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_rotate' for CMake config files
+[35.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_rotate', 'cmake_prefix_path')
+[35.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_rotate/share/image_rotate/hook/cmake_prefix_path.ps1'
+[35.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/image_rotate/share/image_rotate/hook/cmake_prefix_path.dsv'
+[35.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_rotate/share/image_rotate/hook/cmake_prefix_path.sh'
+[35.798s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_rotate/lib'
+[35.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('image_rotate', 'ld_library_path_lib')
+[35.817s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_rotate/share/image_rotate/hook/ld_library_path_lib.ps1'
+[35.818s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/image_rotate/share/image_rotate/hook/ld_library_path_lib.dsv'
+[35.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/image_rotate/share/image_rotate/hook/ld_library_path_lib.sh'
+[35.819s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_rotate/bin'
+[35.819s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_rotate/lib/pkgconfig/image_rotate.pc'
+[35.819s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_rotate/lib/python3.10/site-packages'
+[35.819s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/image_rotate/bin'
+[35.836s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_rotate/share/image_rotate/package.ps1'
+[35.836s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/image_rotate/share/image_rotate/package.dsv'
+[35.838s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_rotate/share/image_rotate/package.sh'
+[35.838s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_rotate/share/image_rotate/package.bash'
+[35.839s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/image_rotate/share/image_rotate/package.zsh'
+[35.839s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/image_rotate/share/colcon-core/packages/image_rotate)
+[36.969s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/SLAM/ros_ws/build/astra_camera' returned '1': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /SLAM/ros_ws/src/ros_astra_camera/astra_camera -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/astra_camera
+[36.988s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(astra_camera)
+[37.001s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera' for CMake module files
+[37.002s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera' for CMake config files
+[37.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'cmake_prefix_path')
+[37.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.ps1'
+[37.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.dsv'
+[37.017s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/astra_camera/share/astra_camera/hook/cmake_prefix_path.sh'
+[37.018s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera/lib'
+[37.018s] Level 1:colcon.colcon_core.shell:create_environment_hook('astra_camera', 'ld_library_path_lib')
+[37.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.ps1'
+[37.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/SLAM/ros_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.dsv'
+[37.033s] INFO:colcon.colcon_core.shell:Creating environment hook '/SLAM/ros_ws/install/astra_camera/share/astra_camera/hook/ld_library_path_lib.sh'
+[37.033s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera/bin'
+[37.033s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera/lib/pkgconfig/astra_camera.pc'
+[37.034s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera/lib/python3.10/site-packages'
+[37.034s] Level 1:colcon.colcon_core.environment:checking '/SLAM/ros_ws/install/astra_camera/bin'
+[37.047s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/astra_camera/share/astra_camera/package.ps1'
+[37.047s] INFO:colcon.colcon_core.shell:Creating package descriptor '/SLAM/ros_ws/install/astra_camera/share/astra_camera/package.dsv'
+[37.048s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/astra_camera/share/astra_camera/package.sh'
+[37.048s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/astra_camera/share/astra_camera/package.bash'
+[37.049s] INFO:colcon.colcon_core.shell:Creating package script '/SLAM/ros_ws/install/astra_camera/share/astra_camera/package.zsh'
+[37.049s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/SLAM/ros_ws/install/astra_camera/share/colcon-core/packages/astra_camera)
+[52.906s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[52.907s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[52.907s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[52.907s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[52.925s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[52.925s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[52.925s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[52.925s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[52.941s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[52.941s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[52.953s] INFO:colcon.colcon_core.shell:Creating prefix script '/SLAM/ros_ws/install/local_setup.ps1'
+[52.954s] INFO:colcon.colcon_core.shell:Creating prefix util module '/SLAM/ros_ws/install/_local_setup_util_ps1.py'
+[52.955s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/SLAM/ros_ws/install/setup.ps1'
+[52.966s] INFO:colcon.colcon_core.shell:Creating prefix script '/SLAM/ros_ws/install/local_setup.sh'
+[52.967s] INFO:colcon.colcon_core.shell:Creating prefix util module '/SLAM/ros_ws/install/_local_setup_util_sh.py'
+[52.967s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/SLAM/ros_ws/install/setup.sh'
+[52.979s] INFO:colcon.colcon_core.shell:Creating prefix script '/SLAM/ros_ws/install/local_setup.bash'
+[52.979s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/SLAM/ros_ws/install/setup.bash'
+[52.991s] INFO:colcon.colcon_core.shell:Creating prefix script '/SLAM/ros_ws/install/local_setup.zsh'
+[52.991s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/SLAM/ros_ws/install/setup.zsh'

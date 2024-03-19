@@ -1,0 +1,677 @@
+[0.000000] (-) TimerEvent: {}
+[0.000152] (astra_camera_msgs) JobQueued: {'identifier': 'astra_camera_msgs', 'dependencies': OrderedDict()}
+[0.000192] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.000362] (astra_camera) JobQueued: {'identifier': 'astra_camera', 'dependencies': OrderedDict([('astra_camera_msgs', '/SLAM/ros_ws/install/astra_camera_msgs')])}
+[0.000494] (astra_camera_msgs) JobStarted: {'identifier': 'astra_camera_msgs'}
+[0.038968] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.074471] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'cmake'}
+[0.074688] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/ros2_astra_camera/astra_camera_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/astra_camera_msgs'], 'cwd': '/SLAM/ros_ws/build/astra_camera_msgs', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM/ros_ws/src/sllidar_ros2'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7a8f63e0-e012-4be7-b4c3-074d0f4230a8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock","/tmp/.X11-unix/X10","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-b0d69a0cdc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X10'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/astra_camera_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.077173] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.077942] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/sllidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/sllidar_ros2'], 'cwd': '/SLAM/ros_ws/build/sllidar_ros2', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM/ros_ws/src/sllidar_ros2'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7a8f63e0-e012-4be7-b4c3-074d0f4230a8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock","/tmp/.X11-unix/X10","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-b0d69a0cdc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X10'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/sllidar_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.089266] (sllidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099267] (-) TimerEvent: {}
+[0.128537] (astra_camera_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.176618] (astra_camera_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.183293] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199747] (-) TimerEvent: {}
+[0.200786] (sllidar_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.208528] (sllidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.235814] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.238041] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.243355] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.249170] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.252680] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.254386] (astra_camera_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.254620] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.254947] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.257634] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.265958] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299853] (-) TimerEvent: {}
+[0.314131] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.315394] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.332659] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.338085] (astra_camera_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.338282] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.338639] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.341581] (astra_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400488] (-) TimerEvent: {}
+[0.447179] (sllidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.481171] (astra_camera_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.500968] (-) TimerEvent: {}
+[0.533497] (astra_camera_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.566052] (astra_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.568745] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.572100] (sllidar_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.575900] (astra_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.601291] (-) TimerEvent: {}
+[0.616850] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.652158] (astra_camera_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.669904] (sllidar_ros2) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[0.702087] (-) TimerEvent: {}
+[0.740253] (sllidar_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.755444] (sllidar_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[0.757024] (sllidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /SLAM/ros_ws/build/sllidar_ros2\n'}
+[0.762957] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.763507] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.764146] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/sllidar_ros2', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/sllidar_ros2', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM/ros_ws/src/sllidar_ros2'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7a8f63e0-e012-4be7-b4c3-074d0f4230a8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock","/tmp/.X11-unix/X10","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-b0d69a0cdc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X10'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/sllidar_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.802192] (-) TimerEvent: {}
+[0.806868] (sllidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sllidar_client\x1b[0m\n'}
+[0.809665] (sllidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sllidar_node\x1b[0m\n'}
+[0.832667] (sllidar_ros2) StdoutLine: {'line': b'[  5%] \x1b[32m\x1b[1mLinking CXX executable sllidar_client\x1b[0m\n'}
+[0.851388] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX executable sllidar_node\x1b[0m\n'}
+[0.902301] (-) TimerEvent: {}
+[1.002577] (-) TimerEvent: {}
+[1.099377] (sllidar_ros2) StdoutLine: {'line': b'[ 95%] Built target sllidar_node\n'}
+[1.102646] (-) TimerEvent: {}
+[1.127478] (astra_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.146123] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_client\n'}
+[1.157359] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[1.202779] (-) TimerEvent: {}
+[1.228496] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[1.237231] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/sllidar_ros2'], 'cwd': '/SLAM/ros_ws/build/sllidar_ros2', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM/ros_ws/src/sllidar_ros2'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7a8f63e0-e012-4be7-b4c3-074d0f4230a8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock","/tmp/.X11-unix/X10","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-b0d69a0cdc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X10'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/sllidar_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.244839] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.245241] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.245755] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[1.254521] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[1.263584] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[1.272353] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[1.281287] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[1.290436] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[1.299417] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[1.302850] (-) TimerEvent: {}
+[1.308168] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[1.318022] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[1.327088] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[1.336211] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[1.345042] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[1.354057] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[1.362798] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[1.370924] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.371670] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[1.380453] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[1.389096] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[1.397318] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[1.402934] (-) TimerEvent: {}
+[1.405487] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[1.415058] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[1.425242] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[1.434503] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[1.443345] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[1.452030] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[1.460656] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[1.469308] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[1.477917] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[1.488333] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[1.497900] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[1.503020] (-) TimerEvent: {}
+[1.506682] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[1.516540] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[1.526926] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[1.536928] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[1.545663] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[1.553824] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[1.562040] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[1.570680] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[1.579230] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[1.587965] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[1.596788] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.603105] (-) TimerEvent: {}
+[1.606189] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.615553] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[1.625609] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[1.634410] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[1.645031] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[1.675970] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.693904] (astra_camera_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.695803] (astra_camera_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.703183] (-) TimerEvent: {}
+[1.717326] (astra_camera_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.717509] (astra_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.717569] (astra_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.717623] (astra_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.735127] (astra_camera_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.803303] (-) TimerEvent: {}
+[1.818420] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[1.818800] (astra_camera_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.844583] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.903392] (-) TimerEvent: {}
+[1.939691] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.940128] (astra_camera_msgs) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.940228] (astra_camera_msgs) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.003500] (-) TimerEvent: {}
+[2.035224] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.035408] (astra_camera_msgs) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.047519] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.070999] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.083557] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.103570] (-) TimerEvent: {}
+[2.176527] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.176706] (astra_camera_msgs) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.188464] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.192019] (astra_camera_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.203653] (-) TimerEvent: {}
+[2.239152] (astra_camera_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.241664] (astra_camera_msgs) StdoutLine: {'line': b'-- Build files have been written to: /SLAM/ros_ws/build/astra_camera_msgs\n'}
+[2.249491] (astra_camera_msgs) CommandEnded: {'returncode': 0}
+[2.249955] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'build'}
+[2.250300] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/astra_camera_msgs', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/astra_camera_msgs', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM/ros_ws/src/sllidar_ros2'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7a8f63e0-e012-4be7-b4c3-074d0f4230a8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock","/tmp/.X11-unix/X10","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-b0d69a0cdc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X10'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/astra_camera_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.294360] (astra_camera_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.303769] (-) TimerEvent: {}
+[2.304321] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[2.312164] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_astra_camera_msgs\n'}
+[2.403872] (-) TimerEvent: {}
+[2.497897] (astra_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[2.498378] (astra_camera_msgs) StdoutLine: {'line': b'creating astra_camera_msgs.egg-info\n'}
+[2.498514] (astra_camera_msgs) StdoutLine: {'line': b'writing astra_camera_msgs.egg-info/PKG-INFO\n'}
+[2.498685] (astra_camera_msgs) StdoutLine: {'line': b'writing dependency_links to astra_camera_msgs.egg-info/dependency_links.txt\n'}
+[2.498859] (astra_camera_msgs) StdoutLine: {'line': b'writing top-level names to astra_camera_msgs.egg-info/top_level.txt\n'}
+[2.499010] (astra_camera_msgs) StdoutLine: {'line': b"writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[2.500447] (astra_camera_msgs) StdoutLine: {'line': b"reading manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[2.500881] (astra_camera_msgs) StdoutLine: {'line': b"writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[2.503949] (-) TimerEvent: {}
+[2.526410] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_astra_camera_msgs_egg\n'}
+[2.604054] (-) TimerEvent: {}
+[2.704740] (-) TimerEvent: {}
+[2.804991] (-) TimerEvent: {}
+[2.893089] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] Built target astra_camera_msgs__cpp\n'}
+[2.905123] (-) TimerEvent: {}
+[2.906805] (astra_camera_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.907011] (astra_camera_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.907118] (astra_camera_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.945176] (astra_camera_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_string__functions.c.o\x1b[0m\n'}
+[2.945489] (astra_camera_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_device_info__functions.c.o\x1b[0m\n'}
+[2.945616] (astra_camera_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/extrinsics__functions.c.o\x1b[0m\n'}
+[2.945719] (astra_camera_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/metadata__functions.c.o\x1b[0m\n'}
+[2.945853] (astra_camera_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/device_info__functions.c.o\x1b[0m\n'}
+[2.946094] (astra_camera_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_info__functions.c.o\x1b[0m\n'}
+[2.946336] (astra_camera_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_params__functions.c.o\x1b[0m\n'}
+[2.947153] (astra_camera_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/set_int32__functions.c.o\x1b[0m\n'}
+[2.947307] (astra_camera_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_int32__functions.c.o\x1b[0m\n'}
+[3.005219] (-) TimerEvent: {}
+[3.019497] (astra_camera_msgs) StdoutLine: {'line': b'[ 15%] \x1b[32m\x1b[1mLinking C shared library libastra_camera_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[3.060081] (astra_camera_msgs) StdoutLine: {'line': b'[ 15%] Built target astra_camera_msgs__rosidl_generator_c\n'}
+[3.071373] (astra_camera_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.071614] (astra_camera_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.071727] (astra_camera_msgs) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.105311] (-) TimerEvent: {}
+[3.205582] (-) TimerEvent: {}
+[3.305876] (-) TimerEvent: {}
+[3.346793] (astra_camera_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/metadata__type_support.cpp.o\x1b[0m\n'}
+[3.347285] (astra_camera_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[3.347759] (astra_camera_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[3.348411] (astra_camera_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/set_int32__type_support.cpp.o\x1b[0m\n'}
+[3.348561] (astra_camera_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_string__type_support.cpp.o\x1b[0m\n'}
+[3.348974] (astra_camera_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_int32__type_support.cpp.o\x1b[0m\n'}
+[3.349664] (astra_camera_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[3.349812] (astra_camera_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[3.349984] (astra_camera_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/device_info__type_support.cpp.o\x1b[0m\n'}
+[3.405975] (-) TimerEvent: {}
+[3.506310] (-) TimerEvent: {}
+[3.565210] (astra_camera_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[3.565512] (astra_camera_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/device_info__type_support.cpp.o\x1b[0m\n'}
+[3.579718] (astra_camera_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/metadata__type_support.cpp.o\x1b[0m\n'}
+[3.606435] (-) TimerEvent: {}
+[3.698256] (astra_camera_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/device_info__type_support.cpp.o\x1b[0m\n'}
+[3.706550] (-) TimerEvent: {}
+[3.752128] (astra_camera_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[3.757053] (astra_camera_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/metadata__type_support.cpp.o\x1b[0m\n'}
+[3.758293] (astra_camera_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[3.766960] (astra_camera_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[3.769895] (astra_camera_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[3.770647] (astra_camera_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[3.772173] (astra_camera_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[3.778075] (astra_camera_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_int32__type_support.cpp.o\x1b[0m\n'}
+[3.778387] (astra_camera_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[3.794766] (astra_camera_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.806671] (-) TimerEvent: {}
+[3.823953] (astra_camera_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_string__type_support.cpp.o\x1b[0m\n'}
+[3.833302] (astra_camera_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_int32__type_support.cpp.o\x1b[0m\n'}
+[3.834178] (astra_camera_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/set_int32__type_support.cpp.o\x1b[0m\n'}
+[3.866278] (astra_camera_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_string__type_support.cpp.o\x1b[0m\n'}
+[3.867887] (astra_camera_msgs) StdoutLine: {'line': b'[ 47%] Built target astra_camera_msgs__rosidl_typesupport_cpp\n'}
+[3.871359] (astra_camera_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/device_info__type_support.cpp.o\x1b[0m\n'}
+[3.880044] (astra_camera_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[3.880778] (astra_camera_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/set_int32__type_support.cpp.o\x1b[0m\n'}
+[3.886845] (astra_camera_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.898275] (astra_camera_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o\x1b[0m\n'}
+[3.906803] (-) TimerEvent: {}
+[3.926432] (astra_camera_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[3.964110] (astra_camera_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/device_info__type_support.c.o\x1b[0m\n'}
+[3.967950] (astra_camera_msgs) StdoutLine: {'line': b'[ 54%] Built target astra_camera_msgs__rosidl_typesupport_c\n'}
+[3.983091] (astra_camera_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[4.006946] (-) TimerEvent: {}
+[4.032704] (astra_camera_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/extrinsics__type_support.c.o\x1b[0m\n'}
+[4.101024] (astra_camera_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/device_info__type_support_c.cpp.o\x1b[0m\n'}
+[4.106467] (astra_camera_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/metadata__type_support.c.o\x1b[0m\n'}
+[4.107207] (-) TimerEvent: {}
+[4.140179] (astra_camera_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_device_info__type_support.c.o\x1b[0m\n'}
+[4.191716] (astra_camera_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_camera_info__type_support.c.o\x1b[0m\n'}
+[4.194776] (astra_camera_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_camera_params__type_support.c.o\x1b[0m\n'}
+[4.203296] (astra_camera_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_int32__type_support.c.o\x1b[0m\n'}
+[4.207343] (-) TimerEvent: {}
+[4.209629] (astra_camera_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_string__type_support.c.o\x1b[0m\n'}
+[4.269407] (astra_camera_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/set_int32__type_support.c.o\x1b[0m\n'}
+[4.270300] (astra_camera_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o\x1b[0m\n'}
+[4.276952] (astra_camera_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/metadata__type_support_c.cpp.o\x1b[0m\n'}
+[4.284028] (astra_camera_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_device_info__type_support_c.cpp.o\x1b[0m\n'}
+[4.307484] (-) TimerEvent: {}
+[4.346996] (astra_camera_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking C shared library libastra_camera_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.355705] (astra_camera_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_camera_info__type_support_c.cpp.o\x1b[0m\n'}
+[4.383859] (astra_camera_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_camera_params__type_support_c.cpp.o\x1b[0m\n'}
+[4.395136] (astra_camera_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_int32__type_support_c.cpp.o\x1b[0m\n'}
+[4.407619] (-) TimerEvent: {}
+[4.414576] (astra_camera_msgs) StdoutLine: {'line': b'[ 72%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[4.431116] (astra_camera_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_string__type_support_c.cpp.o\x1b[0m\n'}
+[4.431451] (astra_camera_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[4.459181] (astra_camera_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_int32__type_support.cpp.o\x1b[0m\n'}
+[4.470073] (astra_camera_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[4.491133] (astra_camera_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_string__type_support.cpp.o\x1b[0m\n'}
+[4.507748] (-) TimerEvent: {}
+[4.528343] (astra_camera_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/set_int32__type_support.cpp.o\x1b[0m\n'}
+[4.545815] (astra_camera_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/set_int32__type_support_c.cpp.o\x1b[0m\n'}
+[4.607876] (-) TimerEvent: {}
+[4.644946] (astra_camera_msgs) StdoutLine: {'line': b'[ 80%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[4.708034] (-) TimerEvent: {}
+[4.808471] (-) TimerEvent: {}
+[4.908860] (-) TimerEvent: {}
+[4.995386] (astra_camera_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.006108] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.008936] (-) TimerEvent: {}
+[5.071125] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.080275] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[5.100554] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] Built target astra_camera_msgs\n'}
+[5.109025] (-) TimerEvent: {}
+[5.121886] (astra_camera_msgs) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.209131] (-) TimerEvent: {}
+[5.309385] (-) TimerEvent: {}
+[5.409627] (-) TimerEvent: {}
+[5.510035] (-) TimerEvent: {}
+[5.610283] (-) TimerEvent: {}
+[5.710528] (-) TimerEvent: {}
+[5.810770] (-) TimerEvent: {}
+[5.911026] (-) TimerEvent: {}
+[6.011275] (-) TimerEvent: {}
+[6.111520] (-) TimerEvent: {}
+[6.184985] (astra_camera_msgs) StdoutLine: {'line': b'[ 83%] Built target astra_camera_msgs__py\n'}
+[6.206018] (astra_camera_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_extrinsics_s.c.o\x1b[0m\n'}
+[6.206324] (astra_camera_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_device_info_s.c.o\x1b[0m\n'}
+[6.206428] (astra_camera_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_metadata_s.c.o\x1b[0m\n'}
+[6.206501] (astra_camera_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_device_info_s.c.o\x1b[0m\n'}
+[6.206569] (astra_camera_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_camera_params_s.c.o\x1b[0m\n'}
+[6.206637] (astra_camera_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_camera_info_s.c.o\x1b[0m\n'}
+[6.206703] (astra_camera_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_string_s.c.o\x1b[0m\n'}
+[6.206772] (astra_camera_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_int32_s.c.o\x1b[0m\n'}
+[6.208367] (astra_camera_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_set_int32_s.c.o\x1b[0m\n'}
+[6.211662] (-) TimerEvent: {}
+[6.312068] (-) TimerEvent: {}
+[6.349857] (astra_camera_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/libastra_camera_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[6.390963] (astra_camera_msgs) StdoutLine: {'line': b'[ 93%] Built target astra_camera_msgs__rosidl_generator_py\n'}
+[6.411397] (astra_camera_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.411614] (astra_camera_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.411704] (astra_camera_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.412138] (-) TimerEvent: {}
+[6.512374] (-) TimerEvent: {}
+[6.540482] (astra_camera_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.540698] (astra_camera_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.540788] (astra_camera_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.582427] (astra_camera_msgs) StdoutLine: {'line': b'[100%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.582619] (astra_camera_msgs) StdoutLine: {'line': b'[100%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.582697] (astra_camera_msgs) StdoutLine: {'line': b'[100%] Built target astra_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[6.596481] (astra_camera_msgs) CommandEnded: {'returncode': 0}
+[6.612457] (-) TimerEvent: {}
+[6.712658] (-) TimerEvent: {}
+[6.812887] (-) TimerEvent: {}
+[6.826509] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'install'}
+[6.826766] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/astra_camera_msgs'], 'cwd': '/SLAM/ros_ws/build/astra_camera_msgs', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM/ros_ws/src/sllidar_ros2'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7a8f63e0-e012-4be7-b4c3-074d0f4230a8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock","/tmp/.X11-unix/X10","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-b0d69a0cdc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X10'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/astra_camera_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[6.834914] (astra_camera_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.835478] (astra_camera_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.835636] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/astra_camera_msgs\n'}
+[6.845352] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.h\n'}
+[6.853982] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.h\n'}
+[6.862207] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.h\n'}
+[6.870137] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.h\n'}
+[6.877919] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.h\n'}
+[6.885598] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.h\n'}
+[6.893532] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.h\n'}
+[6.901221] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.h\n'}
+[6.908860] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.h\n'}
+[6.912963] (-) TimerEvent: {}
+[6.916698] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.h\n'}
+[6.925782] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.h\n'}
+[6.935012] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.h\n'}
+[6.943885] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.952177] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.h\n'}
+[6.960164] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.h\n'}
+[6.968212] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.h\n'}
+[6.975980] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.h\n'}
+[6.984063] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.h\n'}
+[6.991780] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.h\n'}
+[6.999423] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.h\n'}
+[7.007061] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.h\n'}
+[7.013048] (-) TimerEvent: {}
+[7.014838] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.h\n'}
+[7.023470] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.h\n'}
+[7.033058] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.h\n'}
+[7.041543] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.h\n'}
+[7.049492] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.h\n'}
+[7.057116] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.h\n'}
+[7.064739] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.h\n'}
+[7.072502] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.h\n'}
+[7.080219] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.h\n'}
+[7.088334] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.h\n'}
+[7.096343] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.h\n'}
+[7.104267] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.h\n'}
+[7.112324] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.h\n'}
+[7.113127] (-) TimerEvent: {}
+[7.120333] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.h\n'}
+[7.130086] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.h\n'}
+[7.138676] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.h\n'}
+[7.147945] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.sh\n'}
+[7.156069] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.dsv\n'}
+[7.165473] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[7.174292] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h\n'}
+[7.182441] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h\n'}
+[7.190488] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.198225] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h\n'}
+[7.205960] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_c.h\n'}
+[7.213215] (-) TimerEvent: {}
+[7.213518] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[7.221798] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h\n'}
+[7.231274] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h\n'}
+[7.239763] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h\n'}
+[7.249152] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h\n'}
+[7.256602] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h\n'}
+[7.264742] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h\n'}
+[7.272689] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.280531] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h\n'}
+[7.288694] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_c.h\n'}
+[7.297669] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h\n'}
+[7.306013] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h\n'}
+[7.313307] (-) TimerEvent: {}
+[7.314310] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h\n'}
+[7.322891] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h\n'}
+[7.333144] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__builder.hpp\n'}
+[7.342055] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.hpp\n'}
+[7.351241] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__traits.hpp\n'}
+[7.360494] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__builder.hpp\n'}
+[7.368656] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.hpp\n'}
+[7.376531] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__traits.hpp\n'}
+[7.384357] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__builder.hpp\n'}
+[7.392289] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.hpp\n'}
+[7.400184] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__traits.hpp\n'}
+[7.407991] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.hpp\n'}
+[7.413387] (-) TimerEvent: {}
+[7.415907] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.hpp\n'}
+[7.424766] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.hpp\n'}
+[7.434828] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__builder.hpp\n'}
+[7.443894] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.hpp\n'}
+[7.453001] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__traits.hpp\n'}
+[7.461271] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__builder.hpp\n'}
+[7.470434] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.hpp\n'}
+[7.479906] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__traits.hpp\n'}
+[7.488342] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__builder.hpp\n'}
+[7.496433] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.hpp\n'}
+[7.504683] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__traits.hpp\n'}
+[7.512526] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__builder.hpp\n'}
+[7.513469] (-) TimerEvent: {}
+[7.520827] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.hpp\n'}
+[7.530479] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__traits.hpp\n'}
+[7.539272] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__builder.hpp\n'}
+[7.547623] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.hpp\n'}
+[7.555510] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__traits.hpp\n'}
+[7.563437] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__builder.hpp\n'}
+[7.571057] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.hpp\n'}
+[7.578832] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__traits.hpp\n'}
+[7.586667] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.hpp\n'}
+[7.594252] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.hpp\n'}
+[7.602151] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.hpp\n'}
+[7.609986] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.hpp\n'}
+[7.613549] (-) TimerEvent: {}
+[7.617811] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.hpp\n'}
+[7.627176] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.hpp\n'}
+[7.638074] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.646591] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.656121] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.664219] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.671932] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.679746] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.687471] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.695515] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.703950] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.711431] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.713630] (-) TimerEvent: {}
+[7.719997] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.730557] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.739834] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.748077] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.755913] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.763543] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.771246] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.778891] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.786806] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.794446] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.sh\n'}
+[7.802337] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.dsv\n'}
+[7.812709] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/PKG-INFO\n'}
+[7.813814] (-) TimerEvent: {}
+[7.821383] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[7.831396] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[7.840272] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/top_level.txt\n'}
+[7.850197] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/__init__.py\n'}
+[7.859310] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[7.867670] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.875834] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.884139] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.892055] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.899697] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.907792] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/libastra_camera_msgs__rosidl_generator_py.so\n'}
+[7.914162] (-) TimerEvent: {}
+[7.915846] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/__init__.py\n'}
+[7.924674] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info.py\n'}
+[7.935038] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info_s.c\n'}
+[7.943959] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics.py\n'}
+[7.952397] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics_s.c\n'}
+[7.960502] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata.py\n'}
+[7.968386] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata_s.c\n'}
+[7.976212] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/__init__.py\n'}
+[7.984040] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info.py\n'}
+[7.991861] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info_s.c\n'}
+[8.000410] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params.py\n'}
+[8.008420] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params_s.c\n'}
+[8.014240] (-) TimerEvent: {}
+[8.016566] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info.py\n'}
+[8.025493] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info_s.c\n'}
+[8.035183] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32.py\n'}
+[8.043822] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32_s.c\n'}
+[8.052036] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string.py\n'}
+[8.060091] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string_s.c\n'}
+[8.068242] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32.py\n'}
+[8.076058] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32_s.c\n'}
+[8.085717] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.085868] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.085958] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[8.086023] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.idl\n'}
+[8.094099] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.idl\n'}
+[8.102534] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.idl\n'}
+[8.110360] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.idl\n'}
+[8.114320] (-) TimerEvent: {}
+[8.118262] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.idl\n'}
+[8.127837] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.idl\n'}
+[8.138343] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.idl\n'}
+[8.147004] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.idl\n'}
+[8.155291] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.idl\n'}
+[8.163787] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.msg\n'}
+[8.171759] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.msg\n'}
+[8.180112] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.msg\n'}
+[8.188885] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.srv\n'}
+[8.197101] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Request.msg\n'}
+[8.205251] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Response.msg\n'}
+[8.213168] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.srv\n'}
+[8.214400] (-) TimerEvent: {}
+[8.221404] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Request.msg\n'}
+[8.231316] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Response.msg\n'}
+[8.240329] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.srv\n'}
+[8.249104] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Request.msg\n'}
+[8.257249] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Response.msg\n'}
+[8.265377] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.srv\n'}
+[8.273368] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Request.msg\n'}
+[8.281491] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Response.msg\n'}
+[8.289340] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.srv\n'}
+[8.297199] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Request.msg\n'}
+[8.304961] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Response.msg\n'}
+[8.313097] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.srv\n'}
+[8.314483] (-) TimerEvent: {}
+[8.321402] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Request.msg\n'}
+[8.331311] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Response.msg\n'}
+[8.340074] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/ament_index/resource_index/package_run_dependencies/astra_camera_msgs\n'}
+[8.348628] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/ament_index/resource_index/parent_prefix_path/astra_camera_msgs\n'}
+[8.358508] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.sh\n'}
+[8.366950] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.dsv\n'}
+[8.375462] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.sh\n'}
+[8.383476] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.dsv\n'}
+[8.391224] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.bash\n'}
+[8.398955] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.sh\n'}
+[8.406832] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.zsh\n'}
+[8.414569] (-) TimerEvent: {}
+[8.414834] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.dsv\n'}
+[8.423401] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv\n'}
+[8.433353] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/ament_index/resource_index/packages/astra_camera_msgs\n'}
+[8.442242] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[8.450549] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[8.458741] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[8.467606] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[8.475491] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[8.483772] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[8.492370] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[8.500246] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig.cmake\n'}
+[8.508806] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig-version.cmake\n'}
+[8.514654] (-) TimerEvent: {}
+[8.516969] (astra_camera_msgs) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.xml\n'}
+[8.528110] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so\n'}
+[8.528882] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so" to ""\n'}
+[8.529929] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[8.530467] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[8.531472] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so\n'}
+[8.531952] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[8.532788] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so\n'}
+[8.533227] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so" to ""\n'}
+[8.533992] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[8.534562] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[8.535530] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[8.536099] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[8.536845] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so\n'}
+[8.537274] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[8.575806] (astra_camera_msgs) StdoutLine: {'line': b"Listing '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs'...\n"}
+[8.575961] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/__init__.py'...\n"}
+[8.576045] (astra_camera_msgs) StdoutLine: {'line': b"Listing '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg'...\n"}
+[8.576110] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/__init__.py'...\n"}
+[8.576170] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info.py'...\n"}
+[8.576229] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics.py'...\n"}
+[8.576301] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata.py'...\n"}
+[8.576361] (astra_camera_msgs) StdoutLine: {'line': b"Listing '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv'...\n"}
+[8.576419] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/__init__.py'...\n"}
+[8.576476] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info.py'...\n"}
+[8.576535] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params.py'...\n"}
+[8.576592] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info.py'...\n"}
+[8.576649] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32.py'...\n"}
+[8.576705] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string.py'...\n"}
+[8.576761] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32.py'...\n"}
+[8.580002] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_py.so\n'}
+[8.580673] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_py.so" to ""\n'}
+[8.580981] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport.cmake\n'}
+[8.581228] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[8.581758] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[8.582002] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[8.582530] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[8.582765] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[8.583292] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport.cmake\n'}
+[8.583539] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[8.583895] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cppExport.cmake\n'}
+[8.584412] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[8.584647] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[8.585152] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[8.585393] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[8.585867] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[8.586086] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[8.586586] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport.cmake\n'}
+[8.586810] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[8.589278] (astra_camera_msgs) CommandEnded: {'returncode': 0}
+[8.614736] (-) TimerEvent: {}
+[8.715036] (-) TimerEvent: {}
+[8.815328] (-) TimerEvent: {}
+[8.916112] (-) TimerEvent: {}
+[8.924596] (astra_camera_msgs) JobEnded: {'identifier': 'astra_camera_msgs', 'rc': 0}
+[8.925188] (astra_camera) JobStarted: {'identifier': 'astra_camera'}
+[8.964381] (astra_camera) JobProgress: {'identifier': 'astra_camera', 'progress': 'cmake'}
+[8.964784] (astra_camera) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/ros2_astra_camera/astra_camera', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/astra_camera'], 'cwd': '/SLAM/ros_ws/build/astra_camera', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM/ros_ws/src/sllidar_ros2'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7a8f63e0-e012-4be7-b4c3-074d0f4230a8.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock","/tmp/.X11-unix/X10","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-b0d69a0cdc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-2fd6cb4c-da3f-44d4-8ed6-b0e9c79b8520.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/astra_camera_msgs:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X10'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/astra_camera'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/astra_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[9.015258] (astra_camera) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[9.016182] (-) TimerEvent: {}
+[9.065183] (astra_camera) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[9.071679] (astra_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[9.116294] (-) TimerEvent: {}
+[9.139174] (astra_camera) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[9.144303] (astra_camera) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[9.144542] (astra_camera) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[9.144855] (astra_camera) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[9.147394] (astra_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[9.216387] (-) TimerEvent: {}
+[9.218669] (astra_camera) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[9.224249] (astra_camera) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[9.224507] (astra_camera) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[9.224923] (astra_camera) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[9.227941] (astra_camera) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[9.316485] (-) TimerEvent: {}
+[9.367350] (astra_camera) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[9.414755] (astra_camera) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[9.416605] (-) TimerEvent: {}
+[9.468208] (astra_camera) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[9.469004] (astra_camera) StdoutLine: {'line': b'-- Found astra_camera_msgs: 1.0.1 (/SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake)\n'}
+[9.508076] (astra_camera) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[9.513860] (astra_camera) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[9.516681] (-) TimerEvent: {}
+[9.522289] (astra_camera) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[9.535739] (astra_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[9.554407] (astra_camera) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[9.616763] (-) TimerEvent: {}
+[9.716987] (-) TimerEvent: {}
+[9.811772] (astra_camera) StdoutLine: {'line': b'-- Found camera_info_manager: 3.1.7 (/opt/ros/humble/share/camera_info_manager/cmake)\n'}
+[9.817060] (-) TimerEvent: {}
+[9.871699] (astra_camera) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[9.874566] (astra_camera) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[9.917141] (-) TimerEvent: {}
+[9.980382] (astra_camera) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[10.009241] (astra_camera) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[10.017222] (-) TimerEvent: {}
+[10.064667] (astra_camera) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[10.075232] (astra_camera) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[10.117339] (-) TimerEvent: {}
+[10.144843] (astra_camera) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[10.145056] (astra_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[10.212854] (astra_camera) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[10.213898] (astra_camera) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[10.217411] (-) TimerEvent: {}
+[10.317622] (-) TimerEvent: {}
+[10.377153] (astra_camera) StdoutLine: {'line': b'-- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)\n'}
+[10.391036] (astra_camera) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[10.417693] (-) TimerEvent: {}
+[10.431787] (astra_camera) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:23 (find_package):\n'}
+[10.432018] (astra_camera) StderrLine: {'line': b'  By not providing "Findglog.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[10.432091] (astra_camera) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "glog", but\n'}
+[10.432154] (astra_camera) StderrLine: {'line': b'  CMake did not find one.\n'}
+[10.432226] (astra_camera) StderrLine: {'line': b'\n'}
+[10.432302] (astra_camera) StderrLine: {'line': b'  Could not find a package configuration file provided by "glog" with any of\n'}
+[10.432361] (astra_camera) StderrLine: {'line': b'  the following names:\n'}
+[10.432417] (astra_camera) StderrLine: {'line': b'\n'}
+[10.432474] (astra_camera) StderrLine: {'line': b'    glogConfig.cmake\n'}
+[10.432531] (astra_camera) StderrLine: {'line': b'    glog-config.cmake\n'}
+[10.432600] (astra_camera) StderrLine: {'line': b'\n'}
+[10.432668] (astra_camera) StderrLine: {'line': b'  Add the installation prefix of "glog" to CMAKE_PREFIX_PATH or set\n'}
+[10.432724] (astra_camera) StderrLine: {'line': b'  "glog_DIR" to a directory containing one of the above files.  If "glog"\n'}
+[10.432779] (astra_camera) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[10.432833] (astra_camera) StderrLine: {'line': b'  installed.\n'}
+[10.432888] (astra_camera) StderrLine: {'line': b'\n'}
+[10.432955] (astra_camera) StderrLine: {'line': b'\x1b[0m\n'}
+[10.433011] (astra_camera) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[10.433074] (astra_camera) StdoutLine: {'line': b'See also "/SLAM/ros_ws/build/astra_camera/CMakeFiles/CMakeOutput.log".\n'}
+[10.440069] (astra_camera) CommandEnded: {'returncode': 1}
+[10.498039] (astra_camera) JobEnded: {'identifier': 'astra_camera', 'rc': 1}
+[10.508646] (-) EventReactorShutdown: {}

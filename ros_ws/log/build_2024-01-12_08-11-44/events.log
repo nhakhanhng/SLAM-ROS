@@ -1,0 +1,993 @@
+[0.000000] (-) TimerEvent: {}
+[0.000186] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000223] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000264] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000324] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000343] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000373] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000388] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.000457] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.000506] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000550] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.000565] (-) JobUnselected: {'identifier': 'image_view'}
+[0.000578] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.000593] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.000616] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000630] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.000734] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.000749] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.000762] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.000788] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.000845] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.000859] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.000872] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.000897] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.000911] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.000990] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.001007] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.001038] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.001116] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001133] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.001151] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.001181] (-) JobUnselected: {'identifier': 'tutourial_intefaces'}
+[0.001252] (rtabmap_msgs) JobQueued: {'identifier': 'rtabmap_msgs', 'dependencies': OrderedDict()}
+[0.001271] (rtabmap_msgs) JobStarted: {'identifier': 'rtabmap_msgs'}
+[0.040391] (rtabmap_msgs) JobProgress: {'identifier': 'rtabmap_msgs', 'progress': 'cmake'}
+[0.041571] (rtabmap_msgs) JobProgress: {'identifier': 'rtabmap_msgs', 'progress': 'build'}
+[0.042097] (rtabmap_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/rtabmap_msgs', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/rtabmap_msgs', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-62c7ce5e-e35c-4c00-a79f-1608d9801f5a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-8f7e17ac-72ba-48ab-812b-c82cd67754a8.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-8f7e17ac-72ba-48ab-812b-c82cd67754a8.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-300c5a9faf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-8f7e17ac-72ba-48ab-812b-c82cd67754a8.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/rtabmap_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[0.099419] (-) TimerEvent: {}
+[0.120639] (rtabmap_msgs) StdoutLine: {'line': b'[  0%] Built target rtabmap_msgs__cpp\n'}
+[0.123788] (rtabmap_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_generator_c\x1b[0m\n'}
+[0.150015] (rtabmap_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[0.150758] (rtabmap_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[0.152142] (rtabmap_msgs) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_rtabmap_msgs\n'}
+[0.153437] (rtabmap_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[0.153802] (rtabmap_msgs) StdoutLine: {'line': b'[ 12%] Built target rtabmap_msgs__rosidl_generator_c\n'}
+[0.176924] (rtabmap_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[0.179200] (rtabmap_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[0.189074] (rtabmap_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[0.199535] (-) TimerEvent: {}
+[0.207326] (rtabmap_msgs) StdoutLine: {'line': b'[ 35%] Built target rtabmap_msgs__rosidl_typesupport_cpp\n'}
+[0.207582] (rtabmap_msgs) StdoutLine: {'line': b'[ 37%] Built target rtabmap_msgs__rosidl_typesupport_c\n'}
+[0.207962] (rtabmap_msgs) StdoutLine: {'line': b'[ 50%] Built target rtabmap_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.218273] (rtabmap_msgs) StdoutLine: {'line': b'[ 63%] Built target rtabmap_msgs__rosidl_typesupport_introspection_c\n'}
+[0.220790] (rtabmap_msgs) StdoutLine: {'line': b'[ 75%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.254145] (rtabmap_msgs) StdoutLine: {'line': b'[ 88%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.279803] (rtabmap_msgs) StdoutLine: {'line': b'[ 88%] Built target rtabmap_msgs\n'}
+[0.299622] (-) TimerEvent: {}
+[0.305719] (rtabmap_msgs) StdoutLine: {'line': b'[ 88%] Built target rtabmap_msgs__py\n'}
+[0.333954] (rtabmap_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_generator_py\x1b[0m\n'}
+[0.372440] (rtabmap_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[0.373025] (rtabmap_msgs) StdoutLine: {'line': b'writing rtabmap_msgs.egg-info/PKG-INFO\n'}
+[0.373196] (rtabmap_msgs) StdoutLine: {'line': b'writing dependency_links to rtabmap_msgs.egg-info/dependency_links.txt\n'}
+[0.373362] (rtabmap_msgs) StdoutLine: {'line': b'writing top-level names to rtabmap_msgs.egg-info/top_level.txt\n'}
+[0.376336] (rtabmap_msgs) StdoutLine: {'line': b"reading manifest file 'rtabmap_msgs.egg-info/SOURCES.txt'\n"}
+[0.377088] (rtabmap_msgs) StdoutLine: {'line': b"writing manifest file 'rtabmap_msgs.egg-info/SOURCES.txt'\n"}
+[0.390457] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target rtabmap_msgs__rosidl_generator_py\n'}
+[0.399759] (-) TimerEvent: {}
+[0.400382] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_rtabmap_msgs_egg\n'}
+[0.402195] (rtabmap_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.402360] (rtabmap_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.402455] (rtabmap_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.419325] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target rtabmap_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.419539] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target rtabmap_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.419643] (rtabmap_msgs) StdoutLine: {'line': b'[100%] Built target rtabmap_msgs__rosidl_typesupport_c__pyext\n'}
+[0.432751] (rtabmap_msgs) CommandEnded: {'returncode': 0}
+[0.499833] (-) TimerEvent: {}
+[0.600192] (-) TimerEvent: {}
+[0.700434] (-) TimerEvent: {}
+[0.800669] (-) TimerEvent: {}
+[0.900908] (-) TimerEvent: {}
+[1.001132] (-) TimerEvent: {}
+[1.101398] (-) TimerEvent: {}
+[1.201641] (-) TimerEvent: {}
+[1.301943] (-) TimerEvent: {}
+[1.402298] (-) TimerEvent: {}
+[1.502545] (-) TimerEvent: {}
+[1.602860] (-) TimerEvent: {}
+[1.703096] (-) TimerEvent: {}
+[1.803362] (-) TimerEvent: {}
+[1.903616] (-) TimerEvent: {}
+[2.003874] (-) TimerEvent: {}
+[2.104225] (-) TimerEvent: {}
+[2.128931] (rtabmap_msgs) JobProgress: {'identifier': 'rtabmap_msgs', 'progress': 'install'}
+[2.138005] (rtabmap_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/rtabmap_msgs'], 'cwd': '/SLAM/ros_ws/build/rtabmap_msgs', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-62c7ce5e-e35c-4c00-a79f-1608d9801f5a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-8f7e17ac-72ba-48ab-812b-c82cd67754a8.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-8f7e17ac-72ba-48ab-812b-c82cd67754a8.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-300c5a9faf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-8f7e17ac-72ba-48ab-812b-c82cd67754a8.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/rtabmap_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1')]), 'shell': False}
+[2.147651] (rtabmap_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.147817] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/ament_index/resource_index/rosidl_interfaces/rtabmap_msgs\n'}
+[2.147939] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs\n'}
+[2.148119] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg\n'}
+[2.148233] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/link.h\n'}
+[2.148320] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.148435] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rgbd_images.h\n'}
+[2.148531] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/scan_descriptor.h\n'}
+[2.148644] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/odom_info.h\n'}
+[2.148747] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/node.h\n'}
+[2.148858] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/info.h\n'}
+[2.148959] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rgbd_image.h\n'}
+[2.149058] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/landmark_detections.h\n'}
+[2.149162] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/map_graph.h\n'}
+[2.149248] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/sensor_data.h\n'}
+[2.149330] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/global_descriptor.h\n'}
+[2.149394] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/key_point.h\n'}
+[2.149482] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/env_sensor.h\n'}
+[2.149566] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/landmark_detection.h\n'}
+[2.149647] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/point2f.h\n'}
+[2.149731] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/user_data.h\n'}
+[2.149810] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/map_data.h\n'}
+[2.149900] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/camera_model.h\n'}
+[2.149982] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail\n'}
+[2.150054] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__struct.h\n'}
+[2.150118] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__functions.c\n'}
+[2.150205] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__functions.c\n'}
+[2.150288] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__type_support.h\n'}
+[2.150475] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__functions.h\n'}
+[2.150564] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__functions.c\n'}
+[2.150637] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__struct.h\n'}
+[2.150724] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__functions.c\n'}
+[2.150810] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__struct.h\n'}
+[2.150872] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__functions.h\n'}
+[2.150954] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__functions.h\n'}
+[2.151018] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__struct.h\n'}
+[2.151079] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__type_support.h\n'}
+[2.151163] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__type_support.h\n'}
+[2.151239] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__struct.h\n'}
+[2.151325] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__functions.h\n'}
+[2.151402] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__functions.c\n'}
+[2.151478] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__struct.h\n'}
+[2.151548] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__struct.h\n'}
+[2.151622] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__functions.h\n'}
+[2.151697] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__functions.c\n'}
+[2.151776] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__functions.h\n'}
+[2.151860] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__type_support.h\n'}
+[2.151929] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__struct.h\n'}
+[2.152019] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__type_support.h\n'}
+[2.152110] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__functions.h\n'}
+[2.152197] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__functions.c\n'}
+[2.152284] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__struct.h\n'}
+[2.152361] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__functions.h\n'}
+[2.152435] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__functions.c\n'}
+[2.152516] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__type_support.h\n'}
+[2.152585] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__functions.c\n'}
+[2.152635] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__type_support.h\n'}
+[2.152707] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__type_support.h\n'}
+[2.152760] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__type_support.h\n'}
+[2.152822] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__functions.h\n'}
+[2.152870] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__struct.h\n'}
+[2.152918] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__functions.h\n'}
+[2.152966] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__struct.h\n'}
+[2.153016] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__type_support.h\n'}
+[2.153065] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__functions.h\n'}
+[2.153113] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__type_support.h\n'}
+[2.153162] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__type_support.h\n'}
+[2.153209] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__functions.c\n'}
+[2.153256] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__functions.c\n'}
+[2.153304] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__functions.h\n'}
+[2.153351] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__functions.h\n'}
+[2.153398] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__functions.c\n'}
+[2.153462] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__struct.h\n'}
+[2.153513] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__functions.h\n'}
+[2.153561] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__struct.h\n'}
+[2.153621] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__struct.h\n'}
+[2.153693] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__functions.c\n'}
+[2.153759] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__struct.h\n'}
+[2.153846] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__struct.h\n'}
+[2.153924] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__functions.h\n'}
+[2.154001] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__functions.h\n'}
+[2.154072] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__functions.h\n'}
+[2.154150] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__functions.h\n'}
+[2.154224] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__type_support.h\n'}
+[2.154306] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__struct.h\n'}
+[2.154376] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__functions.c\n'}
+[2.154446] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__functions.c\n'}
+[2.154522] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__struct.h\n'}
+[2.154611] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__struct.h\n'}
+[2.154690] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__functions.c\n'}
+[2.154775] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__type_support.h\n'}
+[2.154827] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__functions.h\n'}
+[2.154875] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__functions.c\n'}
+[2.154924] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__functions.c\n'}
+[2.154982] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__struct.h\n'}
+[2.155031] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__type_support.h\n'}
+[2.155079] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__struct.h\n'}
+[2.155137] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__type_support.h\n'}
+[2.155210] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__functions.c\n'}
+[2.155271] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__functions.h\n'}
+[2.155351] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__functions.c\n'}
+[2.155440] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__functions.c\n'}
+[2.155516] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__type_support.h\n'}
+[2.155587] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__type_support.h\n'}
+[2.155674] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__functions.h\n'}
+[2.155751] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__functions.h\n'}
+[2.155829] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__struct.h\n'}
+[2.155909] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__type_support.h\n'}
+[2.156343] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__struct.h\n'}
+[2.156469] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__type_support.h\n'}
+[2.156561] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__type_support.h\n'}
+[2.156647] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__type_support.h\n'}
+[2.156715] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__functions.h\n'}
+[2.156775] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__functions.c\n'}
+[2.156855] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__type_support.h\n'}
+[2.156926] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__functions.c\n'}
+[2.156995] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/point3f.h\n'}
+[2.157069] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/camera_models.h\n'}
+[2.157147] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/path.h\n'}
+[2.157219] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/gps.h\n'}
+[2.157270] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/goal.h\n'}
+[2.157319] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv\n'}
+[2.157381] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detect_more_loop_closures.h\n'}
+[2.157432] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/global_bundle_adjustment.h\n'}
+[2.157491] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/set_goal.h\n'}
+[2.157540] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/remove_label.h\n'}
+[2.157605] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/publish_map.h\n'}
+[2.157654] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_plan.h\n'}
+[2.157702] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_nodes_in_radius.h\n'}
+[2.157751] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/load_database.h\n'}
+[2.157799] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/reset_pose.h\n'}
+[2.157847] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_map2.h\n'}
+[2.157893] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/list_labels.h\n'}
+[2.157940] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/add_link.h\n'}
+[2.157987] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/set_label.h\n'}
+[2.158034] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_map.h\n'}
+[2.158080] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/cleanup_local_grids.h\n'}
+[2.158128] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail\n'}
+[2.158187] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__functions.c\n'}
+[2.158237] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__struct.h\n'}
+[2.158285] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__struct.h\n'}
+[2.158333] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__type_support.h\n'}
+[2.158405] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__struct.h\n'}
+[2.158467] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__functions.h\n'}
+[2.158548] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__functions.h\n'}
+[2.158626] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__type_support.h\n'}
+[2.158709] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__struct.h\n'}
+[2.158776] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__struct.h\n'}
+[2.158852] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__struct.h\n'}
+[2.158920] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__type_support.h\n'}
+[2.158997] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__functions.c\n'}
+[2.159074] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__type_support.h\n'}
+[2.159151] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__type_support.h\n'}
+[2.159229] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__struct.h\n'}
+[2.159297] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__struct.h\n'}
+[2.159372] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__functions.h\n'}
+[2.159458] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__struct.h\n'}
+[2.159534] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__functions.h\n'}
+[2.159618] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__type_support.h\n'}
+[2.159695] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__functions.c\n'}
+[2.159780] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__type_support.h\n'}
+[2.159865] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__functions.h\n'}
+[2.159944] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__functions.c\n'}
+[2.160030] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__functions.h\n'}
+[2.160131] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__type_support.h\n'}
+[2.160209] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__functions.c\n'}
+[2.160274] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__type_support.h\n'}
+[2.160346] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__functions.h\n'}
+[2.160423] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__type_support.h\n'}
+[2.160503] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__struct.h\n'}
+[2.160576] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__type_support.h\n'}
+[2.160647] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__functions.c\n'}
+[2.160726] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__struct.h\n'}
+[2.160807] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__functions.c\n'}
+[2.160890] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__functions.c\n'}
+[2.160951] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__functions.c\n'}
+[2.161029] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__type_support.h\n'}
+[2.161106] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__type_support.h\n'}
+[2.161192] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__functions.h\n'}
+[2.161266] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__functions.h\n'}
+[2.161346] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__functions.c\n'}
+[2.161414] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__type_support.h\n'}
+[2.161483] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__functions.c\n'}
+[2.161547] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__functions.h\n'}
+[2.161627] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__functions.h\n'}
+[2.161702] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__struct.h\n'}
+[2.161773] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__functions.c\n'}
+[2.161850] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__functions.c\n'}
+[2.161931] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__functions.h\n'}
+[2.162012] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__functions.c\n'}
+[2.162087] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__struct.h\n'}
+[2.162170] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__functions.h\n'}
+[2.162222] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__struct.h\n'}
+[2.162290] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__functions.c\n'}
+[2.162354] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__type_support.h\n'}
+[2.162453] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__functions.h\n'}
+[2.162547] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__functions.h\n'}
+[2.162639] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__struct.h\n'}
+[2.162727] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__struct.h\n'}
+[2.162802] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__functions.c\n'}
+[2.162876] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__functions.h\n'}
+[2.162929] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__type_support.h\n'}
+[2.163010] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_node_data.h\n'}
+[2.163088] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/library_path.sh\n'}
+[2.163157] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/library_path.dsv\n'}
+[2.163236] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_generator_c.so\n'}
+[2.163313] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs\n'}
+[2.163393] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg\n'}
+[2.163468] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.163541] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail\n'}
+[2.163593] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__rosidl_typesupport_fastrtps_c.h\n'}
+[2.163641] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__rosidl_typesupport_fastrtps_c.h\n'}
+[2.163690] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__rosidl_typesupport_fastrtps_c.h\n'}
+[2.163746] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h\n'}
+[2.163793] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.163841] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__rosidl_typesupport_fastrtps_c.h\n'}
+[2.163888] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__rosidl_typesupport_fastrtps_c.h\n'}
+[2.163935] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__rosidl_typesupport_fastrtps_c.h\n'}
+[2.163989] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164054] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164103] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164152] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164212] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164277] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164327] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164374] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164420] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164479] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164553] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164624] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164701] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164781] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164868] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__rosidl_typesupport_fastrtps_c.h\n'}
+[2.164948] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv\n'}
+[2.165010] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail\n'}
+[2.165090] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__rosidl_typesupport_fastrtps_c.h\n'}
+[2.165166] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__rosidl_typesupport_fastrtps_c.h\n'}
+[2.165252] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__rosidl_typesupport_fastrtps_c.h\n'}
+[2.165325] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__rosidl_typesupport_fastrtps_c.h\n'}
+[2.165403] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h\n'}
+[2.165481] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__rosidl_typesupport_fastrtps_c.h\n'}
+[2.165548] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__rosidl_typesupport_fastrtps_c.h\n'}
+[2.165628] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__rosidl_typesupport_fastrtps_c.h\n'}
+[2.165695] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__rosidl_typesupport_fastrtps_c.h\n'}
+[2.165762] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__rosidl_typesupport_fastrtps_c.h\n'}
+[2.165841] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__rosidl_typesupport_fastrtps_c.h\n'}
+[2.165917] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[2.165978] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_c.h\n'}
+[2.166058] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__rosidl_typesupport_fastrtps_c.h\n'}
+[2.166118] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__rosidl_typesupport_fastrtps_c.h\n'}
+[2.166200] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__rosidl_typesupport_fastrtps_c.h\n'}
+[2.166259] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.166333] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs\n'}
+[2.166401] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg\n'}
+[2.166480] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail\n'}
+[2.166533] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h\n'}
+[2.166581] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__rosidl_typesupport_introspection_c.h\n'}
+[2.166637] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__type_support.c\n'}
+[2.166684] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__rosidl_typesupport_introspection_c.h\n'}
+[2.166743] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__type_support.c\n'}
+[2.166792] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__type_support.c\n'}
+[2.166840] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__type_support.c\n'}
+[2.166888] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__rosidl_typesupport_introspection_c.h\n'}
+[2.166940] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__rosidl_typesupport_introspection_c.h\n'}
+[2.166991] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__type_support.c\n'}
+[2.167039] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__type_support.c\n'}
+[2.167086] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__rosidl_typesupport_introspection_c.h\n'}
+[2.167144] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__type_support.c\n'}
+[2.167206] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__type_support.c\n'}
+[2.167255] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__rosidl_typesupport_introspection_c.h\n'}
+[2.167303] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__type_support.c\n'}
+[2.167350] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__type_support.c\n'}
+[2.167397] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__type_support.c\n'}
+[2.167444] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__type_support.c\n'}
+[2.167503] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__type_support.c\n'}
+[2.167552] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__rosidl_typesupport_introspection_c.h\n'}
+[2.167599] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__rosidl_typesupport_introspection_c.h\n'}
+[2.167645] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__rosidl_typesupport_introspection_c.h\n'}
+[2.167714] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__rosidl_typesupport_introspection_c.h\n'}
+[2.167765] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__type_support.c\n'}
+[2.167835] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__rosidl_typesupport_introspection_c.h\n'}
+[2.167897] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__type_support.c\n'}
+[2.167946] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__rosidl_typesupport_introspection_c.h\n'}
+[2.168005] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__rosidl_typesupport_introspection_c.h\n'}
+[2.168063] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__rosidl_typesupport_introspection_c.h\n'}
+[2.168110] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__type_support.c\n'}
+[2.168170] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__type_support.c\n'}
+[2.168221] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__rosidl_typesupport_introspection_c.h\n'}
+[2.168269] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__type_support.c\n'}
+[2.168327] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__rosidl_typesupport_introspection_c.h\n'}
+[2.168390] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__rosidl_typesupport_introspection_c.h\n'}
+[2.168461] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__type_support.c\n'}
+[2.168512] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__type_support.c\n'}
+[2.168560] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__type_support.c\n'}
+[2.168607] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__type_support.c\n'}
+[2.168672] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__rosidl_typesupport_introspection_c.h\n'}
+[2.168750] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__type_support.c\n'}
+[2.168829] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__rosidl_typesupport_introspection_c.h\n'}
+[2.168916] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__rosidl_typesupport_introspection_c.h\n'}
+[2.168992] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__rosidl_typesupport_introspection_c.h\n'}
+[2.169077] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[2.169155] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.169240] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv\n'}
+[2.169316] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail\n'}
+[2.169384] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__rosidl_typesupport_introspection_c.h\n'}
+[2.169461] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__type_support.c\n'}
+[2.169541] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__rosidl_typesupport_introspection_c.h\n'}
+[2.169619] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__type_support.c\n'}
+[2.169704] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__type_support.c\n'}
+[2.169782] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__rosidl_typesupport_introspection_c.h\n'}
+[2.169858] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__type_support.c\n'}
+[2.169931] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__rosidl_typesupport_introspection_c.h\n'}
+[2.169996] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__rosidl_typesupport_introspection_c.h\n'}
+[2.170074] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__type_support.c\n'}
+[2.170146] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__rosidl_typesupport_introspection_c.h\n'}
+[2.170225] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__rosidl_typesupport_introspection_c.h\n'}
+[2.170302] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__type_support.c\n'}
+[2.170378] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__type_support.c\n'}
+[2.170457] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__rosidl_typesupport_introspection_c.h\n'}
+[2.170533] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__rosidl_typesupport_introspection_c.h\n'}
+[2.170610] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__type_support.c\n'}
+[2.170700] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__type_support.c\n'}
+[2.170780] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__type_support.c\n'}
+[2.170850] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__rosidl_typesupport_introspection_c.h\n'}
+[2.170901] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__rosidl_typesupport_introspection_c.h\n'}
+[2.170957] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__type_support.c\n'}
+[2.171006] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_c.h\n'}
+[2.171056] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__type_support.c\n'}
+[2.171103] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__rosidl_typesupport_introspection_c.h\n'}
+[2.171150] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__rosidl_typesupport_introspection_c.h\n'}
+[2.171197] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__rosidl_typesupport_introspection_c.h\n'}
+[2.171244] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__type_support.c\n'}
+[2.171290] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__type_support.c\n'}
+[2.171343] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__type_support.c\n'}
+[2.171390] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__rosidl_typesupport_introspection_c.h\n'}
+[2.171449] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__type_support.c\n'}
+[2.171496] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.171544] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_c.so\n'}
+[2.171591] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs\n'}
+[2.171639] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg\n'}
+[2.171686] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/map_graph.hpp\n'}
+[2.171733] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/point2f.hpp\n'}
+[2.171779] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/node.hpp\n'}
+[2.171829] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/link.hpp\n'}
+[2.171877] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rgbd_images.hpp\n'}
+[2.171924] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/point3f.hpp\n'}
+[2.171970] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/key_point.hpp\n'}
+[2.172039] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/odom_info.hpp\n'}
+[2.172096] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/global_descriptor.hpp\n'}
+[2.172143] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/goal.hpp\n'}
+[2.172189] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/landmark_detection.hpp\n'}
+[2.172235] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/landmark_detections.hpp\n'}
+[2.172281] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/gps.hpp\n'}
+[2.172328] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/user_data.hpp\n'}
+[2.172374] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/scan_descriptor.hpp\n'}
+[2.172420] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rgbd_image.hpp\n'}
+[2.172466] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/sensor_data.hpp\n'}
+[2.172523] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/camera_models.hpp\n'}
+[2.172570] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/camera_model.hpp\n'}
+[2.172628] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/path.hpp\n'}
+[2.172678] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail\n'}
+[2.172725] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__struct.hpp\n'}
+[2.172772] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__traits.hpp\n'}
+[2.172818] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__builder.hpp\n'}
+[2.172865] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__traits.hpp\n'}
+[2.172912] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__traits.hpp\n'}
+[2.172958] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__builder.hpp\n'}
+[2.173005] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__builder.hpp\n'}
+[2.173052] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__traits.hpp\n'}
+[2.173099] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__traits.hpp\n'}
+[2.173146] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__struct.hpp\n'}
+[2.173193] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__traits.hpp\n'}
+[2.173239] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__struct.hpp\n'}
+[2.173286] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__traits.hpp\n'}
+[2.173332] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__builder.hpp\n'}
+[2.173379] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__struct.hpp\n'}
+[2.173426] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__struct.hpp\n'}
+[2.173472] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__builder.hpp\n'}
+[2.173518] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__struct.hpp\n'}
+[2.173564] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__builder.hpp\n'}
+[2.173611] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__traits.hpp\n'}
+[2.173659] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__traits.hpp\n'}
+[2.173705] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__builder.hpp\n'}
+[2.173758] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__traits.hpp\n'}
+[2.173805] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__builder.hpp\n'}
+[2.173851] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__struct.hpp\n'}
+[2.173898] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__traits.hpp\n'}
+[2.173946] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__builder.hpp\n'}
+[2.173993] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__traits.hpp\n'}
+[2.174040] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__struct.hpp\n'}
+[2.174086] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__builder.hpp\n'}
+[2.174133] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__builder.hpp\n'}
+[2.174185] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__traits.hpp\n'}
+[2.174241] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__builder.hpp\n'}
+[2.174289] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__struct.hpp\n'}
+[2.174336] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__builder.hpp\n'}
+[2.174382] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__builder.hpp\n'}
+[2.174429] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__struct.hpp\n'}
+[2.174476] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__struct.hpp\n'}
+[2.174522] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__traits.hpp\n'}
+[2.174568] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__builder.hpp\n'}
+[2.174614] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__builder.hpp\n'}
+[2.174660] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__struct.hpp\n'}
+[2.174707] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__struct.hpp\n'}
+[2.174753] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__builder.hpp\n'}
+[2.174799] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__builder.hpp\n'}
+[2.174846] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__struct.hpp\n'}
+[2.174900] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__traits.hpp\n'}
+[2.174947] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__struct.hpp\n'}
+[2.174994] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__struct.hpp\n'}
+[2.175041] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__struct.hpp\n'}
+[2.175089] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__traits.hpp\n'}
+[2.175135] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__traits.hpp\n'}
+[2.175182] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__struct.hpp\n'}
+[2.175228] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__struct.hpp\n'}
+[2.175274] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__traits.hpp\n'}
+[2.175320] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__builder.hpp\n'}
+[2.175367] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__struct.hpp\n'}
+[2.175414] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__builder.hpp\n'}
+[2.175463] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__builder.hpp\n'}
+[2.175509] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__struct.hpp\n'}
+[2.175555] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__traits.hpp\n'}
+[2.175602] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__builder.hpp\n'}
+[2.175648] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__traits.hpp\n'}
+[2.175695] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__traits.hpp\n'}
+[2.175746] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__traits.hpp\n'}
+[2.175795] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__struct.hpp\n'}
+[2.175841] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__builder.hpp\n'}
+[2.175896] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__struct.hpp\n'}
+[2.175942] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__traits.hpp\n'}
+[2.176065] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/map_data.hpp\n'}
+[2.176125] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/env_sensor.hpp\n'}
+[2.176181] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/info.hpp\n'}
+[2.176229] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv\n'}
+[2.176283] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_map.hpp\n'}
+[2.176333] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_plan.hpp\n'}
+[2.176380] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_nodes_in_radius.hpp\n'}
+[2.176426] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detect_more_loop_closures.hpp\n'}
+[2.176472] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/list_labels.hpp\n'}
+[2.176519] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/load_database.hpp\n'}
+[2.176565] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/set_label.hpp\n'}
+[2.176610] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/cleanup_local_grids.hpp\n'}
+[2.176657] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/global_bundle_adjustment.hpp\n'}
+[2.176703] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/add_link.hpp\n'}
+[2.176749] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_node_data.hpp\n'}
+[2.176795] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail\n'}
+[2.176841] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__struct.hpp\n'}
+[2.176888] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__struct.hpp\n'}
+[2.176934] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__builder.hpp\n'}
+[2.176981] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__builder.hpp\n'}
+[2.177028] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__traits.hpp\n'}
+[2.177076] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__struct.hpp\n'}
+[2.177122] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__traits.hpp\n'}
+[2.177169] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__traits.hpp\n'}
+[2.177215] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__traits.hpp\n'}
+[2.177261] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__traits.hpp\n'}
+[2.177307] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__builder.hpp\n'}
+[2.177362] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__struct.hpp\n'}
+[2.177409] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__traits.hpp\n'}
+[2.177460] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__struct.hpp\n'}
+[2.177508] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__builder.hpp\n'}
+[2.177555] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__builder.hpp\n'}
+[2.177602] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__traits.hpp\n'}
+[2.177650] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__builder.hpp\n'}
+[2.177696] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__struct.hpp\n'}
+[2.177751] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__builder.hpp\n'}
+[2.177798] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__struct.hpp\n'}
+[2.177846] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__traits.hpp\n'}
+[2.177893] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__builder.hpp\n'}
+[2.177965] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__builder.hpp\n'}
+[2.178046] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__traits.hpp\n'}
+[2.178114] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__struct.hpp\n'}
+[2.178185] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__struct.hpp\n'}
+[2.178262] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__traits.hpp\n'}
+[2.178340] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__traits.hpp\n'}
+[2.178424] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__builder.hpp\n'}
+[2.178510] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__struct.hpp\n'}
+[2.178593] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__traits.hpp\n'}
+[2.178674] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__traits.hpp\n'}
+[2.178751] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__struct.hpp\n'}
+[2.178832] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__traits.hpp\n'}
+[2.178918] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__builder.hpp\n'}
+[2.178971] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__struct.hpp\n'}
+[2.179023] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__struct.hpp\n'}
+[2.179072] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__builder.hpp\n'}
+[2.179120] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__builder.hpp\n'}
+[2.179167] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__struct.hpp\n'}
+[2.179215] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__builder.hpp\n'}
+[2.179262] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__builder.hpp\n'}
+[2.179310] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__traits.hpp\n'}
+[2.179362] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__struct.hpp\n'}
+[2.179413] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__builder.hpp\n'}
+[2.179462] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__traits.hpp\n'}
+[2.179510] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__struct.hpp\n'}
+[2.179558] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/remove_label.hpp\n'}
+[2.179606] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/publish_map.hpp\n'}
+[2.179653] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/get_map2.hpp\n'}
+[2.179701] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/reset_pose.hpp\n'}
+[2.179749] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/set_goal.hpp\n'}
+[2.179808] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs\n'}
+[2.179856] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg\n'}
+[2.179903] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.179950] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail\n'}
+[2.180042] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180097] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180154] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180217] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180264] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180311] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180358] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180405] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180452] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180500] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180547] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180595] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180644] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180693] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180740] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180788] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180836] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180883] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180936] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.180984] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/dds_fastrtps\n'}
+[2.181031] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181079] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181126] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181179] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181226] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv\n'}
+[2.181274] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail\n'}
+[2.181320] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181368] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181426] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181474] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181520] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181567] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181615] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181661] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181709] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181757] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181804] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181851] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181898] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181945] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.181993] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/dds_fastrtps\n'}
+[2.182039] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.182086] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.182132] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.182183] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs\n'}
+[2.182236] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg\n'}
+[2.182283] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail\n'}
+[2.182335] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__type_support.cpp\n'}
+[2.182383] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__type_support.cpp\n'}
+[2.182430] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.182478] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__type_support.cpp\n'}
+[2.182526] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__type_support.cpp\n'}
+[2.182575] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.182622] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__type_support.cpp\n'}
+[2.182670] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.182718] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/sensor_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.182765] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__type_support.cpp\n'}
+[2.182812] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.182872] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/key_point__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.182919] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__type_support.cpp\n'}
+[2.182969] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.183017] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__type_support.cpp\n'}
+[2.183064] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point3f__type_support.cpp\n'}
+[2.183111] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.183159] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/gps__type_support.cpp\n'}
+[2.183206] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.183253] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/link__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.183306] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detections__type_support.cpp\n'}
+[2.183353] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/odom_info__type_support.cpp\n'}
+[2.183399] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.183445] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.183492] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__type_support.cpp\n'}
+[2.183539] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__type_support.cpp\n'}
+[2.183586] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.183633] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/landmark_detection__type_support.cpp\n'}
+[2.183686] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_model__type_support.cpp\n'}
+[2.183736] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/scan_descriptor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.183784] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/global_descriptor__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.183831] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__type_support.cpp\n'}
+[2.183877] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.183924] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/point2f__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.183970] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.184044] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/camera_models__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.184103] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__type_support.cpp\n'}
+[2.184151] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_images__type_support.cpp\n'}
+[2.184211] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.184258] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__type_support.cpp\n'}
+[2.184305] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/map_graph__type_support.cpp\n'}
+[2.184352] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/rgbd_image__type_support.cpp\n'}
+[2.184414] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/env_sensor__type_support.cpp\n'}
+[2.184462] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/goal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.184509] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.184559] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/msg/detail/user_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.184607] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv\n'}
+[2.184653] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail\n'}
+[2.184700] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__type_support.cpp\n'}
+[2.184747] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.184794] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__type_support.cpp\n'}
+[2.184843] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_nodes_in_radius__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.184890] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__type_support.cpp\n'}
+[2.184938] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__type_support.cpp\n'}
+[2.184985] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__type_support.cpp\n'}
+[2.185033] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__type_support.cpp\n'}
+[2.185080] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/list_labels__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.185131] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.185180] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__type_support.cpp\n'}
+[2.185227] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_label__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.185273] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__type_support.cpp\n'}
+[2.185323] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map2__type_support.cpp\n'}
+[2.185370] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/remove_label__type_support.cpp\n'}
+[2.185417] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.185464] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__type_support.cpp\n'}
+[2.185516] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/reset_pose__type_support.cpp\n'}
+[2.185563] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.185610] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/global_bundle_adjustment__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.185658] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__type_support.cpp\n'}
+[2.185705] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/detect_more_loop_closures__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.185752] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.185799] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/publish_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.185854] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/set_goal__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.185901] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_node_data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.185948] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__type_support.cpp\n'}
+[2.185995] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__type_support.cpp\n'}
+[2.186041] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/add_link__type_support.cpp\n'}
+[2.186091] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/cleanup_local_grids__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.186138] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/load_database__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.186186] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/include/rtabmap_msgs/rtabmap_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.186233] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.186279] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_typesupport_cpp.so\n'}
+[2.186327] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/pythonpath.sh\n'}
+[2.186373] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/pythonpath.dsv\n'}
+[2.186451] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs-0.21.3-py3.10.egg-info\n'}
+[2.186524] (rtabmap_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs-0.21.3-py3.10.egg-info/PKG-INFO\n'}
+[2.186582] (rtabmap_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs-0.21.3-py3.10.egg-info/dependency_links.txt\n'}
+[2.186649] (rtabmap_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs-0.21.3-py3.10.egg-info/top_level.txt\n'}
+[2.186713] (rtabmap_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs-0.21.3-py3.10.egg-info/SOURCES.txt\n'}
+[2.186773] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs\n'}
+[2.186820] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/rtabmap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.186890] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg\n'}
+[2.186936] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_global_descriptor.py\n'}
+[2.186986] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_landmark_detections_s.c\n'}
+[2.187033] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_point2f_s.c\n'}
+[2.187079] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_key_point_s.c\n'}
+[2.187125] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_gps.py\n'}
+[2.187171] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_landmark_detection_s.c\n'}
+[2.187217] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_sensor_data.py\n'}
+[2.187264] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_camera_models_s.c\n'}
+[2.187310] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_map_graph.py\n'}
+[2.187358] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_rgbd_image_s.c\n'}
+[2.187405] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_odom_info.py\n'}
+[2.187451] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_path.py\n'}
+[2.187498] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_sensor_data_s.c\n'}
+[2.187545] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_map_data_s.c\n'}
+[2.187601] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_goal_s.c\n'}
+[2.187649] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_scan_descriptor.py\n'}
+[2.187696] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_info.py\n'}
+[2.187747] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_env_sensor.py\n'}
+[2.187795] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_scan_descriptor_s.c\n'}
+[2.187851] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_rgbd_images_s.c\n'}
+[2.187899] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_point3f_s.c\n'}
+[2.187956] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_landmark_detection.py\n'}
+[2.188033] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_key_point.py\n'}
+[2.188086] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_camera_model_s.c\n'}
+[2.188135] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_map_data.py\n'}
+[2.188182] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_rgbd_image.py\n'}
+[2.188234] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_user_data_s.c\n'}
+[2.188282] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_camera_model.py\n'}
+[2.188339] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_landmark_detections.py\n'}
+[2.188386] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_rgbd_images.py\n'}
+[2.188433] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_link.py\n'}
+[2.188479] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_goal.py\n'}
+[2.188524] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_link_s.c\n'}
+[2.188573] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_path_s.c\n'}
+[2.188620] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_user_data.py\n'}
+[2.188668] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_info_s.c\n'}
+[2.188715] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_env_sensor_s.c\n'}
+[2.188763] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_camera_models.py\n'}
+[2.188810] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_global_descriptor_s.c\n'}
+[2.188859] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_map_graph_s.c\n'}
+[2.188906] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_node.py\n'}
+[2.188954] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_gps_s.c\n'}
+[2.189009] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_odom_info_s.c\n'}
+[2.189071] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_point3f.py\n'}
+[2.189119] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/__init__.py\n'}
+[2.189165] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_node_s.c\n'}
+[2.189212] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg/_point2f.py\n'}
+[2.189259] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/rtabmap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.189306] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/_rtabmap_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.189365] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/librtabmap_msgs__rosidl_generator_py.so\n'}
+[2.189412] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/rtabmap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.189459] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv\n'}
+[2.189506] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_map.py\n'}
+[2.189553] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_publish_map.py\n'}
+[2.189600] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_cleanup_local_grids_s.c\n'}
+[2.189646] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_set_label.py\n'}
+[2.189693] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_detect_more_loop_closures_s.c\n'}
+[2.189740] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_nodes_in_radius_s.c\n'}
+[2.189792] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_reset_pose_s.c\n'}
+[2.189840] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_nodes_in_radius.py\n'}
+[2.189887] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_detect_more_loop_closures.py\n'}
+[2.189934] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_map2_s.c\n'}
+[2.189981] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_node_data.py\n'}
+[2.190028] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_list_labels.py\n'}
+[2.190075] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_global_bundle_adjustment_s.c\n'}
+[2.190124] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_add_link_s.c\n'}
+[2.190177] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_add_link.py\n'}
+[2.190224] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_load_database_s.c\n'}
+[2.190271] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_publish_map_s.c\n'}
+[2.190320] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_reset_pose.py\n'}
+[2.190378] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_map_s.c\n'}
+[2.190425] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_map2.py\n'}
+[2.190472] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_node_data_s.c\n'}
+[2.190519] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_set_goal.py\n'}
+[2.190566] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_list_labels_s.c\n'}
+[2.190613] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_plan.py\n'}
+[2.190660] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_cleanup_local_grids.py\n'}
+[2.190707] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_get_plan_s.c\n'}
+[2.190755] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_global_bundle_adjustment.py\n'}
+[2.190802] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_set_goal_s.c\n'}
+[2.190849] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_set_label_s.c\n'}
+[2.190899] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_remove_label_s.c\n'}
+[2.190955] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_load_database.py\n'}
+[2.191003] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/__init__.py\n'}
+[2.191050] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv/_remove_label.py\n'}
+[2.191097] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/_rtabmap_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.191145] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/__init__.py\n'}
+[2.191192] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/_rtabmap_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.202007] (rtabmap_msgs) StdoutLine: {'line': b"Listing '/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs'...\n"}
+[2.202123] (rtabmap_msgs) StdoutLine: {'line': b"Listing '/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/msg'...\n"}
+[2.202213] (rtabmap_msgs) StdoutLine: {'line': b"Listing '/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/srv'...\n"}
+[2.204295] (-) TimerEvent: {}
+[2.205972] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/rtabmap_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.206901] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/rtabmap_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.207794] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages/rtabmap_msgs/rtabmap_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.208525] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/lib/librtabmap_msgs__rosidl_generator_py.so\n'}
+[2.208792] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Info.idl\n'}
+[2.208959] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/KeyPoint.idl\n'}
+[2.209116] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/GlobalDescriptor.idl\n'}
+[2.209208] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/ScanDescriptor.idl\n'}
+[2.209287] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/MapData.idl\n'}
+[2.209364] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/MapGraph.idl\n'}
+[2.209431] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Node.idl\n'}
+[2.209500] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/SensorData.idl\n'}
+[2.209552] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Link.idl\n'}
+[2.209616] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/LandmarkDetection.idl\n'}
+[2.209687] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/LandmarkDetections.idl\n'}
+[2.209766] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/OdomInfo.idl\n'}
+[2.209850] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Point2f.idl\n'}
+[2.209942] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Point3f.idl\n'}
+[2.210024] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Goal.idl\n'}
+[2.210102] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/RGBDImage.idl\n'}
+[2.210175] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/RGBDImages.idl\n'}
+[2.210266] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/UserData.idl\n'}
+[2.210345] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/GPS.idl\n'}
+[2.210420] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Path.idl\n'}
+[2.210491] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/EnvSensor.idl\n'}
+[2.210583] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/CameraModel.idl\n'}
+[2.210668] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/CameraModels.idl\n'}
+[2.210742] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap.idl\n'}
+[2.210816] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap2.idl\n'}
+[2.210922] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ListLabels.idl\n'}
+[2.211005] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/PublishMap.idl\n'}
+[2.211111] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ResetPose.idl\n'}
+[2.211211] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetGoal.idl\n'}
+[2.211309] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetLabel.idl\n'}
+[2.211388] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/RemoveLabel.idl\n'}
+[2.211496] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetPlan.idl\n'}
+[2.211592] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/AddLink.idl\n'}
+[2.211688] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodeData.idl\n'}
+[2.211774] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodesInRadius.idl\n'}
+[2.211874] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/LoadDatabase.idl\n'}
+[2.211956] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/DetectMoreLoopClosures.idl\n'}
+[2.212097] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GlobalBundleAdjustment.idl\n'}
+[2.212206] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/CleanupLocalGrids.idl\n'}
+[2.212273] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Info.msg\n'}
+[2.212362] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/KeyPoint.msg\n'}
+[2.212461] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/GlobalDescriptor.msg\n'}
+[2.212557] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/ScanDescriptor.msg\n'}
+[2.212635] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/MapData.msg\n'}
+[2.212708] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/MapGraph.msg\n'}
+[2.212804] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Node.msg\n'}
+[2.212890] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/SensorData.msg\n'}
+[2.212964] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Link.msg\n'}
+[2.213041] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/LandmarkDetection.msg\n'}
+[2.213137] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/LandmarkDetections.msg\n'}
+[2.213223] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/OdomInfo.msg\n'}
+[2.213299] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Point2f.msg\n'}
+[2.213372] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Point3f.msg\n'}
+[2.213466] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Goal.msg\n'}
+[2.213552] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/RGBDImage.msg\n'}
+[2.213627] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/RGBDImages.msg\n'}
+[2.213698] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/UserData.msg\n'}
+[2.213792] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/GPS.msg\n'}
+[2.213877] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/Path.msg\n'}
+[2.213952] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/EnvSensor.msg\n'}
+[2.214029] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/CameraModel.msg\n'}
+[2.214129] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/msg/CameraModels.msg\n'}
+[2.214216] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap.srv\n'}
+[2.214293] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap_Request.msg\n'}
+[2.214368] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap_Response.msg\n'}
+[2.214463] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap2.srv\n'}
+[2.214550] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap2_Request.msg\n'}
+[2.214626] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetMap2_Response.msg\n'}
+[2.214702] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ListLabels.srv\n'}
+[2.214823] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ListLabels_Request.msg\n'}
+[2.214953] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ListLabels_Response.msg\n'}
+[2.215032] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/PublishMap.srv\n'}
+[2.215105] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/PublishMap_Request.msg\n'}
+[2.215194] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/PublishMap_Response.msg\n'}
+[2.215278] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ResetPose.srv\n'}
+[2.215361] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ResetPose_Request.msg\n'}
+[2.215429] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/ResetPose_Response.msg\n'}
+[2.215554] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetGoal.srv\n'}
+[2.215644] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetGoal_Request.msg\n'}
+[2.215721] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetGoal_Response.msg\n'}
+[2.215809] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetLabel.srv\n'}
+[2.215902] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetLabel_Request.msg\n'}
+[2.216072] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/SetLabel_Response.msg\n'}
+[2.216161] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/RemoveLabel.srv\n'}
+[2.216238] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/RemoveLabel_Request.msg\n'}
+[2.216314] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/RemoveLabel_Response.msg\n'}
+[2.216386] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetPlan.srv\n'}
+[2.216459] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetPlan_Request.msg\n'}
+[2.216532] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetPlan_Response.msg\n'}
+[2.216624] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/AddLink.srv\n'}
+[2.216716] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/AddLink_Request.msg\n'}
+[2.216788] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/AddLink_Response.msg\n'}
+[2.216861] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodeData.srv\n'}
+[2.216974] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodeData_Request.msg\n'}
+[2.217095] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodeData_Response.msg\n'}
+[2.217165] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodesInRadius.srv\n'}
+[2.217252] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodesInRadius_Request.msg\n'}
+[2.217352] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GetNodesInRadius_Response.msg\n'}
+[2.217438] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/LoadDatabase.srv\n'}
+[2.217518] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/LoadDatabase_Request.msg\n'}
+[2.217593] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/LoadDatabase_Response.msg\n'}
+[2.217693] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/DetectMoreLoopClosures.srv\n'}
+[2.217776] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/DetectMoreLoopClosures_Request.msg\n'}
+[2.217855] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/DetectMoreLoopClosures_Response.msg\n'}
+[2.217935] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GlobalBundleAdjustment.srv\n'}
+[2.218035] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GlobalBundleAdjustment_Request.msg\n'}
+[2.218120] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/GlobalBundleAdjustment_Response.msg\n'}
+[2.218202] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/CleanupLocalGrids.srv\n'}
+[2.218296] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/CleanupLocalGrids_Request.msg\n'}
+[2.218380] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/srv/CleanupLocalGrids_Response.msg\n'}
+[2.218473] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/ament_index/resource_index/package_run_dependencies/rtabmap_msgs\n'}
+[2.218555] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/ament_index/resource_index/parent_prefix_path/rtabmap_msgs\n'}
+[2.218651] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/ament_prefix_path.sh\n'}
+[2.218755] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/ament_prefix_path.dsv\n'}
+[2.218851] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/path.sh\n'}
+[2.218930] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/environment/path.dsv\n'}
+[2.219008] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/local_setup.bash\n'}
+[2.219125] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/local_setup.sh\n'}
+[2.219241] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/local_setup.zsh\n'}
+[2.219301] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/local_setup.dsv\n'}
+[2.219401] (rtabmap_msgs) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/package.dsv\n'}
+[2.219938] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/ament_index/resource_index/packages/rtabmap_msgs\n'}
+[2.220270] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_generator_cExport.cmake\n'}
+[2.220377] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.220758] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.220877] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.221253] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.221354] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.221732] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.221853] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.222207] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.222565] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.222647] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.223031] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.223122] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.223462] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.223548] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.223942] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.224090] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/export_rtabmap_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.224199] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.224303] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.224407] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.224496] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.224588] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.224667] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.224771] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.224857] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgsConfig.cmake\n'}
+[2.224929] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake/rtabmap_msgsConfig-version.cmake\n'}
+[2.225005] (rtabmap_msgs) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/package.xml\n'}
+[2.227368] (rtabmap_msgs) CommandEnded: {'returncode': 0}
+[2.304403] (-) TimerEvent: {}
+[2.404661] (-) TimerEvent: {}
+[2.504905] (-) TimerEvent: {}
+[2.605132] (-) TimerEvent: {}
+[2.705340] (-) TimerEvent: {}
+[2.805557] (-) TimerEvent: {}
+[2.905794] (-) TimerEvent: {}
+[3.006015] (-) TimerEvent: {}
+[3.106857] (-) TimerEvent: {}
+[3.191912] (rtabmap_msgs) JobEnded: {'identifier': 'rtabmap_msgs', 'rc': 0}
+[3.192539] (-) EventReactorShutdown: {}

@@ -1,0 +1,33 @@
+[0.288s] Invoking command in '/SLAM/ros_ws/build/depth_image_proc': /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/depth_image_proc -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/depth_image_proc
+[0.416s] -- The C compiler identification is GNU 11.4.0
+[0.514s] -- The CXX compiler identification is GNU 11.4.0
+[0.525s] -- Detecting C compiler ABI info
+[0.628s] -- Detecting C compiler ABI info - done
+[0.639s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.639s] -- Detecting C compile features
+[0.640s] -- Detecting C compile features - done
+[0.645s] -- Detecting CXX compiler ABI info
+[0.758s] -- Detecting CXX compiler ABI info - done
+[0.768s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.769s] -- Detecting CXX compile features
+[0.769s] -- Detecting CXX compile features - done
+[0.801s] [31mCMake Error at CMakeLists.txt:4 (find_package):
+[0.802s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.802s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.802s]   CMake did not find one.
+[0.803s] 
+[0.806s]   Could not find a package configuration file provided by "catkin" with any
+[0.806s]   of the following names:
+[0.807s] 
+[0.807s]     catkinConfig.cmake
+[0.807s]     catkin-config.cmake
+[0.807s] 
+[0.808s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.808s] -- Configuring incomplete, errors occurred!
+[0.808s] See also "/SLAM/ros_ws/build/depth_image_proc/CMakeFiles/CMakeOutput.log".
+[0.808s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.809s]   provides a separate development package or SDK, be sure it has been
+[0.809s]   installed.
+[0.809s] 
+[0.809s] [0m
+[0.841s] Invoked command in '/SLAM/ros_ws/build/depth_image_proc' returned '1': /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/depth_image_proc -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/depth_image_proc

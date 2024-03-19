@@ -1,0 +1,64 @@
+[0.056s] Invoking command in '/SLAM/ros_ws/build/rtabmap_sync': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap LD_LIBRARY_PATH=/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/SLAM/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/SLAM/ros_ws/install/rtabmap_msgs/share /usr/bin/cmake --build /SLAM/ros_ws/build/rtabmap_sync
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_sync_plugins[0m
+[0.143s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_sync[0m
+[0.204s] [  8%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o[0m
+[0.204s] [  8%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o[0m
+[0.211s] [ 13%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberScan.cpp.o[0m
+[0.211s] [ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberSensorData.cpp.o[0m
+[0.211s] [ 21%] [32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberOdom.cpp.o[0m
+[0.212s] [ 43%] Built target rtabmap_sync_plugins
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_rgbd_sync[0m
+[0.266s] [ 52%] Built target rtabmap_rgbd_sync
+[0.282s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_rgbdx_sync[0m
+[0.329s] [ 60%] Built target rtabmap_rgbdx_sync
+[0.342s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_stereo_sync[0m
+[0.384s] [ 69%] Built target rtabmap_stereo_sync
+[0.398s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_rgb_sync[0m
+[0.441s] [ 78%] Built target rtabmap_rgb_sync
+[63.123s] [ 82%] [32m[1mLinking CXX shared library librtabmap_sync.so[0m
+[65.528s] [100%] Built target rtabmap_sync
+[65.543s] Invoked command in '/SLAM/ros_ws/build/rtabmap_sync' returned '0': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap LD_LIBRARY_PATH=/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/SLAM/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/SLAM/ros_ws/install/rtabmap_msgs/share /usr/bin/cmake --build /SLAM/ros_ws/build/rtabmap_sync
+[65.629s] Invoking command in '/SLAM/ros_ws/build/rtabmap_sync': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap LD_LIBRARY_PATH=/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/SLAM/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/SLAM/ros_ws/install/rtabmap_msgs/share /usr/bin/cmake --install /SLAM/ros_ws/build/rtabmap_sync
+[65.640s] -- Install configuration: "Release"
+[65.641s] -- Execute custom install script
+[65.641s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.sh
+[65.652s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.dsv
+[65.663s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbd_sync
+[65.673s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbdx_sync
+[65.684s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/lib/rtabmap_sync/stereo_sync
+[65.695s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/lib/rtabmap_sync/rgb_sync
+[65.706s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/ament_index/resource_index/package_run_dependencies/rtabmap_sync
+[65.715s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/ament_index/resource_index/parent_prefix_path/rtabmap_sync
+[65.725s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.sh
+[65.736s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.dsv
+[65.746s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.sh
+[65.757s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.dsv
+[65.768s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.bash
+[65.780s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.sh
+[65.791s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.zsh
+[65.802s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.dsv
+[65.814s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/package.dsv
+[65.825s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/ament_index/resource_index/packages/rtabmap_sync
+[65.836s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/ament_index/resource_index/rclcpp_components/rtabmap_sync
+[65.851s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/extra_configs.cmake
+[65.862s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_dependencies-extras.cmake
+[65.874s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_include_directories-extras.cmake
+[65.884s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_targets-extras.cmake
+[65.894s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_libraries-extras.cmake
+[65.905s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig.cmake
+[65.914s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig-version.cmake
+[65.925s] -- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/package.xml
+[65.935s] -- Installing: /SLAM/ros_ws/install/rtabmap_sync/lib/librtabmap_sync.so
+[65.988s] -- Set runtime path of "/SLAM/ros_ws/install/rtabmap_sync/lib/librtabmap_sync.so" to ""
+[65.988s] -- Installing: /SLAM/ros_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so
+[65.997s] -- Set runtime path of "/SLAM/ros_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so" to ""
+[65.997s] -- Installing: /SLAM/ros_ws/install/rtabmap_sync/include
+[65.997s] -- Installing: /SLAM/ros_ws/install/rtabmap_sync/include/rtabmap_sync
+[65.997s] -- Installing: /SLAM/ros_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriberDefines.h
+[65.997s] -- Installing: /SLAM/ros_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriber.h
+[65.997s] -- Installing: /SLAM/ros_ws/install/rtabmap_sync/include/rtabmap_sync/GetTopicName.h
+[65.997s] -- Installing: /SLAM/ros_ws/install/rtabmap_sync/include/rtabmap_sync/SyncDiagnostic.h
+[65.998s] -- Installing: /SLAM/ros_ws/install/rtabmap_sync/include/rtabmap_sync/visibility.h
+[65.998s] -- Installing: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport.cmake
+[65.999s] -- Installing: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport-release.cmake
+[66.002s] Invoked command in '/SLAM/ros_ws/build/rtabmap_sync' returned '0': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap LD_LIBRARY_PATH=/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/SLAM/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/SLAM/ros_ws/install/rtabmap_msgs/share /usr/bin/cmake --install /SLAM/ros_ws/build/rtabmap_sync

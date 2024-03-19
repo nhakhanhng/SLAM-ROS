@@ -1,0 +1,36 @@
+[0.544s] Invoking command in '/SLAM/ros_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_rotate -- -j16 -l16
+[0.642s] [ 50%] Built target image_rotate
+[0.700s] [100%] Built target image_rotate_bin
+[0.885s] Invoked command in '/SLAM/ros_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_rotate -- -j16 -l16
+[1.093s] Invoking command in '/SLAM/ros_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_rotate
+[1.160s] -- Install configuration: "Release"
+[1.160s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/include
+[1.160s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/include/image_rotate
+[1.161s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/include/image_rotate/image_rotate_node.hpp
+[1.161s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/include/image_rotate/visibility.h
+[1.162s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/library_path.sh
+[1.163s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/library_path.dsv
+[1.163s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/lib/libimage_rotate.so
+[1.163s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/lib/image_rotate/image_rotate
+[1.163s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/launch
+[1.168s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/launch/image_rotate.launch.py
+[1.169s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/ament_index/resource_index/package_run_dependencies/image_rotate
+[1.169s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/ament_index/resource_index/parent_prefix_path/image_rotate
+[1.169s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/ament_prefix_path.sh
+[1.170s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/ament_prefix_path.dsv
+[1.170s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/path.sh
+[1.171s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/path.dsv
+[1.171s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/local_setup.bash
+[1.172s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/local_setup.sh
+[1.172s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/local_setup.zsh
+[1.173s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/local_setup.dsv
+[1.173s] -- Installing: /SLAM/ros_ws/install/image_rotate/share/image_rotate/package.dsv
+[1.173s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/ament_index/resource_index/packages/image_rotate
+[1.173s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/ament_index/resource_index/rclcpp_components/image_rotate
+[1.174s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.174s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.174s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_libraries-extras.cmake
+[1.175s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/image_rotateConfig.cmake
+[1.175s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/image_rotateConfig-version.cmake
+[1.175s] -- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/package.xml
+[1.198s] Invoked command in '/SLAM/ros_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_rotate

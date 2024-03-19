@@ -1,0 +1,14 @@
+[35m[1mConsolidate compiler generated dependencies of target image_proc[0m
+[ 13%] Built target image_proc
+[35m[1mConsolidate compiler generated dependencies of target rectify[0m
+[ 26%] Built target rectify
+[35m[1mConsolidate compiler generated dependencies of target debayer[0m
+[ 46%] Built target debayer
+[35m[1mConsolidate compiler generated dependencies of target resize[0m
+[ 60%] Built target resize
+[35m[1mConsolidate compiler generated dependencies of target crop_decimate[0m
+[ 73%] Built target crop_decimate
+[35m[1mConsolidate compiler generated dependencies of target crop_non_zero[0m
+[ 86%] Built target crop_non_zero
+[35m[1mConsolidate compiler generated dependencies of target image_proc_exe[0m
+[100%] Built target image_proc_exe

@@ -1,0 +1,72 @@
+[0.539s] Invoking command in '/SLAM/ros_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/depth_image_proc -- -j16 -l16
+[0.618s] [35m[1mConsolidate compiler generated dependencies of target depth_image_proc[0m
+[0.740s] [  8%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/convert_metric.cpp.o[0m
+[0.747s] [ 16%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/crop_foremost.cpp.o[0m
+[0.749s] [ 25%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/disparity.cpp.o[0m
+[0.761s] [ 33%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyz.cpp.o[0m
+[0.783s] [ 41%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyz_radial.cpp.o[0m
+[0.790s] [ 50%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzi.cpp.o[0m
+[0.792s] [ 58%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzrgb.cpp.o[0m
+[0.796s] [ 66%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzi_radial.cpp.o[0m
+[0.821s] [ 75%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzrgb_radial.cpp.o[0m
+[0.911s] [ 83%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/register.cpp.o[0m
+[35.859s] [ 91%] [32m[1mLinking CXX shared library libdepth_image_proc.so[0m
+[36.847s] [100%] Built target depth_image_proc
+[36.878s] Invoked command in '/SLAM/ros_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/depth_image_proc -- -j16 -l16
+[36.976s] Invoking command in '/SLAM/ros_ws/build/depth_image_proc': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/depth_image_proc
+[36.991s] -- Install configuration: "Release"
+[36.993s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/include
+[36.993s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc
+[36.994s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzi.hpp
+[36.994s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/depth_traits.hpp
+[36.994s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyz_radial.hpp
+[36.995s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzrgb_radial.hpp
+[36.997s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzrgb.hpp
+[36.997s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/conversions.hpp
+[36.998s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyz.hpp
+[36.998s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzi_radial.hpp
+[36.998s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/visibility.h
+[36.999s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/environment/library_path.sh
+[36.999s] -- Installing: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/environment/library_path.dsv
+[37.004s] -- Installing: /SLAM/ros_ws/install/depth_image_proc/lib/libdepth_image_proc.so
+[37.005s] -- Set runtime path of "/SLAM/ros_ws/install/depth_image_proc/lib/libdepth_image_proc.so" to ""
+[37.005s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch
+[37.005s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/crop_foremost.launch.py
+[37.006s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz
+[37.007s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyz_radial.rviz
+[37.007s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/disparity.rviz
+[37.010s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/register.rviz
+[37.011s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyz.rviz
+[37.011s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/crop_formost.rviz
+[37.011s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyzrgb.rviz
+[37.012s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyzi.rviz
+[37.012s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/convert_metric.rviz
+[37.012s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzi.launch.py
+[37.012s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzrgb.launch.py
+[37.012s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyz_radial.launch.py
+[37.012s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/convert_metric.launch.py
+[37.012s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzi_radial.launch.py
+[37.013s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzrgb_radial.launch.py
+[37.013s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/register.launch.py
+[37.013s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyz.launch.py
+[37.013s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/disparity.launch.py
+[37.013s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/ament_index/resource_index/package_run_dependencies/depth_image_proc
+[37.013s] -- Installing: /SLAM/ros_ws/install/depth_image_proc/share/ament_index/resource_index/parent_prefix_path/depth_image_proc
+[37.014s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/environment/ament_prefix_path.sh
+[37.014s] -- Installing: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/environment/ament_prefix_path.dsv
+[37.015s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/environment/path.sh
+[37.015s] -- Installing: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/environment/path.dsv
+[37.015s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/local_setup.bash
+[37.015s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/local_setup.sh
+[37.018s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/local_setup.zsh
+[37.018s] -- Installing: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/local_setup.dsv
+[37.018s] -- Installing: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/package.dsv
+[37.018s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/ament_index/resource_index/packages/depth_image_proc
+[37.018s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/ament_index/resource_index/rclcpp_components/depth_image_proc
+[37.019s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[37.019s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[37.019s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[37.019s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/cmake/depth_image_procConfig.cmake
+[37.021s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/cmake/depth_image_procConfig-version.cmake
+[37.021s] -- Up-to-date: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/package.xml
+[37.038s] Invoked command in '/SLAM/ros_ws/build/depth_image_proc' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/depth_image_proc

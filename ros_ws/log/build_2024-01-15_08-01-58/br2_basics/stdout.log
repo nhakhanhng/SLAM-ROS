@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target publisher_class[0m
+[35m[1mConsolidate compiler generated dependencies of target logger_class[0m
+[35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target executors[0m
+[35m[1mConsolidate compiler generated dependencies of target subscriber_class[0m
+[35m[1mConsolidate compiler generated dependencies of target logger[0m
+[35m[1mConsolidate compiler generated dependencies of target param_reader[0m
+[ 31%] Built target publisher_class
+[ 31%] Built target subscriber
+[ 37%] Built target logger_class
+[ 50%] Built target publisher
+[ 62%] Built target subscriber_class
+[ 75%] Built target executors
+[ 87%] Built target logger
+[100%] Built target param_reader

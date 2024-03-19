@@ -1,0 +1,59 @@
+[0.086s] Invoking command in '/SLAM/ros_ws/build/pal_gripper_description': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/urdf_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/urdf_test:/opt/ros/humble PYTHONPATH=/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /SLAM/ros_ws/src/ThirdParty/pal_gripper/pal_gripper_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/pal_gripper_description
+[0.142s] -- The C compiler identification is GNU 11.4.0
+[0.195s] -- The CXX compiler identification is GNU 11.4.0
+[0.202s] -- Detecting C compiler ABI info
+[0.272s] -- Detecting C compiler ABI info - done
+[0.278s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.281s] -- Detecting CXX compiler ABI info
+[0.366s] -- Detecting CXX compiler ABI info - done
+[0.372s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.372s] -- Detecting CXX compile features
+[0.372s] -- Detecting CXX compile features - done
+[0.377s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.537s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.594s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.649s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[0.732s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.772s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.776s] -- Added test 'lint_cmake' to check CMake code style
+[0.778s] -- Added test 'xmllint' to check XML markup files
+[0.780s] -- Configuring done
+[0.784s] -- Generating done
+[0.785s] -- Build files have been written to: /SLAM/ros_ws/build/pal_gripper_description
+[0.790s] Invoked command in '/SLAM/ros_ws/build/pal_gripper_description' returned '0': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/urdf_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/urdf_test:/opt/ros/humble PYTHONPATH=/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /SLAM/ros_ws/src/ThirdParty/pal_gripper/pal_gripper_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/pal_gripper_description
+[0.792s] Invoking command in '/SLAM/ros_ws/build/pal_gripper_description': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/urdf_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/urdf_test:/opt/ros/humble PYTHONPATH=/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /SLAM/ros_ws/build/pal_gripper_description -- -j16 -l16
+[0.835s] Invoked command in '/SLAM/ros_ws/build/pal_gripper_description' returned '0': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/urdf_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/urdf_test:/opt/ros/humble PYTHONPATH=/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /SLAM/ros_ws/build/pal_gripper_description -- -j16 -l16
+[0.870s] Invoking command in '/SLAM/ros_ws/build/pal_gripper_description': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/urdf_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/urdf_test:/opt/ros/humble PYTHONPATH=/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /SLAM/ros_ws/build/pal_gripper_description
+[0.878s] -- Install configuration: ""
+[0.878s] -- Execute custom install script
+[0.879s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/gazebo/gazebo.urdf.xacro
+[0.888s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_finger_link.stl
+[0.899s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_finger_link_collision.stl
+[0.909s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_link.stl
+[0.921s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_link_collision.stl
+[0.931s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/robots/gripper_test.urdf.xacro
+[0.941s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/robots/upload.launch
+[0.950s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/robots/upload_gripper.launch
+[0.960s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.gazebo.xacro
+[0.969s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.ros2_control.xacro
+[0.979s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.transmission.xacro
+[0.988s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.urdf.xacro
+[0.997s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/ament_index/resource_index/package_run_dependencies/pal_gripper_description
+[1.007s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/ament_index/resource_index/parent_prefix_path/pal_gripper_description
+[1.018s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/environment/ament_prefix_path.sh
+[1.029s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/environment/ament_prefix_path.dsv
+[1.038s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/environment/path.sh
+[1.048s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/environment/path.dsv
+[1.058s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.bash
+[1.068s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.sh
+[1.078s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.zsh
+[1.087s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.dsv
+[1.097s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/package.dsv
+[1.107s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/ament_index/resource_index/packages/pal_gripper_description
+[1.117s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.128s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/pal_gripper_descriptionConfig.cmake
+[1.138s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/pal_gripper_descriptionConfig-version.cmake
+[1.147s] -- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/package.xml
+[1.158s] Invoked command in '/SLAM/ros_ws/build/pal_gripper_description' returned '0': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/urdf_test:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/urdf_test:/opt/ros/humble PYTHONPATH=/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /SLAM/ros_ws/build/pal_gripper_description

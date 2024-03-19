@@ -1,0 +1,119 @@
+[0.620s] Invoking command in '/SLAM/ros_ws/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/rtabmap -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/rtabmap
+[1.228s] -- MOBILE_BUILD=OFF
+[1.229s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.230s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.230s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.231s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.231s] -- Found Qhull version 8.0.2
+[1.690s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.876s] -- PCL definitions don't contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).
+[1.880s] -- Found Sqlite3: /usr/include /usr/lib/x86_64-linux-gnu/libsqlite3.so
+[1.883s] -- Found OpenMP: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a
+[1.883s] -- Add PCL_OMP to definitions
+[1.884s] -- Found OpenCV: /usr/include/opencv4
+[1.884s] -- Found PCL: /usr/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni
+[1.884s] -- Found ZLIB: /usr/include
+[1.910s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.603s] -- VTK>=9 detected, will use VTK_QT_VERSION=5 for Qt version.
+[2.607s] -- VTK_RENDERING_BACKEND=
+[2.745s] -- Found OpenNI2: /SLAM/ros_ws/install/astra_camera/include/openni2
+[2.745s] -- Found DC1394: /usr/include/dc1394
+[2.749s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[2.751s] -- Found g2o (targets)
+[2.751s] -- g2o include dir: /opt/ros/humble/include
+[2.751s] -- Latest g2o factory version detected with shared ptr (factory file: /opt/ros/humble/include/g2o/core/factory.h).
+[2.770s] -- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include
+[2.797s] -- FlyCapture2_INCLUDE_DIR=FlyCapture2_INCLUDE_DIR-NOTFOUND
+[2.797s] -- FlyCapture2_LIBRARY=FlyCapture2_LIBRARY-NOTFOUND
+[2.797s] -- Triclops_INCLUDE_DIR=Triclops_INCLUDE_DIR-NOTFOUND
+[2.798s] -- Triclops_LIBRARY=Triclops_LIBRARY-NOTFOUND
+[2.798s] -- FlyCaptureBridge_LIBRARY=FlyCaptureBridge_LIBRARY-NOTFOUND
+[2.807s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[2.814s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono 
+[2.816s] -- Found libpointmatcher: /opt/ros/humble/include;/usr/include/eigen3
+[2.822s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[2.832s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono timer serialization 
+[2.873s] -- Found RealSense2: 
+[2.899s] -- Found octomap 1.9.8: /opt/ros/humble/include
+[2.974s] -- Found grid_map_core 2.0.0: /opt/ros/humble/include;/usr/include/eigen3
+[2.980s] -- Architecture: x86_64
+[3.008s] -- Found Pthreads
+[3.064s] -- --------------------------------------------
+[3.065s] -- Info :
+[3.065s] --   RTAB-Map Version =     0.21.4
+[3.066s] --   CMAKE_VERSION =        3.22.1
+[3.066s] --   CMAKE_INSTALL_PREFIX = /SLAM/ros_ws/install/rtabmap
+[3.066s] --   CMAKE_BUILD_TYPE =     Release
+[3.066s] --   CMAKE_INSTALL_LIBDIR = lib
+[3.067s] --   BUILD_APP =            ON
+[3.067s] --   BUILD_TOOLS =          ON
+[3.067s] --   BUILD_EXAMPLES =       ON
+[3.067s] --   BUILD_SHARED_LIBS =    ON
+[3.068s] --   CMAKE_CXX_FLAGS =  -fmessage-length=0 -fopenmp -std=c++17
+[3.068s] --   FLANN_KDTREE_MEM_OPT = OFF
+[3.068s] --   PCL_DEFINITIONS = -DDISABLE_OPENNI2;-DDISABLE_PCAP;-DDISABLE_PNG
+[3.068s] --   PCL_VERSION = 1.12.1
+[3.069s] -- 
+[3.069s] -- Optional dependencies ('*' affects some default parameters) :
+[3.069s] --  *With OpenCV 4.5.4 xfeatures2d = NO, nonfree = NO (License: Apache 2)
+[3.069s] --   With Qt 5.15.3            = YES (License: Open Source or Commercial)
+[3.070s] --   With VTK 9.1              = YES (License: BSD)
+[3.070s] --   With external SQLite3     = YES (License: Public Domain)
+[3.070s] --   With ORB OcTree           = YES (License: GPLv3)
+[3.070s] --   With SupertPoint          = NO (WITH_TORCH=OFF)
+[3.070s] --   With Python3              = NO (WITH_PYTHON=OFF)
+[3.071s] --   With Madgwick             = YES (License: GPL)
+[3.071s] --   With FastCV               = NO (FastCV not found)
+[3.071s] --   With PDAL                 = NO (PDAL not found)
+[3.071s] -- 
+[3.072s] --  Solvers:
+[3.072s] --   With TORO                 = YES (License: Creative Commons [Attribution-NonCommercial-ShareAlike])
+[3.072s] --  *With g2o 1.0.0            = YES (License: BSD)
+[3.072s] --  *With GTSAM 4.2.0          = YES (License: BSD)
+[3.072s] --  *With Ceres                = NO (WITH_CERES=OFF)
+[3.073s] --   With MRPT                 = NO (MRPT not found)
+[3.073s] --   With VERTIGO              = YES (License: GPLv3)
+[3.073s] --   With cvsba                = NO (WITH_CVSBA=OFF)
+[3.073s] --  *With libpointmatcher 1.3.1 = YES (License: BSD)
+[3.074s] --   With CCCoreLib            = NO (WITH_CCCORELIB=OFF)
+[3.074s] --   With Open3D               = NO (WITH_OPEN3D=OFF)
+[3.074s] --   With OpenGV               = NO (OpenGV not found)
+[3.074s] -- 
+[3.074s] --  Reconstruction Approaches:
+[3.074s] --   With OctoMap 1.9.8        = YES (License: BSD)
+[3.075s] --   With GridMap 2.0.0        = YES (License: BSD)
+[3.075s] --   With CPUTSDF              = NO (WITH_CPUTSDF=OFF)
+[3.075s] --   With OpenChisel           = NO (WITH_OPENCHISEL=OFF)
+[3.075s] --   With AliceVision          = NO (WITH_ALICE_VISION=OFF)
+[3.075s] -- 
+[3.075s] --  Camera Drivers:
+[3.076s] --   With Freenect             = NO (libfreenect not found)
+[3.076s] --   With OpenNI2              = YES (License: Apache v2)
+[3.076s] --   With Freenect2            = NO (libfreenect2 not found)
+[3.076s] --   With Kinect for Windows 2 = NO (Kinect for Windows 2 SDK not found)
+[3.077s] --   With Kinect for Azure     = NO (Kinect for Azure SDK not found)
+[3.077s] --   With dc1394               = YES (License: LGPL)
+[3.078s] --   With FlyCapture2/Triclops = NO (Point Grey SDK not found)
+[3.079s] --   With ZED                  = NO (ZED sdk and/or cuda not found)
+[3.079s] --   With ZEDOC                = NO (ZED Open Capture not found)
+[3.079s] --   With RealSense            = NO (librealsense not found)
+[3.079s] --   With RealSense2 2.54.1    = YES (License: Apache-2)
+[3.079s] --   With MyntEyeS             = NO (mynteye s sdk not found)
+[3.080s] --   With DepthAI              = NO (WITH_DEPTHAI=OFF)
+[3.080s] -- 
+[3.080s] --  Odometry Approaches:
+[3.080s] --   With loam_velodyne        = NO (WITH_LOAM=OFF)
+[3.081s] --   With floam                = NO (WITH_FLOAM=OFF)
+[3.081s] --   With libfovis             = NO (WITH_FOVIS=OFF)
+[3.081s] --   With libviso2             = NO (WITH_VISO2=OFF)
+[3.081s] --   With dvo_core             = NO (WITH_DVO=OFF)
+[3.081s] --   With okvis                = NO (WITH_OKVIS=OFF)
+[3.082s] --   With msckf_vio            = NO (WITH_MSCKF_VIO=OFF)
+[3.082s] --   With VINS-Fusion          = NO (WITH_VINS=OFF)
+[3.082s] --   With OpenVINS             = NO (WITH_OPENVINS=OFF)
+[3.082s] --   With ORB_SLAM             = NO (WITH_ORB_SLAM=OFF)
+[3.083s] -- Show all options with: cmake -LA | grep WITH_
+[3.083s] -- --------------------------------------------
+[3.084s] -- Configuring done
+[3.683s] -- Generating done
+[3.694s] -- Build files have been written to: /SLAM/ros_ws/build/rtabmap

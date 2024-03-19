@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.000317] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000367] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000402] (-) JobUnselected: {'identifier': 'br2_basics'}
+[0.000432] (-) JobUnselected: {'identifier': 'br2_bt_bumpgo'}
+[0.000460] (-) JobUnselected: {'identifier': 'br2_bt_patrolling'}
+[0.000489] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_py'}
+[0.000518] (-) JobUnselected: {'identifier': 'br2_navigation'}
+[0.000547] (-) JobUnselected: {'identifier': 'br2_tf2_detector'}
+[0.000578] (-) JobUnselected: {'identifier': 'br2_tiago'}
+[0.000605] (-) JobUnselected: {'identifier': 'br2_tracking'}
+[0.000631] (-) JobUnselected: {'identifier': 'br2_tracking_msgs'}
+[0.000657] (-) JobUnselected: {'identifier': 'br2_vff_avoidance'}
+[0.000684] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000712] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000739] (-) JobUnselected: {'identifier': 'groot'}
+[0.000766] (-) JobUnselected: {'identifier': 'hey5_description'}
+[0.000789] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.000812] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.000835] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000859] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.000882] (-) JobUnselected: {'identifier': 'image_view'}
+[0.000905] (-) JobUnselected: {'identifier': 'launch_pal'}
+[0.000928] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.000951] (-) JobUnselected: {'identifier': 'pal_gazebo_worlds'}
+[0.000974] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.000997] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.001020] (-) JobUnselected: {'identifier': 'pal_gripper_description'}
+[0.001044] (-) JobUnselected: {'identifier': 'pmb2_2dnav'}
+[0.001066] (-) JobUnselected: {'identifier': 'pmb2_bringup'}
+[0.001089] (-) JobUnselected: {'identifier': 'pmb2_controller_configuration'}
+[0.001111] (-) JobUnselected: {'identifier': 'pmb2_description'}
+[0.001134] (-) JobUnselected: {'identifier': 'pmb2_laser_sensors'}
+[0.001157] (-) JobUnselected: {'identifier': 'pmb2_maps'}
+[0.001180] (-) JobUnselected: {'identifier': 'pmb2_navigation'}
+[0.001203] (-) JobUnselected: {'identifier': 'pmb2_robot'}
+[0.001225] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001247] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001270] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.001293] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.001329] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.001356] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.001379] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.001402] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.001424] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.001447] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.001470] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.001492] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.001515] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.001537] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.001560] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.001583] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.001605] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.001627] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001650] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.001673] (-) JobUnselected: {'identifier': 'tiago_2dnav'}
+[0.001695] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.001717] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.001740] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.001763] (-) JobUnselected: {'identifier': 'tiago_gazebo'}
+[0.001784] (-) JobUnselected: {'identifier': 'tiago_laser_sensors'}
+[0.001807] (-) JobUnselected: {'identifier': 'tiago_moveit_config'}
+[0.001830] (-) JobUnselected: {'identifier': 'tiago_navigation'}
+[0.001854] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.001877] (-) JobUnselected: {'identifier': 'tiago_simulation'}
+[0.001929] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.001955] (-) JobUnselected: {'identifier': 'tutourial_intefaces'}
+[0.001979] (-) JobUnselected: {'identifier': 'urdf_test'}
+[0.002005] (br2_fsm_bumpgo_cpp) JobQueued: {'identifier': 'br2_fsm_bumpgo_cpp', 'dependencies': OrderedDict()}
+[0.002033] (br2_fsm_bumpgo_cpp) JobStarted: {'identifier': 'br2_fsm_bumpgo_cpp'}
+[0.049868] (br2_fsm_bumpgo_cpp) JobProgress: {'identifier': 'br2_fsm_bumpgo_cpp', 'progress': 'cmake'}
+[0.050815] (br2_fsm_bumpgo_cpp) JobProgress: {'identifier': 'br2_fsm_bumpgo_cpp', 'progress': 'build'}
+[0.051369] (br2_fsm_bumpgo_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/br2_fsm_bumpgo_cpp', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/br2_fsm_bumpgo_cpp', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7fbe7d84-27ea-4f82-a066-5db4fc3f779f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d5368a01-2a6c-4362-a204-09078a2907df.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-d5368a01-2a6c-4362-a204-09078a2907df.sock","/tmp/.X11-unix/X2","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-d5368a01-2a6c-4362-a204-09078a2907df.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/br2_fsm_bumpgo_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099287] (-) TimerEvent: {}
+[0.107442] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target bumpgo\x1b[0m\n'}
+[0.136963] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'[100%] Built target bumpgo\n'}
+[0.149813] (br2_fsm_bumpgo_cpp) CommandEnded: {'returncode': 0}
+[0.180095] (br2_fsm_bumpgo_cpp) JobProgress: {'identifier': 'br2_fsm_bumpgo_cpp', 'progress': 'install'}
+[0.190032] (br2_fsm_bumpgo_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/br2_fsm_bumpgo_cpp'], 'cwd': '/SLAM/ros_ws/build/br2_fsm_bumpgo_cpp', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-7fbe7d84-27ea-4f82-a066-5db4fc3f779f.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d5368a01-2a6c-4362-a204-09078a2907df.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-d5368a01-2a6c-4362-a204-09078a2907df.sock","/tmp/.X11-unix/X2","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-d5368a01-2a6c-4362-a204-09078a2907df.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/br2_fsm_bumpgo_cpp'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.198224] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.198879] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.199272] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/lib/br2_fsm_bumpgo_cpp/bumpgo\n'}
+[0.199392] (-) TimerEvent: {}
+[0.199712] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/launch/bump_and_go.launch.py\n'}
+[0.199940] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/ament_index/resource_index/package_run_dependencies/br2_fsm_bumpgo_cpp\n'}
+[0.200164] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/ament_index/resource_index/parent_prefix_path/br2_fsm_bumpgo_cpp\n'}
+[0.200383] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/environment/ament_prefix_path.sh\n'}
+[0.200563] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/environment/ament_prefix_path.dsv\n'}
+[0.200773] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/environment/path.sh\n'}
+[0.200957] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/environment/path.dsv\n'}
+[0.201137] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/local_setup.bash\n'}
+[0.201738] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/local_setup.sh\n'}
+[0.201912] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/local_setup.zsh\n'}
+[0.202006] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/local_setup.dsv\n'}
+[0.202095] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/package.dsv\n'}
+[0.213668] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/ament_index/resource_index/packages/br2_fsm_bumpgo_cpp\n'}
+[0.214065] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/cmake/br2_fsm_bumpgo_cppConfig.cmake\n'}
+[0.214166] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/cmake/br2_fsm_bumpgo_cppConfig-version.cmake\n'}
+[0.214257] (br2_fsm_bumpgo_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_fsm_bumpgo_cpp/share/br2_fsm_bumpgo_cpp/package.xml\n'}
+[0.216797] (br2_fsm_bumpgo_cpp) CommandEnded: {'returncode': 0}
+[0.299563] (-) TimerEvent: {}
+[0.381445] (br2_fsm_bumpgo_cpp) JobEnded: {'identifier': 'br2_fsm_bumpgo_cpp', 'rc': 0}
+[0.382080] (-) EventReactorShutdown: {}

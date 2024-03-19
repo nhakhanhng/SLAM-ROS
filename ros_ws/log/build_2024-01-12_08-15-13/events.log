@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000465] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000521] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000545] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000568] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000588] (-) JobUnselected: {'identifier': 'cpp_srvcli'}
+[0.000627] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000659] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.000678] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.000840] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.001014] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.001107] (-) JobUnselected: {'identifier': 'image_view'}
+[0.001155] (-) JobUnselected: {'identifier': 'more_interfaces'}
+[0.001184] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.001234] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001248] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.001267] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.001303] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.001385] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.001443] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.001487] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.001506] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.001521] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.001555] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.001659] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.001675] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.001690] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.001715] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.001730] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001791] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.001806] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.001821] (-) JobUnselected: {'identifier': 'tutourial_intefaces'}
+[0.001850] (rtabmap_odom) JobQueued: {'identifier': 'rtabmap_odom', 'dependencies': OrderedDict([('rtabmap', '/SLAM/ros_ws/install/rtabmap'), ('rtabmap_msgs', '/SLAM/ros_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/SLAM/ros_ws/install/rtabmap_conversions'), ('rtabmap_sync', '/SLAM/ros_ws/install/rtabmap_sync'), ('rtabmap_util', '/SLAM/ros_ws/install/rtabmap_util')])}
+[0.001964] (rtabmap_odom) JobStarted: {'identifier': 'rtabmap_odom'}
+[0.067411] (rtabmap_odom) JobProgress: {'identifier': 'rtabmap_odom', 'progress': 'cmake'}
+[0.068616] (rtabmap_odom) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/rtabmap_ros/rtabmap_odom', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/rtabmap_odom'], 'cwd': '/SLAM/ros_ws/build/rtabmap_odom', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('ROS_PACKAGE_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/share'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/rtabmap_util/lib:/SLAM/ros_ws/install/rtabmap_sync/lib:/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-62c7ce5e-e35c-4c00-a79f-1608d9801f5a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-8f7e17ac-72ba-48ab-812b-c82cd67754a8.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/SLAM/ros_ws/install/rtabmap/bin:/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-8f7e17ac-72ba-48ab-812b-c82cd67754a8.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-300c5a9faf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-8f7e17ac-72ba-48ab-812b-c82cd67754a8.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/rtabmap_odom'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap')]), 'shell': False}
+[0.091248] (rtabmap_odom) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.099983] (-) TimerEvent: {}
+[0.200171] (-) TimerEvent: {}
+[0.220552] (rtabmap_odom) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.246586] (rtabmap_odom) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.300245] (-) TimerEvent: {}
+[0.304191] (rtabmap_odom) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.307475] (rtabmap_odom) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.317272] (rtabmap_odom) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.332330] (rtabmap_odom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.350865] (rtabmap_odom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400355] (-) TimerEvent: {}
+[0.500641] (-) TimerEvent: {}
+[0.544352] (rtabmap_odom) StdoutLine: {'line': b'-- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)\n'}
+[0.551465] (rtabmap_odom) StdoutLine: {'line': b'-- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)\n'}
+[0.600835] (-) TimerEvent: {}
+[0.615647] (rtabmap_odom) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.618627] (rtabmap_odom) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701140] (-) TimerEvent: {}
+[0.786523] (rtabmap_odom) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801217] (-) TimerEvent: {}
+[0.901434] (-) TimerEvent: {}
+[0.924735] (rtabmap_odom) StdoutLine: {'line': b'-- Found message_filters: 4.3.3 (/opt/ros/humble/share/message_filters/cmake)\n'}
+[0.931060] (rtabmap_odom) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[0.996899] (rtabmap_odom) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[1.001497] (-) TimerEvent: {}
+[1.093592] (rtabmap_odom) StdoutLine: {'line': b'-- Found pcl_ros: 2.4.0 (/opt/ros/humble/share/pcl_ros/cmake)\n'}
+[1.101571] (-) TimerEvent: {}
+[1.179168] (rtabmap_odom) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.201643] (-) TimerEvent: {}
+[1.301853] (-) TimerEvent: {}
+[1.402105] (-) TimerEvent: {}
+[1.500315] (rtabmap_odom) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.502165] (-) TimerEvent: {}
+[1.542852] (rtabmap_odom) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.602283] (-) TimerEvent: {}
+[1.702582] (-) TimerEvent: {}
+[1.802858] (-) TimerEvent: {}
+[1.903100] (-) TimerEvent: {}
+[1.935532] (rtabmap_odom) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.942253] (rtabmap_odom) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.003572] (-) TimerEvent: {}
+[2.068723] (rtabmap_odom) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.074422] (rtabmap_odom) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.080424] (rtabmap_odom) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.104026] (-) TimerEvent: {}
+[2.199622] (rtabmap_odom) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.204109] (-) TimerEvent: {}
+[2.304343] (-) TimerEvent: {}
+[2.323360] (rtabmap_odom) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.404458] (-) TimerEvent: {}
+[2.473033] (rtabmap_odom) StdoutLine: {'line': b'-- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)\n'}
+[2.503534] (rtabmap_odom) StdoutLine: {'line': b'-- Found rtabmap_conversions: 0.21.3 (/SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake)\n'}
+[2.504533] (-) TimerEvent: {}
+[2.604767] (-) TimerEvent: {}
+[2.683653] (rtabmap_odom) StdoutLine: {'line': b'-- Found rtabmap_util: 0.21.3 (/SLAM/ros_ws/install/rtabmap_util/share/rtabmap_util/cmake)\n'}
+[2.704841] (-) TimerEvent: {}
+[2.805073] (-) TimerEvent: {}
+[2.905342] (-) TimerEvent: {}
+[3.005605] (-) TimerEvent: {}
+[3.105883] (-) TimerEvent: {}
+[3.206156] (-) TimerEvent: {}
+[3.306415] (-) TimerEvent: {}
+[3.406671] (-) TimerEvent: {}
+[3.506917] (-) TimerEvent: {}
+[3.607161] (-) TimerEvent: {}
+[3.707408] (-) TimerEvent: {}
+[3.807663] (-) TimerEvent: {}
+[3.844675] (rtabmap_odom) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:28 (find_package):\n'}
+[3.844896] (rtabmap_odom) StderrLine: {'line': b'  By not providing "Findrtabmap_sync.cmake" in CMAKE_MODULE_PATH this project\n'}
+[3.844982] (rtabmap_odom) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[3.845055] (rtabmap_odom) StderrLine: {'line': b'  "rtabmap_sync", but CMake did not find one.\n'}
+[3.845120] (rtabmap_odom) StderrLine: {'line': b'\n'}
+[3.845183] (rtabmap_odom) StderrLine: {'line': b'  Could not find a package configuration file provided by "rtabmap_sync" with\n'}
+[3.845245] (rtabmap_odom) StderrLine: {'line': b'  any of the following names:\n'}
+[3.845306] (rtabmap_odom) StderrLine: {'line': b'\n'}
+[3.845368] (rtabmap_odom) StderrLine: {'line': b'    rtabmap_syncConfig.cmake\n'}
+[3.845428] (rtabmap_odom) StderrLine: {'line': b'    rtabmap_sync-config.cmake\n'}
+[3.845489] (rtabmap_odom) StderrLine: {'line': b'\n'}
+[3.845550] (rtabmap_odom) StderrLine: {'line': b'  Add the installation prefix of "rtabmap_sync" to CMAKE_PREFIX_PATH or set\n'}
+[3.845609] (rtabmap_odom) StderrLine: {'line': b'  "rtabmap_sync_DIR" to a directory containing one of the above files.  If\n'}
+[3.845666] (rtabmap_odom) StderrLine: {'line': b'  "rtabmap_sync" provides a separate development package or SDK, be sure it\n'}
+[3.845717] (rtabmap_odom) StderrLine: {'line': b'  has been installed.\n'}
+[3.845767] (rtabmap_odom) StderrLine: {'line': b'\n'}
+[3.845815] (rtabmap_odom) StderrLine: {'line': b'\x1b[0m\n'}
+[3.845864] (rtabmap_odom) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.845919] (rtabmap_odom) StdoutLine: {'line': b'See also "/SLAM/ros_ws/build/rtabmap_odom/CMakeFiles/CMakeOutput.log".\n'}
+[3.857899] (rtabmap_odom) CommandEnded: {'returncode': 1}
+[3.907779] (-) TimerEvent: {}
+[3.926446] (rtabmap_odom) JobEnded: {'identifier': 'rtabmap_odom', 'rc': 1}
+[3.937032] (-) EventReactorShutdown: {}

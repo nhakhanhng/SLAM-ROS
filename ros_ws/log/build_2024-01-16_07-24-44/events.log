@@ -1,0 +1,549 @@
+[0.000000] (-) TimerEvent: {}
+[0.000149] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000329] (-) JobUnselected: {'identifier': 'br2_basics'}
+[0.000378] (-) JobUnselected: {'identifier': 'br2_bt_bumpgo'}
+[0.000396] (-) JobUnselected: {'identifier': 'br2_bt_patrolling'}
+[0.000415] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_cpp'}
+[0.000432] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_py'}
+[0.000450] (-) JobUnselected: {'identifier': 'br2_navigation'}
+[0.000467] (-) JobUnselected: {'identifier': 'br2_tf2_detector'}
+[0.000484] (-) JobUnselected: {'identifier': 'br2_tiago'}
+[0.000500] (-) JobUnselected: {'identifier': 'br2_tracking'}
+[0.000517] (-) JobUnselected: {'identifier': 'br2_tracking_msgs'}
+[0.000533] (-) JobUnselected: {'identifier': 'br2_vff_avoidance'}
+[0.000550] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000567] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000583] (-) JobUnselected: {'identifier': 'groot'}
+[0.000600] (-) JobUnselected: {'identifier': 'hey5_description'}
+[0.000616] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.000632] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.000649] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000666] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.000682] (-) JobUnselected: {'identifier': 'image_view'}
+[0.000699] (-) JobUnselected: {'identifier': 'launch_pal'}
+[0.000715] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.000731] (-) JobUnselected: {'identifier': 'pal_gazebo_worlds'}
+[0.000748] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.000764] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.000780] (-) JobUnselected: {'identifier': 'pal_gripper_description'}
+[0.000797] (-) JobUnselected: {'identifier': 'pmb2_2dnav'}
+[0.000813] (-) JobUnselected: {'identifier': 'pmb2_bringup'}
+[0.000829] (-) JobUnselected: {'identifier': 'pmb2_controller_configuration'}
+[0.000845] (-) JobUnselected: {'identifier': 'pmb2_description'}
+[0.000862] (-) JobUnselected: {'identifier': 'pmb2_laser_sensors'}
+[0.000878] (-) JobUnselected: {'identifier': 'pmb2_maps'}
+[0.000895] (-) JobUnselected: {'identifier': 'pmb2_navigation'}
+[0.000911] (-) JobUnselected: {'identifier': 'pmb2_robot'}
+[0.000927] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.000943] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.000960] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.000976] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.000993] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.001009] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.001025] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.001042] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.001058] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.001074] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.001090] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.001106] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.001122] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.001139] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.001155] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.001171] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.001187] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.001203] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001220] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.001235] (-) JobUnselected: {'identifier': 'tiago_2dnav'}
+[0.001252] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.001268] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.001284] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.001299] (-) JobUnselected: {'identifier': 'tiago_gazebo'}
+[0.001316] (-) JobUnselected: {'identifier': 'tiago_laser_sensors'}
+[0.001332] (-) JobUnselected: {'identifier': 'tiago_moveit_config'}
+[0.001348] (-) JobUnselected: {'identifier': 'tiago_navigation'}
+[0.001364] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.001380] (-) JobUnselected: {'identifier': 'tiago_simulation'}
+[0.001420] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.001440] (-) JobUnselected: {'identifier': 'tutourial_intefaces'}
+[0.001458] (-) JobUnselected: {'identifier': 'urdf_test'}
+[0.001477] (astra_camera) JobQueued: {'identifier': 'astra_camera', 'dependencies': OrderedDict([('astra_camera_msgs', '/SLAM/ros_ws/install/astra_camera_msgs'), ('image_publisher', '/SLAM/ros_ws/install/image_publisher')])}
+[0.001499] (astra_camera) JobStarted: {'identifier': 'astra_camera'}
+[0.077978] (astra_camera) JobProgress: {'identifier': 'astra_camera', 'progress': 'cmake'}
+[0.079202] (astra_camera) JobProgress: {'identifier': 'astra_camera', 'progress': 'build'}
+[0.080081] (astra_camera) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/astra_camera', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/astra_camera', 'env': OrderedDict([('HOSTNAME', 'acer'), ('ROS_PACKAGE_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/share'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/SLAM/ros_ws/install/tutourial_intefaces/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/rtabmap_slam/lib:/SLAM/ros_ws/install/rtabmap_odom/lib:/SLAM/ros_ws/install/rtabmap_util/lib:/SLAM/ros_ws/install/rtabmap_sync/lib:/SLAM/ros_ws/install/rtabmap_rviz_plugins/lib:/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:/SLAM/ros_ws/install/more_interfaces/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/SLAM/ros_ws/install/br2_vff_avoidance/lib:/SLAM/ros_ws/install/br2_tracking/lib:/SLAM/ros_ws/install/br2_tracking_msgs/lib:/SLAM/ros_ws/install/br2_tf2_detector/lib:/SLAM/ros_ws/install/br2_bt_patrolling/lib:/SLAM/ros_ws/install/br2_bt_bumpgo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-5b98de46-e574-4425-85ce-5d87e473ab49.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/SLAM/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a42e2f6e-a542-4309-850c-99b77a627e0e.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/SLAM/ros_ws/install/image_proc/bin:/SLAM/ros_ws/install/rtabmap/bin:/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a42e2f6e-a542-4309-850c-99b77a627e0e.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a42e2f6e-a542-4309-850c-99b77a627e0e.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/urdf_test:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/tiago_simulation:/SLAM/ros_ws/install/tiago_robot:/SLAM/ros_ws/install/tiago_navigation:/SLAM/ros_ws/install/tiago_gazebo:/SLAM/ros_ws/install/tiago_moveit_config:/SLAM/ros_ws/install/tiago_laser_sensors:/SLAM/ros_ws/install/tiago_bringup:/SLAM/ros_ws/install/tiago_description:/SLAM/ros_ws/install/tiago_controller_configuration:/SLAM/ros_ws/install/tiago_2dnav:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/pmb2_robot:/SLAM/ros_ws/install/pmb2_navigation:/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/SLAM/ros_ws/install/pmb2_bringup:/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/pal_gripper:/SLAM/ros_ws/install/pal_gripper_description:/SLAM/ros_ws/install/pal_gripper_controller_configuration:/SLAM/ros_ws/install/pal_gazebo_worlds:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/launch_pal:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/hey5_description:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/camera_calibration:/SLAM/ros_ws/install/br2_vff_avoidance:/SLAM/ros_ws/install/br2_tracking:/SLAM/ros_ws/install/br2_tracking_msgs:/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_tf2_detector:/SLAM/ros_ws/install/br2_navigation:/SLAM/ros_ws/install/br2_fsm_bumpgo_py:/SLAM/ros_ws/install/br2_fsm_bumpgo_cpp:/SLAM/ros_ws/install/br2_bt_patrolling:/SLAM/ros_ws/install/br2_bt_bumpgo:/SLAM/ros_ws/install/br2_basics:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/astra_camera'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/tutourial_intefaces/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/tiago_description/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/rtabmap_python:/SLAM/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/my_robot_controller:/SLAM/ros_ws/install/my_robot_controller/lib/python3.10/site-packages:/SLAM/ros_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/SLAM/ros_ws/build/camera_calibration/src:/SLAM/ros_ws/install/camera_calibration/lib/python3.10/site-packages:/SLAM/ros_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/br2_fsm_bumpgo_py:/SLAM/ros_ws/install/br2_fsm_bumpgo_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/urdf_test:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/tiago_simulation:/SLAM/ros_ws/install/tiago_robot:/SLAM/ros_ws/install/tiago_navigation:/SLAM/ros_ws/install/tiago_gazebo:/SLAM/ros_ws/install/tiago_moveit_config:/SLAM/ros_ws/install/tiago_laser_sensors:/SLAM/ros_ws/install/tiago_bringup:/SLAM/ros_ws/install/tiago_description:/SLAM/ros_ws/install/tiago_controller_configuration:/SLAM/ros_ws/install/tiago_2dnav:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/launch_pal:/SLAM/ros_ws/install/camera_calibration:/SLAM/ros_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/pmb2_robot:/SLAM/ros_ws/install/pmb2_navigation:/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/SLAM/ros_ws/install/pmb2_bringup:/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/pal_gripper:/SLAM/ros_ws/install/pal_gripper_description:/SLAM/ros_ws/install/pal_gripper_controller_configuration:/SLAM/ros_ws/install/pal_gazebo_worlds:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/hey5_description:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/br2_vff_avoidance:/SLAM/ros_ws/install/br2_tracking:/SLAM/ros_ws/install/br2_tracking_msgs:/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_tf2_detector:/SLAM/ros_ws/install/br2_navigation:/SLAM/ros_ws/install/br2_fsm_bumpgo_cpp:/SLAM/ros_ws/install/br2_bt_patrolling:/SLAM/ros_ws/install/br2_bt_bumpgo:/SLAM/ros_ws/install/br2_basics')]), 'shell': False}
+[0.098831] (-) TimerEvent: {}
+[0.199112] (-) TimerEvent: {}
+[0.213418] (astra_camera) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target astra_camera\x1b[0m\n'}
+[0.282934] (astra_camera) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o\x1b[0m\n'}
+[0.283192] (astra_camera) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_timer_filter.cpp.o\x1b[0m\n'}
+[0.283293] (astra_camera) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node_factory.cpp.o\x1b[0m\n'}
+[0.283399] (astra_camera) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyzrgb.cpp.o\x1b[0m\n'}
+[0.283484] (astra_camera) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_context.cpp.o\x1b[0m\n'}
+[0.283574] (astra_camera) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/dynamic_params.cpp.o\x1b[0m\n'}
+[0.283725] (astra_camera) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node.cpp.o\x1b[0m\n'}
+[0.299281] (-) TimerEvent: {}
+[0.399660] (-) TimerEvent: {}
+[0.499979] (-) TimerEvent: {}
+[0.600314] (-) TimerEvent: {}
+[0.700808] (-) TimerEvent: {}
+[0.801218] (-) TimerEvent: {}
+[0.901586] (-) TimerEvent: {}
+[1.001937] (-) TimerEvent: {}
+[1.102295] (-) TimerEvent: {}
+[1.202678] (-) TimerEvent: {}
+[1.303009] (-) TimerEvent: {}
+[1.403356] (-) TimerEvent: {}
+[1.503756] (-) TimerEvent: {}
+[1.604113] (-) TimerEvent: {}
+[1.704459] (-) TimerEvent: {}
+[1.804828] (-) TimerEvent: {}
+[1.905187] (-) TimerEvent: {}
+[2.005589] (-) TimerEvent: {}
+[2.105955] (-) TimerEvent: {}
+[2.206405] (-) TimerEvent: {}
+[2.306827] (-) TimerEvent: {}
+[2.407298] (-) TimerEvent: {}
+[2.507691] (-) TimerEvent: {}
+[2.608082] (-) TimerEvent: {}
+[2.708462] (-) TimerEvent: {}
+[2.808850] (-) TimerEvent: {}
+[2.909260] (-) TimerEvent: {}
+[3.009615] (-) TimerEvent: {}
+[3.109971] (-) TimerEvent: {}
+[3.210339] (-) TimerEvent: {}
+[3.310709] (-) TimerEvent: {}
+[3.411082] (-) TimerEvent: {}
+[3.511455] (-) TimerEvent: {}
+[3.611829] (-) TimerEvent: {}
+[3.712177] (-) TimerEvent: {}
+[3.812530] (-) TimerEvent: {}
+[3.912873] (-) TimerEvent: {}
+[4.013235] (-) TimerEvent: {}
+[4.113607] (-) TimerEvent: {}
+[4.213950] (-) TimerEvent: {}
+[4.314315] (-) TimerEvent: {}
+[4.414707] (-) TimerEvent: {}
+[4.515042] (-) TimerEvent: {}
+[4.615392] (-) TimerEvent: {}
+[4.715759] (-) TimerEvent: {}
+[4.816120] (-) TimerEvent: {}
+[4.916470] (-) TimerEvent: {}
+[5.016830] (-) TimerEvent: {}
+[5.117287] (-) TimerEvent: {}
+[5.217722] (-) TimerEvent: {}
+[5.318055] (-) TimerEvent: {}
+[5.418394] (-) TimerEvent: {}
+[5.518726] (-) TimerEvent: {}
+[5.619039] (-) TimerEvent: {}
+[5.719368] (-) TimerEvent: {}
+[5.819699] (-) TimerEvent: {}
+[5.920020] (-) TimerEvent: {}
+[6.020333] (-) TimerEvent: {}
+[6.120694] (-) TimerEvent: {}
+[6.220987] (-) TimerEvent: {}
+[6.321322] (-) TimerEvent: {}
+[6.421730] (-) TimerEvent: {}
+[6.522050] (-) TimerEvent: {}
+[6.622356] (-) TimerEvent: {}
+[6.722668] (-) TimerEvent: {}
+[6.822986] (-) TimerEvent: {}
+[6.923318] (-) TimerEvent: {}
+[7.023650] (-) TimerEvent: {}
+[7.123975] (-) TimerEvent: {}
+[7.224285] (-) TimerEvent: {}
+[7.324631] (-) TimerEvent: {}
+[7.424942] (-) TimerEvent: {}
+[7.525287] (-) TimerEvent: {}
+[7.625690] (-) TimerEvent: {}
+[7.726057] (-) TimerEvent: {}
+[7.826432] (-) TimerEvent: {}
+[7.926816] (-) TimerEvent: {}
+[8.027218] (-) TimerEvent: {}
+[8.127611] (-) TimerEvent: {}
+[8.228006] (-) TimerEvent: {}
+[8.328391] (-) TimerEvent: {}
+[8.428852] (-) TimerEvent: {}
+[8.529389] (-) TimerEvent: {}
+[8.629773] (-) TimerEvent: {}
+[8.730159] (-) TimerEvent: {}
+[8.830542] (-) TimerEvent: {}
+[8.930972] (-) TimerEvent: {}
+[9.031416] (-) TimerEvent: {}
+[9.131809] (-) TimerEvent: {}
+[9.232171] (-) TimerEvent: {}
+[9.332540] (-) TimerEvent: {}
+[9.432939] (-) TimerEvent: {}
+[9.533328] (-) TimerEvent: {}
+[9.633725] (-) TimerEvent: {}
+[9.734088] (-) TimerEvent: {}
+[9.834469] (-) TimerEvent: {}
+[9.934845] (-) TimerEvent: {}
+[10.035235] (-) TimerEvent: {}
+[10.135627] (-) TimerEvent: {}
+[10.236031] (-) TimerEvent: {}
+[10.336357] (-) TimerEvent: {}
+[10.436653] (-) TimerEvent: {}
+[10.536962] (-) TimerEvent: {}
+[10.637373] (-) TimerEvent: {}
+[10.737672] (-) TimerEvent: {}
+[10.837986] (-) TimerEvent: {}
+[10.938276] (-) TimerEvent: {}
+[11.038603] (-) TimerEvent: {}
+[11.138909] (-) TimerEvent: {}
+[11.239236] (-) TimerEvent: {}
+[11.339615] (-) TimerEvent: {}
+[11.440020] (-) TimerEvent: {}
+[11.540343] (-) TimerEvent: {}
+[11.640679] (-) TimerEvent: {}
+[11.741031] (-) TimerEvent: {}
+[11.841336] (-) TimerEvent: {}
+[11.941657] (-) TimerEvent: {}
+[12.041991] (-) TimerEvent: {}
+[12.142307] (-) TimerEvent: {}
+[12.242648] (-) TimerEvent: {}
+[12.343024] (-) TimerEvent: {}
+[12.443356] (-) TimerEvent: {}
+[12.543698] (-) TimerEvent: {}
+[12.644024] (-) TimerEvent: {}
+[12.744317] (-) TimerEvent: {}
+[12.844607] (-) TimerEvent: {}
+[12.944917] (-) TimerEvent: {}
+[13.045234] (-) TimerEvent: {}
+[13.145540] (-) TimerEvent: {}
+[13.245837] (-) TimerEvent: {}
+[13.346125] (-) TimerEvent: {}
+[13.446432] (-) TimerEvent: {}
+[13.546748] (-) TimerEvent: {}
+[13.647059] (-) TimerEvent: {}
+[13.747361] (-) TimerEvent: {}
+[13.847674] (-) TimerEvent: {}
+[13.947986] (-) TimerEvent: {}
+[14.048286] (-) TimerEvent: {}
+[14.148585] (-) TimerEvent: {}
+[14.248874] (-) TimerEvent: {}
+[14.349180] (-) TimerEvent: {}
+[14.449490] (-) TimerEvent: {}
+[14.549806] (-) TimerEvent: {}
+[14.650155] (-) TimerEvent: {}
+[14.750434] (-) TimerEvent: {}
+[14.850708] (-) TimerEvent: {}
+[14.951000] (-) TimerEvent: {}
+[15.051301] (-) TimerEvent: {}
+[15.151600] (-) TimerEvent: {}
+[15.251907] (-) TimerEvent: {}
+[15.352187] (-) TimerEvent: {}
+[15.452468] (-) TimerEvent: {}
+[15.552756] (-) TimerEvent: {}
+[15.653038] (-) TimerEvent: {}
+[15.753339] (-) TimerEvent: {}
+[15.853650] (-) TimerEvent: {}
+[15.953938] (-) TimerEvent: {}
+[16.054224] (-) TimerEvent: {}
+[16.154514] (-) TimerEvent: {}
+[16.254795] (-) TimerEvent: {}
+[16.355120] (-) TimerEvent: {}
+[16.455439] (-) TimerEvent: {}
+[16.555717] (-) TimerEvent: {}
+[16.656017] (-) TimerEvent: {}
+[16.756316] (-) TimerEvent: {}
+[16.856671] (-) TimerEvent: {}
+[16.957023] (-) TimerEvent: {}
+[17.057355] (-) TimerEvent: {}
+[17.157904] (-) TimerEvent: {}
+[17.258243] (-) TimerEvent: {}
+[17.358625] (-) TimerEvent: {}
+[17.458964] (-) TimerEvent: {}
+[17.559307] (-) TimerEvent: {}
+[17.659698] (-) TimerEvent: {}
+[17.760024] (-) TimerEvent: {}
+[17.860388] (-) TimerEvent: {}
+[17.960747] (-) TimerEvent: {}
+[18.061170] (-) TimerEvent: {}
+[18.161520] (-) TimerEvent: {}
+[18.261878] (-) TimerEvent: {}
+[18.362198] (-) TimerEvent: {}
+[18.462531] (-) TimerEvent: {}
+[18.562877] (-) TimerEvent: {}
+[18.663219] (-) TimerEvent: {}
+[18.763562] (-) TimerEvent: {}
+[18.863975] (-) TimerEvent: {}
+[18.964333] (-) TimerEvent: {}
+[19.064625] (-) TimerEvent: {}
+[19.164937] (-) TimerEvent: {}
+[19.265236] (-) TimerEvent: {}
+[19.365548] (-) TimerEvent: {}
+[19.465852] (-) TimerEvent: {}
+[19.566184] (-) TimerEvent: {}
+[19.666506] (-) TimerEvent: {}
+[19.766810] (-) TimerEvent: {}
+[19.867115] (-) TimerEvent: {}
+[19.967440] (-) TimerEvent: {}
+[20.067966] (-) TimerEvent: {}
+[20.168280] (-) TimerEvent: {}
+[20.268593] (-) TimerEvent: {}
+[20.368909] (-) TimerEvent: {}
+[20.469231] (-) TimerEvent: {}
+[20.569538] (-) TimerEvent: {}
+[20.669866] (-) TimerEvent: {}
+[20.770201] (-) TimerEvent: {}
+[20.870549] (-) TimerEvent: {}
+[20.970892] (-) TimerEvent: {}
+[21.071225] (-) TimerEvent: {}
+[21.171540] (-) TimerEvent: {}
+[21.271926] (-) TimerEvent: {}
+[21.372228] (-) TimerEvent: {}
+[21.472592] (-) TimerEvent: {}
+[21.572888] (-) TimerEvent: {}
+[21.673178] (-) TimerEvent: {}
+[21.773493] (-) TimerEvent: {}
+[21.873801] (-) TimerEvent: {}
+[21.974145] (-) TimerEvent: {}
+[22.074473] (-) TimerEvent: {}
+[22.174811] (-) TimerEvent: {}
+[22.275134] (-) TimerEvent: {}
+[22.375469] (-) TimerEvent: {}
+[22.475789] (-) TimerEvent: {}
+[22.576124] (-) TimerEvent: {}
+[22.676454] (-) TimerEvent: {}
+[22.776780] (-) TimerEvent: {}
+[22.877107] (-) TimerEvent: {}
+[22.977450] (-) TimerEvent: {}
+[23.077820] (-) TimerEvent: {}
+[23.178173] (-) TimerEvent: {}
+[23.278552] (-) TimerEvent: {}
+[23.378878] (-) TimerEvent: {}
+[23.479210] (-) TimerEvent: {}
+[23.579528] (-) TimerEvent: {}
+[23.679850] (-) TimerEvent: {}
+[23.780187] (-) TimerEvent: {}
+[23.880535] (-) TimerEvent: {}
+[23.980880] (-) TimerEvent: {}
+[24.081214] (-) TimerEvent: {}
+[24.181517] (-) TimerEvent: {}
+[24.281827] (-) TimerEvent: {}
+[24.328482] (astra_camera) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera.so\x1b[0m\n'}
+[24.381948] (-) TimerEvent: {}
+[24.482238] (-) TimerEvent: {}
+[24.582528] (-) TimerEvent: {}
+[24.682813] (-) TimerEvent: {}
+[24.783130] (-) TimerEvent: {}
+[24.883414] (-) TimerEvent: {}
+[24.983735] (-) TimerEvent: {}
+[25.084107] (-) TimerEvent: {}
+[25.184415] (-) TimerEvent: {}
+[25.284716] (-) TimerEvent: {}
+[25.385027] (-) TimerEvent: {}
+[25.437582] (astra_camera) StdoutLine: {'line': b'[ 68%] Built target astra_camera\n'}
+[25.471112] (astra_camera) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/list_devices_node.dir/src/list_devices_node.cpp.o\x1b[0m\n'}
+[25.471306] (astra_camera) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_node.dir/src/main.cpp.o\x1b[0m\n'}
+[25.471392] (astra_camera) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object CMakeFiles/clean_shm_node.dir/src/clean_up_shm_node.cpp.o\x1b[0m\n'}
+[25.485132] (-) TimerEvent: {}
+[25.585397] (-) TimerEvent: {}
+[25.685705] (-) TimerEvent: {}
+[25.786029] (-) TimerEvent: {}
+[25.886375] (-) TimerEvent: {}
+[25.936074] (astra_camera) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking CXX executable clean_shm_node\x1b[0m\n'}
+[25.986499] (-) TimerEvent: {}
+[26.086807] (-) TimerEvent: {}
+[26.187090] (-) TimerEvent: {}
+[26.287381] (-) TimerEvent: {}
+[26.387698] (-) TimerEvent: {}
+[26.488012] (-) TimerEvent: {}
+[26.588360] (-) TimerEvent: {}
+[26.688700] (-) TimerEvent: {}
+[26.789015] (-) TimerEvent: {}
+[26.889368] (-) TimerEvent: {}
+[26.989717] (-) TimerEvent: {}
+[27.090040] (-) TimerEvent: {}
+[27.190405] (-) TimerEvent: {}
+[27.290718] (-) TimerEvent: {}
+[27.391036] (-) TimerEvent: {}
+[27.458445] (astra_camera) StdoutLine: {'line': b'[ 89%] Built target clean_shm_node\n'}
+[27.491143] (-) TimerEvent: {}
+[27.591440] (-) TimerEvent: {}
+[27.691731] (-) TimerEvent: {}
+[27.792081] (-) TimerEvent: {}
+[27.892386] (-) TimerEvent: {}
+[27.992713] (-) TimerEvent: {}
+[28.093014] (-) TimerEvent: {}
+[28.193331] (-) TimerEvent: {}
+[28.293641] (-) TimerEvent: {}
+[28.393967] (-) TimerEvent: {}
+[28.494290] (-) TimerEvent: {}
+[28.594599] (-) TimerEvent: {}
+[28.694901] (-) TimerEvent: {}
+[28.795212] (-) TimerEvent: {}
+[28.895503] (-) TimerEvent: {}
+[28.995804] (-) TimerEvent: {}
+[29.051689] (astra_camera) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable list_devices_node\x1b[0m\n'}
+[29.095914] (-) TimerEvent: {}
+[29.196229] (-) TimerEvent: {}
+[29.296532] (-) TimerEvent: {}
+[29.396853] (-) TimerEvent: {}
+[29.497170] (-) TimerEvent: {}
+[29.541218] (astra_camera) StdoutLine: {'line': b'[ 94%] Built target list_devices_node\n'}
+[29.597293] (-) TimerEvent: {}
+[29.697592] (-) TimerEvent: {}
+[29.797893] (-) TimerEvent: {}
+[29.898193] (-) TimerEvent: {}
+[29.998508] (-) TimerEvent: {}
+[30.098837] (-) TimerEvent: {}
+[30.199147] (-) TimerEvent: {}
+[30.299583] (-) TimerEvent: {}
+[30.400152] (-) TimerEvent: {}
+[30.500521] (-) TimerEvent: {}
+[30.600828] (-) TimerEvent: {}
+[30.701137] (-) TimerEvent: {}
+[30.801418] (-) TimerEvent: {}
+[30.901705] (-) TimerEvent: {}
+[31.001995] (-) TimerEvent: {}
+[31.102284] (-) TimerEvent: {}
+[31.202573] (-) TimerEvent: {}
+[31.302864] (-) TimerEvent: {}
+[31.403161] (-) TimerEvent: {}
+[31.503696] (-) TimerEvent: {}
+[31.604242] (-) TimerEvent: {}
+[31.704556] (-) TimerEvent: {}
+[31.804838] (-) TimerEvent: {}
+[31.905123] (-) TimerEvent: {}
+[32.005416] (-) TimerEvent: {}
+[32.105726] (-) TimerEvent: {}
+[32.206019] (-) TimerEvent: {}
+[32.306312] (-) TimerEvent: {}
+[32.406605] (-) TimerEvent: {}
+[32.507083] (-) TimerEvent: {}
+[32.607425] (-) TimerEvent: {}
+[32.707721] (-) TimerEvent: {}
+[32.808029] (-) TimerEvent: {}
+[32.908347] (-) TimerEvent: {}
+[33.008671] (-) TimerEvent: {}
+[33.108979] (-) TimerEvent: {}
+[33.209304] (-) TimerEvent: {}
+[33.309650] (-) TimerEvent: {}
+[33.409998] (-) TimerEvent: {}
+[33.510362] (-) TimerEvent: {}
+[33.610652] (-) TimerEvent: {}
+[33.710957] (-) TimerEvent: {}
+[33.811243] (-) TimerEvent: {}
+[33.911543] (-) TimerEvent: {}
+[34.011852] (-) TimerEvent: {}
+[34.112148] (-) TimerEvent: {}
+[34.212503] (-) TimerEvent: {}
+[34.312831] (-) TimerEvent: {}
+[34.413133] (-) TimerEvent: {}
+[34.513443] (-) TimerEvent: {}
+[34.613754] (-) TimerEvent: {}
+[34.714053] (-) TimerEvent: {}
+[34.814355] (-) TimerEvent: {}
+[34.914650] (-) TimerEvent: {}
+[35.003585] (astra_camera) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable astra_camera_node\x1b[0m\n'}
+[35.014734] (-) TimerEvent: {}
+[35.114979] (-) TimerEvent: {}
+[35.215247] (-) TimerEvent: {}
+[35.315551] (-) TimerEvent: {}
+[35.415909] (-) TimerEvent: {}
+[35.516214] (-) TimerEvent: {}
+[35.526546] (astra_camera) StdoutLine: {'line': b'[100%] Built target astra_camera_node\n'}
+[35.544600] (astra_camera) CommandEnded: {'returncode': 0}
+[35.616317] (-) TimerEvent: {}
+[35.670336] (astra_camera) JobProgress: {'identifier': 'astra_camera', 'progress': 'install'}
+[35.683181] (astra_camera) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/astra_camera'], 'cwd': '/SLAM/ros_ws/build/astra_camera', 'env': OrderedDict([('HOSTNAME', 'acer'), ('ROS_PACKAGE_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/share'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/SLAM/ros_ws/install/tutourial_intefaces/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/rtabmap_slam/lib:/SLAM/ros_ws/install/rtabmap_odom/lib:/SLAM/ros_ws/install/rtabmap_util/lib:/SLAM/ros_ws/install/rtabmap_sync/lib:/SLAM/ros_ws/install/rtabmap_rviz_plugins/lib:/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:/SLAM/ros_ws/install/more_interfaces/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/SLAM/ros_ws/install/br2_vff_avoidance/lib:/SLAM/ros_ws/install/br2_tracking/lib:/SLAM/ros_ws/install/br2_tracking_msgs/lib:/SLAM/ros_ws/install/br2_tf2_detector/lib:/SLAM/ros_ws/install/br2_bt_patrolling/lib:/SLAM/ros_ws/install/br2_bt_bumpgo/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-5b98de46-e574-4425-85ce-5d87e473ab49.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/SLAM/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-a42e2f6e-a542-4309-850c-99b77a627e0e.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/SLAM/ros_ws/install/image_proc/bin:/SLAM/ros_ws/install/rtabmap/bin:/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-a42e2f6e-a542-4309-850c-99b77a627e0e.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-a42e2f6e-a542-4309-850c-99b77a627e0e.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/urdf_test:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/tiago_simulation:/SLAM/ros_ws/install/tiago_robot:/SLAM/ros_ws/install/tiago_navigation:/SLAM/ros_ws/install/tiago_gazebo:/SLAM/ros_ws/install/tiago_moveit_config:/SLAM/ros_ws/install/tiago_laser_sensors:/SLAM/ros_ws/install/tiago_bringup:/SLAM/ros_ws/install/tiago_description:/SLAM/ros_ws/install/tiago_controller_configuration:/SLAM/ros_ws/install/tiago_2dnav:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/pmb2_robot:/SLAM/ros_ws/install/pmb2_navigation:/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/SLAM/ros_ws/install/pmb2_bringup:/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/pal_gripper:/SLAM/ros_ws/install/pal_gripper_description:/SLAM/ros_ws/install/pal_gripper_controller_configuration:/SLAM/ros_ws/install/pal_gazebo_worlds:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/launch_pal:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/hey5_description:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/camera_calibration:/SLAM/ros_ws/install/br2_vff_avoidance:/SLAM/ros_ws/install/br2_tracking:/SLAM/ros_ws/install/br2_tracking_msgs:/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_tf2_detector:/SLAM/ros_ws/install/br2_navigation:/SLAM/ros_ws/install/br2_fsm_bumpgo_py:/SLAM/ros_ws/install/br2_fsm_bumpgo_cpp:/SLAM/ros_ws/install/br2_bt_patrolling:/SLAM/ros_ws/install/br2_bt_bumpgo:/SLAM/ros_ws/install/br2_basics:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/astra_camera'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/tutourial_intefaces/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/tiago_description/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/rtabmap_python:/SLAM/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/my_robot_controller:/SLAM/ros_ws/install/my_robot_controller/lib/python3.10/site-packages:/SLAM/ros_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/SLAM/ros_ws/build/camera_calibration/src:/SLAM/ros_ws/install/camera_calibration/lib/python3.10/site-packages:/SLAM/ros_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/br2_fsm_bumpgo_py:/SLAM/ros_ws/install/br2_fsm_bumpgo_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/urdf_test:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/tiago_simulation:/SLAM/ros_ws/install/tiago_robot:/SLAM/ros_ws/install/tiago_navigation:/SLAM/ros_ws/install/tiago_gazebo:/SLAM/ros_ws/install/tiago_moveit_config:/SLAM/ros_ws/install/tiago_laser_sensors:/SLAM/ros_ws/install/tiago_bringup:/SLAM/ros_ws/install/tiago_description:/SLAM/ros_ws/install/tiago_controller_configuration:/SLAM/ros_ws/install/tiago_2dnav:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/launch_pal:/SLAM/ros_ws/install/camera_calibration:/SLAM/ros_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/pmb2_robot:/SLAM/ros_ws/install/pmb2_navigation:/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/SLAM/ros_ws/install/pmb2_bringup:/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/pal_gripper:/SLAM/ros_ws/install/pal_gripper_description:/SLAM/ros_ws/install/pal_gripper_controller_configuration:/SLAM/ros_ws/install/pal_gazebo_worlds:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/hey5_description:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/br2_vff_avoidance:/SLAM/ros_ws/install/br2_tracking:/SLAM/ros_ws/install/br2_tracking_msgs:/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_tf2_detector:/SLAM/ros_ws/install/br2_navigation:/SLAM/ros_ws/install/br2_fsm_bumpgo_cpp:/SLAM/ros_ws/install/br2_bt_patrolling:/SLAM/ros_ws/install/br2_bt_bumpgo:/SLAM/ros_ws/install/br2_basics')]), 'shell': False}
+[35.696291] (astra_camera) StdoutLine: {'line': b'-- Install configuration: "Debug"\n'}
+[35.698016] (astra_camera) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[35.698608] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/lib/libastra_camera.so\n'}
+[35.699813] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/lib//libOpenNI2.so\n'}
+[35.701567] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/lib//OpenNI2/Drivers/OniFile.ini\n'}
+[35.701798] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/lib//OpenNI2/Drivers/libOniFile.so\n'}
+[35.702082] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/lib//OpenNI2/Drivers/liborbbec.so\n'}
+[35.702444] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/lib//OpenNI2/Drivers/orbbec.ini\n'}
+[35.703269] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/lib/astra_camera//list_devices_node\n'}
+[35.703394] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/lib/astra_camera//clean_shm_node\n'}
+[35.703580] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/lib/astra_camera//astra_camera_node\n'}
+[35.706263] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/constants.h\n'}
+[35.706469] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/dynamic_params.h\n'}
+[35.707004] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/json.hpp\n'}
+[35.707337] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/ob_camera_node.h\n'}
+[35.707655] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/ob_camera_node_factory.h\n'}
+[35.708061] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/ob_context.h\n'}
+[35.708435] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/ob_timer_filter.h\n'}
+[35.708758] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/point_cloud_proc/depth_traits.h\n'}
+[35.709111] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_proc.h\n'}
+[35.709485] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyz.h\n'}
+[35.709852] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyzrgb.h\n'}
+[35.710144] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/ros_param_backend.h\n'}
+[35.710359] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/types.h\n'}
+[35.710562] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/utils.h\n'}
+[35.710809] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/astra_camera/uvc_camera_driver.h\n'}
+[35.711233] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/magic_enum/magic_enum.hpp\n'}
+[35.711687] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/Android-Arm/OniPlatformAndroid-Arm.h\n'}
+[35.712032] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/Driver/OniDriverAPI.h\n'}
+[35.712282] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/Driver/OniDriverTypes.h\n'}
+[35.712534] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/KinectProperties.h\n'}
+[35.712885] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/Linux-Arm/OniPlatformLinux-Arm.h\n'}
+[35.713219] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/Linux-x86/OniPlatformLinux-x86.h\n'}
+[35.713571] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/MacOSX/OniPlatformMacOSX.h\n'}
+[35.713804] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/OniCAPI.h\n'}
+[35.714055] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/OniCEnums.h\n'}
+[35.714307] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/OniCProperties.h\n'}
+[35.714561] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/OniCTypes.h\n'}
+[35.714897] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/OniEnums.h\n'}
+[35.715202] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/OniPlatform.h\n'}
+[35.715452] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/OniProperties.h\n'}
+[35.715707] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/OniTest.h\n'}
+[35.715990] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/OniVersion.h\n'}
+[35.716241] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/OpenNI.h\n'}
+[35.716330] (-) TimerEvent: {}
+[35.716485] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/PS1080.h\n'}
+[35.716717] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/PSLink.h\n'}
+[35.716957] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/PrimeSense.h\n'}
+[35.717211] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/SonixCamera.h\n'}
+[35.717462] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/include/openni2/util.h\n'}
+[35.718556] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/.gitkeep\n'}
+[35.718812] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/astra.launch.xml\n'}
+[35.719075] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/astra_pro.launch.xml\n'}
+[35.719330] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/astro_pro_plus.launch.xml\n'}
+[35.719589] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_dc1.launch.xml\n'}
+[35.719835] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_dcw.launch.xml\n'}
+[35.720085] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_dw.launch.xml\n'}
+[35.720337] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_pro.launch.xml\n'}
+[35.720588] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_u3.launch.xml\n'}
+[35.720829] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/deeyea.launch.xml\n'}
+[35.721088] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/embedded_s.launch.xml\n'}
+[35.721342] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/embedded_u3.launch.xml\n'}
+[35.721595] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/gemini.launch.xml\n'}
+[35.721844] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/gemini_e.launch.xml\n'}
+[35.722089] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/gemini_e_lite.launch.xml\n'}
+[35.722340] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/list_devices.launch.xml\n'}
+[35.722678] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_astra.launch.xml\n'}
+[35.722952] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_dcw.launch.xml\n'}
+[35.723210] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_pro.launch.xml\n'}
+[35.723463] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_deeyea.launch.xml\n'}
+[35.723743] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_gemini.launch.xml\n'}
+[35.723902] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/stereo_s.launch.xml\n'}
+[35.724070] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/stereo_s_u3.launch.xml\n'}
+[35.725607] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/environment/library_path.sh\n'}
+[35.726500] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/environment/library_path.dsv\n'}
+[35.728543] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera\n'}
+[35.729291] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera\n'}
+[35.733322] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh\n'}
+[35.733554] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv\n'}
+[35.733829] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/environment/path.sh\n'}
+[35.734084] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/environment/path.dsv\n'}
+[35.734321] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/local_setup.bash\n'}
+[35.734498] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/local_setup.sh\n'}
+[35.734659] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/local_setup.zsh\n'}
+[35.734821] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/local_setup.dsv\n'}
+[35.734917] (astra_camera) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/astra_camera/share/astra_camera/package.dsv\n'}
+[35.748088] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/ament_index/resource_index/packages/astra_camera\n'}
+[35.748563] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[35.748928] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[35.749270] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[35.749617] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake\n'}
+[35.749847] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake\n'}
+[35.749981] (astra_camera) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera/share/astra_camera/package.xml\n'}
+[35.751727] (astra_camera) CommandEnded: {'returncode': 0}
+[35.816439] (-) TimerEvent: {}
+[35.916704] (-) TimerEvent: {}
+[36.016950] (-) TimerEvent: {}
+[36.107604] (astra_camera) JobEnded: {'identifier': 'astra_camera', 'rc': 0}
+[36.108240] (-) EventReactorShutdown: {}

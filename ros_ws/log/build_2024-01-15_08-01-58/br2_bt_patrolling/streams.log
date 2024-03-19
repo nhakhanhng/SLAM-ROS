@@ -1,0 +1,21 @@
+[1.119s] Invoking command in '/SLAM/ros_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/br2_vff_avoidance:/SLAM/ros_ws/install/br2_tracking:/SLAM/ros_ws/install/br2_tracking_msgs:/SLAM/ros_ws/install/br2_tf2_detector:/SLAM/ros_ws/install/br2_navigation:/SLAM/ros_ws/install/br2_fsm_bumpgo_cpp:/SLAM/ros_ws/install/br2_bt_patrolling:/SLAM/ros_ws/install/br2_bt_bumpgo:/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_basics:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/br2_fsm_bumpgo_py:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/astra_camera_msgs /usr/bin/cmake --build /SLAM/ros_ws/build/br2_bt_patrolling -- -j16 -l16
+[1.661s] [35m[1mConsolidate compiler generated dependencies of target br2_recharge_bt_node[0m
+[1.661s] [35m[1mConsolidate compiler generated dependencies of target br2_move_bt_node[0m
+[1.661s] [35m[1mConsolidate compiler generated dependencies of target br2_patrol_bt_node[0m
+[1.661s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.661s] [35m[1mConsolidate compiler generated dependencies of target br2_track_objects_bt_node[0m
+[1.661s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.661s] [35m[1mConsolidate compiler generated dependencies of target br2_battery_checker_bt_node[0m
+[1.661s] [35m[1mConsolidate compiler generated dependencies of target br2_get_waypoint_bt_node[0m
+[1.661s] [35m[1mConsolidate compiler generated dependencies of target patrolling_main[0m
+[1.662s] [ 10%] Built target br2_recharge_bt_node
+[1.710s] [ 20%] Built target br2_move_bt_node
+[1.750s] [ 30%] Built target gtest
+[1.838s] [ 40%] Built target br2_patrol_bt_node
+[1.854s] [ 50%] Built target br2_get_waypoint_bt_node
+[1.874s] [ 60%] Built target patrolling_main
+[1.884s] [ 70%] Built target br2_battery_checker_bt_node
+[1.918s] [ 80%] Built target br2_track_objects_bt_node
+[1.926s] [ 90%] Built target gtest_main
+[2.010s] [35m[1mConsolidate compiler generated dependencies of target bt_action_test[0m
+[2.177s] [100%] Built target bt_action_test

@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/SLAM/ros_ws/build/rtabmap_odom/rgbd_odometry" "/SLAM/ros_ws/build/rtabmap_odom/icp_odometry" "/SLAM/ros_ws/build/rtabmap_odom/stereo_odometry" "TARGETS" "rtabmap_rgbd_odometry" "rtabmap_icp_odometry" "rtabmap_stereo_odometry" "DESTINATION" "lib/rtabmap_odom")

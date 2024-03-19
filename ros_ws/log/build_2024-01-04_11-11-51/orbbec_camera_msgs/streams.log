@@ -1,0 +1,24 @@
+[0.451s] Invoking command in '/SLAM/ros_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/orbbec_camera_msgs -- -j16 -l16
+[0.536s] [  0%] Built target orbbec_camera_msgs__cpp
+[0.543s] [ 12%] Built target orbbec_camera_msgs__rosidl_generator_c
+[0.560s] [ 12%] Built target ament_cmake_python_copy_orbbec_camera_msgs
+[0.614s] [ 42%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c
+[0.614s] [ 42%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[0.615s] [ 47%] Built target orbbec_camera_msgs__rosidl_typesupport_cpp
+[0.616s] [ 59%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_cpp
+[0.624s] [ 76%] Built target orbbec_camera_msgs__rosidl_typesupport_c
+[0.624s] [ 82%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_c
+[0.657s] [ 82%] Built target orbbec_camera_msgs
+[0.691s] [ 83%] Built target orbbec_camera_msgs__py
+[0.729s] [ 94%] Built target orbbec_camera_msgs__rosidl_generator_py
+[0.770s] [ 98%] Built target orbbec_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.771s] [ 98%] Built target orbbec_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[0.776s] [100%] Built target orbbec_camera_msgs__rosidl_typesupport_c__pyext
+[0.855s] running egg_info
+[0.855s] writing orbbec_camera_msgs.egg-info/PKG-INFO
+[0.856s] writing dependency_links to orbbec_camera_msgs.egg-info/dependency_links.txt
+[0.856s] writing top-level names to orbbec_camera_msgs.egg-info/top_level.txt
+[0.857s] reading manifest file 'orbbec_camera_msgs.egg-info/SOURCES.txt'
+[0.858s] writing manifest file 'orbbec_camera_msgs.egg-info/SOURCES.txt'
+[0.883s] [100%] Built target ament_cmake_python_build_orbbec_camera_msgs_egg
+[1.134s] Invoked command in '/SLAM/ros_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/orbbec_camera_msgs -- -j16 -l16

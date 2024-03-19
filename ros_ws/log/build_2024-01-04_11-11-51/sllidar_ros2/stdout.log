@@ -1,0 +1,6 @@
+[ 90%] Built target sllidar_node
+[100%] Built target sllidar_client
+-- Install configuration: "Release"
+-- Up-to-date: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch
+-- Up-to-date: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/rviz
+-- Installing: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv

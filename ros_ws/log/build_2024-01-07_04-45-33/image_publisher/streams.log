@@ -1,0 +1,73 @@
+[0.287s] Invoking command in '/SLAM/ros_ws/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_publisher -- -j16 -l16
+[0.589s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.621s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.625s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.638s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.659s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.690s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.800s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.803s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.024s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.476s] -- opencv version 4.5.4
+[1.477s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.489s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.491s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.492s] -- Configured cppcheck include dirs: /SLAM/ros_ws/src/image_pipeline/image_publisher/include
+[1.492s] -- Configured cppcheck exclude dirs and/or files: 
+[1.492s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.493s] -- Configured cpplint exclude dirs and/or files: 
+[1.493s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.494s] -- Added test 'lint_cmake' to check CMake code style
+[1.494s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.496s] -- Added test 'uncrustify' to check C / C++ code style
+[1.496s] -- Configured uncrustify additional arguments: 
+[1.496s] -- Added test 'xmllint' to check XML markup files
+[1.500s] -- Configuring done
+[1.537s] -- Generating done
+[1.540s] -- Build files have been written to: /SLAM/ros_ws/build/image_publisher
+[1.576s] [35m[1mConsolidate compiler generated dependencies of target image_publisher[0m
+[1.609s] [ 25%] [32mBuilding CXX object CMakeFiles/image_publisher.dir/src/image_publisher.cpp.o[0m
+[13.344s] [ 50%] [32m[1mLinking CXX shared library libimage_publisher.so[0m
+[13.697s] [ 50%] Built target image_publisher
+[13.720s] [35m[1mConsolidate compiler generated dependencies of target image_publisher_node[0m
+[13.770s] [ 75%] [32mBuilding CXX object CMakeFiles/image_publisher_node.dir/src/image_publisher_node.cpp.o[0m
+[19.033s] [100%] [32m[1mLinking CXX executable image_publisher_node[0m
+[20.038s] [100%] Built target image_publisher_node
+[20.055s] Invoked command in '/SLAM/ros_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_publisher -- -j16 -l16
+[20.094s] Invoking command in '/SLAM/ros_ws/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_publisher
+[20.106s] -- Install configuration: ""
+[20.106s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/include
+[20.106s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/include/image_publisher
+[20.106s] -- Installing: /SLAM/ros_ws/install/image_publisher/include/image_publisher/image_publisher.hpp
+[20.107s] -- Installing: /SLAM/ros_ws/install/image_publisher/include/image_publisher/visibility.h
+[20.107s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/image_publisher/environment/library_path.sh
+[20.107s] -- Installing: /SLAM/ros_ws/install/image_publisher/share/image_publisher/environment/library_path.dsv
+[20.108s] -- Installing: /SLAM/ros_ws/install/image_publisher/lib/libimage_publisher.so
+[20.110s] -- Set runtime path of "/SLAM/ros_ws/install/image_publisher/lib/libimage_publisher.so" to ""
+[20.111s] -- Installing: /SLAM/ros_ws/install/image_publisher/lib/image_publisher/image_publisher_node
+[20.112s] -- Set runtime path of "/SLAM/ros_ws/install/image_publisher/lib/image_publisher/image_publisher_node" to ""
+[20.112s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/image_publisher/launch
+[20.112s] -- Installing: /SLAM/ros_ws/install/image_publisher/share/image_publisher/launch/splash.png
+[20.113s] -- Installing: /SLAM/ros_ws/install/image_publisher/share/image_publisher/launch/image_publisher_file.launch.py
+[20.113s] -- Installing: /SLAM/ros_ws/install/image_publisher/share/image_publisher/launch/image_publisher_mono.launch.py
+[20.113s] -- Installing: /SLAM/ros_ws/install/image_publisher/share/image_publisher/launch/image_publisher_stereo.launch.py
+[20.114s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/ament_index/resource_index/package_run_dependencies/image_publisher
+[20.114s] -- Installing: /SLAM/ros_ws/install/image_publisher/share/ament_index/resource_index/parent_prefix_path/image_publisher
+[20.114s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/image_publisher/environment/ament_prefix_path.sh
+[20.114s] -- Installing: /SLAM/ros_ws/install/image_publisher/share/image_publisher/environment/ament_prefix_path.dsv
+[20.114s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/image_publisher/environment/path.sh
+[20.115s] -- Installing: /SLAM/ros_ws/install/image_publisher/share/image_publisher/environment/path.dsv
+[20.115s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/image_publisher/local_setup.bash
+[20.115s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/image_publisher/local_setup.sh
+[20.115s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/image_publisher/local_setup.zsh
+[20.115s] -- Installing: /SLAM/ros_ws/install/image_publisher/share/image_publisher/local_setup.dsv
+[20.115s] -- Installing: /SLAM/ros_ws/install/image_publisher/share/image_publisher/package.dsv
+[20.116s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/ament_index/resource_index/packages/image_publisher
+[20.116s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/ament_index/resource_index/rclcpp_components/image_publisher
+[20.116s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.116s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.116s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/image_publisher/cmake/ament_cmake_export_libraries-extras.cmake
+[20.116s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/image_publisher/cmake/image_publisherConfig.cmake
+[20.116s] -- Up-to-date: /SLAM/ros_ws/install/image_publisher/share/image_publisher/cmake/image_publisherConfig-version.cmake
+[20.116s] -- Installing: /SLAM/ros_ws/install/image_publisher/share/image_publisher/package.xml
+[20.120s] Invoked command in '/SLAM/ros_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_publisher

@@ -1,0 +1,9 @@
+-- run_test.py: invoking following command in '/SLAM/ros_ws/src/book_ros2/br2_vff_avoidance':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/lint_cmake.xunit.xml
+
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/lint_cmake.xunit.xml'

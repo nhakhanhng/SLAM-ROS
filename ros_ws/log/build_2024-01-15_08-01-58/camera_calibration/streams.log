@@ -1,0 +1,22 @@
+[2.053s] Invoking command in '/SLAM/ros_ws/build/camera_calibration': PYTHONPATH=/SLAM/ros_ws/build/camera_calibration/prefix_override:/SLAM/ros_ws/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /SLAM/ros_ws/build/camera_calibration/build --no-deps install_data
+[2.501s] running develop
+[2.502s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.502s]   warnings.warn(
+[2.504s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.504s]   warnings.warn(
+[2.780s] running egg_info
+[2.781s] writing src/camera_calibration.egg-info/PKG-INFO
+[2.792s] writing dependency_links to src/camera_calibration.egg-info/dependency_links.txt
+[2.792s] writing entry points to src/camera_calibration.egg-info/entry_points.txt
+[2.792s] writing requirements to src/camera_calibration.egg-info/requires.txt
+[2.792s] writing top-level names to src/camera_calibration.egg-info/top_level.txt
+[2.793s] reading manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[2.793s] writing manifest file 'src/camera_calibration.egg-info/SOURCES.txt'
+[2.796s] running build_ext
+[2.796s] Creating /SLAM/ros_ws/install/camera_calibration/lib/python3.10/site-packages/camera-calibration.egg-link (link to src)
+[2.798s] Installing cameracalibrator script to /SLAM/ros_ws/install/camera_calibration/lib/camera_calibration
+[2.808s] Installing cameracheck script to /SLAM/ros_ws/install/camera_calibration/lib/camera_calibration
+[2.808s] 
+[2.809s] Installed /SLAM/ros_ws/build/camera_calibration/src
+[2.809s] running install_data
+[3.774s] Invoked command in '/SLAM/ros_ws/build/camera_calibration' returned '0': PYTHONPATH=/SLAM/ros_ws/build/camera_calibration/prefix_override:/SLAM/ros_ws/install/camera_calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /SLAM/ros_ws/build/camera_calibration/build --no-deps install_data

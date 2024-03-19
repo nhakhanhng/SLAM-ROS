@@ -1,0 +1,30 @@
+[0.075s] Invoking command in '/home/khanh/Documents/SLAM/ros_ws/build/rtabmap_util': AMENT_PREFIX_PATH=/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble:/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_msgs:/home/khanh/Documents/SLAM/ros_ws/install/rtabmap LD_LIBRARY_PATH=/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_conversions/lib:/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_msgs/lib:/home/khanh/Documents/SLAM/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/khanh/Documents/SLAM/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/home/khanh/Documents/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/khanh/Documents/SLAM/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_msgs/share /usr/bin/cmake --build /home/khanh/Documents/SLAM/ros_ws/build/rtabmap_util
+[0.147s] [  2%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/MapsManager.cpp.o[0m
+[0.156s] [  5%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/obstacles_detection.cpp.o[0m
+[0.156s] [  8%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyz.cpp.o[0m
+[0.156s] [ 11%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/imu_to_tf.cpp.o[0m
+[0.156s] [ 14%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_aggregator.cpp.o[0m
+[0.156s] [ 17%] [32mBuilding CXX object CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_assembler.cpp.o[0m
+[0.742s] In file included from [01m[K/home/khanh/Documents/SLAM/ros_ws/src/rtabmap_ros/rtabmap_util/src/nodelets/obstacles_detection.cpp:28[m[K:
+[0.742s] [01m[K/home/khanh/Documents/SLAM/ros_ws/src/rtabmap_ros/rtabmap_util/include/rtabmap_util/obstacles_detection.hpp:36:10:[m[K [01;31m[Kfatal error: [m[Krtabmap/core/LocalGridMaker.h: No such file or directory
+[0.742s]    36 | #include [01;31m[K<rtabmap/core/LocalGridMaker.h>[m[K
+[0.742s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.742s] compilation terminated.
+[0.749s] gmake[2]: *** [CMakeFiles/rtabmap_util_plugins.dir/build.make:146: CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/obstacles_detection.cpp.o] Error 1
+[0.749s] gmake[2]: *** Waiting for unfinished jobs....
+[1.499s] In file included from [01m[K/home/khanh/Documents/SLAM/ros_ws/src/rtabmap_ros/rtabmap_util/src/MapsManager.cpp:27[m[K:
+[1.499s] [01m[K/home/khanh/Documents/SLAM/ros_ws/src/rtabmap_ros/rtabmap_util/include/rtabmap_util/MapsManager.h:34:10:[m[K [01;31m[Kfatal error: [m[Krtabmap/core/LocalGrid.h: No such file or directory
+[1.499s]    34 | #include [01;31m[K<rtabmap/core/LocalGrid.h>[m[K
+[1.499s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.499s] compilation terminated.
+[1.524s] gmake[2]: *** [CMakeFiles/rtabmap_util_plugins.dir/build.make:76: CMakeFiles/rtabmap_util_plugins.dir/src/MapsManager.cpp.o] Error 1
+[2.407s] In file included from [01m[K/home/khanh/Documents/SLAM/ros_ws/src/rtabmap_ros/rtabmap_util/src/nodelets/imu_to_tf.cpp:30[m[K:
+[2.407s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[2.407s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[2.407s]       |  [01;35m[K^~~~~~~[m[K
+[16.815s] [01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
+[16.816s] compilation terminated.
+[16.819s] gmake[2]: *** [CMakeFiles/rtabmap_util_plugins.dir/build.make:104: CMakeFiles/rtabmap_util_plugins.dir/src/nodelets/point_cloud_xyz.cpp.o] Error 1
+[33.346s] gmake[1]: *** [CMakeFiles/Makefile2:159: CMakeFiles/rtabmap_util_plugins.dir/all] Error 2
+[33.347s] gmake: *** [Makefile:146: all] Error 2
+[33.411s] Invoked command in '/home/khanh/Documents/SLAM/ros_ws/build/rtabmap_util' returned '2': AMENT_PREFIX_PATH=/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_conversions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble:/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_msgs:/home/khanh/Documents/SLAM/ros_ws/install/rtabmap LD_LIBRARY_PATH=/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_conversions/lib:/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_msgs/lib:/home/khanh/Documents/SLAM/ros_ws/install/rtabmap/lib:${LD_LIBRARY_PATH} PATH=/home/khanh/Documents/SLAM/ros_ws/install/rtabmap/bin:${PATH} PKG_CONFIG_PATH=/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/home/khanh/Documents/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/home/khanh/Documents/SLAM/ros_ws/install/rtabmap/lib/pkgconfig PYTHONPATH=/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} ROS_PACKAGE_PATH=/home/khanh/Documents/SLAM/ros_ws/install/rtabmap_msgs/share /usr/bin/cmake --build /home/khanh/Documents/SLAM/ros_ws/build/rtabmap_util

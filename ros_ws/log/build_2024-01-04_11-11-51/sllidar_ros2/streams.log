@@ -1,0 +1,9 @@
+[0.330s] Invoking command in '/SLAM/ros_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/sllidar_ros2 -- -j16 -l16
+[0.445s] [ 90%] Built target sllidar_node
+[0.454s] [100%] Built target sllidar_client
+[0.594s] Invoked command in '/SLAM/ros_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/sllidar_ros2 -- -j16 -l16
+[0.858s] Invoking command in '/SLAM/ros_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/sllidar_ros2
+[0.933s] -- Install configuration: "Release"
+[0.933s] -- Up-to-date: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch
+[0.933s] -- Up-to-date: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/rviz
+[0.933s] -- Installing: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv

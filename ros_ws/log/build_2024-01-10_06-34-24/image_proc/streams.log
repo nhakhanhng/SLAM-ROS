@@ -1,0 +1,56 @@
+[0.218s] Invoking command in '/SLAM/ros_ws/build/image_proc': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /SLAM/ros_ws/build/image_proc -- -j16 -l16
+[0.293s] [ 13%] Built target image_proc
+[0.327s] [ 26%] Built target rectify
+[0.342s] [35m[1mConsolidate compiler generated dependencies of target debayer[0m
+[0.378s] [ 46%] Built target debayer
+[0.391s] [35m[1mConsolidate compiler generated dependencies of target resize[0m
+[0.420s] [ 60%] Built target resize
+[0.432s] [35m[1mConsolidate compiler generated dependencies of target crop_decimate[0m
+[0.460s] [ 73%] Built target crop_decimate
+[0.474s] [35m[1mConsolidate compiler generated dependencies of target crop_non_zero[0m
+[0.501s] [ 86%] Built target crop_non_zero
+[0.515s] [35m[1mConsolidate compiler generated dependencies of target image_proc_exe[0m
+[0.547s] [100%] Built target image_proc_exe
+[0.621s] Invoked command in '/SLAM/ros_ws/build/image_proc' returned '0': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /SLAM/ros_ws/build/image_proc -- -j16 -l16
+[0.684s] Invoking command in '/SLAM/ros_ws/build/image_proc': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /SLAM/ros_ws/build/image_proc
+[0.695s] -- Install configuration: "Release"
+[0.696s] -- Execute custom install script
+[0.696s] -- Symlinking: /SLAM/ros_ws/install/image_proc/bin/image_proc
+[0.708s] -- Symlinking: /SLAM/ros_ws/install/image_proc/include/image_proc/crop_decimate.hpp
+[0.720s] -- Symlinking: /SLAM/ros_ws/install/image_proc/include/image_proc/crop_non_zero.hpp
+[0.732s] -- Symlinking: /SLAM/ros_ws/install/image_proc/include/image_proc/debayer.hpp
+[0.744s] -- Symlinking: /SLAM/ros_ws/install/image_proc/include/image_proc/edge_aware.hpp
+[0.758s] -- Symlinking: /SLAM/ros_ws/install/image_proc/include/image_proc/processor.hpp
+[0.769s] -- Symlinking: /SLAM/ros_ws/install/image_proc/include/image_proc/rectify.hpp
+[0.782s] -- Symlinking: /SLAM/ros_ws/install/image_proc/include/image_proc/resize.hpp
+[0.793s] -- Symlinking: /SLAM/ros_ws/install/image_proc/include/image_proc/utils.hpp
+[0.805s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/library_path.sh
+[0.818s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/library_path.dsv
+[0.831s] -- Symlinking: /SLAM/ros_ws/install/image_proc/lib/libimage_proc.so
+[0.845s] -- Symlinking: /SLAM/ros_ws/install/image_proc/lib/librectify.so
+[0.857s] -- Symlinking: /SLAM/ros_ws/install/image_proc/lib/libdebayer.so
+[0.870s] -- Symlinking: /SLAM/ros_ws/install/image_proc/lib/libresize.so
+[0.882s] -- Symlinking: /SLAM/ros_ws/install/image_proc/lib/libcrop_decimate.so
+[0.894s] -- Symlinking: /SLAM/ros_ws/install/image_proc/lib/libcrop_non_zero.so
+[0.906s] -- Symlinking: /SLAM/ros_ws/install/image_proc/lib/image_proc/image_proc
+[0.918s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/launch/image_proc.launch.py
+[0.930s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/package_run_dependencies/image_proc
+[0.941s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/parent_prefix_path/image_proc
+[0.954s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/ament_prefix_path.sh
+[0.964s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/ament_prefix_path.dsv
+[0.976s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/path.sh
+[0.989s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/path.dsv
+[1.000s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.bash
+[1.011s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.sh
+[1.023s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.zsh
+[1.034s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.dsv
+[1.046s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/package.dsv
+[1.057s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/packages/image_proc
+[1.069s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/rclcpp_components/image_proc
+[1.077s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.088s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.099s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[1.109s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/image_procConfig.cmake
+[1.119s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/image_procConfig-version.cmake
+[1.130s] -- Symlinking: /SLAM/ros_ws/install/image_proc/share/image_proc/package.xml
+[1.142s] Invoked command in '/SLAM/ros_ws/build/image_proc' returned '0': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /SLAM/ros_ws/build/image_proc

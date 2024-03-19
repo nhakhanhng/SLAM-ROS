@@ -1,0 +1,12 @@
+/SLAM/ros_ws/build/stereo_image_proc/CMakeFiles/uninstall.dir
+/SLAM/ros_ws/build/stereo_image_proc/CMakeFiles/stereo_image_proc_uninstall.dir
+/SLAM/ros_ws/build/stereo_image_proc/CMakeFiles/stereo_image_proc.dir
+/SLAM/ros_ws/build/stereo_image_proc/CMakeFiles/disparity_node.dir
+/SLAM/ros_ws/build/stereo_image_proc/CMakeFiles/point_cloud_node.dir
+/SLAM/ros_ws/build/stereo_image_proc/CMakeFiles/test.dir
+/SLAM/ros_ws/build/stereo_image_proc/CMakeFiles/edit_cache.dir
+/SLAM/ros_ws/build/stereo_image_proc/CMakeFiles/rebuild_cache.dir
+/SLAM/ros_ws/build/stereo_image_proc/CMakeFiles/list_install_components.dir
+/SLAM/ros_ws/build/stereo_image_proc/CMakeFiles/install.dir
+/SLAM/ros_ws/build/stereo_image_proc/CMakeFiles/install/local.dir
+/SLAM/ros_ws/build/stereo_image_proc/CMakeFiles/install/strip.dir

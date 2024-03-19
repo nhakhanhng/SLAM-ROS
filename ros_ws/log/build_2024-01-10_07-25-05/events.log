@@ -1,0 +1,756 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000269] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000291] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000310] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000330] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.000362] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.000455] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000506] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.000527] (-) JobUnselected: {'identifier': 'image_view'}
+[0.000557] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.000582] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.000602] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.000622] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.000640] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.000658] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.000678] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.000831] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.000847] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.000863] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.000895] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.000999] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.001040] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.001056] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001080] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.001191] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.001224] (rtabmap_sync) JobQueued: {'identifier': 'rtabmap_sync', 'dependencies': OrderedDict([('rtabmap', '/SLAM/ros_ws/install/rtabmap'), ('rtabmap_msgs', '/SLAM/ros_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/SLAM/ros_ws/install/rtabmap_conversions')])}
+[0.001245] (rtabmap_sync) JobStarted: {'identifier': 'rtabmap_sync'}
+[0.055021] (rtabmap_sync) JobProgress: {'identifier': 'rtabmap_sync', 'progress': 'cmake'}
+[0.055846] (rtabmap_sync) JobProgress: {'identifier': 'rtabmap_sync', 'progress': 'build'}
+[0.056388] (rtabmap_sync) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/rtabmap_sync'], 'cwd': '/SLAM/ros_ws/build/rtabmap_sync', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('ROS_PACKAGE_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/share'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b767ac96-efed-4f0f-95be-a2aa688262b3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('MAKEFLAGS', '-j6'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/SLAM/ros_ws/install/rtabmap/bin:/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-300c5a9faf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/rtabmap_sync'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap')]), 'shell': False}
+[0.099205] (-) TimerEvent: {}
+[0.143462] (rtabmap_sync) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_sync_plugins\x1b[0m\n'}
+[0.144233] (rtabmap_sync) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_sync\x1b[0m\n'}
+[0.199321] (-) TimerEvent: {}
+[0.205382] (rtabmap_sync) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberDepth.cpp.o\x1b[0m\n'}
+[0.205567] (rtabmap_sync) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/CommonDataSubscriber.cpp.o\x1b[0m\n'}
+[0.212076] (rtabmap_sync) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberScan.cpp.o\x1b[0m\n'}
+[0.212453] (rtabmap_sync) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberSensorData.cpp.o\x1b[0m\n'}
+[0.212576] (rtabmap_sync) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/rtabmap_sync.dir/src/impl/CommonDataSubscriberOdom.cpp.o\x1b[0m\n'}
+[0.212744] (rtabmap_sync) StdoutLine: {'line': b'[ 43%] Built target rtabmap_sync_plugins\n'}
+[0.226511] (rtabmap_sync) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_rgbd_sync\x1b[0m\n'}
+[0.266970] (rtabmap_sync) StdoutLine: {'line': b'[ 52%] Built target rtabmap_rgbd_sync\n'}
+[0.282891] (rtabmap_sync) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_rgbdx_sync\x1b[0m\n'}
+[0.299422] (-) TimerEvent: {}
+[0.330470] (rtabmap_sync) StdoutLine: {'line': b'[ 60%] Built target rtabmap_rgbdx_sync\n'}
+[0.343072] (rtabmap_sync) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_stereo_sync\x1b[0m\n'}
+[0.385256] (rtabmap_sync) StdoutLine: {'line': b'[ 69%] Built target rtabmap_stereo_sync\n'}
+[0.398661] (rtabmap_sync) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_rgb_sync\x1b[0m\n'}
+[0.399488] (-) TimerEvent: {}
+[0.441737] (rtabmap_sync) StdoutLine: {'line': b'[ 78%] Built target rtabmap_rgb_sync\n'}
+[0.499599] (-) TimerEvent: {}
+[0.599886] (-) TimerEvent: {}
+[0.700170] (-) TimerEvent: {}
+[0.801242] (-) TimerEvent: {}
+[0.901683] (-) TimerEvent: {}
+[1.002098] (-) TimerEvent: {}
+[1.102411] (-) TimerEvent: {}
+[1.202706] (-) TimerEvent: {}
+[1.303018] (-) TimerEvent: {}
+[1.403443] (-) TimerEvent: {}
+[1.504148] (-) TimerEvent: {}
+[1.604584] (-) TimerEvent: {}
+[1.704991] (-) TimerEvent: {}
+[1.805554] (-) TimerEvent: {}
+[1.905948] (-) TimerEvent: {}
+[2.006360] (-) TimerEvent: {}
+[2.106776] (-) TimerEvent: {}
+[2.207172] (-) TimerEvent: {}
+[2.307584] (-) TimerEvent: {}
+[2.408003] (-) TimerEvent: {}
+[2.508434] (-) TimerEvent: {}
+[2.608869] (-) TimerEvent: {}
+[2.709354] (-) TimerEvent: {}
+[2.809757] (-) TimerEvent: {}
+[2.910174] (-) TimerEvent: {}
+[3.010579] (-) TimerEvent: {}
+[3.110997] (-) TimerEvent: {}
+[3.211429] (-) TimerEvent: {}
+[3.311833] (-) TimerEvent: {}
+[3.412274] (-) TimerEvent: {}
+[3.512707] (-) TimerEvent: {}
+[3.613028] (-) TimerEvent: {}
+[3.713353] (-) TimerEvent: {}
+[3.813714] (-) TimerEvent: {}
+[3.914152] (-) TimerEvent: {}
+[4.014530] (-) TimerEvent: {}
+[4.114888] (-) TimerEvent: {}
+[4.215232] (-) TimerEvent: {}
+[4.315558] (-) TimerEvent: {}
+[4.415883] (-) TimerEvent: {}
+[4.516178] (-) TimerEvent: {}
+[4.616489] (-) TimerEvent: {}
+[4.716789] (-) TimerEvent: {}
+[4.817105] (-) TimerEvent: {}
+[4.917482] (-) TimerEvent: {}
+[5.017832] (-) TimerEvent: {}
+[5.118186] (-) TimerEvent: {}
+[5.218510] (-) TimerEvent: {}
+[5.318840] (-) TimerEvent: {}
+[5.419157] (-) TimerEvent: {}
+[5.519488] (-) TimerEvent: {}
+[5.619816] (-) TimerEvent: {}
+[5.720148] (-) TimerEvent: {}
+[5.820512] (-) TimerEvent: {}
+[5.920836] (-) TimerEvent: {}
+[6.021185] (-) TimerEvent: {}
+[6.121495] (-) TimerEvent: {}
+[6.221814] (-) TimerEvent: {}
+[6.322140] (-) TimerEvent: {}
+[6.422481] (-) TimerEvent: {}
+[6.522817] (-) TimerEvent: {}
+[6.623153] (-) TimerEvent: {}
+[6.723491] (-) TimerEvent: {}
+[6.823829] (-) TimerEvent: {}
+[6.924169] (-) TimerEvent: {}
+[7.024502] (-) TimerEvent: {}
+[7.124871] (-) TimerEvent: {}
+[7.225269] (-) TimerEvent: {}
+[7.325641] (-) TimerEvent: {}
+[7.426034] (-) TimerEvent: {}
+[7.526447] (-) TimerEvent: {}
+[7.626830] (-) TimerEvent: {}
+[7.727205] (-) TimerEvent: {}
+[7.827579] (-) TimerEvent: {}
+[7.927948] (-) TimerEvent: {}
+[8.028306] (-) TimerEvent: {}
+[8.128683] (-) TimerEvent: {}
+[8.229057] (-) TimerEvent: {}
+[8.329414] (-) TimerEvent: {}
+[8.429752] (-) TimerEvent: {}
+[8.530130] (-) TimerEvent: {}
+[8.630439] (-) TimerEvent: {}
+[8.730772] (-) TimerEvent: {}
+[8.831199] (-) TimerEvent: {}
+[8.931589] (-) TimerEvent: {}
+[9.031937] (-) TimerEvent: {}
+[9.132296] (-) TimerEvent: {}
+[9.232661] (-) TimerEvent: {}
+[9.333012] (-) TimerEvent: {}
+[9.433386] (-) TimerEvent: {}
+[9.533738] (-) TimerEvent: {}
+[9.634095] (-) TimerEvent: {}
+[9.734469] (-) TimerEvent: {}
+[9.834861] (-) TimerEvent: {}
+[9.935223] (-) TimerEvent: {}
+[10.035581] (-) TimerEvent: {}
+[10.135935] (-) TimerEvent: {}
+[10.236319] (-) TimerEvent: {}
+[10.336726] (-) TimerEvent: {}
+[10.437071] (-) TimerEvent: {}
+[10.537425] (-) TimerEvent: {}
+[10.637786] (-) TimerEvent: {}
+[10.738160] (-) TimerEvent: {}
+[10.838530] (-) TimerEvent: {}
+[10.938901] (-) TimerEvent: {}
+[11.039257] (-) TimerEvent: {}
+[11.139623] (-) TimerEvent: {}
+[11.239992] (-) TimerEvent: {}
+[11.340359] (-) TimerEvent: {}
+[11.440738] (-) TimerEvent: {}
+[11.541102] (-) TimerEvent: {}
+[11.641481] (-) TimerEvent: {}
+[11.741818] (-) TimerEvent: {}
+[11.842165] (-) TimerEvent: {}
+[11.942488] (-) TimerEvent: {}
+[12.042824] (-) TimerEvent: {}
+[12.143161] (-) TimerEvent: {}
+[12.243491] (-) TimerEvent: {}
+[12.343814] (-) TimerEvent: {}
+[12.444141] (-) TimerEvent: {}
+[12.544499] (-) TimerEvent: {}
+[12.644842] (-) TimerEvent: {}
+[12.745204] (-) TimerEvent: {}
+[12.845573] (-) TimerEvent: {}
+[12.945932] (-) TimerEvent: {}
+[13.046291] (-) TimerEvent: {}
+[13.146639] (-) TimerEvent: {}
+[13.247006] (-) TimerEvent: {}
+[13.347370] (-) TimerEvent: {}
+[13.447732] (-) TimerEvent: {}
+[13.548102] (-) TimerEvent: {}
+[13.648494] (-) TimerEvent: {}
+[13.748862] (-) TimerEvent: {}
+[13.849215] (-) TimerEvent: {}
+[13.949584] (-) TimerEvent: {}
+[14.049956] (-) TimerEvent: {}
+[14.150336] (-) TimerEvent: {}
+[14.250717] (-) TimerEvent: {}
+[14.351106] (-) TimerEvent: {}
+[14.451497] (-) TimerEvent: {}
+[14.551897] (-) TimerEvent: {}
+[14.652264] (-) TimerEvent: {}
+[14.752642] (-) TimerEvent: {}
+[14.853001] (-) TimerEvent: {}
+[14.953346] (-) TimerEvent: {}
+[15.053702] (-) TimerEvent: {}
+[15.154058] (-) TimerEvent: {}
+[15.254403] (-) TimerEvent: {}
+[15.354767] (-) TimerEvent: {}
+[15.455099] (-) TimerEvent: {}
+[15.555475] (-) TimerEvent: {}
+[15.655832] (-) TimerEvent: {}
+[15.756200] (-) TimerEvent: {}
+[15.856550] (-) TimerEvent: {}
+[15.956887] (-) TimerEvent: {}
+[16.057238] (-) TimerEvent: {}
+[16.157594] (-) TimerEvent: {}
+[16.257955] (-) TimerEvent: {}
+[16.358302] (-) TimerEvent: {}
+[16.458654] (-) TimerEvent: {}
+[16.559001] (-) TimerEvent: {}
+[16.659369] (-) TimerEvent: {}
+[16.759730] (-) TimerEvent: {}
+[16.860112] (-) TimerEvent: {}
+[16.960495] (-) TimerEvent: {}
+[17.060861] (-) TimerEvent: {}
+[17.161247] (-) TimerEvent: {}
+[17.261636] (-) TimerEvent: {}
+[17.361997] (-) TimerEvent: {}
+[17.462343] (-) TimerEvent: {}
+[17.562725] (-) TimerEvent: {}
+[17.663124] (-) TimerEvent: {}
+[17.763521] (-) TimerEvent: {}
+[17.863905] (-) TimerEvent: {}
+[17.964271] (-) TimerEvent: {}
+[18.064635] (-) TimerEvent: {}
+[18.164998] (-) TimerEvent: {}
+[18.265367] (-) TimerEvent: {}
+[18.365718] (-) TimerEvent: {}
+[18.466068] (-) TimerEvent: {}
+[18.566420] (-) TimerEvent: {}
+[18.666832] (-) TimerEvent: {}
+[18.767171] (-) TimerEvent: {}
+[18.867532] (-) TimerEvent: {}
+[18.967872] (-) TimerEvent: {}
+[19.068215] (-) TimerEvent: {}
+[19.168548] (-) TimerEvent: {}
+[19.268913] (-) TimerEvent: {}
+[19.369303] (-) TimerEvent: {}
+[19.469658] (-) TimerEvent: {}
+[19.570006] (-) TimerEvent: {}
+[19.670354] (-) TimerEvent: {}
+[19.770705] (-) TimerEvent: {}
+[19.871039] (-) TimerEvent: {}
+[19.971381] (-) TimerEvent: {}
+[20.071733] (-) TimerEvent: {}
+[20.172088] (-) TimerEvent: {}
+[20.272477] (-) TimerEvent: {}
+[20.372828] (-) TimerEvent: {}
+[20.473181] (-) TimerEvent: {}
+[20.573546] (-) TimerEvent: {}
+[20.673906] (-) TimerEvent: {}
+[20.774268] (-) TimerEvent: {}
+[20.874616] (-) TimerEvent: {}
+[20.974964] (-) TimerEvent: {}
+[21.075332] (-) TimerEvent: {}
+[21.175672] (-) TimerEvent: {}
+[21.276024] (-) TimerEvent: {}
+[21.376369] (-) TimerEvent: {}
+[21.476729] (-) TimerEvent: {}
+[21.577085] (-) TimerEvent: {}
+[21.677431] (-) TimerEvent: {}
+[21.777774] (-) TimerEvent: {}
+[21.878129] (-) TimerEvent: {}
+[21.978488] (-) TimerEvent: {}
+[22.078847] (-) TimerEvent: {}
+[22.179246] (-) TimerEvent: {}
+[22.279631] (-) TimerEvent: {}
+[22.379991] (-) TimerEvent: {}
+[22.480363] (-) TimerEvent: {}
+[22.580699] (-) TimerEvent: {}
+[22.681024] (-) TimerEvent: {}
+[22.781351] (-) TimerEvent: {}
+[22.881652] (-) TimerEvent: {}
+[22.981981] (-) TimerEvent: {}
+[23.082311] (-) TimerEvent: {}
+[23.182643] (-) TimerEvent: {}
+[23.282972] (-) TimerEvent: {}
+[23.383296] (-) TimerEvent: {}
+[23.483633] (-) TimerEvent: {}
+[23.583977] (-) TimerEvent: {}
+[23.684307] (-) TimerEvent: {}
+[23.784661] (-) TimerEvent: {}
+[23.885001] (-) TimerEvent: {}
+[23.985342] (-) TimerEvent: {}
+[24.085657] (-) TimerEvent: {}
+[24.185992] (-) TimerEvent: {}
+[24.286325] (-) TimerEvent: {}
+[24.386680] (-) TimerEvent: {}
+[24.487001] (-) TimerEvent: {}
+[24.587318] (-) TimerEvent: {}
+[24.687635] (-) TimerEvent: {}
+[24.787975] (-) TimerEvent: {}
+[24.888321] (-) TimerEvent: {}
+[24.988682] (-) TimerEvent: {}
+[25.089003] (-) TimerEvent: {}
+[25.189336] (-) TimerEvent: {}
+[25.289705] (-) TimerEvent: {}
+[25.390062] (-) TimerEvent: {}
+[25.490405] (-) TimerEvent: {}
+[25.590746] (-) TimerEvent: {}
+[25.691084] (-) TimerEvent: {}
+[25.791409] (-) TimerEvent: {}
+[25.891744] (-) TimerEvent: {}
+[25.992063] (-) TimerEvent: {}
+[26.092367] (-) TimerEvent: {}
+[26.192734] (-) TimerEvent: {}
+[26.293037] (-) TimerEvent: {}
+[26.393380] (-) TimerEvent: {}
+[26.493778] (-) TimerEvent: {}
+[26.594232] (-) TimerEvent: {}
+[26.694601] (-) TimerEvent: {}
+[26.795027] (-) TimerEvent: {}
+[26.895414] (-) TimerEvent: {}
+[26.995791] (-) TimerEvent: {}
+[27.096151] (-) TimerEvent: {}
+[27.196507] (-) TimerEvent: {}
+[27.296850] (-) TimerEvent: {}
+[27.397195] (-) TimerEvent: {}
+[27.497538] (-) TimerEvent: {}
+[27.597898] (-) TimerEvent: {}
+[27.698267] (-) TimerEvent: {}
+[27.798622] (-) TimerEvent: {}
+[27.898984] (-) TimerEvent: {}
+[27.999339] (-) TimerEvent: {}
+[28.099693] (-) TimerEvent: {}
+[28.200055] (-) TimerEvent: {}
+[28.300415] (-) TimerEvent: {}
+[28.400809] (-) TimerEvent: {}
+[28.501169] (-) TimerEvent: {}
+[28.601543] (-) TimerEvent: {}
+[28.701888] (-) TimerEvent: {}
+[28.802239] (-) TimerEvent: {}
+[28.902604] (-) TimerEvent: {}
+[29.002940] (-) TimerEvent: {}
+[29.103277] (-) TimerEvent: {}
+[29.203612] (-) TimerEvent: {}
+[29.303942] (-) TimerEvent: {}
+[29.404282] (-) TimerEvent: {}
+[29.504621] (-) TimerEvent: {}
+[29.604951] (-) TimerEvent: {}
+[29.705281] (-) TimerEvent: {}
+[29.805603] (-) TimerEvent: {}
+[29.905931] (-) TimerEvent: {}
+[30.006265] (-) TimerEvent: {}
+[30.106601] (-) TimerEvent: {}
+[30.206932] (-) TimerEvent: {}
+[30.307267] (-) TimerEvent: {}
+[30.407601] (-) TimerEvent: {}
+[30.507917] (-) TimerEvent: {}
+[30.608265] (-) TimerEvent: {}
+[30.708619] (-) TimerEvent: {}
+[30.808951] (-) TimerEvent: {}
+[30.909290] (-) TimerEvent: {}
+[31.009628] (-) TimerEvent: {}
+[31.109957] (-) TimerEvent: {}
+[31.210342] (-) TimerEvent: {}
+[31.310678] (-) TimerEvent: {}
+[31.411024] (-) TimerEvent: {}
+[31.511362] (-) TimerEvent: {}
+[31.611709] (-) TimerEvent: {}
+[31.712054] (-) TimerEvent: {}
+[31.812406] (-) TimerEvent: {}
+[31.912756] (-) TimerEvent: {}
+[32.013091] (-) TimerEvent: {}
+[32.113462] (-) TimerEvent: {}
+[32.213782] (-) TimerEvent: {}
+[32.314096] (-) TimerEvent: {}
+[32.414428] (-) TimerEvent: {}
+[32.514747] (-) TimerEvent: {}
+[32.615076] (-) TimerEvent: {}
+[32.715391] (-) TimerEvent: {}
+[32.815716] (-) TimerEvent: {}
+[32.916036] (-) TimerEvent: {}
+[33.016350] (-) TimerEvent: {}
+[33.116691] (-) TimerEvent: {}
+[33.217011] (-) TimerEvent: {}
+[33.317324] (-) TimerEvent: {}
+[33.417644] (-) TimerEvent: {}
+[33.517971] (-) TimerEvent: {}
+[33.618298] (-) TimerEvent: {}
+[33.718623] (-) TimerEvent: {}
+[33.818948] (-) TimerEvent: {}
+[33.919264] (-) TimerEvent: {}
+[34.019574] (-) TimerEvent: {}
+[34.119906] (-) TimerEvent: {}
+[34.220211] (-) TimerEvent: {}
+[34.320532] (-) TimerEvent: {}
+[34.420850] (-) TimerEvent: {}
+[34.521159] (-) TimerEvent: {}
+[34.621473] (-) TimerEvent: {}
+[34.721811] (-) TimerEvent: {}
+[34.822140] (-) TimerEvent: {}
+[34.922449] (-) TimerEvent: {}
+[35.022758] (-) TimerEvent: {}
+[35.123108] (-) TimerEvent: {}
+[35.223433] (-) TimerEvent: {}
+[35.323745] (-) TimerEvent: {}
+[35.424066] (-) TimerEvent: {}
+[35.524383] (-) TimerEvent: {}
+[35.624723] (-) TimerEvent: {}
+[35.725048] (-) TimerEvent: {}
+[35.825376] (-) TimerEvent: {}
+[35.925689] (-) TimerEvent: {}
+[36.026002] (-) TimerEvent: {}
+[36.126311] (-) TimerEvent: {}
+[36.226609] (-) TimerEvent: {}
+[36.326921] (-) TimerEvent: {}
+[36.427209] (-) TimerEvent: {}
+[36.527498] (-) TimerEvent: {}
+[36.627797] (-) TimerEvent: {}
+[36.728099] (-) TimerEvent: {}
+[36.828396] (-) TimerEvent: {}
+[36.928705] (-) TimerEvent: {}
+[37.028973] (-) TimerEvent: {}
+[37.129267] (-) TimerEvent: {}
+[37.229556] (-) TimerEvent: {}
+[37.329856] (-) TimerEvent: {}
+[37.430151] (-) TimerEvent: {}
+[37.530453] (-) TimerEvent: {}
+[37.630769] (-) TimerEvent: {}
+[37.731056] (-) TimerEvent: {}
+[37.831351] (-) TimerEvent: {}
+[37.931641] (-) TimerEvent: {}
+[38.031930] (-) TimerEvent: {}
+[38.132236] (-) TimerEvent: {}
+[38.232538] (-) TimerEvent: {}
+[38.332840] (-) TimerEvent: {}
+[38.433140] (-) TimerEvent: {}
+[38.533452] (-) TimerEvent: {}
+[38.633760] (-) TimerEvent: {}
+[38.734061] (-) TimerEvent: {}
+[38.834365] (-) TimerEvent: {}
+[38.934672] (-) TimerEvent: {}
+[39.034971] (-) TimerEvent: {}
+[39.135244] (-) TimerEvent: {}
+[39.235520] (-) TimerEvent: {}
+[39.335818] (-) TimerEvent: {}
+[39.436129] (-) TimerEvent: {}
+[39.536444] (-) TimerEvent: {}
+[39.636751] (-) TimerEvent: {}
+[39.737065] (-) TimerEvent: {}
+[39.837361] (-) TimerEvent: {}
+[39.937658] (-) TimerEvent: {}
+[40.037950] (-) TimerEvent: {}
+[40.138257] (-) TimerEvent: {}
+[40.238602] (-) TimerEvent: {}
+[40.338938] (-) TimerEvent: {}
+[40.439287] (-) TimerEvent: {}
+[40.539625] (-) TimerEvent: {}
+[40.639962] (-) TimerEvent: {}
+[40.740299] (-) TimerEvent: {}
+[40.840670] (-) TimerEvent: {}
+[40.941030] (-) TimerEvent: {}
+[41.041375] (-) TimerEvent: {}
+[41.141728] (-) TimerEvent: {}
+[41.242050] (-) TimerEvent: {}
+[41.342397] (-) TimerEvent: {}
+[41.442766] (-) TimerEvent: {}
+[41.543145] (-) TimerEvent: {}
+[41.643532] (-) TimerEvent: {}
+[41.743868] (-) TimerEvent: {}
+[41.844230] (-) TimerEvent: {}
+[41.944585] (-) TimerEvent: {}
+[42.044891] (-) TimerEvent: {}
+[42.145192] (-) TimerEvent: {}
+[42.245545] (-) TimerEvent: {}
+[42.345890] (-) TimerEvent: {}
+[42.446228] (-) TimerEvent: {}
+[42.546564] (-) TimerEvent: {}
+[42.646910] (-) TimerEvent: {}
+[42.747257] (-) TimerEvent: {}
+[42.847602] (-) TimerEvent: {}
+[42.947951] (-) TimerEvent: {}
+[43.048298] (-) TimerEvent: {}
+[43.148668] (-) TimerEvent: {}
+[43.249046] (-) TimerEvent: {}
+[43.349379] (-) TimerEvent: {}
+[43.449724] (-) TimerEvent: {}
+[43.550084] (-) TimerEvent: {}
+[43.650443] (-) TimerEvent: {}
+[43.750793] (-) TimerEvent: {}
+[43.851147] (-) TimerEvent: {}
+[43.951497] (-) TimerEvent: {}
+[44.051849] (-) TimerEvent: {}
+[44.152206] (-) TimerEvent: {}
+[44.252573] (-) TimerEvent: {}
+[44.352926] (-) TimerEvent: {}
+[44.453275] (-) TimerEvent: {}
+[44.553624] (-) TimerEvent: {}
+[44.653996] (-) TimerEvent: {}
+[44.754964] (-) TimerEvent: {}
+[44.855295] (-) TimerEvent: {}
+[44.956298] (-) TimerEvent: {}
+[45.056736] (-) TimerEvent: {}
+[45.157080] (-) TimerEvent: {}
+[45.257408] (-) TimerEvent: {}
+[45.357732] (-) TimerEvent: {}
+[45.458051] (-) TimerEvent: {}
+[45.558805] (-) TimerEvent: {}
+[45.659624] (-) TimerEvent: {}
+[45.760375] (-) TimerEvent: {}
+[45.861003] (-) TimerEvent: {}
+[45.961306] (-) TimerEvent: {}
+[46.061622] (-) TimerEvent: {}
+[46.161935] (-) TimerEvent: {}
+[46.262797] (-) TimerEvent: {}
+[46.363135] (-) TimerEvent: {}
+[46.464241] (-) TimerEvent: {}
+[46.564604] (-) TimerEvent: {}
+[46.664936] (-) TimerEvent: {}
+[46.765272] (-) TimerEvent: {}
+[46.865616] (-) TimerEvent: {}
+[46.965956] (-) TimerEvent: {}
+[47.066725] (-) TimerEvent: {}
+[47.167068] (-) TimerEvent: {}
+[47.267412] (-) TimerEvent: {}
+[47.368200] (-) TimerEvent: {}
+[47.469128] (-) TimerEvent: {}
+[47.569450] (-) TimerEvent: {}
+[47.670563] (-) TimerEvent: {}
+[47.770899] (-) TimerEvent: {}
+[47.871242] (-) TimerEvent: {}
+[47.971600] (-) TimerEvent: {}
+[48.071989] (-) TimerEvent: {}
+[48.172844] (-) TimerEvent: {}
+[48.273182] (-) TimerEvent: {}
+[48.373483] (-) TimerEvent: {}
+[48.473769] (-) TimerEvent: {}
+[48.574046] (-) TimerEvent: {}
+[48.674338] (-) TimerEvent: {}
+[48.774613] (-) TimerEvent: {}
+[48.874882] (-) TimerEvent: {}
+[48.975153] (-) TimerEvent: {}
+[49.075425] (-) TimerEvent: {}
+[49.175697] (-) TimerEvent: {}
+[49.275974] (-) TimerEvent: {}
+[49.376249] (-) TimerEvent: {}
+[49.476494] (-) TimerEvent: {}
+[49.576806] (-) TimerEvent: {}
+[49.677079] (-) TimerEvent: {}
+[49.777349] (-) TimerEvent: {}
+[49.877620] (-) TimerEvent: {}
+[49.977901] (-) TimerEvent: {}
+[50.078171] (-) TimerEvent: {}
+[50.178440] (-) TimerEvent: {}
+[50.278748] (-) TimerEvent: {}
+[50.379020] (-) TimerEvent: {}
+[50.479292] (-) TimerEvent: {}
+[50.579563] (-) TimerEvent: {}
+[50.679836] (-) TimerEvent: {}
+[50.780109] (-) TimerEvent: {}
+[50.880378] (-) TimerEvent: {}
+[50.980915] (-) TimerEvent: {}
+[51.081215] (-) TimerEvent: {}
+[51.181496] (-) TimerEvent: {}
+[51.281808] (-) TimerEvent: {}
+[51.382078] (-) TimerEvent: {}
+[51.482374] (-) TimerEvent: {}
+[51.582646] (-) TimerEvent: {}
+[51.682919] (-) TimerEvent: {}
+[51.783192] (-) TimerEvent: {}
+[51.883466] (-) TimerEvent: {}
+[51.983759] (-) TimerEvent: {}
+[52.084030] (-) TimerEvent: {}
+[52.184320] (-) TimerEvent: {}
+[52.284684] (-) TimerEvent: {}
+[52.384980] (-) TimerEvent: {}
+[52.485281] (-) TimerEvent: {}
+[52.585554] (-) TimerEvent: {}
+[52.685824] (-) TimerEvent: {}
+[52.786530] (-) TimerEvent: {}
+[52.886823] (-) TimerEvent: {}
+[52.987115] (-) TimerEvent: {}
+[53.087397] (-) TimerEvent: {}
+[53.187673] (-) TimerEvent: {}
+[53.288427] (-) TimerEvent: {}
+[53.388766] (-) TimerEvent: {}
+[53.489073] (-) TimerEvent: {}
+[53.589382] (-) TimerEvent: {}
+[53.689696] (-) TimerEvent: {}
+[53.790004] (-) TimerEvent: {}
+[53.890312] (-) TimerEvent: {}
+[54.025922] (-) TimerEvent: {}
+[54.126216] (-) TimerEvent: {}
+[54.226490] (-) TimerEvent: {}
+[54.326761] (-) TimerEvent: {}
+[54.427033] (-) TimerEvent: {}
+[54.527310] (-) TimerEvent: {}
+[54.627566] (-) TimerEvent: {}
+[54.727873] (-) TimerEvent: {}
+[54.828170] (-) TimerEvent: {}
+[54.928449] (-) TimerEvent: {}
+[55.028726] (-) TimerEvent: {}
+[55.129004] (-) TimerEvent: {}
+[55.229282] (-) TimerEvent: {}
+[55.329595] (-) TimerEvent: {}
+[55.429866] (-) TimerEvent: {}
+[55.530138] (-) TimerEvent: {}
+[55.630440] (-) TimerEvent: {}
+[55.730710] (-) TimerEvent: {}
+[55.831030] (-) TimerEvent: {}
+[55.931305] (-) TimerEvent: {}
+[56.031627] (-) TimerEvent: {}
+[56.131900] (-) TimerEvent: {}
+[56.232201] (-) TimerEvent: {}
+[56.332484] (-) TimerEvent: {}
+[56.432793] (-) TimerEvent: {}
+[56.533109] (-) TimerEvent: {}
+[56.633422] (-) TimerEvent: {}
+[56.733723] (-) TimerEvent: {}
+[56.834013] (-) TimerEvent: {}
+[56.934286] (-) TimerEvent: {}
+[57.034596] (-) TimerEvent: {}
+[57.134868] (-) TimerEvent: {}
+[57.235144] (-) TimerEvent: {}
+[57.335411] (-) TimerEvent: {}
+[57.435687] (-) TimerEvent: {}
+[57.535957] (-) TimerEvent: {}
+[57.636261] (-) TimerEvent: {}
+[57.736495] (-) TimerEvent: {}
+[57.836821] (-) TimerEvent: {}
+[57.937263] (-) TimerEvent: {}
+[58.037565] (-) TimerEvent: {}
+[58.137841] (-) TimerEvent: {}
+[58.238119] (-) TimerEvent: {}
+[58.338394] (-) TimerEvent: {}
+[58.438669] (-) TimerEvent: {}
+[58.538939] (-) TimerEvent: {}
+[58.639212] (-) TimerEvent: {}
+[58.739483] (-) TimerEvent: {}
+[58.839756] (-) TimerEvent: {}
+[58.940032] (-) TimerEvent: {}
+[59.040304] (-) TimerEvent: {}
+[59.140910] (-) TimerEvent: {}
+[59.241210] (-) TimerEvent: {}
+[59.341514] (-) TimerEvent: {}
+[59.441786] (-) TimerEvent: {}
+[59.542094] (-) TimerEvent: {}
+[59.642404] (-) TimerEvent: {}
+[59.742867] (-) TimerEvent: {}
+[59.843220] (-) TimerEvent: {}
+[59.943537] (-) TimerEvent: {}
+[60.043824] (-) TimerEvent: {}
+[60.144104] (-) TimerEvent: {}
+[60.244394] (-) TimerEvent: {}
+[60.344671] (-) TimerEvent: {}
+[60.444946] (-) TimerEvent: {}
+[60.545220] (-) TimerEvent: {}
+[60.645551] (-) TimerEvent: {}
+[60.745866] (-) TimerEvent: {}
+[60.846176] (-) TimerEvent: {}
+[60.946470] (-) TimerEvent: {}
+[61.046766] (-) TimerEvent: {}
+[61.147068] (-) TimerEvent: {}
+[61.247415] (-) TimerEvent: {}
+[61.347693] (-) TimerEvent: {}
+[61.447981] (-) TimerEvent: {}
+[61.548265] (-) TimerEvent: {}
+[61.648870] (-) TimerEvent: {}
+[61.749166] (-) TimerEvent: {}
+[61.849439] (-) TimerEvent: {}
+[61.949717] (-) TimerEvent: {}
+[62.049988] (-) TimerEvent: {}
+[62.150260] (-) TimerEvent: {}
+[62.250567] (-) TimerEvent: {}
+[62.350849] (-) TimerEvent: {}
+[62.451131] (-) TimerEvent: {}
+[62.551413] (-) TimerEvent: {}
+[62.651691] (-) TimerEvent: {}
+[62.751972] (-) TimerEvent: {}
+[62.852265] (-) TimerEvent: {}
+[62.952588] (-) TimerEvent: {}
+[63.052869] (-) TimerEvent: {}
+[63.123610] (rtabmap_sync) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking CXX shared library librtabmap_sync.so\x1b[0m\n'}
+[63.152997] (-) TimerEvent: {}
+[63.253357] (-) TimerEvent: {}
+[63.353687] (-) TimerEvent: {}
+[63.454082] (-) TimerEvent: {}
+[63.554381] (-) TimerEvent: {}
+[63.654706] (-) TimerEvent: {}
+[63.755066] (-) TimerEvent: {}
+[63.855418] (-) TimerEvent: {}
+[63.955810] (-) TimerEvent: {}
+[64.056154] (-) TimerEvent: {}
+[64.156548] (-) TimerEvent: {}
+[64.256869] (-) TimerEvent: {}
+[64.357246] (-) TimerEvent: {}
+[64.457552] (-) TimerEvent: {}
+[64.557828] (-) TimerEvent: {}
+[64.658118] (-) TimerEvent: {}
+[64.758412] (-) TimerEvent: {}
+[64.858714] (-) TimerEvent: {}
+[64.959011] (-) TimerEvent: {}
+[65.059291] (-) TimerEvent: {}
+[65.159608] (-) TimerEvent: {}
+[65.259898] (-) TimerEvent: {}
+[65.360199] (-) TimerEvent: {}
+[65.460565] (-) TimerEvent: {}
+[65.529188] (rtabmap_sync) StdoutLine: {'line': b'[100%] Built target rtabmap_sync\n'}
+[65.543937] (rtabmap_sync) CommandEnded: {'returncode': 0}
+[65.560641] (-) TimerEvent: {}
+[65.620107] (rtabmap_sync) JobProgress: {'identifier': 'rtabmap_sync', 'progress': 'install'}
+[65.629891] (rtabmap_sync) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/rtabmap_sync'], 'cwd': '/SLAM/ros_ws/build/rtabmap_sync', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('ROS_PACKAGE_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/share'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b767ac96-efed-4f0f-95be-a2aa688262b3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('MAKEFLAGS', '-j6'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/SLAM/ros_ws/install/rtabmap/bin:/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-300c5a9faf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/rtabmap_sync'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap')]), 'shell': False}
+[65.640606] (rtabmap_sync) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[65.641946] (rtabmap_sync) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[65.642221] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.sh\n'}
+[65.653225] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/library_path.dsv\n'}
+[65.660750] (-) TimerEvent: {}
+[65.663847] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbd_sync\n'}
+[65.674535] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/lib/rtabmap_sync/rgbdx_sync\n'}
+[65.685438] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/lib/rtabmap_sync/stereo_sync\n'}
+[65.696139] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/lib/rtabmap_sync/rgb_sync\n'}
+[65.706707] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/ament_index/resource_index/package_run_dependencies/rtabmap_sync\n'}
+[65.716600] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/ament_index/resource_index/parent_prefix_path/rtabmap_sync\n'}
+[65.726600] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.sh\n'}
+[65.737247] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/ament_prefix_path.dsv\n'}
+[65.747446] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.sh\n'}
+[65.758162] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/environment/path.dsv\n'}
+[65.760814] (-) TimerEvent: {}
+[65.769279] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.bash\n'}
+[65.780737] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.sh\n'}
+[65.791851] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.zsh\n'}
+[65.803132] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/local_setup.dsv\n'}
+[65.814742] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/package.dsv\n'}
+[65.826272] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/ament_index/resource_index/packages/rtabmap_sync\n'}
+[65.837018] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/ament_index/resource_index/rclcpp_components/rtabmap_sync\n'}
+[65.851614] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/extra_configs.cmake\n'}
+[65.860940] (-) TimerEvent: {}
+[65.863456] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[65.875216] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[65.885443] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[65.895418] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[65.905726] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig.cmake\n'}
+[65.915544] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncConfig-version.cmake\n'}
+[65.925660] (rtabmap_sync) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/package.xml\n'}
+[65.936595] (rtabmap_sync) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_sync/lib/librtabmap_sync.so\n'}
+[65.961060] (-) TimerEvent: {}
+[65.989251] (rtabmap_sync) StdoutLine: {'line': b'-- Set runtime path of "/SLAM/ros_ws/install/rtabmap_sync/lib/librtabmap_sync.so" to ""\n'}
+[65.989511] (rtabmap_sync) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so\n'}
+[65.997850] (rtabmap_sync) StdoutLine: {'line': b'-- Set runtime path of "/SLAM/ros_ws/install/rtabmap_sync/lib/librtabmap_sync_plugins.so" to ""\n'}
+[65.998058] (rtabmap_sync) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_sync/include\n'}
+[65.998171] (rtabmap_sync) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_sync/include/rtabmap_sync\n'}
+[65.998262] (rtabmap_sync) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriberDefines.h\n'}
+[65.998338] (rtabmap_sync) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_sync/include/rtabmap_sync/CommonDataSubscriber.h\n'}
+[65.998432] (rtabmap_sync) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_sync/include/rtabmap_sync/GetTopicName.h\n'}
+[65.998602] (rtabmap_sync) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_sync/include/rtabmap_sync/SyncDiagnostic.h\n'}
+[65.998742] (rtabmap_sync) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_sync/include/rtabmap_sync/visibility.h\n'}
+[65.998931] (rtabmap_sync) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport.cmake\n'}
+[65.999928] (rtabmap_sync) StdoutLine: {'line': b'-- Installing: /SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake/rtabmap_syncExport-release.cmake\n'}
+[66.002921] (rtabmap_sync) CommandEnded: {'returncode': 0}
+[66.061138] (-) TimerEvent: {}
+[66.161368] (-) TimerEvent: {}
+[66.196164] (rtabmap_sync) JobEnded: {'identifier': 'rtabmap_sync', 'rc': 0}
+[66.196718] (-) EventReactorShutdown: {}

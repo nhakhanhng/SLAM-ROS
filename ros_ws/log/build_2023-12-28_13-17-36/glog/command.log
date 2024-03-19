@@ -1,0 +1,6 @@
+Invoking command in '/home/khanh/Documents/SLAM/ros_ws/build/glog': /usr/bin/cmake /home/khanh/Documents/SLAM/ros_ws/glog-0.6.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/khanh/Documents/SLAM/ros_ws/install/glog
+Invoked command in '/home/khanh/Documents/SLAM/ros_ws/build/glog' returned '0': /usr/bin/cmake /home/khanh/Documents/SLAM/ros_ws/glog-0.6.0 -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/khanh/Documents/SLAM/ros_ws/install/glog
+Invoking command in '/home/khanh/Documents/SLAM/ros_ws/build/glog': /usr/bin/cmake --build /home/khanh/Documents/SLAM/ros_ws/build/glog -- -j16 -l16
+Invoked command in '/home/khanh/Documents/SLAM/ros_ws/build/glog' returned '0': /usr/bin/cmake --build /home/khanh/Documents/SLAM/ros_ws/build/glog -- -j16 -l16
+Invoking command in '/home/khanh/Documents/SLAM/ros_ws/build/glog': /usr/bin/cmake --install /home/khanh/Documents/SLAM/ros_ws/build/glog
+Invoked command in '/home/khanh/Documents/SLAM/ros_ws/build/glog' returned '0': /usr/bin/cmake --install /home/khanh/Documents/SLAM/ros_ws/build/glog

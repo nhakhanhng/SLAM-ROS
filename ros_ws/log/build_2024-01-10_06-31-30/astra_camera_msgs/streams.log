@@ -1,0 +1,314 @@
+[0.291s] Invoking command in '/SLAM/ros_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/astra_camera_msgs
+[0.848s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.849s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.850s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.851s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.851s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.851s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.851s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.161s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.537s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.959s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.986s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.013s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.013s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.013s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.097s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.117s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.121s] -- Added test 'lint_cmake' to check CMake code style
+[2.122s] -- Added test 'xmllint' to check XML markup files
+[2.128s] -- Configuring done
+[2.235s] -- Generating done
+[2.241s] -- Build files have been written to: /SLAM/ros_ws/build/astra_camera_msgs
+[2.258s] Invoked command in '/SLAM/ros_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/astra_camera_msgs
+[2.260s] Invoking command in '/SLAM/ros_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/astra_camera_msgs -- -j16 -l16
+[2.325s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_generator_c[0m
+[2.333s] [  1%] Built target astra_camera_msgs__cpp
+[2.349s] [  1%] Built target ament_cmake_python_symlink_astra_camera_msgs
+[2.353s] [ 12%] Built target astra_camera_msgs__rosidl_generator_c
+[2.355s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_cpp[0m
+[2.356s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[2.362s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_introspection_cpp[0m
+[2.374s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_introspection_c[0m
+[2.379s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_c[0m
+[2.395s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_fastrtps_c[0m
+[2.404s] [ 24%] Built target astra_camera_msgs__rosidl_typesupport_cpp
+[2.406s] [ 35%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[2.409s] [ 47%] Built target astra_camera_msgs__rosidl_typesupport_c
+[2.410s] [ 58%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c
+[2.417s] [ 70%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp
+[2.440s] [ 82%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c
+[2.468s] [ 82%] Built target astra_camera_msgs
+[2.552s] [ 83%] Built target astra_camera_msgs__py
+[2.656s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_generator_py[0m
+[2.714s] running egg_info
+[2.715s] writing astra_camera_msgs.egg-info/PKG-INFO
+[2.716s] writing dependency_links to astra_camera_msgs.egg-info/dependency_links.txt
+[2.716s] writing top-level names to astra_camera_msgs.egg-info/top_level.txt
+[2.719s] reading manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[2.733s] writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[2.757s] [ 93%] Built target astra_camera_msgs__rosidl_generator_py
+[2.812s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[2.833s] [ 93%] Built target ament_cmake_python_build_astra_camera_msgs_egg
+[2.847s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[2.873s] [35m[1mConsolidate compiler generated dependencies of target astra_camera_msgs__rosidl_typesupport_c__pyext[0m
+[2.888s] [ 95%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[2.940s] [ 97%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[2.960s] [100%] Built target astra_camera_msgs__rosidl_typesupport_c__pyext
+[2.981s] Invoked command in '/SLAM/ros_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/astra_camera_msgs -- -j16 -l16
+[7.748s] Invoking command in '/SLAM/ros_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/astra_camera_msgs
+[7.795s] -- Install configuration: "Release"
+[7.796s] -- Execute custom install script
+[7.798s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/astra_camera_msgs
+[7.859s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.h
+[7.924s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.h
+[7.969s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.h
+[8.014s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.h
+[8.073s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.h
+[8.144s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.h
+[8.214s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.h
+[8.265s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.h
+[8.293s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.h
+[8.334s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.h
+[8.371s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.h
+[8.440s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.h
+[8.517s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[8.560s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.h
+[8.649s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.h
+[8.706s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.h
+[8.789s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.h
+[8.873s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.h
+[8.938s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.h
+[8.985s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.h
+[9.049s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.h
+[9.137s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.h
+[9.198s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.h
+[9.271s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.h
+[9.330s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.h
+[9.409s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.h
+[9.478s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.h
+[9.567s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.h
+[9.620s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.h
+[9.688s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.h
+[9.777s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.h
+[9.857s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.h
+[9.933s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.h
+[10.016s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.h
+[10.097s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.h
+[10.169s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.h
+[10.248s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.h
+[10.312s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.sh
+[10.381s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.dsv
+[10.484s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[10.569s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[10.605s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[10.661s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.726s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h
+[10.784s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_c.h
+[10.861s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h
+[10.925s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h
+[10.994s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h
+[11.081s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h
+[11.119s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h
+[11.158s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[11.178s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[11.257s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[11.341s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h
+[11.429s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_c.h
+[11.495s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h
+[11.552s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h
+[11.636s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h
+[11.727s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h
+[11.790s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__builder.hpp
+[11.879s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.hpp
+[11.962s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__traits.hpp
+[12.054s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__builder.hpp
+[12.125s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.hpp
+[12.174s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__traits.hpp
+[12.211s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__builder.hpp
+[12.262s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.hpp
+[12.366s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__traits.hpp
+[12.455s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.hpp
+[12.545s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.hpp
+[12.649s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.hpp
+[12.765s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__builder.hpp
+[12.856s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.hpp
+[12.961s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__traits.hpp
+[13.009s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__builder.hpp
+[13.076s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.hpp
+[13.140s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__traits.hpp
+[13.195s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__builder.hpp
+[13.267s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.hpp
+[13.350s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__traits.hpp
+[13.423s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__builder.hpp
+[13.527s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.hpp
+[13.589s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__traits.hpp
+[13.639s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__builder.hpp
+[13.684s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.hpp
+[13.743s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__traits.hpp
+[13.809s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__builder.hpp
+[13.849s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.hpp
+[13.911s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__traits.hpp
+[13.983s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.hpp
+[14.037s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.hpp
+[14.149s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.hpp
+[14.254s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.hpp
+[14.370s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.hpp
+[14.414s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.hpp
+[14.488s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[14.560s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[14.626s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[14.709s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.799s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[14.882s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_cpp.hpp
+[14.981s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[15.073s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[15.157s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp
+[15.237s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[15.290s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[15.370s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[15.487s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[15.525s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[15.543s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_cpp.hpp
+[15.565s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp
+[15.585s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp
+[15.603s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp
+[15.621s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp
+[15.643s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.sh
+[15.669s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.dsv
+[15.691s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/PKG-INFO
+[15.733s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/SOURCES.txt
+[15.802s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/dependency_links.txt
+[15.907s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/top_level.txt
+[15.956s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/__init__.py
+[16.057s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c
+[16.133s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.194s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[16.235s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[16.291s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[16.338s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[16.392s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/libastra_camera_msgs__rosidl_generator_py.so
+[16.441s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/__init__.py
+[16.508s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info.py
+[16.534s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info_s.c
+[16.559s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics.py
+[16.657s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics_s.c
+[16.706s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata.py
+[16.753s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata_s.c
+[16.870s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/__init__.py
+[16.973s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info.py
+[17.025s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info_s.c
+[17.081s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params.py
+[17.129s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params_s.c
+[17.187s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info.py
+[17.241s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info_s.c
+[17.291s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32.py
+[17.346s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32_s.c
+[17.402s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string.py
+[17.484s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string_s.c
+[17.577s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32.py
+[17.611s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32_s.c
+[17.649s] -- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[17.650s] -- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[17.651s] -- Up-to-date symlink: /SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[17.652s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.idl
+[17.678s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.idl
+[17.704s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.idl
+[17.739s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.idl
+[17.770s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.idl
+[17.816s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.idl
+[17.890s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.idl
+[17.935s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.idl
+[17.982s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.idl
+[18.057s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.msg
+[18.122s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.msg
+[18.201s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.msg
+[18.260s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.srv
+[18.334s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Request.msg
+[18.371s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Response.msg
+[18.421s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.srv
+[18.446s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Request.msg
+[18.494s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Response.msg
+[18.548s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.srv
+[18.597s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Request.msg
+[18.639s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Response.msg
+[18.667s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.srv
+[18.710s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Request.msg
+[18.751s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Response.msg
+[18.797s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.srv
+[18.869s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Request.msg
+[18.929s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Response.msg
+[18.969s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.srv
+[18.997s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Request.msg
+[19.044s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Response.msg
+[19.119s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/ament_index/resource_index/package_run_dependencies/astra_camera_msgs
+[19.169s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/ament_index/resource_index/parent_prefix_path/astra_camera_msgs
+[19.222s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.sh
+[19.257s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.dsv
+[19.299s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.sh
+[19.370s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.dsv
+[19.472s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.bash
+[19.518s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.sh
+[19.568s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.zsh
+[19.658s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.dsv
+[19.753s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv
+[19.810s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/ament_index/resource_index/packages/astra_camera_msgs
+[19.865s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[19.920s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.990s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.081s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[20.190s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[20.270s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.330s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.382s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig.cmake
+[20.463s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig-version.cmake
+[20.480s] -- Symlinking: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.xml
+[20.507s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so
+[20.508s] -- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so" to ""
+[20.509s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[20.511s] -- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[20.512s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so
+[20.513s] -- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[20.514s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so
+[20.516s] -- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so" to ""
+[20.517s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[20.519s] -- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.520s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[20.522s] -- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[20.523s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so
+[20.524s] -- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so" to ""
+[20.884s] Listing '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs'...
+[20.885s] Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/__init__.py'...
+[20.885s] Listing '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg'...
+[20.885s] Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/__init__.py'...
+[20.885s] Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info.py'...
+[20.885s] Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics.py'...
+[20.885s] Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata.py'...
+[20.885s] Listing '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv'...
+[20.885s] Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/__init__.py'...
+[20.885s] Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info.py'...
+[20.885s] Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params.py'...
+[20.886s] Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info.py'...
+[20.886s] Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32.py'...
+[20.886s] Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string.py'...
+[20.886s] Compiling '/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32.py'...
+[20.927s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_py.so
+[20.930s] -- Set runtime path of "/SLAM/ros_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_py.so" to ""
+[20.933s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport.cmake
+[20.934s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport-release.cmake
+[20.939s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[20.939s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport-release.cmake
+[20.940s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[20.940s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport-release.cmake
+[20.945s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport.cmake
+[20.945s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport-release.cmake
+[20.946s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cppExport.cmake
+[20.947s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.948s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[20.948s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[20.949s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport-release.cmake
+[20.950s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport.cmake
+[20.950s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport-release.cmake
+[20.952s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport.cmake
+[20.953s] -- Installing: /SLAM/ros_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport-release.cmake
+[20.958s] Invoked command in '/SLAM/ros_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/astra_camera_msgs

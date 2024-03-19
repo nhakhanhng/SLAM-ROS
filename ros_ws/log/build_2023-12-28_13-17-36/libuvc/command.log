@@ -1,0 +1,6 @@
+Invoking command in '/home/khanh/Documents/SLAM/ros_ws/build/libuvc': /usr/bin/cmake /home/khanh/Documents/SLAM/ros_ws/libuvc -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/khanh/Documents/SLAM/ros_ws/install/libuvc
+Invoked command in '/home/khanh/Documents/SLAM/ros_ws/build/libuvc' returned '0': /usr/bin/cmake /home/khanh/Documents/SLAM/ros_ws/libuvc -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/khanh/Documents/SLAM/ros_ws/install/libuvc
+Invoking command in '/home/khanh/Documents/SLAM/ros_ws/build/libuvc': /usr/bin/cmake --build /home/khanh/Documents/SLAM/ros_ws/build/libuvc -- -j16 -l16
+Invoked command in '/home/khanh/Documents/SLAM/ros_ws/build/libuvc' returned '0': /usr/bin/cmake --build /home/khanh/Documents/SLAM/ros_ws/build/libuvc -- -j16 -l16
+Invoking command in '/home/khanh/Documents/SLAM/ros_ws/build/libuvc': /usr/bin/cmake --install /home/khanh/Documents/SLAM/ros_ws/build/libuvc
+Invoked command in '/home/khanh/Documents/SLAM/ros_ws/build/libuvc' returned '0': /usr/bin/cmake --install /home/khanh/Documents/SLAM/ros_ws/build/libuvc

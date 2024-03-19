@@ -1,0 +1,167 @@
+[0.126s] Invoking command in '/home/khanh/Documents/SLAM/ros_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/khanh/Documents/SLAM/ros_ws/build/rtabmap
+[0.182s] -- MOBILE_BUILD=OFF
+[0.215s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.244s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.664s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.682s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.685s] -- Found Qhull version 8.0.2
+[1.030s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.148s] -- PCL definitions don't contain "-march=native", make sure all libraries using Eigen are also compiled without that flag to avoid some segmentation faults (with gdb referring to some Eigen functions).
+[1.152s] -- Found Sqlite3: /usr/include /usr/lib/x86_64-linux-gnu/libsqlite3.so
+[1.154s] -- Found OpenMP: /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.a
+[1.154s] -- Add PCL_OMP to definitions
+[1.154s] -- Found OpenCV: /usr/include/opencv4
+[1.154s] -- Found PCL: /usr/include/pcl-1.12;/usr/include/eigen3;/usr/include;/usr/include/ni
+[1.154s] -- Found ZLIB: /usr/include
+[1.168s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.525s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.597s] -- VTK>=9 detected, will use VTK_QT_VERSION=5 for Qt version.
+[1.602s] -- VTK_RENDERING_BACKEND=
+[1.611s] -- Found Freenect: /usr/include
+[1.639s] -- Found OpenNI2: /usr/include/openni2
+[1.639s] -- Found DC1394: /usr/include/dc1394
+[1.649s] -- Could NOT find g2o (missing: g2o_DIR)
+[1.649s] -- RTAB-Map's cmake g2o find module used for convenience (for older g2o versions)
+[1.653s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.653s]   The package name passed to `find_package_handle_standard_args` (CSPARSE)
+[1.653s]   does not match the name of the calling package (G2O).  This can lead to
+[1.653s]   problems in calling code that expects `find_package` result variables
+[1.653s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.653s] Call Stack (most recent call first):
+[1.653s]   cmake_modules/FindG2O.cmake:9 (find_package_handle_standard_args)
+[1.653s]   CMakeLists.txt:491 (FIND_PACKAGE)
+[1.653s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.653s] [0m
+[1.653s] -- Could NOT find CSPARSE (missing: CSPARSE_INCLUDE_DIR CSPARSE_LIBRARY) 
+[1.691s] -- GTSAM include directory:  /opt/ros/humble/lib/cmake/GTSAM/../../../include
+[1.701s] -- FlyCapture2_INCLUDE_DIR=FlyCapture2_INCLUDE_DIR-NOTFOUND
+[1.701s] -- FlyCapture2_LIBRARY=FlyCapture2_LIBRARY-NOTFOUND
+[1.701s] -- Triclops_INCLUDE_DIR=Triclops_INCLUDE_DIR-NOTFOUND
+[1.701s] -- Triclops_LIBRARY=Triclops_LIBRARY-NOTFOUND
+[1.701s] -- FlyCaptureBridge_LIBRARY=FlyCaptureBridge_LIBRARY-NOTFOUND
+[1.714s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[1.719s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono timer serialization 
+[1.757s] -- Found octomap 1.9.7: /usr/include
+[1.762s] -- Architecture: x86_64
+[1.772s] -- Performing Test COMPILER_SUPPORTS_CXX14
+[1.887s] -- Performing Test COMPILER_SUPPORTS_CXX14 - Success
+[1.890s] -- Found Pthreads
+[1.939s] -- --------------------------------------------
+[1.939s] -- Info :
+[1.939s] --   RTAB-Map Version =     0.21.3
+[1.939s] --   CMAKE_VERSION =        3.22.1
+[1.939s] --   CMAKE_INSTALL_PREFIX = /home/khanh/Documents/SLAM/ros_ws/install/rtabmap
+[1.939s] --   CMAKE_BUILD_TYPE =     Release
+[1.939s] --   CMAKE_INSTALL_LIBDIR = lib
+[1.940s] --   BUILD_APP =            ON
+[1.940s] --   BUILD_TOOLS =          ON
+[1.940s] --   BUILD_EXAMPLES =       ON
+[1.940s] --   BUILD_SHARED_LIBS =    ON
+[1.940s] --   CMAKE_CXX_FLAGS =  -fmessage-length=0 -fopenmp -std=c++14
+[1.940s] --   FLANN_KDTREE_MEM_OPT = OFF
+[1.940s] --   PCL_DEFINITIONS = -DDISABLE_OPENNI2;-DDISABLE_PCAP;-DDISABLE_PNG
+[1.940s] --   PCL_VERSION = 1.12.1
+[1.940s] -- 
+[1.940s] -- Optional dependencies ('*' affects some default parameters) :
+[1.940s] --  *With OpenCV 4.5.4 xfeatures2d = NO, nonfree = NO (License: Apache 2)
+[1.940s] --   With Qt 5.15.3            = YES (License: Open Source or Commercial)
+[1.940s] --   With VTK 9.1              = YES (License: BSD)
+[1.940s] --   With external SQLite3     = YES (License: Public Domain)
+[1.941s] --   With ORB OcTree           = YES (License: GPLv3)
+[1.941s] --   With SupertPoint          = NO (WITH_TORCH=OFF)
+[1.941s] --   With Python3              = NO (WITH_PYTHON=OFF)
+[1.941s] --   With Madgwick             = YES (License: GPL)
+[1.941s] --   With FastCV               = NO (FastCV not found)
+[1.941s] --   With PDAL                 = NO (PDAL not found)
+[1.941s] -- 
+[1.941s] --  Solvers:
+[1.941s] --   With TORO                 = YES (License: Creative Commons [Attribution-NonCommercial-ShareAlike])
+[1.941s] --  *With g2o                  = NO (g2o not found)
+[1.941s] --  *With GTSAM 4.2.0          = YES (License: BSD)
+[1.941s] --  *With Ceres                = NO (WITH_CERES=OFF)
+[1.941s] --   With MRPT                 = NO (MRPT not found)
+[1.941s] --   With VERTIGO              = YES (License: GPLv3)
+[1.941s] --   With cvsba                = NO (WITH_CVSBA=OFF)
+[1.941s] --  *With libpointmatcher      = NO (libpointmatcher not found)
+[1.941s] --   With CCCoreLib            = NO (WITH_CCCORELIB=OFF)
+[1.942s] --   With Open3D               = NO (WITH_OPEN3D=OFF)
+[1.942s] --   With OpenGV               = NO (OpenGV not found)
+[1.942s] -- 
+[1.942s] --  Reconstruction Approaches:
+[1.942s] --   With OctoMap 1.9.7        = YES (License: BSD)
+[1.942s] --   With GridMap              = NO (grid_map_core not found)
+[1.942s] --   With CPUTSDF              = NO (WITH_CPUTSDF=OFF)
+[1.942s] --   With OpenChisel           = NO (WITH_OPENCHISEL=OFF)
+[1.942s] --   With AliceVision          = NO (WITH_ALICE_VISION=OFF)
+[1.942s] -- 
+[1.942s] --  Camera Drivers:
+[1.942s] --   With Freenect             = YES (License: Apache v2 and/or GPLv2)
+[1.942s] --   With OpenNI2              = YES (License: Apache v2)
+[1.942s] --   With Freenect2            = NO (libfreenect2 not found)
+[1.942s] --   With Kinect for Windows 2 = NO (Kinect for Windows 2 SDK not found)
+[1.943s] --   With Kinect for Azure     = NO (Kinect for Azure SDK not found)
+[1.943s] --   With dc1394               = YES (License: LGPL)
+[1.943s] --   With FlyCapture2/Triclops = NO (Point Grey SDK not found)
+[1.943s] --   With ZED                  = NO (ZED sdk and/or cuda not found)
+[1.943s] --   With ZEDOC                = NO (ZED Open Capture not found)
+[1.943s] --   With RealSense            = NO (librealsense not found)
+[1.943s] --   With RealSense2           = NO (librealsense2 not found)
+[1.943s] --   With MyntEyeS             = NO (mynteye s sdk not found)
+[1.943s] --   With DepthAI              = NO (WITH_DEPTHAI=OFF)
+[1.943s] -- 
+[1.943s] --  Odometry Approaches:
+[1.943s] --   With loam_velodyne        = NO (WITH_LOAM=OFF)
+[1.943s] --   With floam                = NO (WITH_FLOAM=OFF)
+[1.943s] --   With libfovis             = NO (WITH_FOVIS=OFF)
+[1.943s] --   With libviso2             = NO (WITH_VISO2=OFF)
+[1.943s] --   With dvo_core             = NO (WITH_DVO=OFF)
+[1.943s] --   With okvis                = NO (WITH_OKVIS=OFF)
+[1.944s] --   With msckf_vio            = NO (WITH_MSCKF_VIO=OFF)
+[1.944s] --   With VINS-Fusion          = NO (WITH_VINS=OFF)
+[1.944s] --   With OpenVINS             = NO (WITH_OPENVINS=OFF)
+[1.944s] --   With ORB_SLAM             = NO (WITH_ORB_SLAM=OFF)
+[1.944s] -- Show all options with: cmake -LA | grep WITH_
+[1.944s] -- --------------------------------------------
+[1.944s] -- Configuring done
+[2.399s] -- Generating done
+[2.409s] -- Build files have been written to: /home/khanh/Documents/SLAM/ros_ws/build/rtabmap
+[2.458s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_utilite[0m
+[2.478s] [  1%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsManager.cpp.o[0m
+[2.478s] [  1%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsSender.cpp.o[0m
+[2.478s] [  1%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UEventsHandler.cpp.o[0m
+[2.478s] [  1%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UDirectory.cpp.o[0m
+[2.478s] [  2%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UFile.cpp.o[0m
+[2.478s] [  2%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UConversion.cpp.o[0m
+[2.735s] [  3%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UThread.cpp.o[0m
+[2.735s] [  3%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/ULogger.cpp.o[0m
+[2.893s] [  4%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UTimer.cpp.o[0m
+[2.968s] [  4%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UProcessInfo.cpp.o[0m
+[3.012s] [  5%] [32mBuilding CXX object utilite/src/CMakeFiles/rtabmap_utilite.dir/UVariant.cpp.o[0m
+[3.557s] [  5%] [32m[1mLinking CXX shared library ../../bin/librtabmap_utilite.so[0m
+[3.632s] [  5%] Built target rtabmap_utilite
+[3.642s] [35m[1mConsolidate compiler generated dependencies of target res_tool[0m
+[3.654s] [  6%] [32mBuilding CXX object utilite/resource_generator/CMakeFiles/res_tool.dir/main.cpp.o[0m
+[4.103s] [  6%] [32m[1mLinking CXX executable ../../bin/rtabmap-res_tool[0m
+[4.170s] [  6%] Built target res_tool
+[4.295s] [35m[1mConsolidate compiler generated dependencies of target rtabmap_core[0m
+[4.647s] [  6%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Rtabmap.cpp.o[0m
+[4.647s] [  6%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/RtabmapThread.cpp.o[0m
+[4.647s] [  7%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Statistics.cpp.o[0m
+[4.659s] [  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Memory.cpp.o[0m
+[4.660s] [  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBDriverSqlite3.cpp.o[0m
+[4.660s] [  8%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBDriver.cpp.o[0m
+[9.250s] [  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/DBReader.cpp.o[0m
+[11.122s] [  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Recovery.cpp.o[0m
+[11.269s] [  9%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/Camera.cpp.o[0m
+[13.396s] [ 10%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/CameraThread.cpp.o[0m
+[15.417s] [ 10%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/CameraModel.cpp.o[0m
+[16.135s] [ 11%] [32mBuilding CXX object corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect.cpp.o[0m
+[16.426s] [01m[K/home/khanh/Documents/SLAM/ros_ws/src/rtabmap/corelib/src/camera/CameraFreenect.cpp:34:10:[m[K [01;31m[Kfatal error: [m[Klibfreenect.h: No such file or directory
+[16.426s]    34 | #include [01;31m[K<libfreenect.h>[m[K
+[16.426s]       |          [01;31m[K^~~~~~~~~~~~~~~[m[K
+[16.426s] compilation terminated.
+[16.434s] gmake[2]: *** [corelib/src/CMakeFiles/rtabmap_core.dir/build.make:258: corelib/src/CMakeFiles/rtabmap_core.dir/camera/CameraFreenect.cpp.o] Error 1
+[16.434s] gmake[2]: *** Waiting for unfinished jobs....
+[21.580s] gmake[1]: *** [CMakeFiles/Makefile2:830: corelib/src/CMakeFiles/rtabmap_core.dir/all] Error 2
+[21.581s] gmake: *** [Makefile:156: all] Error 2
+[21.583s] Invoked command in '/home/khanh/Documents/SLAM/ros_ws/build/rtabmap' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/khanh/Documents/SLAM/ros_ws/build/rtabmap

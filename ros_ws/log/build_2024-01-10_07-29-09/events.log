@@ -1,0 +1,142 @@
+[0.000000] (-) TimerEvent: {}
+[0.000294] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000335] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000358] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000440] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000494] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.000553] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.000569] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000594] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.000631] (-) JobUnselected: {'identifier': 'image_view'}
+[0.000752] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.000784] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.000806] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.000877] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.000892] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.000907] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.000928] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.001008] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.001054] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.001172] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.001213] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.001235] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.001297] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.001314] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001337] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.001398] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.001421] (rtabmap_conversions) JobQueued: {'identifier': 'rtabmap_conversions', 'dependencies': OrderedDict([('rtabmap', '/SLAM/ros_ws/install/rtabmap'), ('rtabmap_msgs', '/SLAM/ros_ws/install/rtabmap_msgs')])}
+[0.001458] (rtabmap_conversions) JobStarted: {'identifier': 'rtabmap_conversions'}
+[0.045293] (rtabmap_conversions) JobProgress: {'identifier': 'rtabmap_conversions', 'progress': 'cmake'}
+[0.046860] (rtabmap_conversions) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/rtabmap_ros/rtabmap_conversions', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/rtabmap_conversions'], 'cwd': '/SLAM/ros_ws/build/rtabmap_conversions', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('ROS_PACKAGE_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/share'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b767ac96-efed-4f0f-95be-a2aa688262b3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('MAKEFLAGS', '-j6'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/SLAM/ros_ws/install/rtabmap/bin:/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-300c5a9faf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/rtabmap_conversions'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap')]), 'shell': False}
+[0.061123] (rtabmap_conversions) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099346] (-) TimerEvent: {}
+[0.168507] (rtabmap_conversions) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.175262] (rtabmap_conversions) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.199422] (-) TimerEvent: {}
+[0.203386] (rtabmap_conversions) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.205410] (rtabmap_conversions) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.210517] (rtabmap_conversions) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.219791] (rtabmap_conversions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.232373] (rtabmap_conversions) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299512] (-) TimerEvent: {}
+[0.391374] (rtabmap_conversions) StdoutLine: {'line': b'-- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)\n'}
+[0.396777] (rtabmap_conversions) StdoutLine: {'line': b'-- Found laser_geometry: 2.4.0 (/opt/ros/humble/share/laser_geometry/cmake)\n'}
+[0.399590] (-) TimerEvent: {}
+[0.437769] (rtabmap_conversions) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.438920] (rtabmap_conversions) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499698] (-) TimerEvent: {}
+[0.584481] (rtabmap_conversions) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.599788] (-) TimerEvent: {}
+[0.697792] (rtabmap_conversions) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.699867] (-) TimerEvent: {}
+[0.793415] (rtabmap_conversions) StdoutLine: {'line': b'-- Found rtabmap_msgs: 0.21.3 (/SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake)\n'}
+[0.799955] (-) TimerEvent: {}
+[0.844297] (rtabmap_conversions) StdoutLine: {'line': b'-- Found tf2_eigen: 0.25.5 (/opt/ros/humble/share/tf2_eigen/cmake)\n'}
+[0.900045] (-) TimerEvent: {}
+[1.000274] (-) TimerEvent: {}
+[1.093339] (rtabmap_conversions) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[1.098783] (rtabmap_conversions) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[1.098929] (rtabmap_conversions) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[1.100347] (-) TimerEvent: {}
+[1.120005] (rtabmap_conversions) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.138792] (rtabmap_conversions) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.144209] (rtabmap_conversions) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.144378] (rtabmap_conversions) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.144512] (rtabmap_conversions) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to png will be disabled\x1b[0m\n'}
+[1.200455] (-) TimerEvent: {}
+[1.293369] (rtabmap_conversions) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.300531] (-) TimerEvent: {}
+[1.389469] (rtabmap_conversions) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.401302] (-) TimerEvent: {}
+[1.416715] (rtabmap_conversions) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.418019] (rtabmap_conversions) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.501468] (-) TimerEvent: {}
+[1.601803] (-) TimerEvent: {}
+[1.702108] (-) TimerEvent: {}
+[1.772429] (rtabmap_conversions) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.778261] (rtabmap_conversions) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.802213] (-) TimerEvent: {}
+[1.894739] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.895337] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.895466] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.895580] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.895683] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.895884] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.896129] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.896362] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.896622] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.896905] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.897197] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.897444] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.897615] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.897834] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.898126] (rtabmap_conversions) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.902113] (rtabmap_conversions) StdoutLine: {'line': b'-- Found grid_map_core: 2.0.0 (/opt/ros/humble/share/grid_map_core/cmake)\n'}
+[1.902267] (-) TimerEvent: {}
+[2.002465] (-) TimerEvent: {}
+[2.009846] (rtabmap_conversions) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.053317] (rtabmap_conversions) StdoutLine: {'line': b'-- Generating done\n'}
+[2.055620] (rtabmap_conversions) StdoutLine: {'line': b'-- Build files have been written to: /SLAM/ros_ws/build/rtabmap_conversions\n'}
+[2.068458] (rtabmap_conversions) CommandEnded: {'returncode': 0}
+[2.069194] (rtabmap_conversions) JobProgress: {'identifier': 'rtabmap_conversions', 'progress': 'build'}
+[2.069879] (rtabmap_conversions) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/rtabmap_conversions'], 'cwd': '/SLAM/ros_ws/build/rtabmap_conversions', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('ROS_PACKAGE_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/share'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b767ac96-efed-4f0f-95be-a2aa688262b3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('MAKEFLAGS', '-j6'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/SLAM/ros_ws/install/rtabmap/bin:/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-300c5a9faf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/rtabmap_conversions'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap')]), 'shell': False}
+[2.102567] (-) TimerEvent: {}
+[2.116833] (rtabmap_conversions) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rtabmap_conversions\x1b[0m\n'}
+[2.163800] (rtabmap_conversions) StdoutLine: {'line': b'[100%] Built target rtabmap_conversions\n'}
+[2.174230] (rtabmap_conversions) CommandEnded: {'returncode': 0}
+[2.202987] (-) TimerEvent: {}
+[2.203353] (rtabmap_conversions) JobProgress: {'identifier': 'rtabmap_conversions', 'progress': 'install'}
+[2.212566] (rtabmap_conversions) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/rtabmap_conversions'], 'cwd': '/SLAM/ros_ws/build/rtabmap_conversions', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('ROS_PACKAGE_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/share'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b767ac96-efed-4f0f-95be-a2aa688262b3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('MAKEFLAGS', '-j6'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/SLAM/ros_ws/install/rtabmap/bin:/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-300c5a9faf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/rtabmap_conversions'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap')]), 'shell': False}
+[2.220742] (rtabmap_conversions) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[2.221119] (rtabmap_conversions) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.221382] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/environment/library_path.sh\n'}
+[2.221565] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/environment/library_path.dsv\n'}
+[2.221773] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/ament_index/resource_index/package_run_dependencies/rtabmap_conversions\n'}
+[2.221970] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/ament_index/resource_index/parent_prefix_path/rtabmap_conversions\n'}
+[2.222171] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/environment/ament_prefix_path.sh\n'}
+[2.222346] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/environment/ament_prefix_path.dsv\n'}
+[2.222548] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/environment/path.sh\n'}
+[2.222726] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/environment/path.dsv\n'}
+[2.222897] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/local_setup.bash\n'}
+[2.223072] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/local_setup.sh\n'}
+[2.223242] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/local_setup.zsh\n'}
+[2.223410] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/local_setup.dsv\n'}
+[2.223542] (rtabmap_conversions) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/package.dsv\n'}
+[2.232865] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/ament_index/resource_index/packages/rtabmap_conversions\n'}
+[2.233081] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.233321] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.233535] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.233713] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.233893] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig.cmake\n'}
+[2.234059] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsConfig-version.cmake\n'}
+[2.234245] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/package.xml\n'}
+[2.234739] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_conversions/lib/librtabmap_conversions.so\n'}
+[2.234962] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_conversions/include\n'}
+[2.235091] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_conversions/include/rtabmap_conversions\n'}
+[2.235191] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_conversions/include/rtabmap_conversions/MsgConversion.h\n'}
+[2.235313] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsExport.cmake\n'}
+[2.235412] (rtabmap_conversions) StdoutLine: {'line': b'-- Up-to-date: /SLAM/ros_ws/install/rtabmap_conversions/share/rtabmap_conversions/cmake/rtabmap_conversionsExport-release.cmake\n'}
+[2.237160] (rtabmap_conversions) CommandEnded: {'returncode': 0}
+[2.303068] (-) TimerEvent: {}
+[2.370448] (rtabmap_conversions) JobEnded: {'identifier': 'rtabmap_conversions', 'rc': 0}
+[2.371278] (-) EventReactorShutdown: {}

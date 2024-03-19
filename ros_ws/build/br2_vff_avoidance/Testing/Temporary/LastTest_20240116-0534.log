@@ -1,0 +1,248 @@
+Start testing: Jan 16 05:34 UTC
+----------------------------------------------------------
+1/9 Testing: copyright
+1/9 Test: copyright
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/copyright.xunit.xml" "--package-name" "br2_vff_avoidance" "--output-file" "/SLAM/ros_ws/build/br2_vff_avoidance/ament_copyright/copyright.txt" "--command" "/opt/ros/humble/bin/ament_copyright" "--xunit-file" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/copyright.xunit.xml"
+Directory: /SLAM/ros_ws/src/book_ros2/br2_vff_avoidance
+"copyright" start time: Jan 16 05:34 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/SLAM/ros_ws/src/book_ros2/br2_vff_avoidance':
+ - /opt/ros/humble/bin/ament_copyright --xunit-file /SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/copyright.xunit.xml
+No problems found, checked 5 files
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/copyright.xunit.xml'
+<end of output>
+Test time =   0.26 sec
+----------------------------------------------------------
+Test Passed.
+"copyright" end time: Jan 16 05:34 UTC
+"copyright" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/9 Testing: cppcheck
+2/9 Test: cppcheck
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/cppcheck.xunit.xml" "--package-name" "br2_vff_avoidance" "--output-file" "/SLAM/ros_ws/build/br2_vff_avoidance/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/cppcheck.xunit.xml" "--include_dirs" "/SLAM/ros_ws/src/book_ros2/br2_vff_avoidance/include"
+Directory: /SLAM/ros_ws/src/book_ros2/br2_vff_avoidance
+"cppcheck" start time: Jan 16 05:34 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/SLAM/ros_ws/src/book_ros2/br2_vff_avoidance':
+ - /opt/ros/humble/bin/ament_cppcheck --xunit-file /SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/cppcheck.xunit.xml --include_dirs /SLAM/ros_ws/src/book_ros2/br2_vff_avoidance/include
+cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/cppcheck.xunit.xml'
+<end of output>
+Test time =   0.15 sec
+----------------------------------------------------------
+Test Passed.
+"cppcheck" end time: Jan 16 05:34 UTC
+"cppcheck" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/9 Testing: cpplint
+3/9 Test: cpplint
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/cpplint.xunit.xml" "--package-name" "br2_vff_avoidance" "--output-file" "/SLAM/ros_ws/build/br2_vff_avoidance/ament_cpplint/cpplint.txt" "--command" "/opt/ros/humble/bin/ament_cpplint" "--xunit-file" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/cpplint.xunit.xml"
+Directory: /SLAM/ros_ws/src/book_ros2/br2_vff_avoidance
+"cpplint" start time: Jan 16 05:34 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/SLAM/ros_ws/src/book_ros2/br2_vff_avoidance':
+ - /opt/ros/humble/bin/ament_cpplint --xunit-file /SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/cpplint.xunit.xml
+Using '--root=..' argument
+
+Done processing /SLAM/ros_ws/src/book_ros2/br2_vff_avoidance/tests/vff_test.cpp
+
+Using '--root=/SLAM/ros_ws/src/book_ros2/br2_vff_avoidance/include' argument
+
+Done processing /SLAM/ros_ws/src/book_ros2/br2_vff_avoidance/include/br2_vff_avoidance/AvoidanceNode.hpp
+
+Using '--root=/SLAM/ros_ws/src/book_ros2/br2_vff_avoidance/src' argument
+
+Done processing /SLAM/ros_ws/src/book_ros2/br2_vff_avoidance/src/avoidance_vff_main.cpp
+
+Done processing /SLAM/ros_ws/src/book_ros2/br2_vff_avoidance/src/br2_vff_avoidance/AvoidanceNode.cpp
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/cpplint.xunit.xml'
+<end of output>
+Test time =   0.23 sec
+----------------------------------------------------------
+Test Passed.
+"cpplint" end time: Jan 16 05:34 UTC
+"cpplint" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/9 Testing: flake8
+4/9 Test: flake8
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/flake8.xunit.xml" "--package-name" "br2_vff_avoidance" "--output-file" "/SLAM/ros_ws/build/br2_vff_avoidance/ament_flake8/flake8.txt" "--command" "/opt/ros/humble/bin/ament_flake8" "--xunit-file" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/flake8.xunit.xml"
+Directory: /SLAM/ros_ws/src/book_ros2/br2_vff_avoidance
+"flake8" start time: Jan 16 05:34 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/SLAM/ros_ws/src/book_ros2/br2_vff_avoidance':
+ - /opt/ros/humble/bin/ament_flake8 --xunit-file /SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/flake8.xunit.xml
+
+1 files checked
+No problems found
+
+Checked files:
+
+* ./launch/avoidance_vff.launch.py
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/flake8.xunit.xml'
+<end of output>
+Test time =   0.20 sec
+----------------------------------------------------------
+Test Passed.
+"flake8" end time: Jan 16 05:34 UTC
+"flake8" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/9 Testing: lint_cmake
+5/9 Test: lint_cmake
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/lint_cmake.xunit.xml" "--package-name" "br2_vff_avoidance" "--output-file" "/SLAM/ros_ws/build/br2_vff_avoidance/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/lint_cmake.xunit.xml"
+Directory: /SLAM/ros_ws/src/book_ros2/br2_vff_avoidance
+"lint_cmake" start time: Jan 16 05:34 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/SLAM/ros_ws/src/book_ros2/br2_vff_avoidance':
+ - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/lint_cmake.xunit.xml
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/lint_cmake.xunit.xml'
+<end of output>
+Test time =   0.11 sec
+----------------------------------------------------------
+Test Passed.
+"lint_cmake" end time: Jan 16 05:34 UTC
+"lint_cmake" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/9 Testing: pep257
+6/9 Test: pep257
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/pep257.xunit.xml" "--package-name" "br2_vff_avoidance" "--output-file" "/SLAM/ros_ws/build/br2_vff_avoidance/ament_pep257/pep257.txt" "--command" "/opt/ros/humble/bin/ament_pep257" "--xunit-file" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/pep257.xunit.xml"
+Directory: /SLAM/ros_ws/src/book_ros2/br2_vff_avoidance
+"pep257" start time: Jan 16 05:34 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/SLAM/ros_ws/src/book_ros2/br2_vff_avoidance':
+ - /opt/ros/humble/bin/ament_pep257 --xunit-file /SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/pep257.xunit.xml
+checking ./launch/avoidance_vff.launch.py
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/pep257.xunit.xml'
+<end of output>
+Test time =   0.17 sec
+----------------------------------------------------------
+Test Passed.
+"pep257" end time: Jan 16 05:34 UTC
+"pep257" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/9 Testing: uncrustify
+7/9 Test: uncrustify
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/uncrustify.xunit.xml" "--package-name" "br2_vff_avoidance" "--output-file" "/SLAM/ros_ws/build/br2_vff_avoidance/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/uncrustify.xunit.xml"
+Directory: /SLAM/ros_ws/src/book_ros2/br2_vff_avoidance
+"uncrustify" start time: Jan 16 05:34 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/SLAM/ros_ws/src/book_ros2/br2_vff_avoidance':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/uncrustify.xunit.xml
+No code style divergence in file 'include/br2_vff_avoidance/AvoidanceNode.hpp'
+
+No code style divergence in file 'src/avoidance_vff_main.cpp'
+
+No code style divergence in file 'src/br2_vff_avoidance/AvoidanceNode.cpp'
+
+No code style divergence in file 'tests/vff_test.cpp'
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/uncrustify.xunit.xml'
+<end of output>
+Test time =   0.14 sec
+----------------------------------------------------------
+Test Passed.
+"uncrustify" end time: Jan 16 05:34 UTC
+"uncrustify" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/9 Testing: xmllint
+8/9 Test: xmllint
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/xmllint.xunit.xml" "--package-name" "br2_vff_avoidance" "--output-file" "/SLAM/ros_ws/build/br2_vff_avoidance/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/xmllint.xunit.xml"
+Directory: /SLAM/ros_ws/src/book_ros2/br2_vff_avoidance
+"xmllint" start time: Jan 16 05:34 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/SLAM/ros_ws/src/book_ros2/br2_vff_avoidance':
+ - /opt/ros/humble/bin/ament_xmllint --xunit-file /SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/xmllint.xunit.xml
+File 'package.xml' is valid
+
+No problems found
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/xmllint.xunit.xml'
+<end of output>
+Test time =   1.09 sec
+----------------------------------------------------------
+Test Passed.
+"xmllint" end time: Jan 16 05:34 UTC
+"xmllint" time elapsed: 00:00:01
+----------------------------------------------------------
+
+9/9 Testing: vff_test
+9/9 Test: vff_test
+Command: "/usr/bin/python3.10" "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/vff_test.gtest.xml" "--package-name" "br2_vff_avoidance" "--output-file" "/SLAM/ros_ws/build/br2_vff_avoidance/ament_cmake_gtest/vff_test.txt" "--command" "/SLAM/ros_ws/build/br2_vff_avoidance/tests/vff_test" "--gtest_output=xml:/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/vff_test.gtest.xml"
+Directory: /SLAM/ros_ws/build/br2_vff_avoidance/tests
+"vff_test" start time: Jan 16 05:34 UTC
+Output:
+----------------------------------------------------------
+-- run_test.py: invoking following command in '/SLAM/ros_ws/build/br2_vff_avoidance/tests':
+ - /SLAM/ros_ws/build/br2_vff_avoidance/tests/vff_test --gtest_output=xml:/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/vff_test.gtest.xml
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from vff_tests
+[ RUN      ] vff_tests.get_vff
+[       OK ] vff_tests.get_vff (14 ms)
+[ RUN      ] vff_tests.ouput_vels
+[       OK ] vff_tests.ouput_vels (10144 ms)
+[----------] 2 tests from vff_tests (10158 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (10158 ms total)
+[  PASSED  ] 2 tests.
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/vff_test.gtest.xml'
+-- run_test.py: verify result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/vff_test.gtest.xml'
+<end of output>
+Test time =  10.34 sec
+----------------------------------------------------------
+Test Passed.
+"vff_test" end time: Jan 16 05:35 UTC
+"vff_test" time elapsed: 00:00:10
+----------------------------------------------------------
+
+End testing: Jan 16 05:35 UTC
+
+copyright =   0.26 sec*proc
+
+cppcheck =   0.15 sec*proc
+
+cpplint =   0.23 sec*proc
+
+flake8 =   0.20 sec*proc
+
+gtest =  10.34 sec*proc
+
+lint_cmake =   0.11 sec*proc
+
+linter =   2.34 sec*proc
+
+pep257 =   0.17 sec*proc
+
+uncrustify =   0.14 sec*proc
+
+xmllint =   1.09 sec*proc
+

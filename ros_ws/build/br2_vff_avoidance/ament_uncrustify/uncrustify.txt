@@ -1,0 +1,16 @@
+-- run_test.py: invoking following command in '/SLAM/ros_ws/src/book_ros2/br2_vff_avoidance':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/uncrustify.xunit.xml
+
+No code style divergence in file 'include/br2_vff_avoidance/AvoidanceNode.hpp'
+
+No code style divergence in file 'src/avoidance_vff_main.cpp'
+
+No code style divergence in file 'src/br2_vff_avoidance/AvoidanceNode.cpp'
+
+No code style divergence in file 'tests/vff_test.cpp'
+
+No problems found
+
+
+-- run_test.py: return code 0
+-- run_test.py: verify result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/uncrustify.xunit.xml'

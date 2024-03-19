@@ -1,0 +1,126 @@
+[0.000000] (-) TimerEvent: {}
+[0.000153] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000189] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000324] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.000438] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.052736] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.053313] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.053874] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/sllidar_ros2', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/sllidar_ros2', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b7726fe3-f37c-447c-a611-e1ae35a23584.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/SLAM/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9412e913-db53-416a-8d3d-f7f55bf78b13.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/magic_enum/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/magic_enum/lib/pkgconfig:/SLAM/ros_ws/install/libuvc/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9412e913-db53-416a-8d3d-f7f55bf78b13.sock","/tmp/.X11-unix/X12","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-b0d69a0cdc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9412e913-db53-416a-8d3d-f7f55bf78b13.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/astra_camera_msgs:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X12'), ('SHELL', '/bin/bash'), ('CMAKE_MODULE_PATH', '/SLAM/ros_ws/install/libuvc/lib/cmake/libuvc:/SLAM/ros_ws/install/glog/share/glog/cmake'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/sllidar_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/astra_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[0.099798] (-) TimerEvent: {}
+[0.101885] (sllidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sllidar_node\x1b[0m\n'}
+[0.118425] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[0.144003] (sllidar_ros2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o\x1b[0m\n'}
+[0.199895] (-) TimerEvent: {}
+[0.300141] (-) TimerEvent: {}
+[0.400423] (-) TimerEvent: {}
+[0.500685] (-) TimerEvent: {}
+[0.601008] (-) TimerEvent: {}
+[0.701436] (-) TimerEvent: {}
+[0.801728] (-) TimerEvent: {}
+[0.902092] (-) TimerEvent: {}
+[1.002356] (-) TimerEvent: {}
+[1.102617] (-) TimerEvent: {}
+[1.202887] (-) TimerEvent: {}
+[1.303162] (-) TimerEvent: {}
+[1.403436] (-) TimerEvent: {}
+[1.503709] (-) TimerEvent: {}
+[1.603985] (-) TimerEvent: {}
+[1.704246] (-) TimerEvent: {}
+[1.804524] (-) TimerEvent: {}
+[1.904791] (-) TimerEvent: {}
+[1.997538] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[1.997736] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[1.997810] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[1.997874] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[1.997935] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.997997] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[1.998057] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[1.998116] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[1.998173] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[1.998229] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[1.998286] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.998348] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[1.998406] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.004866] (-) TimerEvent: {}
+[2.105054] (-) TimerEvent: {}
+[2.205329] (-) TimerEvent: {}
+[2.305609] (-) TimerEvent: {}
+[2.405923] (-) TimerEvent: {}
+[2.506310] (-) TimerEvent: {}
+[2.606620] (-) TimerEvent: {}
+[2.707009] (-) TimerEvent: {}
+[2.807351] (-) TimerEvent: {}
+[2.907690] (-) TimerEvent: {}
+[3.008005] (-) TimerEvent: {}
+[3.108359] (-) TimerEvent: {}
+[3.208713] (-) TimerEvent: {}
+[3.309162] (-) TimerEvent: {}
+[3.409433] (-) TimerEvent: {}
+[3.509716] (-) TimerEvent: {}
+[3.610003] (-) TimerEvent: {}
+[3.710268] (-) TimerEvent: {}
+[3.810569] (-) TimerEvent: {}
+[3.910890] (-) TimerEvent: {}
+[4.011235] (-) TimerEvent: {}
+[4.111659] (-) TimerEvent: {}
+[4.211966] (-) TimerEvent: {}
+[4.276044] (sllidar_ros2) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable sllidar_node\x1b[0m\n'}
+[4.312066] (-) TimerEvent: {}
+[4.412356] (-) TimerEvent: {}
+[4.498307] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[4.512484] (-) TimerEvent: {}
+[4.518180] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[4.608121] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[4.612537] (-) TimerEvent: {}
+[4.617812] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/sllidar_ros2'], 'cwd': '/SLAM/ros_ws/build/sllidar_ros2', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b7726fe3-f37c-447c-a611-e1ae35a23584.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/SLAM/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9412e913-db53-416a-8d3d-f7f55bf78b13.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/magic_enum/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/magic_enum/lib/pkgconfig:/SLAM/ros_ws/install/libuvc/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9412e913-db53-416a-8d3d-f7f55bf78b13.sock","/tmp/.X11-unix/X12","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-b0d69a0cdc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9412e913-db53-416a-8d3d-f7f55bf78b13.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/astra_camera_msgs:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X12'), ('SHELL', '/bin/bash'), ('CMAKE_MODULE_PATH', '/SLAM/ros_ws/install/libuvc/lib/cmake/libuvc:/SLAM/ros_ws/install/glog/share/glog/cmake'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/sllidar_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/astra_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[4.626250] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.626683] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.627224] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[4.627332] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[4.627421] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[4.627508] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[4.627598] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[4.627687] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[4.627774] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[4.627864] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[4.627951] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[4.628039] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[4.628126] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[4.628213] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[4.628305] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[4.628396] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[4.628487] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[4.628576] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[4.628664] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[4.628752] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[4.628839] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[4.628926] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[4.629116] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[4.629209] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[4.629297] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[4.629375] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[4.629508] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[4.629717] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[4.629837] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[4.629995] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[4.630139] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[4.630291] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[4.630422] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[4.630560] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[4.630684] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[4.630808] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[4.630923] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[4.631040] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[4.631167] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[4.631243] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[4.642158] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[4.642349] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.642430] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.642561] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[4.642688] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[4.642818] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[4.644704] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[4.712636] (-) TimerEvent: {}
+[4.812956] (-) TimerEvent: {}
+[4.819489] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[4.820226] (-) EventReactorShutdown: {}

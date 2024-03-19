@@ -1,0 +1,126 @@
+[0.057s] Invoking command in '/SLAM/ros_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_basics:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/astra_camera_msgs /usr/bin/cmake /SLAM/ros_ws/src/book_ros2/br2_bt_patrolling -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/br2_bt_patrolling
+[0.123s] -- The C compiler identification is GNU 11.4.0
+[0.177s] -- The CXX compiler identification is GNU 11.4.0
+[0.184s] -- Detecting C compiler ABI info
+[0.266s] -- Detecting C compiler ABI info - done
+[0.271s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.271s] -- Detecting C compile features
+[0.271s] -- Detecting C compile features - done
+[0.274s] -- Detecting CXX compiler ABI info
+[0.364s] -- Detecting CXX compiler ABI info - done
+[0.370s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.370s] -- Detecting CXX compile features
+[0.371s] -- Detecting CXX compile features - done
+[0.378s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.576s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.634s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.718s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.803s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.817s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.833s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.855s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.884s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.983s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.990s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.155s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.198s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.273s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.296s] -- Looking for pthread.h
+[1.383s] -- Looking for pthread.h - found
+[1.384s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.470s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.470s] -- Found Threads: TRUE  
+[1.621s] -- Found rclcpp_lifecycle: 16.0.7 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.678s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.776s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.818s] -- Found nav2_msgs: 1.1.12 (/opt/ros/humble/share/nav2_msgs/cmake)
+[2.038s] -- Found ZMQ: /usr/lib/x86_64-linux-gnu/libzmq.so  
+[2.038s] -- ZeroMQ found.
+[2.089s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.211s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.224s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.227s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.227s] -- Configured cppcheck include dirs: /SLAM/ros_ws/src/book_ros2/br2_bt_patrolling/include
+[2.227s] -- Configured cppcheck exclude dirs and/or files: 
+[2.230s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.230s] -- Configured cpplint exclude dirs and/or files: 
+[2.230s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.231s] -- Added test 'lint_cmake' to check CMake code style
+[2.232s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.235s] -- Added test 'uncrustify' to check C / C++ code style
+[2.235s] -- Configured uncrustify additional arguments: 
+[2.235s] -- Added test 'xmllint' to check XML markup files
+[2.239s] -- Configuring done
+[2.279s] -- Generating done
+[2.281s] -- Build files have been written to: /SLAM/ros_ws/build/br2_bt_patrolling
+[2.292s] Invoked command in '/SLAM/ros_ws/build/br2_bt_patrolling' returned '0': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_basics:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/astra_camera_msgs /usr/bin/cmake /SLAM/ros_ws/src/book_ros2/br2_bt_patrolling -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/br2_bt_patrolling
+[2.294s] Invoking command in '/SLAM/ros_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_basics:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/astra_camera_msgs /usr/bin/cmake --build /SLAM/ros_ws/build/br2_bt_patrolling -- -j16 -l16
+[2.366s] [ 30%] [32mBuilding CXX object CMakeFiles/br2_patrol_bt_node.dir/src/br2_bt_patrolling/Patrol.cpp.o[0m
+[2.366s] [ 30%] [32mBuilding CXX object CMakeFiles/br2_battery_checker_bt_node.dir/src/br2_bt_patrolling/BatteryChecker.cpp.o[0m
+[2.366s] [ 30%] [32mBuilding CXX object CMakeFiles/br2_move_bt_node.dir/src/br2_bt_patrolling/Move.cpp.o[0m
+[2.367s] [ 30%] [32mBuilding CXX object CMakeFiles/br2_track_objects_bt_node.dir/src/br2_bt_patrolling/TrackObjects.cpp.o[0m
+[2.367s] [ 30%] [32mBuilding CXX object CMakeFiles/br2_get_waypoint_bt_node.dir/src/br2_bt_patrolling/GetWaypoint.cpp.o[0m
+[2.367s] [ 30%] [32mBuilding CXX object CMakeFiles/br2_recharge_bt_node.dir/src/br2_bt_patrolling/Recharge.cpp.o[0m
+[2.367s] [ 35%] [32mBuilding CXX object CMakeFiles/patrolling_main.dir/src/patrolling_main.cpp.o[0m
+[2.367s] [ 40%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[2.368s] [ 45%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.439s] [ 50%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[3.498s] [ 50%] Built target gtest_main
+[4.098s] [ 55%] [32m[1mLinking CXX shared library libbr2_recharge_bt_node.so[0m
+[4.345s] [ 55%] Built target br2_recharge_bt_node
+[6.213s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.318s] [ 60%] Built target gtest
+[7.709s] [ 65%] [32m[1mLinking CXX executable patrolling_main[0m
+[7.720s] [ 70%] [32m[1mLinking CXX shared library libbr2_get_waypoint_bt_node.so[0m
+[7.935s] [ 70%] Built target br2_get_waypoint_bt_node
+[7.992s] [ 70%] Built target patrolling_main
+[9.388s] [ 75%] [32m[1mLinking CXX shared library libbr2_patrol_bt_node.so[0m
+[9.458s] [ 80%] [32m[1mLinking CXX shared library libbr2_move_bt_node.so[0m
+[9.762s] [ 85%] [32m[1mLinking CXX shared library libbr2_track_objects_bt_node.so[0m
+[9.787s] [ 85%] Built target br2_patrol_bt_node
+[9.832s] [ 85%] Built target br2_move_bt_node
+[10.018s] [ 85%] Built target br2_track_objects_bt_node
+[10.050s] [ 90%] [32mBuilding CXX object tests/CMakeFiles/bt_action_test.dir/bt_action_test.cpp.o[0m
+[13.666s] [ 95%] [32m[1mLinking CXX shared library libbr2_battery_checker_bt_node.so[0m
+[14.200s] [ 95%] Built target br2_battery_checker_bt_node
+[22.631s] [100%] [32m[1mLinking CXX executable bt_action_test[0m
+[23.347s] [100%] Built target bt_action_test
+[23.361s] Invoked command in '/SLAM/ros_ws/build/br2_bt_patrolling' returned '0': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_basics:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/astra_camera_msgs /usr/bin/cmake --build /SLAM/ros_ws/build/br2_bt_patrolling -- -j16 -l16
+[23.457s] Invoking command in '/SLAM/ros_ws/build/br2_bt_patrolling': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_basics:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/astra_camera_msgs /usr/bin/cmake --install /SLAM/ros_ws/build/br2_bt_patrolling
+[23.467s] -- Install configuration: "Debug"
+[23.467s] -- Execute custom install script
+[23.467s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/lib/libbr2_recharge_bt_node.so
+[23.478s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/lib/libbr2_patrol_bt_node.so
+[23.492s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/lib/libbr2_move_bt_node.so
+[23.503s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/lib/libbr2_get_waypoint_bt_node.so
+[23.515s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/lib/libbr2_battery_checker_bt_node.so
+[23.526s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/lib/libbr2_track_objects_bt_node.so
+[23.538s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/lib/br2_bt_patrolling/patrolling_main
+[23.550s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/BatteryChecker.hpp
+[23.561s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/GetWaypoint.hpp
+[23.572s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Move.hpp
+[23.583s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Patrol.hpp
+[23.595s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/Recharge.hpp
+[23.607s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/TrackObjects.hpp
+[23.618s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/ctrl_support/BTActionNode.hpp
+[23.629s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/include//br2_bt_patrolling/ctrl_support/BTLifecycleCtrlNode.hpp
+[23.640s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/behavior_tree_xml/patrolling.xml
+[23.651s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/launch/patrolling.launch.py
+[23.662s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/ament_index/resource_index/package_run_dependencies/br2_bt_patrolling
+[23.674s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/ament_index/resource_index/parent_prefix_path/br2_bt_patrolling
+[23.686s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/ament_prefix_path.sh
+[23.698s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/ament_prefix_path.dsv
+[23.709s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/path.sh
+[23.720s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/environment/path.dsv
+[23.731s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.bash
+[23.742s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.sh
+[23.753s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.zsh
+[23.764s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/local_setup.dsv
+[23.775s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/package.dsv
+[23.788s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/ament_index/resource_index/packages/br2_bt_patrolling
+[23.800s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.811s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.822s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/br2_bt_patrollingConfig.cmake
+[23.833s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/cmake/br2_bt_patrollingConfig-version.cmake
+[23.844s] -- Symlinking: /SLAM/ros_ws/install/br2_bt_patrolling/share/br2_bt_patrolling/package.xml
+[23.858s] Invoked command in '/SLAM/ros_ws/build/br2_bt_patrolling' returned '0': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_basics:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/astra_camera_msgs /usr/bin/cmake --install /SLAM/ros_ws/build/br2_bt_patrolling

@@ -1,0 +1,154 @@
+[0.000000] (-) TimerEvent: {}
+[0.000374] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000406] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000431] (-) JobUnselected: {'identifier': 'br2_basics'}
+[0.000568] (-) JobUnselected: {'identifier': 'br2_bt_bumpgo'}
+[0.000633] (-) JobUnselected: {'identifier': 'br2_bt_patrolling'}
+[0.000670] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_cpp'}
+[0.000732] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_py'}
+[0.000754] (-) JobUnselected: {'identifier': 'br2_navigation'}
+[0.000785] (-) JobUnselected: {'identifier': 'br2_tf2_detector'}
+[0.001040] (-) JobUnselected: {'identifier': 'br2_tiago'}
+[0.001078] (-) JobUnselected: {'identifier': 'br2_tracking'}
+[0.001141] (-) JobUnselected: {'identifier': 'br2_tracking_msgs'}
+[0.001158] (-) JobUnselected: {'identifier': 'br2_vff_avoidance'}
+[0.001174] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.001202] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.001218] (-) JobUnselected: {'identifier': 'groot'}
+[0.001306] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.001323] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.001339] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.001368] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.001383] (-) JobUnselected: {'identifier': 'image_view'}
+[0.001468] (-) JobUnselected: {'identifier': 'launch_pal'}
+[0.001484] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.001498] (-) JobUnselected: {'identifier': 'pal_gazebo_worlds'}
+[0.001525] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.001539] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.001617] (-) JobUnselected: {'identifier': 'pal_gripper_description'}
+[0.001633] (-) JobUnselected: {'identifier': 'pmb2_2dnav'}
+[0.001648] (-) JobUnselected: {'identifier': 'pmb2_bringup'}
+[0.001674] (-) JobUnselected: {'identifier': 'pmb2_controller_configuration'}
+[0.001688] (-) JobUnselected: {'identifier': 'pmb2_description'}
+[0.001782] (-) JobUnselected: {'identifier': 'pmb2_laser_sensors'}
+[0.001798] (-) JobUnselected: {'identifier': 'pmb2_maps'}
+[0.001812] (-) JobUnselected: {'identifier': 'pmb2_navigation'}
+[0.001838] (-) JobUnselected: {'identifier': 'pmb2_robot'}
+[0.001852] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001929] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001950] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.001964] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.001995] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.002064] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.002088] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.002121] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.002149] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.002207] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.002224] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.002239] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.002300] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.002330] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.002406] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.002423] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.002437] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.002452] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.002475] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.002532] (-) JobUnselected: {'identifier': 'tiago_2dnav'}
+[0.002581] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.002596] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.002611] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.002636] (-) JobUnselected: {'identifier': 'tiago_gazebo'}
+[0.002695] (-) JobUnselected: {'identifier': 'tiago_laser_sensors'}
+[0.002710] (-) JobUnselected: {'identifier': 'tiago_moveit_config'}
+[0.002725] (-) JobUnselected: {'identifier': 'tiago_navigation'}
+[0.002752] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.002767] (-) JobUnselected: {'identifier': 'tiago_simulation'}
+[0.002824] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.002844] (-) JobUnselected: {'identifier': 'tutourial_intefaces'}
+[0.002860] (-) JobUnselected: {'identifier': 'urdf_test'}
+[0.002884] (hey5_description) JobQueued: {'identifier': 'hey5_description', 'dependencies': OrderedDict()}
+[0.002960] (hey5_description) JobStarted: {'identifier': 'hey5_description'}
+[0.046848] (hey5_description) JobProgress: {'identifier': 'hey5_description', 'progress': 'cmake'}
+[0.047144] (hey5_description) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/ThirdParty/hey5_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/hey5_description'], 'cwd': '/SLAM/ros_ws/build/hey5_description', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-99873d78-3b82-4b7f-bde1-8074b6e4e937.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/hey5_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099723] (-) TimerEvent: {}
+[0.163529] (hey5_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199826] (-) TimerEvent: {}
+[0.254338] (hey5_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.265534] (hey5_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299986] (-) TimerEvent: {}
+[0.346295] (hey5_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.353084] (hey5_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.353576] (hey5_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.354431] (hey5_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.357996] (hey5_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400123] (-) TimerEvent: {}
+[0.453255] (hey5_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.461369] (hey5_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.461701] (hey5_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.461927] (hey5_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.471672] (hey5_description) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.500247] (-) TimerEvent: {}
+[0.600553] (-) TimerEvent: {}
+[0.642958] (hey5_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.700685] (-) TimerEvent: {}
+[0.702566] (hey5_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.771364] (hey5_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.800780] (-) TimerEvent: {}
+[0.887241] (hey5_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.899147] (hey5_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.900821] (-) TimerEvent: {}
+[0.905397] (hey5_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.907697] (hey5_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.912035] (hey5_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.912935] (hey5_description) StdoutLine: {'line': b'-- Build files have been written to: /SLAM/ros_ws/build/hey5_description\n'}
+[0.921592] (hey5_description) CommandEnded: {'returncode': 0}
+[0.922160] (hey5_description) JobProgress: {'identifier': 'hey5_description', 'progress': 'build'}
+[0.923130] (hey5_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/hey5_description', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/hey5_description', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-99873d78-3b82-4b7f-bde1-8074b6e4e937.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/hey5_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.971335] (hey5_description) CommandEnded: {'returncode': 0}
+[0.998343] (hey5_description) JobProgress: {'identifier': 'hey5_description', 'progress': 'install'}
+[1.000890] (-) TimerEvent: {}
+[1.008383] (hey5_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/hey5_description'], 'cwd': '/SLAM/ros_ws/build/hey5_description', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-99873d78-3b82-4b7f-bde1-8074b6e4e937.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/hey5_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.019225] (hey5_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.019835] (hey5_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.022362] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/config/two_hands.rviz\n'}
+[1.036026] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/gazebo/gazebo.urdf.xacro\n'}
+[1.047765] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/launch/hey5_kinematics_test.launch\n'}
+[1.059892] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/meshes/finger_abd_collision.stl\n'}
+[1.072444] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/meshes/finger_flex_collision.stl\n'}
+[1.083358] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/meshes/finger_flex_tip_collision.stl\n'}
+[1.095709] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/meshes/palm.stl\n'}
+[1.101014] (-) TimerEvent: {}
+[1.108099] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/meshes/palm_collision.stl\n'}
+[1.123384] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/meshes/thumb_abd_collision.stl\n'}
+[1.136814] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/robots/hey5_test.urdf.xacro\n'}
+[1.148948] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/urdf/actuators.urdf.xacro\n'}
+[1.160391] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/urdf/deg_to_rad.urdf.xacro\n'}
+[1.171921] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/urdf/fingers.urdf.xacro\n'}
+[1.185179] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/urdf/hey5.ros2_control.xacro\n'}
+[1.197740] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/urdf/hey5.transmission.xacro\n'}
+[1.201092] (-) TimerEvent: {}
+[1.211057] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/urdf/hey5_hand.urdf.xacro\n'}
+[1.226002] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/urdf/materials.urdf.xacro\n'}
+[1.239968] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/urdf/palm.urdf.xacro\n'}
+[1.256191] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/urdf/transmissions.urdf.xacro\n'}
+[1.271495] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/ament_index/resource_index/package_run_dependencies/hey5_description\n'}
+[1.285375] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/ament_index/resource_index/parent_prefix_path/hey5_description\n'}
+[1.298089] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/environment/ament_prefix_path.sh\n'}
+[1.301194] (-) TimerEvent: {}
+[1.309786] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/environment/ament_prefix_path.dsv\n'}
+[1.321772] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/environment/path.sh\n'}
+[1.334847] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/environment/path.dsv\n'}
+[1.346210] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/local_setup.bash\n'}
+[1.356732] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/local_setup.sh\n'}
+[1.366995] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/local_setup.zsh\n'}
+[1.379213] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/local_setup.dsv\n'}
+[1.389805] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/package.dsv\n'}
+[1.400612] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/ament_index/resource_index/packages/hey5_description\n'}
+[1.401251] (-) TimerEvent: {}
+[1.411513] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/cmake/hey5_descriptionConfig.cmake\n'}
+[1.424492] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/cmake/hey5_descriptionConfig-version.cmake\n'}
+[1.436266] (hey5_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/hey5_description/share/hey5_description/package.xml\n'}
+[1.449746] (hey5_description) CommandEnded: {'returncode': 0}
+[1.502513] (-) TimerEvent: {}
+[1.588486] (hey5_description) JobEnded: {'identifier': 'hey5_description', 'rc': 0}
+[1.589210] (-) EventReactorShutdown: {}

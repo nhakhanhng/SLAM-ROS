@@ -1,0 +1,80 @@
+[0.165s] Invoking command in '/home/khanh/Documents/SLAM/ros_ws/build/libuvc': /usr/bin/cmake /home/khanh/Documents/SLAM/ros_ws/libuvc -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/khanh/Documents/SLAM/ros_ws/install/libuvc
+[0.216s] -- The C compiler identification is GNU 11.4.0
+[0.223s] -- Detecting C compiler ABI info
+[0.305s] -- Detecting C compiler ABI info - done
+[0.315s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.315s] -- Detecting C compile features - done
+[0.316s] -- No target type selected, default to both shared and static library
+[0.322s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.323s] -- Checking for module 'libusb-1.0'
+[0.340s] --   Found libusb-1.0, version 1.0.25
+[0.387s] -- libusb-1.0 found using pkgconfig
+[0.421s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[0.421s] -- Found JPEG library using standard module
+[0.422s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.422s]   The package name passed to `find_package_handle_standard_args` (JPEG) does
+[0.422s]   not match the name of the calling package (JpegPkg).  This can lead to
+[0.422s]   problems in calling code that expects `find_package` result variables
+[0.422s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.423s] Call Stack (most recent call first):
+[0.423s]   cmake/FindJpegPkg.cmake:58 (find_package_handle_standard_args)
+[0.423s]   CMakeLists.txt:45 (find_package)
+[0.423s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.424s] [0m
+[0.424s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so  
+[0.424s] -- Building libuvc with JPEG support.
+[0.424s] -- Looking for pthread.h
+[0.521s] -- Looking for pthread.h - found
+[0.521s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.655s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.659s] -- Found Threads: TRUE  
+[0.665s] -- Configuring done
+[0.678s] -- Generating done
+[0.680s] -- Build files have been written to: /home/khanh/Documents/SLAM/ros_ws/build/libuvc
+[0.689s] Invoked command in '/home/khanh/Documents/SLAM/ros_ws/build/libuvc' returned '0': /usr/bin/cmake /home/khanh/Documents/SLAM/ros_ws/libuvc -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/khanh/Documents/SLAM/ros_ws/install/libuvc
+[0.691s] Invoking command in '/home/khanh/Documents/SLAM/ros_ws/build/libuvc': /usr/bin/cmake --build /home/khanh/Documents/SLAM/ros_ws/build/libuvc -- -j16 -l16
+[0.792s] [  9%] [32mBuilding C object CMakeFiles/uvc.dir/src/ctrl.c.o[0m
+[0.793s] [  9%] [32mBuilding C object CMakeFiles/uvc.dir/src/diag.c.o[0m
+[0.793s] [ 13%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl.c.o[0m
+[0.802s] [ 18%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/ctrl-gen.c.o[0m
+[0.806s] [ 22%] [32mBuilding C object CMakeFiles/uvc.dir/src/ctrl-gen.c.o[0m
+[0.807s] [ 27%] [32mBuilding C object CMakeFiles/uvc.dir/src/frame.c.o[0m
+[0.819s] [ 31%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/device.c.o[0m
+[0.820s] [ 36%] [32mBuilding C object CMakeFiles/uvc.dir/src/device.c.o[0m
+[0.822s] [ 40%] [32mBuilding C object CMakeFiles/uvc.dir/src/init.c.o[0m
+[0.826s] [ 45%] [32mBuilding C object CMakeFiles/uvc.dir/src/stream.c.o[0m
+[0.843s] [ 50%] [32mBuilding C object CMakeFiles/uvc.dir/src/misc.c.o[0m
+[0.881s] [ 54%] [32mBuilding C object CMakeFiles/uvc.dir/src/frame-mjpeg.c.o[0m
+[0.891s] [ 59%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/diag.c.o[0m
+[0.917s] [ 63%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/frame.c.o[0m
+[0.935s] [ 68%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/init.c.o[0m
+[0.975s] [ 72%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/stream.c.o[0m
+[0.994s] [ 77%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/misc.c.o[0m
+[0.997s] [ 81%] [32mBuilding C object CMakeFiles/uvc_static.dir/src/frame-mjpeg.c.o[0m
+[1.506s] [ 86%] [32m[1mLinking C shared library libuvc.so[0m
+[1.644s] [ 86%] Built target uvc
+[1.697s] [ 90%] [32mBuilding C object CMakeFiles/example.dir/src/example.c.o[0m
+[1.735s] [ 95%] [32m[1mLinking C static library libuvc.a[0m
+[1.780s] [100%] [32m[1mLinking C executable example[0m
+[1.860s] [100%] Built target example
+[1.865s] [100%] Built target uvc_static
+[1.895s] Invoked command in '/home/khanh/Documents/SLAM/ros_ws/build/libuvc' returned '0': /usr/bin/cmake --build /home/khanh/Documents/SLAM/ros_ws/build/libuvc -- -j16 -l16
+[1.985s] Invoking command in '/home/khanh/Documents/SLAM/ros_ws/build/libuvc': /usr/bin/cmake --install /home/khanh/Documents/SLAM/ros_ws/build/libuvc
+[1.995s] -- Install configuration: "Release"
+[1.995s] -- Installing: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/lib/libuvc.so.0.0.7
+[1.995s] -- Installing: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/lib/libuvc.so.0
+[1.996s] -- Installing: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/lib/libuvc.so
+[1.996s] -- Installing: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/include/libuvc/libuvc.h
+[1.996s] -- Installing: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/include/libuvc/libuvc_config.h
+[1.996s] -- Installing: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/lib/libuvc.a
+[1.997s] -- Up-to-date: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/include/libuvc/libuvc.h
+[1.997s] -- Up-to-date: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/include/libuvc/libuvc_config.h
+[1.997s] -- Installing: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets.cmake
+[1.997s] -- Installing: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/lib/cmake/libuvc/libuvcTargets-release.cmake
+[1.997s] -- Installing: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/lib/cmake/libuvc/FindLibUSB.cmake
+[1.997s] -- Installing: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/lib/cmake/libuvc/FindJpegPkg.cmake
+[1.997s] -- Installing: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/lib/cmake/libuvc/libuvcConfigVersion.cmake
+[1.998s] -- Installing: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/lib/pkgconfig/libuvc.pc
+[1.998s] -- Installing: /home/khanh/Documents/SLAM/ros_ws/install/libuvc/lib/cmake/libuvc/libuvcConfig.cmake
+[2.001s] Invoked command in '/home/khanh/Documents/SLAM/ros_ws/build/libuvc' returned '0': /usr/bin/cmake --install /home/khanh/Documents/SLAM/ros_ws/build/libuvc

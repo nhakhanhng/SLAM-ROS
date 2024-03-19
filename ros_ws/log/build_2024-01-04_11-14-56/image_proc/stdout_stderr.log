@@ -1,0 +1,64 @@
+[35m[1mConsolidate compiler generated dependencies of target image_proc[0m
+[ 13%] Built target image_proc
+[35m[1mConsolidate compiler generated dependencies of target rectify[0m
+[ 26%] Built target rectify
+[35m[1mConsolidate compiler generated dependencies of target debayer[0m
+[ 46%] Built target debayer
+[35m[1mConsolidate compiler generated dependencies of target resize[0m
+[ 60%] Built target resize
+[35m[1mConsolidate compiler generated dependencies of target crop_decimate[0m
+[ 73%] Built target crop_decimate
+[35m[1mConsolidate compiler generated dependencies of target crop_non_zero[0m
+[ 86%] Built target crop_non_zero
+[35m[1mConsolidate compiler generated dependencies of target image_proc_exe[0m
+[100%] Built target image_proc_exe
+-- Install configuration: ""
+-- Installing: /SLAM/ros_ws/install/image_proc/bin/image_proc
+-- Set runtime path of "/SLAM/ros_ws/install/image_proc/bin/image_proc" to ""
+-- Installing: /SLAM/ros_ws/install/image_proc/include
+-- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc
+-- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/edge_aware.hpp
+-- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/processor.hpp
+-- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/crop_decimate.hpp
+-- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/debayer.hpp
+-- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/resize.hpp
+-- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/crop_non_zero.hpp
+-- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/rectify.hpp
+-- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/utils.hpp
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/library_path.sh
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/library_path.dsv
+-- Installing: /SLAM/ros_ws/install/image_proc/lib/libimage_proc.so
+-- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libimage_proc.so" to ""
+-- Installing: /SLAM/ros_ws/install/image_proc/lib/librectify.so
+-- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/librectify.so" to ""
+-- Installing: /SLAM/ros_ws/install/image_proc/lib/libdebayer.so
+-- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libdebayer.so" to ""
+-- Installing: /SLAM/ros_ws/install/image_proc/lib/libresize.so
+-- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libresize.so" to ""
+-- Installing: /SLAM/ros_ws/install/image_proc/lib/libcrop_decimate.so
+-- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libcrop_decimate.so" to ""
+-- Installing: /SLAM/ros_ws/install/image_proc/lib/libcrop_non_zero.so
+-- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libcrop_non_zero.so" to ""
+-- Installing: /SLAM/ros_ws/install/image_proc/lib/image_proc/image_proc
+-- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/image_proc/image_proc" to ""
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/launch
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/launch/image_proc.launch.py
+-- Installing: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/package_run_dependencies/image_proc
+-- Installing: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/parent_prefix_path/image_proc
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/ament_prefix_path.sh
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/ament_prefix_path.dsv
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/path.sh
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/path.dsv
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.bash
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.sh
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.zsh
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.dsv
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/package.dsv
+-- Installing: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/packages/image_proc
+-- Installing: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/rclcpp_components/image_proc
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/image_procConfig.cmake
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/image_procConfig-version.cmake
+-- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/package.xml

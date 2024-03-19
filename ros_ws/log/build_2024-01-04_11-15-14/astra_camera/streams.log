@@ -1,0 +1,42 @@
+[0.056s] Invoking command in '/SLAM/ros_ws/build/astra_camera': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /SLAM/ros_ws/build/astra_camera -- -j16 -l16
+[0.122s] [ 17%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyz.cpp.o[0m
+[0.122s] [ 17%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/dynamic_params.cpp.o[0m
+[0.123s] [ 29%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node_factory.cpp.o[0m
+[0.123s] [ 29%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_timer_filter.cpp.o[0m
+[0.123s] [ 35%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_param_backend.cpp.o[0m
+[0.125s] [ 52%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/uvc_camera_driver.cpp.o[0m
+[0.125s] [ 52%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyzrgb.cpp.o[0m
+[0.125s] [ 52%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/utils.cpp.o[0m
+[0.125s] [ 58%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_service.cpp.o[0m
+[0.127s] [ 58%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o[0m
+[0.129s] [ 64%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_context.cpp.o[0m
+[0.131s] [ 70%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node.cpp.o[0m
+[1.439s] In file included from [01m[K/SLAM/ros_ws/src/ros_astra_camera/astra_camera/include/astra_camera/ob_camera_node_factory.h:23[m[K,
+[1.439s]                  from [01m[K/SLAM/ros_ws/src/ros_astra_camera/astra_camera/src/ob_camera_node_factory.cpp:15[m[K:
+[1.439s] [01m[K/SLAM/ros_ws/src/ros_astra_camera/astra_camera/include/astra_camera/ob_camera_node.h:49:10:[m[K [01;31m[Kfatal error: [m[Kob_frame_listener.h: No such file or directory
+[1.440s]    49 | #include [01;31m[K"ob_frame_listener.h"[m[K
+[1.440s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.440s] compilation terminated.
+[1.447s] In file included from [01m[K/SLAM/ros_ws/src/ros_astra_camera/astra_camera/src/ros_service.cpp:19[m[K:
+[1.447s] [01m[K/SLAM/ros_ws/src/ros_astra_camera/astra_camera/include/astra_camera/ob_camera_node.h:49:10:[m[K [01;31m[Kfatal error: [m[Kob_frame_listener.h: No such file or directory
+[1.447s]    49 | #include [01;31m[K"ob_frame_listener.h"[m[K
+[1.447s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.448s] compilation terminated.
+[1.456s] gmake[2]: *** [CMakeFiles/astra_camera.dir/build.make:160: CMakeFiles/astra_camera.dir/src/ob_camera_node_factory.cpp.o] Error 1
+[1.456s] gmake[2]: *** Waiting for unfinished jobs....
+[1.463s] gmake[2]: *** [CMakeFiles/astra_camera.dir/build.make:202: CMakeFiles/astra_camera.dir/src/ros_service.cpp.o] Error 1
+[1.533s] In file included from [01m[K/SLAM/ros_ws/src/ros_astra_camera/astra_camera/src/ob_camera_info.cpp:18[m[K:
+[1.533s] [01m[K/SLAM/ros_ws/src/ros_astra_camera/astra_camera/include/astra_camera/ob_camera_node.h:49:10:[m[K [01;31m[Kfatal error: [m[Kob_frame_listener.h: No such file or directory
+[1.533s]    49 | #include [01;31m[K"ob_frame_listener.h"[m[K
+[1.533s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.534s] compilation terminated.
+[1.547s] gmake[2]: *** [CMakeFiles/astra_camera.dir/build.make:132: CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o] Error 1
+[1.573s] In file included from [01m[K/SLAM/ros_ws/src/ros_astra_camera/astra_camera/src/ob_camera_node.cpp:13[m[K:
+[1.573s] [01m[K/SLAM/ros_ws/src/ros_astra_camera/astra_camera/include/astra_camera/ob_camera_node.h:49:10:[m[K [01;31m[Kfatal error: [m[Kob_frame_listener.h: No such file or directory
+[1.573s]    49 | #include [01;31m[K"ob_frame_listener.h"[m[K
+[1.574s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[1.574s] compilation terminated.
+[1.586s] gmake[2]: *** [CMakeFiles/astra_camera.dir/build.make:174: CMakeFiles/astra_camera.dir/src/ob_camera_node.cpp.o] Error 1
+[16.839s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/astra_camera.dir/all] Error 2
+[16.840s] gmake: *** [Makefile:146: all] Error 2
+[16.854s] Invoked command in '/SLAM/ros_ws/build/astra_camera' returned '2': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /SLAM/ros_ws/build/astra_camera -- -j16 -l16

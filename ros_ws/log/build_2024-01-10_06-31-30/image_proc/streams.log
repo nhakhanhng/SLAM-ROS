@@ -1,0 +1,49 @@
+[0.060s] Invoking command in '/SLAM/ros_ws/build/image_proc': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_proc -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_proc
+[0.075s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.243s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.385s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.388s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.397s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.413s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.434s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.834s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.836s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.091s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.582s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.616s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.621s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.623s] -- Configured cppcheck include dirs: /SLAM/ros_ws/src/image_pipeline/image_proc/include
+[1.623s] -- Configured cppcheck exclude dirs and/or files: 
+[1.627s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.627s] -- Configured cpplint exclude dirs and/or files: 
+[1.628s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.630s] -- Added test 'lint_cmake' to check CMake code style
+[1.636s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.636s] -- Added test 'uncrustify' to check C / C++ code style
+[1.636s] -- Configured uncrustify additional arguments: 
+[1.637s] -- Added test 'xmllint' to check XML markup files
+[1.642s] -- Configuring done
+[1.834s] -- Generating done
+[1.839s] -- Build files have been written to: /SLAM/ros_ws/build/image_proc
+[1.859s] Invoked command in '/SLAM/ros_ws/build/image_proc' returned '0': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_proc -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_proc
+[1.860s] Invoking command in '/SLAM/ros_ws/build/image_proc': AMENT_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /SLAM/ros_ws/build/image_proc -- -j16 -l16
+[1.995s] [35m[1mConsolidate compiler generated dependencies of target image_proc[0m
+[2.083s] [ 13%] Built target image_proc
+[2.191s] [35m[1mConsolidate compiler generated dependencies of target rectify[0m
+[2.292s] [ 26%] Built target rectify
+[2.478s] [ 33%] [32mBuilding CXX object CMakeFiles/debayer.dir/src/edge_aware.cpp.o[0m
+[2.494s] [ 40%] [32mBuilding CXX object CMakeFiles/debayer.dir/src/debayer.cpp.o[0m
+[115.460s] [ 46%] [32m[1mLinking CXX shared library libdebayer.so[0m
+[116.888s] [ 46%] Built target debayer
+[117.042s] [ 53%] [32mBuilding CXX object CMakeFiles/resize.dir/src/resize.cpp.o[0m
+[126.577s] [ 60%] [32m[1mLinking CXX shared library libresize.so[0m
+[126.948s] [ 60%] Built target resize
+[126.989s] [ 66%] [32mBuilding CXX object CMakeFiles/crop_decimate.dir/src/crop_decimate.cpp.o[0m
+[134.239s] [ 73%] [32m[1mLinking CXX shared library libcrop_decimate.so[0m
+[134.619s] [ 73%] Built target crop_decimate
+[134.673s] [ 80%] [32mBuilding CXX object CMakeFiles/crop_non_zero.dir/src/crop_non_zero.cpp.o[0m
+[140.645s] [ 86%] [32m[1mLinking CXX shared library libcrop_non_zero.so[0m
+[140.886s] [ 86%] Built target crop_non_zero
+[140.914s] [ 93%] [32mBuilding CXX object CMakeFiles/image_proc_exe.dir/src/image_proc.cpp.o[0m
+[144.504s] [100%] [32m[1mLinking CXX executable image_proc[0m
+[144.954s] [100%] Built target image_proc_exe

@@ -1,0 +1,2 @@
+Invoking command in '/SLAM/ros_ws/build/depth_image_proc': /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/depth_image_proc -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/depth_image_proc
+Invoked command in '/SLAM/ros_ws/build/depth_image_proc' returned '1': /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/depth_image_proc -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/depth_image_proc

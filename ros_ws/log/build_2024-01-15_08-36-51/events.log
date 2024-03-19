@@ -1,0 +1,449 @@
+[0.000000] (-) TimerEvent: {}
+[0.000541] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000694] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000763] (-) JobUnselected: {'identifier': 'br2_basics'}
+[0.000798] (-) JobUnselected: {'identifier': 'br2_bt_bumpgo'}
+[0.000867] (-) JobUnselected: {'identifier': 'br2_bt_patrolling'}
+[0.000884] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_cpp'}
+[0.000921] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_py'}
+[0.000937] (-) JobUnselected: {'identifier': 'br2_navigation'}
+[0.001024] (-) JobUnselected: {'identifier': 'br2_tf2_detector'}
+[0.001080] (-) JobUnselected: {'identifier': 'br2_tiago'}
+[0.001126] (-) JobUnselected: {'identifier': 'br2_tracking'}
+[0.001141] (-) JobUnselected: {'identifier': 'br2_tracking_msgs'}
+[0.001156] (-) JobUnselected: {'identifier': 'br2_vff_avoidance'}
+[0.001184] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.001201] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.001293] (-) JobUnselected: {'identifier': 'groot'}
+[0.001308] (-) JobUnselected: {'identifier': 'hey5_description'}
+[0.001322] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.001349] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.001365] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.001425] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.001440] (-) JobUnselected: {'identifier': 'image_view'}
+[0.001454] (-) JobUnselected: {'identifier': 'launch_pal'}
+[0.001481] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.001496] (-) JobUnselected: {'identifier': 'pal_gazebo_worlds'}
+[0.001587] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.001606] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.001623] (-) JobUnselected: {'identifier': 'pal_gripper_description'}
+[0.001642] (-) JobUnselected: {'identifier': 'pmb2_2dnav'}
+[0.001693] (-) JobUnselected: {'identifier': 'pmb2_laser_sensors'}
+[0.001715] (-) JobUnselected: {'identifier': 'pmb2_maps'}
+[0.001829] (-) JobUnselected: {'identifier': 'pmb2_navigation'}
+[0.001850] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001868] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001899] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.001917] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.002012] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.002031] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.002049] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.002088] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.002201] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.002219] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.002237] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.002256] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.002284] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.002360] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.002378] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.002395] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.002412] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.002437] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.002454] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.002514] (-) JobUnselected: {'identifier': 'tiago_2dnav'}
+[0.002531] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.002548] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.002568] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.002595] (-) JobUnselected: {'identifier': 'tiago_gazebo'}
+[0.002661] (-) JobUnselected: {'identifier': 'tiago_laser_sensors'}
+[0.002679] (-) JobUnselected: {'identifier': 'tiago_moveit_config'}
+[0.002696] (-) JobUnselected: {'identifier': 'tiago_navigation'}
+[0.002714] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.002739] (-) JobUnselected: {'identifier': 'tiago_simulation'}
+[0.002755] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.002769] (-) JobUnselected: {'identifier': 'tutourial_intefaces'}
+[0.002878] (-) JobUnselected: {'identifier': 'urdf_test'}
+[0.002916] (pmb2_controller_configuration) JobQueued: {'identifier': 'pmb2_controller_configuration', 'dependencies': OrderedDict([('launch_pal', '/SLAM/ros_ws/install/launch_pal')])}
+[0.002941] (pmb2_description) JobQueued: {'identifier': 'pmb2_description', 'dependencies': OrderedDict([('launch_pal', '/SLAM/ros_ws/install/launch_pal'), ('urdf_test', '/SLAM/ros_ws/install/urdf_test'), ('pmb2_controller_configuration', '/SLAM/ros_ws/install/pmb2_controller_configuration')])}
+[0.003009] (pmb2_bringup) JobQueued: {'identifier': 'pmb2_bringup', 'dependencies': OrderedDict([('launch_pal', '/SLAM/ros_ws/install/launch_pal'), ('pmb2_controller_configuration', '/SLAM/ros_ws/install/pmb2_controller_configuration'), ('pmb2_description', '/SLAM/ros_ws/install/pmb2_description')])}
+[0.003064] (pmb2_robot) JobQueued: {'identifier': 'pmb2_robot', 'dependencies': OrderedDict([('launch_pal', '/SLAM/ros_ws/install/launch_pal'), ('pmb2_controller_configuration', '/SLAM/ros_ws/install/pmb2_controller_configuration'), ('pmb2_description', '/SLAM/ros_ws/install/pmb2_description'), ('pmb2_bringup', '/SLAM/ros_ws/install/pmb2_bringup')])}
+[0.003085] (pmb2_controller_configuration) JobStarted: {'identifier': 'pmb2_controller_configuration'}
+[0.055132] (pmb2_controller_configuration) JobProgress: {'identifier': 'pmb2_controller_configuration', 'progress': 'cmake'}
+[0.055432] (pmb2_controller_configuration) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/ThirdParty/pmb2_robot/pmb2_controller_configuration', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/pmb2_controller_configuration'], 'cwd': '/SLAM/ros_ws/build/pmb2_controller_configuration', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pmb2_controller_configuration'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099821] (-) TimerEvent: {}
+[0.120123] (pmb2_controller_configuration) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.178663] (pmb2_controller_configuration) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.187293] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199901] (-) TimerEvent: {}
+[0.270615] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.277617] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.277921] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.278351] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.281625] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300022] (-) TimerEvent: {}
+[0.375447] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.381222] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.381427] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.381801] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.387237] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.400115] (-) TimerEvent: {}
+[0.500450] (-) TimerEvent: {}
+[0.580747] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.600598] (-) TimerEvent: {}
+[0.646495] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.700676] (-) TimerEvent: {}
+[0.775581] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.800891] (-) TimerEvent: {}
+[0.817284] (pmb2_controller_configuration) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.819619] (pmb2_controller_configuration) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.820238] (pmb2_controller_configuration) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.820664] (pmb2_controller_configuration) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.821847] (pmb2_controller_configuration) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.823169] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.826914] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Generating done\n'}
+[0.827846] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Build files have been written to: /SLAM/ros_ws/build/pmb2_controller_configuration\n'}
+[0.834294] (pmb2_controller_configuration) CommandEnded: {'returncode': 0}
+[0.834834] (pmb2_controller_configuration) JobProgress: {'identifier': 'pmb2_controller_configuration', 'progress': 'build'}
+[0.835526] (pmb2_controller_configuration) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/pmb2_controller_configuration', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/pmb2_controller_configuration', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pmb2_controller_configuration'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.886577] (pmb2_controller_configuration) CommandEnded: {'returncode': 0}
+[0.901034] (-) TimerEvent: {}
+[0.916222] (pmb2_controller_configuration) JobProgress: {'identifier': 'pmb2_controller_configuration', 'progress': 'install'}
+[0.929099] (pmb2_controller_configuration) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/pmb2_controller_configuration'], 'cwd': '/SLAM/ros_ws/build/pmb2_controller_configuration', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pmb2_controller_configuration'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.938952] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.939291] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.939953] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config/gazebo_controller_manager_cfg.yaml\n'}
+[0.951336] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config/joint_state_broadcaster.yaml\n'}
+[0.961426] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/config/mobile_base_controller.yaml\n'}
+[0.971467] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/launch/default_controllers.launch.py\n'}
+[0.982133] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/launch/joint_state_broadcaster.launch.py\n'}
+[0.992952] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/launch/mobile_base_controller.launch.py\n'}
+[1.001113] (-) TimerEvent: {}
+[1.003100] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/ament_index/resource_index/package_run_dependencies/pmb2_controller_configuration\n'}
+[1.014027] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/ament_index/resource_index/parent_prefix_path/pmb2_controller_configuration\n'}
+[1.024852] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/environment/ament_prefix_path.sh\n'}
+[1.034988] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/environment/ament_prefix_path.dsv\n'}
+[1.044622] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/environment/path.sh\n'}
+[1.054695] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/environment/path.dsv\n'}
+[1.064249] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/local_setup.bash\n'}
+[1.072795] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/local_setup.sh\n'}
+[1.081901] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/local_setup.zsh\n'}
+[1.090647] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/local_setup.dsv\n'}
+[1.100344] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/package.dsv\n'}
+[1.101165] (-) TimerEvent: {}
+[1.109816] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/ament_index/resource_index/packages/pmb2_controller_configuration\n'}
+[1.121169] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/cmake/pmb2_controller_configurationConfig.cmake\n'}
+[1.131279] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/cmake/pmb2_controller_configurationConfig-version.cmake\n'}
+[1.141156] (pmb2_controller_configuration) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_controller_configuration/share/pmb2_controller_configuration/package.xml\n'}
+[1.152882] (pmb2_controller_configuration) CommandEnded: {'returncode': 0}
+[1.201254] (-) TimerEvent: {}
+[1.301523] (-) TimerEvent: {}
+[1.302841] (pmb2_controller_configuration) JobEnded: {'identifier': 'pmb2_controller_configuration', 'rc': 0}
+[1.303702] (pmb2_description) JobStarted: {'identifier': 'pmb2_description'}
+[1.355897] (pmb2_description) JobProgress: {'identifier': 'pmb2_description', 'progress': 'cmake'}
+[1.356383] (pmb2_description) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/ThirdParty/pmb2_robot/pmb2_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/pmb2_description'], 'cwd': '/SLAM/ros_ws/build/pmb2_description', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/urdf_test:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pmb2_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/urdf_test:/opt/ros/humble')]), 'shell': False}
+[1.401775] (-) TimerEvent: {}
+[1.423436] (pmb2_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.478024] (pmb2_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.485436] (pmb2_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.501839] (-) TimerEvent: {}
+[1.558992] (pmb2_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.567922] (pmb2_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.568367] (pmb2_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.568558] (pmb2_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.572785] (pmb2_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.602054] (-) TimerEvent: {}
+[1.680591] (pmb2_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.686982] (pmb2_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.687323] (pmb2_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.687556] (pmb2_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.692843] (pmb2_description) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.702125] (-) TimerEvent: {}
+[1.802465] (-) TimerEvent: {}
+[1.892023] (pmb2_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.902548] (-) TimerEvent: {}
+[1.959994] (pmb2_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.002712] (-) TimerEvent: {}
+[2.095218] (pmb2_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.102798] (-) TimerEvent: {}
+[2.148592] (pmb2_description) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.172187] (pmb2_description) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[2.187746] (pmb2_description) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[2.187966] (pmb2_description) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.188043] (pmb2_description) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.188112] (pmb2_description) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.202911] (-) TimerEvent: {}
+[2.209302] (pmb2_description) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.248352] (pmb2_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.262432] (pmb2_description) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.264503] (pmb2_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.265680] (pmb2_description) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.273015] (pmb2_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.274567] (pmb2_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.280021] (pmb2_description) StdoutLine: {'line': b'-- Generating done\n'}
+[2.281198] (pmb2_description) StdoutLine: {'line': b'-- Build files have been written to: /SLAM/ros_ws/build/pmb2_description\n'}
+[2.287587] (pmb2_description) CommandEnded: {'returncode': 0}
+[2.288554] (pmb2_description) JobProgress: {'identifier': 'pmb2_description', 'progress': 'build'}
+[2.288741] (pmb2_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/pmb2_description', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/pmb2_description', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/urdf_test:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pmb2_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/urdf_test:/opt/ros/humble')]), 'shell': False}
+[2.303020] (-) TimerEvent: {}
+[2.359473] (pmb2_description) StdoutLine: {'line': b'Built target ament_cmake_python_symlink_pmb2_description\n'}
+[2.403102] (-) TimerEvent: {}
+[2.503368] (-) TimerEvent: {}
+[2.572830] (pmb2_description) StdoutLine: {'line': b'running egg_info\n'}
+[2.573263] (pmb2_description) StdoutLine: {'line': b'creating pmb2_description.egg-info\n'}
+[2.573415] (pmb2_description) StdoutLine: {'line': b'writing pmb2_description.egg-info/PKG-INFO\n'}
+[2.573661] (pmb2_description) StdoutLine: {'line': b'writing dependency_links to pmb2_description.egg-info/dependency_links.txt\n'}
+[2.573811] (pmb2_description) StdoutLine: {'line': b'writing top-level names to pmb2_description.egg-info/top_level.txt\n'}
+[2.573937] (pmb2_description) StdoutLine: {'line': b"writing manifest file 'pmb2_description.egg-info/SOURCES.txt'\n"}
+[2.575331] (pmb2_description) StdoutLine: {'line': b"reading manifest file 'pmb2_description.egg-info/SOURCES.txt'\n"}
+[2.575771] (pmb2_description) StdoutLine: {'line': b"writing manifest file 'pmb2_description.egg-info/SOURCES.txt'\n"}
+[2.602734] (pmb2_description) StdoutLine: {'line': b'Built target ament_cmake_python_build_pmb2_description_egg\n'}
+[2.603426] (-) TimerEvent: {}
+[2.615763] (pmb2_description) CommandEnded: {'returncode': 0}
+[2.642523] (pmb2_description) JobProgress: {'identifier': 'pmb2_description', 'progress': 'install'}
+[2.643040] (pmb2_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/pmb2_description'], 'cwd': '/SLAM/ros_ws/build/pmb2_description', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/urdf_test:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pmb2_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/urdf_test:/opt/ros/humble')]), 'shell': False}
+[2.651054] (pmb2_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.651491] (pmb2_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.651781] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/environment/pythonpath.sh\n'}
+[2.661115] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/environment/pythonpath.dsv\n'}
+[2.670637] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description-5.0.15-py3.10.egg-info/PKG-INFO\n'}
+[2.680042] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description-5.0.15-py3.10.egg-info/SOURCES.txt\n'}
+[2.689411] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description-5.0.15-py3.10.egg-info/dependency_links.txt\n'}
+[2.698035] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description-5.0.15-py3.10.egg-info/top_level.txt\n'}
+[2.703514] (-) TimerEvent: {}
+[2.707651] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description/__init__.py\n'}
+[2.719416] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/config/joint_limits.yaml\n'}
+[2.730172] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/gazebo/gazebo.urdf.xacro\n'}
+[2.739765] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/launch/robot_state_publisher.launch.py\n'}
+[2.749768] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/launch/show.launch.py\n'}
+[2.760041] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/Media/materials/scripts/markers.material\n'}
+[2.770383] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/Media/materials/textures/aruco-26_8cm.png\n'}
+[2.780565] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/Media/materials/textures/aruco-582_8cm.png\n'}
+[2.789946] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/Media/materials/textures/pal_logo_1_7cm.jpg\n'}
+[2.799345] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/Media/materials/textures/pal_logo_2_7cm.jpg\n'}
+[2.803587] (-) TimerEvent: {}
+[2.809071] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/Media/materials/textures/pal_logo_3_7cm.jpg\n'}
+[2.821153] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/base/base.stl\n'}
+[2.831236] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/base/base_collision.dae\n'}
+[2.840903] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/base/base_ring.stl\n'}
+[2.851170] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/base/high_resolution/base.stl\n'}
+[2.860430] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/base/high_resolution/base_collision.stl\n'}
+[2.869695] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/cameras_add_on/cameras_add_on.stl\n'}
+[2.878608] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/cameras_add_on/cameras_add_on_collision.stl\n'}
+[2.888597] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/dock/dock.stl\n'}
+[2.898766] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/dock/dock_collision.stl\n'}
+[2.903692] (-) TimerEvent: {}
+[2.908428] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/objects/antenna.stl\n'}
+[2.919564] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/objects/cover.stl\n'}
+[2.929641] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/objects/high_resolution/cover.stl\n'}
+[2.939541] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/sensors/bumper.stl\n'}
+[2.948793] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/sensors/bumper_collision.stl\n'}
+[2.957639] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/sensors/elp_camera.stl\n'}
+[2.967690] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/sensors/high_resolution/bumper.stl\n'}
+[2.977477] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/sensors/high_resolution/hokuyo_urg_04lx_ug01.stl\n'}
+[2.986801] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/sensors/high_resolution/sick_tim551.stl\n'}
+[2.996399] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/sensors/high_resolution/srf05.stl\n'}
+[3.003768] (-) TimerEvent: {}
+[3.005606] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/sensors/high_resolution/xtion_pro_live.stl\n'}
+[3.016583] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/sensors/hokuyo_urg_04lx_ug01.stl\n'}
+[3.027298] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/sensors/sick_tim551.stl\n'}
+[3.037119] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/sensors/srf05.stl\n'}
+[3.046578] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/sensors/structure_sensor.stl\n'}
+[3.058987] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/sensors/xtion_pro_live.dae\n'}
+[3.068640] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/wheels/caster_1.stl\n'}
+[3.078166] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/wheels/caster_2.stl\n'}
+[3.088011] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/wheels/high_resolution/caster_1.stl\n'}
+[3.097985] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/wheels/high_resolution/caster_2.stl\n'}
+[3.103847] (-) TimerEvent: {}
+[3.107772] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/wheels/high_resolution/wheel.stl\n'}
+[3.118043] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/meshes/wheels/wheel.stl\n'}
+[3.129816] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/robots/pmb2.urdf.xacro\n'}
+[3.140840] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/ros2_control/ros2_control.urdf.xacro\n'}
+[3.151571] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/base/base.urdf.xacro\n'}
+[3.161254] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/base/base_sensors.urdf.xacro\n'}
+[3.170379] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/base/footprint.yaml\n'}
+[3.180777] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/cameras_add_on/cameras_add_on.urdf.xacro\n'}
+[3.190725] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/deg_to_rad.xacro\n'}
+[3.200058] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/dock/dock.urdf.xacro\n'}
+[3.203917] (-) TimerEvent: {}
+[3.209790] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/materials.urdf.xacro\n'}
+[3.221227] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/objects/antenna.urdf.xacro\n'}
+[3.232563] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/objects/cover.urdf.xacro\n'}
+[3.245206] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/bumper.gazebo.xacro\n'}
+[3.255119] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/bumper.urdf.xacro\n'}
+[3.265536] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/courier.urdf.xacro\n'}
+[3.276364] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/elp_rgb.gazebo.xacro\n'}
+[3.288545] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/elp_rgb.urdf.xacro\n'}
+[3.301310] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/hokuyo_urg_04lx_ug01_laser.gazebo.xacro\n'}
+[3.304019] (-) TimerEvent: {}
+[3.313907] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/hokuyo_urg_04lx_ug01_laser.urdf.xacro\n'}
+[3.325999] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/imu.urdf.xacro\n'}
+[3.337638] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/microphone.urdf.xacro\n'}
+[3.348919] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/range.gazebo.xacro\n'}
+[3.361626] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/range.urdf.xacro\n'}
+[3.372832] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/sensors.ros2_control.xacro\n'}
+[3.384668] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/sick_tim551_laser.gazebo.xacro\n'}
+[3.397552] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/sick_tim551_laser.urdf.xacro\n'}
+[3.404118] (-) TimerEvent: {}
+[3.407737] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/sick_tim561_laser.gazebo.xacro\n'}
+[3.418251] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/sick_tim561_laser.urdf.xacro\n'}
+[3.429241] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/sick_tim571_laser.gazebo.xacro\n'}
+[3.439161] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/sick_tim571_laser.urdf.xacro\n'}
+[3.448708] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/structure_sensor.gazebo.xacro\n'}
+[3.457767] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/sensors/structure_sensor.urdf.xacro\n'}
+[3.467405] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/wheels/caster.gazebo.xacro\n'}
+[3.477446] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/wheels/caster.urdf.xacro\n'}
+[3.486879] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/wheels/wheel.gazebo.xacro\n'}
+[3.496348] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/wheels/wheel.ros2_control.xacro\n'}
+[3.504239] (-) TimerEvent: {}
+[3.506120] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/urdf/wheels/wheel.urdf.xacro\n'}
+[3.517808] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/ament_index/resource_index/package_run_dependencies/pmb2_description\n'}
+[3.529576] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/ament_index/resource_index/parent_prefix_path/pmb2_description\n'}
+[3.539363] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/environment/ament_prefix_path.sh\n'}
+[3.548733] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/environment/ament_prefix_path.dsv\n'}
+[3.558818] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/environment/path.sh\n'}
+[3.568650] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/environment/path.dsv\n'}
+[3.577742] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/local_setup.bash\n'}
+[3.586915] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/local_setup.sh\n'}
+[3.596283] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/local_setup.zsh\n'}
+[3.604318] (-) TimerEvent: {}
+[3.606105] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/local_setup.dsv\n'}
+[3.616952] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/package.dsv\n'}
+[3.627876] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/ament_index/resource_index/packages/pmb2_description\n'}
+[3.638148] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/cmake/pmb2_descriptionConfig.cmake\n'}
+[3.649454] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/cmake/pmb2_descriptionConfig-version.cmake\n'}
+[3.660167] (pmb2_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_description/share/pmb2_description/package.xml\n'}
+[3.697989] (pmb2_description) StdoutLine: {'line': b"Listing '/SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description'...\n"}
+[3.698153] (pmb2_description) StdoutLine: {'line': b"Compiling '/SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages/pmb2_description/__init__.py'...\n"}
+[3.703940] (pmb2_description) CommandEnded: {'returncode': 0}
+[3.704423] (-) TimerEvent: {}
+[3.805146] (-) TimerEvent: {}
+[3.840045] (pmb2_description) JobEnded: {'identifier': 'pmb2_description', 'rc': 0}
+[3.840758] (pmb2_bringup) JobStarted: {'identifier': 'pmb2_bringup'}
+[3.893689] (pmb2_bringup) JobProgress: {'identifier': 'pmb2_bringup', 'progress': 'cmake'}
+[3.894003] (pmb2_bringup) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/ThirdParty/pmb2_robot/pmb2_bringup', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/pmb2_bringup'], 'cwd': '/SLAM/ros_ws/build/pmb2_bringup', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pmb2_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/opt/ros/humble')]), 'shell': False}
+[3.905298] (-) TimerEvent: {}
+[3.953117] (pmb2_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[4.004485] (pmb2_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[4.005340] (-) TimerEvent: {}
+[4.012986] (pmb2_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[4.086732] (pmb2_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[4.092338] (pmb2_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[4.092659] (pmb2_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[4.092860] (pmb2_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[4.095758] (pmb2_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[4.105443] (-) TimerEvent: {}
+[4.179149] (pmb2_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.185588] (pmb2_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.185961] (pmb2_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.186105] (pmb2_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.190841] (pmb2_bringup) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[4.205525] (-) TimerEvent: {}
+[4.305816] (-) TimerEvent: {}
+[4.362614] (pmb2_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[4.405893] (-) TimerEvent: {}
+[4.418220] (pmb2_bringup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.505992] (-) TimerEvent: {}
+[4.539886] (pmb2_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.580699] (pmb2_bringup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.583312] (pmb2_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.583871] (pmb2_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.584336] (pmb2_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.585741] (pmb2_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.587106] (pmb2_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.590781] (pmb2_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[4.591590] (pmb2_bringup) StdoutLine: {'line': b'-- Build files have been written to: /SLAM/ros_ws/build/pmb2_bringup\n'}
+[4.596916] (pmb2_bringup) CommandEnded: {'returncode': 0}
+[4.597737] (pmb2_bringup) JobProgress: {'identifier': 'pmb2_bringup', 'progress': 'build'}
+[4.598139] (pmb2_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/pmb2_bringup', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/pmb2_bringup', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pmb2_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/opt/ros/humble')]), 'shell': False}
+[4.606087] (-) TimerEvent: {}
+[4.645708] (pmb2_bringup) CommandEnded: {'returncode': 0}
+[4.671067] (pmb2_bringup) JobProgress: {'identifier': 'pmb2_bringup', 'progress': 'install'}
+[4.671494] (pmb2_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/pmb2_bringup'], 'cwd': '/SLAM/ros_ws/build/pmb2_bringup', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pmb2_bringup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/opt/ros/humble')]), 'shell': False}
+[4.680248] (pmb2_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.680575] (pmb2_bringup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.681199] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/config/joy_config.yaml\n'}
+[4.692244] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/config/joy_teleop.yaml\n'}
+[4.703138] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/config/twist_mux/joystick.yaml\n'}
+[4.706161] (-) TimerEvent: {}
+[4.713237] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/config/twist_mux/twist_mux_locks.yaml\n'}
+[4.725043] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/config/twist_mux/twist_mux_topics.yaml\n'}
+[4.735930] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/launch/joystick_teleop.launch.py\n'}
+[4.745584] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/launch/pmb2_bringup.launch.py\n'}
+[4.754663] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/launch/twist_mux.launch.py\n'}
+[4.764552] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/ament_index/resource_index/package_run_dependencies/pmb2_bringup\n'}
+[4.774594] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/ament_index/resource_index/parent_prefix_path/pmb2_bringup\n'}
+[4.783949] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/environment/ament_prefix_path.sh\n'}
+[4.792767] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/environment/ament_prefix_path.dsv\n'}
+[4.801844] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/environment/path.sh\n'}
+[4.806260] (-) TimerEvent: {}
+[4.811860] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/environment/path.dsv\n'}
+[4.822800] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/local_setup.bash\n'}
+[4.832439] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/local_setup.sh\n'}
+[4.842233] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/local_setup.zsh\n'}
+[4.852183] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/local_setup.dsv\n'}
+[4.861059] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/package.dsv\n'}
+[4.870374] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/ament_index/resource_index/packages/pmb2_bringup\n'}
+[4.879439] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/cmake/pmb2_bringupConfig.cmake\n'}
+[4.889242] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/cmake/pmb2_bringupConfig-version.cmake\n'}
+[4.898871] (pmb2_bringup) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_bringup/share/pmb2_bringup/package.xml\n'}
+[4.906345] (-) TimerEvent: {}
+[4.909759] (pmb2_bringup) CommandEnded: {'returncode': 0}
+[5.006422] (-) TimerEvent: {}
+[5.033812] (pmb2_bringup) JobEnded: {'identifier': 'pmb2_bringup', 'rc': 0}
+[5.034422] (pmb2_robot) JobStarted: {'identifier': 'pmb2_robot'}
+[5.082124] (pmb2_robot) JobProgress: {'identifier': 'pmb2_robot', 'progress': 'cmake'}
+[5.082466] (pmb2_robot) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/ThirdParty/pmb2_robot/pmb2_robot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/pmb2_robot'], 'cwd': '/SLAM/ros_ws/build/pmb2_robot', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_bringup:/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pmb2_robot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_bringup:/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/opt/ros/humble')]), 'shell': False}
+[5.106521] (-) TimerEvent: {}
+[5.138537] (pmb2_robot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[5.189603] (pmb2_robot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[5.196630] (pmb2_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.206605] (-) TimerEvent: {}
+[5.267578] (pmb2_robot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[5.273575] (pmb2_robot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[5.273781] (pmb2_robot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[5.274085] (pmb2_robot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[5.276828] (pmb2_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[5.306767] (-) TimerEvent: {}
+[5.363636] (pmb2_robot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[5.369955] (pmb2_robot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[5.370184] (pmb2_robot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[5.370644] (pmb2_robot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[5.375935] (pmb2_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[5.406844] (-) TimerEvent: {}
+[5.507082] (-) TimerEvent: {}
+[5.547589] (pmb2_robot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[5.605579] (pmb2_robot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.607147] (-) TimerEvent: {}
+[5.707344] (-) TimerEvent: {}
+[5.722809] (pmb2_robot) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.726119] (pmb2_robot) StdoutLine: {'line': b'-- Generating done\n'}
+[5.726892] (pmb2_robot) StdoutLine: {'line': b'-- Build files have been written to: /SLAM/ros_ws/build/pmb2_robot\n'}
+[5.732310] (pmb2_robot) CommandEnded: {'returncode': 0}
+[5.732816] (pmb2_robot) JobProgress: {'identifier': 'pmb2_robot', 'progress': 'build'}
+[5.733133] (pmb2_robot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/pmb2_robot', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/pmb2_robot', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_bringup:/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pmb2_robot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_bringup:/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/opt/ros/humble')]), 'shell': False}
+[5.775104] (pmb2_robot) CommandEnded: {'returncode': 0}
+[5.798604] (pmb2_robot) JobProgress: {'identifier': 'pmb2_robot', 'progress': 'install'}
+[5.798985] (pmb2_robot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/pmb2_robot'], 'cwd': '/SLAM/ros_ws/build/pmb2_robot', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_bringup:/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pmb2_robot'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_bringup:/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/opt/ros/humble')]), 'shell': False}
+[5.807369] (pmb2_robot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.807541] (-) TimerEvent: {}
+[5.807685] (pmb2_robot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.807994] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/ament_index/resource_index/package_run_dependencies/pmb2_robot\n'}
+[5.818225] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/ament_index/resource_index/parent_prefix_path/pmb2_robot\n'}
+[5.828812] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/pmb2_robot/environment/ament_prefix_path.sh\n'}
+[5.838896] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/pmb2_robot/environment/ament_prefix_path.dsv\n'}
+[5.849376] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/pmb2_robot/environment/path.sh\n'}
+[5.859045] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/pmb2_robot/environment/path.dsv\n'}
+[5.867906] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/pmb2_robot/local_setup.bash\n'}
+[5.877128] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/pmb2_robot/local_setup.sh\n'}
+[5.886373] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/pmb2_robot/local_setup.zsh\n'}
+[5.896605] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/pmb2_robot/local_setup.dsv\n'}
+[5.905870] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/pmb2_robot/package.dsv\n'}
+[5.907607] (-) TimerEvent: {}
+[5.915100] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/ament_index/resource_index/packages/pmb2_robot\n'}
+[5.925966] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/pmb2_robot/cmake/pmb2_robotConfig.cmake\n'}
+[5.937681] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/pmb2_robot/cmake/pmb2_robotConfig-version.cmake\n'}
+[5.947883] (pmb2_robot) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pmb2_robot/share/pmb2_robot/package.xml\n'}
+[5.960338] (pmb2_robot) CommandEnded: {'returncode': 0}
+[6.007715] (-) TimerEvent: {}
+[6.087104] (pmb2_robot) JobEnded: {'identifier': 'pmb2_robot', 'rc': 0}
+[6.087644] (-) EventReactorShutdown: {}

@@ -1,0 +1,58 @@
+[0.357s] Invoking command in '/SLAM/ros_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/tracetools_image_pipeline -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/tracetools_image_pipeline
+[0.884s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.884s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.884s] -- Checking for module 'lttng-ust'
+[0.884s] --   No package 'lttng-ust' found
+[0.885s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.886s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.886s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.887s] -- Configured cppcheck include dirs: 
+[0.888s] -- Configured cppcheck exclude dirs and/or files: 
+[0.888s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.889s] -- Configured cpplint exclude dirs and/or files: 
+[0.889s] -- Added test 'lint_cmake' to check CMake code style
+[0.890s] -- Added test 'uncrustify' to check C / C++ code style
+[0.890s] -- Configured uncrustify additional arguments: 
+[0.890s] -- Added test 'xmllint' to check XML markup files
+[0.890s] -- Configuring done
+[0.891s] -- Generating done
+[0.891s] -- Build files have been written to: /SLAM/ros_ws/build/tracetools_image_pipeline
+[0.902s] Invoked command in '/SLAM/ros_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/tracetools_image_pipeline -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/tracetools_image_pipeline
+[0.902s] Invoking command in '/SLAM/ros_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/tracetools_image_pipeline -- -j16 -l16
+[0.932s] [35m[1mConsolidate compiler generated dependencies of target tracetools_image_pipeline[0m
+[0.951s] [ 60%] Built target tracetools_image_pipeline
+[0.963s] [35m[1mConsolidate compiler generated dependencies of target status[0m
+[0.980s] [100%] Built target status
+[0.996s] Invoked command in '/SLAM/ros_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/tracetools_image_pipeline -- -j16 -l16
+[1.048s] Invoking command in '/SLAM/ros_ws/build/tracetools_image_pipeline': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/tracetools_image_pipeline
+[1.058s] -- Install configuration: "Release"
+[1.058s] -- Execute custom install script
+[1.059s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.sh
+[1.059s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/library_path.dsv
+[1.059s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/lib/tracetools_image_pipeline/status
+[1.060s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/config.h
+[1.060s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/tracetools.h
+[1.060s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/utils.hpp
+[1.060s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/include/tracetools_image_pipeline/visibility_control.hpp
+[1.060s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/ament_index/resource_index/package_run_dependencies/tracetools_image_pipeline
+[1.060s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/ament_index/resource_index/parent_prefix_path/tracetools_image_pipeline
+[1.061s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.sh
+[1.061s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/ament_prefix_path.dsv
+[1.061s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.sh
+[1.061s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/environment/path.dsv
+[1.061s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.bash
+[1.062s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.sh
+[1.062s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.zsh
+[1.062s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/local_setup.dsv
+[1.062s] -- Symlinking: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.dsv
+[1.073s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/ament_index/resource_index/packages/tracetools_image_pipeline
+[1.073s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_targets-extras.cmake
+[1.073s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.074s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/ament_cmake_export_libraries-extras.cmake
+[1.074s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig.cmake
+[1.074s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipelineConfig-version.cmake
+[1.074s] -- Up-to-date symlink: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/package.xml
+[1.075s] -- Up-to-date: /SLAM/ros_ws/install/tracetools_image_pipeline/lib/libtracetools_image_pipeline.so
+[1.075s] -- Up-to-date: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport.cmake
+[1.075s] -- Up-to-date: /SLAM/ros_ws/install/tracetools_image_pipeline/share/tracetools_image_pipeline/cmake/tracetools_image_pipeline_exportExport-release.cmake
+[1.078s] Invoked command in '/SLAM/ros_ws/build/tracetools_image_pipeline' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/tracetools_image_pipeline

@@ -1,0 +1,6 @@
+Invoking command in '/SLAM/ros_ws/build/rtabmap_msgs': /usr/bin/cmake /SLAM/ros_ws/src/rtabmap_ros/rtabmap_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/rtabmap_msgs
+Invoked command in '/SLAM/ros_ws/build/rtabmap_msgs' returned '0': /usr/bin/cmake /SLAM/ros_ws/src/rtabmap_ros/rtabmap_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/rtabmap_msgs
+Invoking command in '/SLAM/ros_ws/build/rtabmap_msgs': /usr/bin/cmake --build /SLAM/ros_ws/build/rtabmap_msgs
+Invoked command in '/SLAM/ros_ws/build/rtabmap_msgs' returned '0': /usr/bin/cmake --build /SLAM/ros_ws/build/rtabmap_msgs
+Invoking command in '/SLAM/ros_ws/build/rtabmap_msgs': /usr/bin/cmake --install /SLAM/ros_ws/build/rtabmap_msgs
+Invoked command in '/SLAM/ros_ws/build/rtabmap_msgs' returned '0': /usr/bin/cmake --install /SLAM/ros_ws/build/rtabmap_msgs

@@ -1,0 +1,248 @@
+[0.000000] (-) TimerEvent: {}
+[0.000307] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000339] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000362] (-) JobUnselected: {'identifier': 'br2_basics'}
+[0.000559] (-) JobUnselected: {'identifier': 'br2_bt_bumpgo'}
+[0.000843] (-) JobUnselected: {'identifier': 'br2_bt_patrolling'}
+[0.000997] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_cpp'}
+[0.001125] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_py'}
+[0.001168] (-) JobUnselected: {'identifier': 'br2_navigation'}
+[0.001256] (-) JobUnselected: {'identifier': 'br2_tf2_detector'}
+[0.001277] (-) JobUnselected: {'identifier': 'br2_tiago'}
+[0.001301] (-) JobUnselected: {'identifier': 'br2_tracking'}
+[0.001337] (-) JobUnselected: {'identifier': 'br2_tracking_msgs'}
+[0.001355] (-) JobUnselected: {'identifier': 'br2_vff_avoidance'}
+[0.001386] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.001472] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.001531] (-) JobUnselected: {'identifier': 'groot'}
+[0.001577] (-) JobUnselected: {'identifier': 'hey5_description'}
+[0.001593] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.001610] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.001638] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.001654] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.001751] (-) JobUnselected: {'identifier': 'image_view'}
+[0.001767] (-) JobUnselected: {'identifier': 'launch_pal'}
+[0.001783] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.001811] (-) JobUnselected: {'identifier': 'pal_gazebo_worlds'}
+[0.001876] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.001893] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.001910] (-) JobUnselected: {'identifier': 'pal_gripper_description'}
+[0.001937] (-) JobUnselected: {'identifier': 'pmb2_2dnav'}
+[0.001953] (-) JobUnselected: {'identifier': 'pmb2_bringup'}
+[0.002051] (-) JobUnselected: {'identifier': 'pmb2_controller_configuration'}
+[0.002070] (-) JobUnselected: {'identifier': 'pmb2_description'}
+[0.002088] (-) JobUnselected: {'identifier': 'pmb2_laser_sensors'}
+[0.002116] (-) JobUnselected: {'identifier': 'pmb2_maps'}
+[0.002134] (-) JobUnselected: {'identifier': 'pmb2_navigation'}
+[0.002150] (-) JobUnselected: {'identifier': 'pmb2_robot'}
+[0.002169] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.002200] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.002228] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.002349] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.002377] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.002410] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.002512] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.002536] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.002553] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.002570] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.002586] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.002601] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.002627] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.002642] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.002657] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.002672] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.002687] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.002730] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.002748] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.002764] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.002779] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.002795] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.002810] (-) JobUnselected: {'identifier': 'tiago_gazebo'}
+[0.002825] (-) JobUnselected: {'identifier': 'tiago_moveit_config'}
+[0.002840] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.002855] (-) JobUnselected: {'identifier': 'tiago_simulation'}
+[0.002870] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.002885] (-) JobUnselected: {'identifier': 'tutourial_intefaces'}
+[0.003068] (-) JobUnselected: {'identifier': 'urdf_test'}
+[0.003089] (tiago_laser_sensors) JobQueued: {'identifier': 'tiago_laser_sensors', 'dependencies': OrderedDict([('pmb2_laser_sensors', '/SLAM/ros_ws/install/pmb2_laser_sensors')])}
+[0.003112] (tiago_2dnav) JobQueued: {'identifier': 'tiago_2dnav', 'dependencies': OrderedDict([('launch_pal', '/SLAM/ros_ws/install/launch_pal'), ('pmb2_laser_sensors', '/SLAM/ros_ws/install/pmb2_laser_sensors'), ('pmb2_maps', '/SLAM/ros_ws/install/pmb2_maps'), ('pmb2_2dnav', '/SLAM/ros_ws/install/pmb2_2dnav')])}
+[0.003135] (tiago_navigation) JobQueued: {'identifier': 'tiago_navigation', 'dependencies': OrderedDict([('launch_pal', '/SLAM/ros_ws/install/launch_pal'), ('pmb2_laser_sensors', '/SLAM/ros_ws/install/pmb2_laser_sensors'), ('pmb2_maps', '/SLAM/ros_ws/install/pmb2_maps'), ('pmb2_2dnav', '/SLAM/ros_ws/install/pmb2_2dnav'), ('tiago_laser_sensors', '/SLAM/ros_ws/install/tiago_laser_sensors'), ('tiago_2dnav', '/SLAM/ros_ws/install/tiago_2dnav')])}
+[0.003158] (tiago_laser_sensors) JobStarted: {'identifier': 'tiago_laser_sensors'}
+[0.050194] (tiago_2dnav) JobStarted: {'identifier': 'tiago_2dnav'}
+[0.096137] (tiago_laser_sensors) JobProgress: {'identifier': 'tiago_laser_sensors', 'progress': 'cmake'}
+[0.096377] (tiago_laser_sensors) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/ThirdParty/tiago_navigation/tiago_laser_sensors', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/tiago_laser_sensors'], 'cwd': '/SLAM/ros_ws/build/tiago_laser_sensors', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_laser_sensors:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/tiago_laser_sensors'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_laser_sensors:/opt/ros/humble')]), 'shell': False}
+[0.100127] (-) TimerEvent: {}
+[0.101242] (tiago_2dnav) JobProgress: {'identifier': 'tiago_2dnav', 'progress': 'cmake'}
+[0.101423] (tiago_2dnav) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/ThirdParty/tiago_navigation/tiago_2dnav', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/tiago_2dnav'], 'cwd': '/SLAM/ros_ws/build/tiago_2dnav', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/tiago_2dnav'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/opt/ros/humble')]), 'shell': False}
+[0.200249] (-) TimerEvent: {}
+[0.202233] (tiago_laser_sensors) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.203085] (tiago_2dnav) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.265972] (tiago_laser_sensors) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.266730] (tiago_2dnav) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.274539] (tiago_laser_sensors) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.276177] (tiago_2dnav) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300432] (-) TimerEvent: {}
+[0.364335] (tiago_2dnav) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.364687] (tiago_laser_sensors) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.371111] (tiago_laser_sensors) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.371377] (tiago_2dnav) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.371468] (tiago_laser_sensors) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.371566] (tiago_2dnav) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.371685] (tiago_laser_sensors) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.371755] (tiago_2dnav) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.374474] (tiago_laser_sensors) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.374611] (tiago_2dnav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400525] (-) TimerEvent: {}
+[0.472624] (tiago_laser_sensors) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.472864] (tiago_2dnav) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.479741] (tiago_laser_sensors) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.480069] (tiago_laser_sensors) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.480363] (tiago_laser_sensors) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.481806] (tiago_2dnav) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.482123] (tiago_2dnav) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.482599] (tiago_2dnav) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.485911] (tiago_laser_sensors) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.488397] (tiago_2dnav) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.500620] (-) TimerEvent: {}
+[0.601013] (-) TimerEvent: {}
+[0.701886] (-) TimerEvent: {}
+[0.740033] (tiago_laser_sensors) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.751263] (tiago_2dnav) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.802029] (-) TimerEvent: {}
+[0.814305] (tiago_laser_sensors) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.827967] (tiago_2dnav) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.902114] (-) TimerEvent: {}
+[0.943333] (tiago_2dnav) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.975559] (tiago_laser_sensors) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.977373] (tiago_laser_sensors) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.977844] (tiago_laser_sensors) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.978216] (tiago_laser_sensors) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.979096] (tiago_laser_sensors) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.980425] (tiago_laser_sensors) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.983290] (tiago_2dnav) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.984159] (tiago_laser_sensors) StdoutLine: {'line': b'-- Generating done\n'}
+[0.985025] (tiago_laser_sensors) StdoutLine: {'line': b'-- Build files have been written to: /SLAM/ros_ws/build/tiago_laser_sensors\n'}
+[0.985116] (tiago_2dnav) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.985632] (tiago_2dnav) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.986044] (tiago_2dnav) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.986963] (tiago_2dnav) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.988397] (tiago_2dnav) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.990302] (tiago_laser_sensors) CommandEnded: {'returncode': 0}
+[0.990735] (tiago_laser_sensors) JobProgress: {'identifier': 'tiago_laser_sensors', 'progress': 'build'}
+[0.991454] (tiago_laser_sensors) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/tiago_laser_sensors', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/tiago_laser_sensors', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_laser_sensors:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/tiago_laser_sensors'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_laser_sensors:/opt/ros/humble')]), 'shell': False}
+[0.992418] (tiago_2dnav) StdoutLine: {'line': b'-- Generating done\n'}
+[0.993102] (tiago_2dnav) StdoutLine: {'line': b'-- Build files have been written to: /SLAM/ros_ws/build/tiago_2dnav\n'}
+[0.998140] (tiago_2dnav) CommandEnded: {'returncode': 0}
+[0.998663] (tiago_2dnav) JobProgress: {'identifier': 'tiago_2dnav', 'progress': 'build'}
+[0.999002] (tiago_2dnav) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/tiago_2dnav', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/tiago_2dnav', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/tiago_2dnav'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/opt/ros/humble')]), 'shell': False}
+[1.002173] (-) TimerEvent: {}
+[1.035625] (tiago_laser_sensors) CommandEnded: {'returncode': 0}
+[1.045651] (tiago_2dnav) CommandEnded: {'returncode': 0}
+[1.059595] (tiago_laser_sensors) JobProgress: {'identifier': 'tiago_laser_sensors', 'progress': 'install'}
+[1.069799] (tiago_laser_sensors) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/tiago_laser_sensors'], 'cwd': '/SLAM/ros_ws/build/tiago_laser_sensors', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_laser_sensors:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/tiago_laser_sensors'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_laser_sensors:/opt/ros/humble')]), 'shell': False}
+[1.071180] (tiago_2dnav) JobProgress: {'identifier': 'tiago_2dnav', 'progress': 'install'}
+[1.071587] (tiago_2dnav) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/tiago_2dnav'], 'cwd': '/SLAM/ros_ws/build/tiago_2dnav', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/tiago_2dnav'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/opt/ros/humble')]), 'shell': False}
+[1.078548] (tiago_laser_sensors) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.078859] (tiago_laser_sensors) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.079127] (tiago_2dnav) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.079446] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/launch/laser.launch.py\n'}
+[1.079544] (tiago_2dnav) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.080136] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/launch/tiago_nav_bringup.launch.py\n'}
+[1.091214] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/launch/tiago_sim_nav_bringup.launch.py\n'}
+[1.091518] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/ament_index/resource_index/package_run_dependencies/tiago_laser_sensors\n'}
+[1.102275] (-) TimerEvent: {}
+[1.102495] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/ament_index/resource_index/parent_prefix_path/tiago_laser_sensors\n'}
+[1.102690] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/params/tiago_remappings.yaml\n'}
+[1.114684] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/ament_prefix_path.sh\n'}
+[1.114922] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/ament_index/resource_index/package_run_dependencies/tiago_2dnav\n'}
+[1.126718] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/ament_index/resource_index/parent_prefix_path/tiago_2dnav\n'}
+[1.126917] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/ament_prefix_path.dsv\n'}
+[1.138207] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/path.sh\n'}
+[1.138485] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/environment/ament_prefix_path.sh\n'}
+[1.149887] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/environment/path.dsv\n'}
+[1.150086] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/environment/ament_prefix_path.dsv\n'}
+[1.161141] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.bash\n'}
+[1.161331] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/environment/path.sh\n'}
+[1.172417] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/environment/path.dsv\n'}
+[1.172636] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.sh\n'}
+[1.184133] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/local_setup.bash\n'}
+[1.184624] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.zsh\n'}
+[1.195510] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/local_setup.dsv\n'}
+[1.195938] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/local_setup.sh\n'}
+[1.202426] (-) TimerEvent: {}
+[1.206857] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/package.dsv\n'}
+[1.207223] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/local_setup.zsh\n'}
+[1.218180] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/local_setup.dsv\n'}
+[1.218591] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/ament_index/resource_index/packages/tiago_laser_sensors\n'}
+[1.229235] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/package.dsv\n'}
+[1.229503] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/cmake/tiago_laser_sensorsConfig.cmake\n'}
+[1.239107] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/cmake/tiago_laser_sensorsConfig-version.cmake\n'}
+[1.239292] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/ament_index/resource_index/packages/tiago_2dnav\n'}
+[1.249665] (tiago_laser_sensors) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_laser_sensors/share/tiago_laser_sensors/package.xml\n'}
+[1.250352] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/cmake/tiago_2dnavConfig.cmake\n'}
+[1.260711] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/cmake/tiago_2dnavConfig-version.cmake\n'}
+[1.262843] (tiago_laser_sensors) CommandEnded: {'returncode': 0}
+[1.270806] (tiago_2dnav) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_2dnav/share/tiago_2dnav/package.xml\n'}
+[1.306580] (-) TimerEvent: {}
+[1.330799] (tiago_2dnav) CommandEnded: {'returncode': 0}
+[1.406782] (-) TimerEvent: {}
+[1.434549] (tiago_laser_sensors) JobEnded: {'identifier': 'tiago_laser_sensors', 'rc': 0}
+[1.493617] (tiago_2dnav) JobEnded: {'identifier': 'tiago_2dnav', 'rc': 0}
+[1.494250] (tiago_navigation) JobStarted: {'identifier': 'tiago_navigation'}
+[1.506930] (-) TimerEvent: {}
+[1.544549] (tiago_navigation) JobProgress: {'identifier': 'tiago_navigation', 'progress': 'cmake'}
+[1.544912] (tiago_navigation) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/ThirdParty/tiago_navigation/tiago_navigation', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/tiago_navigation'], 'cwd': '/SLAM/ros_ws/build/tiago_navigation', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/tiago_2dnav:/SLAM/ros_ws/install/tiago_laser_sensors:/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/tiago_navigation'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/tiago_2dnav:/SLAM/ros_ws/install/tiago_laser_sensors:/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/opt/ros/humble')]), 'shell': False}
+[1.600475] (tiago_navigation) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.607041] (-) TimerEvent: {}
+[1.655730] (tiago_navigation) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.662518] (tiago_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.707133] (-) TimerEvent: {}
+[1.732931] (tiago_navigation) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.738842] (tiago_navigation) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.739073] (tiago_navigation) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.739556] (tiago_navigation) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.742257] (tiago_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.807350] (-) TimerEvent: {}
+[1.836646] (tiago_navigation) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.843051] (tiago_navigation) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.843292] (tiago_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.843683] (tiago_navigation) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.849820] (tiago_navigation) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.907439] (-) TimerEvent: {}
+[2.007807] (-) TimerEvent: {}
+[2.026610] (tiago_navigation) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[2.080989] (tiago_navigation) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[2.107908] (-) TimerEvent: {}
+[2.208351] (-) TimerEvent: {}
+[2.217078] (tiago_navigation) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.221094] (tiago_navigation) StdoutLine: {'line': b'-- Generating done\n'}
+[2.221922] (tiago_navigation) StdoutLine: {'line': b'-- Build files have been written to: /SLAM/ros_ws/build/tiago_navigation\n'}
+[2.228216] (tiago_navigation) CommandEnded: {'returncode': 0}
+[2.228818] (tiago_navigation) JobProgress: {'identifier': 'tiago_navigation', 'progress': 'build'}
+[2.229027] (tiago_navigation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/tiago_navigation', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/tiago_navigation', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/tiago_2dnav:/SLAM/ros_ws/install/tiago_laser_sensors:/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/tiago_navigation'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/tiago_2dnav:/SLAM/ros_ws/install/tiago_laser_sensors:/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/opt/ros/humble')]), 'shell': False}
+[2.271868] (tiago_navigation) CommandEnded: {'returncode': 0}
+[2.297686] (tiago_navigation) JobProgress: {'identifier': 'tiago_navigation', 'progress': 'install'}
+[2.298137] (tiago_navigation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/tiago_navigation'], 'cwd': '/SLAM/ros_ws/build/tiago_navigation', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/tiago_2dnav:/SLAM/ros_ws/install/tiago_laser_sensors:/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/SLAM/ros_ws/install/launch_pal:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/tiago_navigation'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/tiago_2dnav:/SLAM/ros_ws/install/tiago_laser_sensors:/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/opt/ros/humble')]), 'shell': False}
+[2.307297] (tiago_navigation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.307635] (tiago_navigation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.308083] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/ament_index/resource_index/package_run_dependencies/tiago_navigation\n'}
+[2.308364] (-) TimerEvent: {}
+[2.318444] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/ament_index/resource_index/parent_prefix_path/tiago_navigation\n'}
+[2.328869] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/tiago_navigation/environment/ament_prefix_path.sh\n'}
+[2.338849] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/tiago_navigation/environment/ament_prefix_path.dsv\n'}
+[2.348834] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/tiago_navigation/environment/path.sh\n'}
+[2.358610] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/tiago_navigation/environment/path.dsv\n'}
+[2.368414] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/tiago_navigation/local_setup.bash\n'}
+[2.378442] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/tiago_navigation/local_setup.sh\n'}
+[2.388755] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/tiago_navigation/local_setup.zsh\n'}
+[2.399496] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/tiago_navigation/local_setup.dsv\n'}
+[2.408463] (-) TimerEvent: {}
+[2.409731] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/tiago_navigation/package.dsv\n'}
+[2.420257] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/ament_index/resource_index/packages/tiago_navigation\n'}
+[2.431765] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/tiago_navigation/cmake/tiago_navigationConfig.cmake\n'}
+[2.441593] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/tiago_navigation/cmake/tiago_navigationConfig-version.cmake\n'}
+[2.451580] (tiago_navigation) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/tiago_navigation/share/tiago_navigation/package.xml\n'}
+[2.463703] (tiago_navigation) CommandEnded: {'returncode': 0}
+[2.508578] (-) TimerEvent: {}
+[2.582906] (tiago_navigation) JobEnded: {'identifier': 'tiago_navigation', 'rc': 0}
+[2.583667] (-) EventReactorShutdown: {}

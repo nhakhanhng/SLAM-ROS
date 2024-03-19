@@ -1,0 +1,43 @@
+[0.100s] Invoking command in '/SLAM/ros_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/orbbec_description
+[0.152s] -- The C compiler identification is GNU 11.4.0
+[0.209s] -- The CXX compiler identification is GNU 11.4.0
+[0.216s] -- Detecting C compiler ABI info
+[0.293s] -- Detecting C compiler ABI info - done
+[0.300s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.300s] -- Detecting C compile features
+[0.300s] -- Detecting C compile features - done
+[0.303s] -- Detecting CXX compiler ABI info
+[0.406s] -- Detecting CXX compiler ABI info - done
+[0.412s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.412s] -- Detecting CXX compile features
+[0.413s] -- Detecting CXX compile features - done
+[0.418s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.604s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.739s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.836s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.839s] -- Added test 'lint_cmake' to check CMake code style
+[0.840s] -- Added test 'xmllint' to check XML markup files
+[0.842s] -- Configuring done
+[0.847s] -- Generating done
+[0.848s] -- Build files have been written to: /SLAM/ros_ws/build/orbbec_description
+[0.853s] Invoked command in '/SLAM/ros_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/orbbec_description
+[0.855s] Invoking command in '/SLAM/ros_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/orbbec_description -- -j16 -l16
+[0.907s] Invoked command in '/SLAM/ros_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/orbbec_description -- -j16 -l16
+[0.950s] Invoking command in '/SLAM/ros_ws/build/orbbec_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/orbbec_description
+[0.959s] -- Install configuration: "Release"
+[0.959s] -- Installing: /SLAM/ros_ws/install/orbbec_description/share/ament_index/resource_index/package_run_dependencies/orbbec_description
+[0.960s] -- Installing: /SLAM/ros_ws/install/orbbec_description/share/ament_index/resource_index/parent_prefix_path/orbbec_description
+[0.960s] -- Up-to-date: /SLAM/ros_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.sh
+[0.960s] -- Installing: /SLAM/ros_ws/install/orbbec_description/share/orbbec_description/environment/ament_prefix_path.dsv
+[0.960s] -- Up-to-date: /SLAM/ros_ws/install/orbbec_description/share/orbbec_description/environment/path.sh
+[0.960s] -- Installing: /SLAM/ros_ws/install/orbbec_description/share/orbbec_description/environment/path.dsv
+[0.960s] -- Installing: /SLAM/ros_ws/install/orbbec_description/share/orbbec_description/local_setup.bash
+[0.960s] -- Installing: /SLAM/ros_ws/install/orbbec_description/share/orbbec_description/local_setup.sh
+[0.961s] -- Installing: /SLAM/ros_ws/install/orbbec_description/share/orbbec_description/local_setup.zsh
+[0.961s] -- Installing: /SLAM/ros_ws/install/orbbec_description/share/orbbec_description/local_setup.dsv
+[0.961s] -- Installing: /SLAM/ros_ws/install/orbbec_description/share/orbbec_description/package.dsv
+[0.961s] -- Installing: /SLAM/ros_ws/install/orbbec_description/share/ament_index/resource_index/packages/orbbec_description
+[0.961s] -- Installing: /SLAM/ros_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig.cmake
+[0.961s] -- Installing: /SLAM/ros_ws/install/orbbec_description/share/orbbec_description/cmake/orbbec_descriptionConfig-version.cmake
+[0.962s] -- Up-to-date: /SLAM/ros_ws/install/orbbec_description/share/orbbec_description/package.xml
+[0.964s] Invoked command in '/SLAM/ros_ws/build/orbbec_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/orbbec_description

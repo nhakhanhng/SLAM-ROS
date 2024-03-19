@@ -1,0 +1,8 @@
+[01m[K/SLAM/ros_ws/src/ros2_astra_camera/astra_camera/src/point_cloud_proc/point_cloud_xyzrgb.cpp:[m[K In constructor ‘[01m[Kastra_camera::PointCloudXyzrgbNode::PointCloudXyzrgbNode(rclcpp::Node*, std::shared_ptr<astra_camera::Parameters>)[m[K’:
+[01m[K/SLAM/ros_ws/src/ros2_astra_camera/astra_camera/src/point_cloud_proc/point_cloud_xyzrgb.cpp:93:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kprinf[m[K’ was not declared in this scope; did you mean ‘[01m[Kprintf[m[K’?
+   93 |   [01;31m[Kprinf[m[K("PointCloud, Create publisher\r\n");
+      |   [01;31m[K^~~~~[m[K
+      |   [32m[Kprintf[m[K
+gmake[2]: *** [CMakeFiles/astra_camera.dir/build.make:90: CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyzrgb.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/astra_camera.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

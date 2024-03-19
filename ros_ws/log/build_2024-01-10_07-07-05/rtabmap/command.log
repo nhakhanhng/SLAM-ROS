@@ -1,0 +1,4 @@
+Invoking command in '/SLAM/ros_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/rtabmap
+Invoked command in '/SLAM/ros_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/rtabmap
+Invoking command in '/SLAM/ros_ws/build/rtabmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/rtabmap
+Invoked command in '/SLAM/ros_ws/build/rtabmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/rtabmap

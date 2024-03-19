@@ -1,0 +1,2 @@
+Invoking command in '/SLAM/ros_ws/build/glog': /usr/bin/cmake /SLAM/ros_ws/glog-0.6.0 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/glog
+Invoked command in '/SLAM/ros_ws/build/glog' returned '1': /usr/bin/cmake /SLAM/ros_ws/glog-0.6.0 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/glog

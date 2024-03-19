@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target br2_forward_bt_node[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[35m[1mConsolidate compiler generated dependencies of target br2_back_bt_node[0m
+[35m[1mConsolidate compiler generated dependencies of target br2_turn_bt_node[0m
+[35m[1mConsolidate compiler generated dependencies of target br2_is_obstacle_bt_node[0m
+[35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[35m[1mConsolidate compiler generated dependencies of target bt_bumpgo[0m
+[35m[1mConsolidate compiler generated dependencies of target bt_forward[0m
+[ 11%] Built target gtest
+[ 22%] Built target br2_forward_bt_node
+[ 33%] Built target br2_back_bt_node
+[ 44%] Built target br2_turn_bt_node
+[ 55%] Built target bt_bumpgo
+[ 66%] Built target br2_is_obstacle_bt_node
+[ 77%] Built target gtest_main
+[ 88%] Built target bt_forward
+[35m[1mConsolidate compiler generated dependencies of target bt_action_test[0m
+[100%] Built target bt_action_test

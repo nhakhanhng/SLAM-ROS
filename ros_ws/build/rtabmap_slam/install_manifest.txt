@@ -1,0 +1,5 @@
+/SLAM/ros_ws/install/rtabmap_slam/lib/librtabmap_slam_plugins.so
+/SLAM/ros_ws/install/rtabmap_slam/include/rtabmap_slam/CoreWrapper.h
+/SLAM/ros_ws/install/rtabmap_slam/include/rtabmap_slam/visibility.h
+/SLAM/ros_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamExport.cmake
+/SLAM/ros_ws/install/rtabmap_slam/share/rtabmap_slam/cmake/rtabmap_slamExport-noconfig.cmake

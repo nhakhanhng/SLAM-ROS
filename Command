@@ -1,0 +1,3 @@
+docker run -it --user ros --name ROS --network=host --ipc=host --device=/dev/ttyUSB0 -v /home/khanh/Documents/SLAM:/SLAM -v /tmp/.X11-unix/:/tmp/.X11-unix:rw --env=DISPLAY custom_ros
+
+docker run --privileged -v /dev/bus/usb:/dev/bus/usb -v /dev:/dev  -it --user ros --name ROSv2.3 --network=host --ipc=host -v /home/khanh/Documents/SLAM:/SLAM -v /tmp/.X11-unix/:/tmp/.X11-unix:rw --env=DISPLAY 759e959a0e98

@@ -1,0 +1,146 @@
+[0.000000] (-) TimerEvent: {}
+[0.000283] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000312] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000331] (-) JobUnselected: {'identifier': 'br2_basics'}
+[0.000453] (-) JobUnselected: {'identifier': 'br2_bt_bumpgo'}
+[0.000515] (-) JobUnselected: {'identifier': 'br2_bt_patrolling'}
+[0.000547] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_cpp'}
+[0.000585] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_py'}
+[0.000601] (-) JobUnselected: {'identifier': 'br2_navigation'}
+[0.000615] (-) JobUnselected: {'identifier': 'br2_tf2_detector'}
+[0.000628] (-) JobUnselected: {'identifier': 'br2_tiago'}
+[0.000641] (-) JobUnselected: {'identifier': 'br2_tracking'}
+[0.000699] (-) JobUnselected: {'identifier': 'br2_tracking_msgs'}
+[0.000717] (-) JobUnselected: {'identifier': 'br2_vff_avoidance'}
+[0.000733] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000763] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000779] (-) JobUnselected: {'identifier': 'groot'}
+[0.000854] (-) JobUnselected: {'identifier': 'hey5_description'}
+[0.000908] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.000956] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.000973] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000989] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.001018] (-) JobUnselected: {'identifier': 'image_view'}
+[0.001034] (-) JobUnselected: {'identifier': 'launch_pal'}
+[0.001127] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.001143] (-) JobUnselected: {'identifier': 'pal_gazebo_worlds'}
+[0.001159] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.001173] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.001188] (-) JobUnselected: {'identifier': 'pmb2_2dnav'}
+[0.001202] (-) JobUnselected: {'identifier': 'pmb2_bringup'}
+[0.001215] (-) JobUnselected: {'identifier': 'pmb2_controller_configuration'}
+[0.001237] (-) JobUnselected: {'identifier': 'pmb2_description'}
+[0.001273] (-) JobUnselected: {'identifier': 'pmb2_laser_sensors'}
+[0.001299] (-) JobUnselected: {'identifier': 'pmb2_maps'}
+[0.001318] (-) JobUnselected: {'identifier': 'pmb2_navigation'}
+[0.001333] (-) JobUnselected: {'identifier': 'pmb2_robot'}
+[0.001367] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.001453] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.001470] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.001486] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.001516] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.001532] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.001626] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.001642] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.001657] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.001673] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.001698] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.001713] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.001803] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.001819] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.001834] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.001861] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.001876] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.001959] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001978] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.001993] (-) JobUnselected: {'identifier': 'tiago_2dnav'}
+[0.002009] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.002032] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.002048] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.002146] (-) JobUnselected: {'identifier': 'tiago_gazebo'}
+[0.002161] (-) JobUnselected: {'identifier': 'tiago_laser_sensors'}
+[0.002176] (-) JobUnselected: {'identifier': 'tiago_moveit_config'}
+[0.002203] (-) JobUnselected: {'identifier': 'tiago_navigation'}
+[0.002279] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.002296] (-) JobUnselected: {'identifier': 'tiago_simulation'}
+[0.002319] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.002334] (-) JobUnselected: {'identifier': 'tutourial_intefaces'}
+[0.002348] (-) JobUnselected: {'identifier': 'urdf_test'}
+[0.002411] (pal_gripper_description) JobQueued: {'identifier': 'pal_gripper_description', 'dependencies': OrderedDict([('urdf_test', '/SLAM/ros_ws/install/urdf_test')])}
+[0.002435] (pal_gripper_description) JobStarted: {'identifier': 'pal_gripper_description'}
+[0.086681] (pal_gripper_description) JobProgress: {'identifier': 'pal_gripper_description', 'progress': 'cmake'}
+[0.086911] (pal_gripper_description) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/ThirdParty/pal_gripper/pal_gripper_description', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/pal_gripper_description'], 'cwd': '/SLAM/ros_ws/build/pal_gripper_description', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/urdf_test:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pal_gripper_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/urdf_test:/opt/ros/humble')]), 'shell': False}
+[0.099399] (-) TimerEvent: {}
+[0.144643] (pal_gripper_description) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.197251] (pal_gripper_description) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.199482] (-) TimerEvent: {}
+[0.204377] (pal_gripper_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.274622] (pal_gripper_description) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.280379] (pal_gripper_description) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.280562] (pal_gripper_description) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.280867] (pal_gripper_description) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.283455] (pal_gripper_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299578] (-) TimerEvent: {}
+[0.368126] (pal_gripper_description) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.374202] (pal_gripper_description) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.374429] (pal_gripper_description) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.374803] (pal_gripper_description) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.378865] (pal_gripper_description) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.399693] (-) TimerEvent: {}
+[0.500060] (-) TimerEvent: {}
+[0.539119] (pal_gripper_description) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.596081] (pal_gripper_description) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.600147] (-) TimerEvent: {}
+[0.651161] (pal_gripper_description) StdoutLine: {'line': b'-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)\n'}
+[0.700237] (-) TimerEvent: {}
+[0.734127] (pal_gripper_description) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.774416] (pal_gripper_description) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.778393] (pal_gripper_description) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.780475] (pal_gripper_description) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.782435] (pal_gripper_description) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.786127] (pal_gripper_description) StdoutLine: {'line': b'-- Generating done\n'}
+[0.786975] (pal_gripper_description) StdoutLine: {'line': b'-- Build files have been written to: /SLAM/ros_ws/build/pal_gripper_description\n'}
+[0.792079] (pal_gripper_description) CommandEnded: {'returncode': 0}
+[0.792594] (pal_gripper_description) JobProgress: {'identifier': 'pal_gripper_description', 'progress': 'build'}
+[0.793152] (pal_gripper_description) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/pal_gripper_description', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/pal_gripper_description', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/urdf_test:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pal_gripper_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/urdf_test:/opt/ros/humble')]), 'shell': False}
+[0.800308] (-) TimerEvent: {}
+[0.837368] (pal_gripper_description) CommandEnded: {'returncode': 0}
+[0.862416] (pal_gripper_description) JobProgress: {'identifier': 'pal_gripper_description', 'progress': 'install'}
+[0.871750] (pal_gripper_description) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/pal_gripper_description'], 'cwd': '/SLAM/ros_ws/build/pal_gripper_description', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f75ace74-3a63-4e17-9c42-2d0b6a46ea6c.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-50c619c6-2daf-4bfc-b140-aa6923d4a067.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/urdf_test:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/pal_gripper_description'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/urdf_test:/opt/ros/humble')]), 'shell': False}
+[0.879989] (pal_gripper_description) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.880359] (pal_gripper_description) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.880926] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/gazebo/gazebo.urdf.xacro\n'}
+[0.890525] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_finger_link.stl\n'}
+[0.900401] (-) TimerEvent: {}
+[0.901061] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_finger_link_collision.stl\n'}
+[0.911196] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_link.stl\n'}
+[0.922802] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/meshes/gripper_link_collision.stl\n'}
+[0.933249] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/robots/gripper_test.urdf.xacro\n'}
+[0.943188] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/robots/upload.launch\n'}
+[0.952516] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/robots/upload_gripper.launch\n'}
+[0.962186] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.gazebo.xacro\n'}
+[0.971558] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.ros2_control.xacro\n'}
+[0.981349] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.transmission.xacro\n'}
+[0.990380] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/urdf/gripper.urdf.xacro\n'}
+[0.999166] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/ament_index/resource_index/package_run_dependencies/pal_gripper_description\n'}
+[1.000457] (-) TimerEvent: {}
+[1.009165] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/ament_index/resource_index/parent_prefix_path/pal_gripper_description\n'}
+[1.020775] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/environment/ament_prefix_path.sh\n'}
+[1.030710] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/environment/ament_prefix_path.dsv\n'}
+[1.040498] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/environment/path.sh\n'}
+[1.050113] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/environment/path.dsv\n'}
+[1.060448] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.bash\n'}
+[1.070506] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.sh\n'}
+[1.080152] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.zsh\n'}
+[1.089293] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/local_setup.dsv\n'}
+[1.099312] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/package.dsv\n'}
+[1.100535] (-) TimerEvent: {}
+[1.108979] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/ament_index/resource_index/packages/pal_gripper_description\n'}
+[1.119515] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.130009] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/pal_gripper_descriptionConfig.cmake\n'}
+[1.140281] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/cmake/pal_gripper_descriptionConfig-version.cmake\n'}
+[1.149703] (pal_gripper_description) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/pal_gripper_description/share/pal_gripper_description/package.xml\n'}
+[1.160578] (pal_gripper_description) CommandEnded: {'returncode': 0}
+[1.200698] (-) TimerEvent: {}
+[1.278022] (pal_gripper_description) JobEnded: {'identifier': 'pal_gripper_description', 'rc': 0}
+[1.278730] (-) EventReactorShutdown: {}

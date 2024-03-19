@@ -1,0 +1,2 @@
+Invoking command in '/SLAM/ros_ws/build/image_view': /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_view -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_view
+Invoked command in '/SLAM/ros_ws/build/image_view' returned '1': /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_view -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_view

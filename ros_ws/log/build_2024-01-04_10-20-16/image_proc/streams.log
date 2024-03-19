@@ -1,0 +1,108 @@
+[0.117s] Invoking command in '/SLAM/ros_ws/build/image_proc': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /SLAM/ros_ws/build/image_proc -- -j16 -l16
+[0.160s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.456s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.460s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.470s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.489s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.516s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.113s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.115s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.605s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.444s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.479s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.483s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.485s] -- Configured cppcheck include dirs: /SLAM/ros_ws/src/image_pipeline/image_proc/include
+[2.486s] -- Configured cppcheck exclude dirs and/or files: 
+[2.491s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.492s] -- Configured cpplint exclude dirs and/or files: 
+[2.494s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.496s] -- Added test 'lint_cmake' to check CMake code style
+[2.498s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.503s] -- Added test 'uncrustify' to check C / C++ code style
+[2.503s] -- Configured uncrustify additional arguments: 
+[2.506s] -- Added test 'xmllint' to check XML markup files
+[2.516s] -- Configuring done
+[2.743s] -- Generating done
+[2.760s] -- Build files have been written to: /SLAM/ros_ws/build/image_proc
+[2.950s] [35m[1mConsolidate compiler generated dependencies of target image_proc[0m
+[3.085s] [  6%] [32mBuilding CXX object CMakeFiles/image_proc.dir/src/image_proc/processor.cpp.o[0m
+[7.172s] [ 13%] [32m[1mLinking CXX shared library libimage_proc.so[0m
+[7.745s] [ 13%] Built target image_proc
+[7.829s] [35m[1mConsolidate compiler generated dependencies of target rectify[0m
+[7.984s] [ 20%] [32mBuilding CXX object CMakeFiles/rectify.dir/src/rectify.cpp.o[0m
+[17.164s] [ 26%] [32m[1mLinking CXX shared library librectify.so[0m
+[17.468s] [ 26%] Built target rectify
+[17.487s] [35m[1mConsolidate compiler generated dependencies of target debayer[0m
+[17.540s] [ 33%] [32mBuilding CXX object CMakeFiles/debayer.dir/src/debayer.cpp.o[0m
+[17.560s] [ 40%] [32mBuilding CXX object CMakeFiles/debayer.dir/src/edge_aware.cpp.o[0m
+[24.985s] [ 46%] [32m[1mLinking CXX shared library libdebayer.so[0m
+[25.233s] [ 46%] Built target debayer
+[25.256s] [35m[1mConsolidate compiler generated dependencies of target resize[0m
+[25.293s] [ 53%] [32mBuilding CXX object CMakeFiles/resize.dir/src/resize.cpp.o[0m
+[30.566s] [ 60%] [32m[1mLinking CXX shared library libresize.so[0m
+[30.861s] [ 60%] Built target resize
+[30.886s] [35m[1mConsolidate compiler generated dependencies of target crop_decimate[0m
+[30.930s] [ 66%] [32mBuilding CXX object CMakeFiles/crop_decimate.dir/src/crop_decimate.cpp.o[0m
+[36.359s] [ 73%] [32m[1mLinking CXX shared library libcrop_decimate.so[0m
+[36.533s] [ 73%] Built target crop_decimate
+[36.551s] [35m[1mConsolidate compiler generated dependencies of target crop_non_zero[0m
+[36.581s] [ 80%] [32mBuilding CXX object CMakeFiles/crop_non_zero.dir/src/crop_non_zero.cpp.o[0m
+[40.884s] [ 86%] [32m[1mLinking CXX shared library libcrop_non_zero.so[0m
+[41.045s] [ 86%] Built target crop_non_zero
+[41.060s] [35m[1mConsolidate compiler generated dependencies of target image_proc_exe[0m
+[41.088s] [ 93%] [32mBuilding CXX object CMakeFiles/image_proc_exe.dir/src/image_proc.cpp.o[0m
+[44.420s] [100%] [32m[1mLinking CXX executable image_proc[0m
+[44.826s] [100%] Built target image_proc_exe
+[44.842s] Invoked command in '/SLAM/ros_ws/build/image_proc' returned '0': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /SLAM/ros_ws/build/image_proc -- -j16 -l16
+[44.921s] Invoking command in '/SLAM/ros_ws/build/image_proc': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /SLAM/ros_ws/build/image_proc
+[44.931s] -- Install configuration: "Release"
+[44.931s] -- Installing: /SLAM/ros_ws/install/image_proc/bin/image_proc
+[44.931s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/bin/image_proc" to ""
+[44.931s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/include
+[44.932s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/include/image_proc
+[44.932s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/edge_aware.hpp
+[44.932s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/processor.hpp
+[44.932s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/crop_decimate.hpp
+[44.932s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/debayer.hpp
+[44.932s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/resize.hpp
+[44.932s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/crop_non_zero.hpp
+[44.932s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/rectify.hpp
+[44.933s] -- Installing: /SLAM/ros_ws/install/image_proc/include/image_proc/utils.hpp
+[44.933s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/library_path.sh
+[44.933s] -- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/library_path.dsv
+[44.933s] -- Installing: /SLAM/ros_ws/install/image_proc/lib/libimage_proc.so
+[44.934s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libimage_proc.so" to ""
+[44.934s] -- Installing: /SLAM/ros_ws/install/image_proc/lib/librectify.so
+[44.935s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/librectify.so" to ""
+[44.935s] -- Installing: /SLAM/ros_ws/install/image_proc/lib/libdebayer.so
+[44.935s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libdebayer.so" to ""
+[44.936s] -- Installing: /SLAM/ros_ws/install/image_proc/lib/libresize.so
+[44.936s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libresize.so" to ""
+[44.936s] -- Installing: /SLAM/ros_ws/install/image_proc/lib/libcrop_decimate.so
+[44.937s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libcrop_decimate.so" to ""
+[44.937s] -- Installing: /SLAM/ros_ws/install/image_proc/lib/libcrop_non_zero.so
+[44.938s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/libcrop_non_zero.so" to ""
+[44.938s] -- Installing: /SLAM/ros_ws/install/image_proc/lib/image_proc/image_proc
+[44.938s] -- Set runtime path of "/SLAM/ros_ws/install/image_proc/lib/image_proc/image_proc" to ""
+[44.939s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/launch
+[44.939s] -- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/launch/image_proc.launch.py
+[44.939s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/package_run_dependencies/image_proc
+[44.939s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/parent_prefix_path/image_proc
+[44.939s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/ament_prefix_path.sh
+[44.939s] -- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/ament_prefix_path.dsv
+[44.939s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/path.sh
+[44.939s] -- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/environment/path.dsv
+[44.940s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.bash
+[44.940s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.sh
+[44.940s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.zsh
+[44.940s] -- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/local_setup.dsv
+[44.940s] -- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/package.dsv
+[44.940s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/packages/image_proc
+[44.941s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/ament_index/resource_index/rclcpp_components/image_proc
+[44.941s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.941s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.941s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+[44.941s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/image_procConfig.cmake
+[44.941s] -- Up-to-date: /SLAM/ros_ws/install/image_proc/share/image_proc/cmake/image_procConfig-version.cmake
+[44.941s] -- Installing: /SLAM/ros_ws/install/image_proc/share/image_proc/package.xml
+[44.943s] Invoked command in '/SLAM/ros_ws/build/image_proc' returned '0': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /SLAM/ros_ws/build/image_proc

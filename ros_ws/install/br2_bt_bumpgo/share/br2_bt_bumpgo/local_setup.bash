@@ -1,0 +1,1 @@
+/SLAM/ros_ws/build/br2_bt_bumpgo/ament_cmake_environment_hooks/local_setup.bash

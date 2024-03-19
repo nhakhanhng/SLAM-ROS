@@ -1,0 +1,80 @@
+[0.769s] Invoking command in '/SLAM/ros_ws/build/image_view': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/astra_camera_msgs /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_view -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_view
+[1.246s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.246s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.246s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.246s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.246s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.246s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.337s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.340s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.654s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.621s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.647s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.651s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.652s] -- Configured cppcheck include dirs: /SLAM/ros_ws/src/image_pipeline/image_view/include
+[2.652s] -- Configured cppcheck exclude dirs and/or files: 
+[2.654s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.655s] -- Configured cpplint exclude dirs and/or files: 
+[2.656s] -- Added test 'lint_cmake' to check CMake code style
+[2.659s] -- Added test 'uncrustify' to check C / C++ code style
+[2.660s] -- Configured uncrustify additional arguments: 
+[2.661s] -- Added test 'xmllint' to check XML markup files
+[2.682s] -- Configuring done
+[2.782s] -- Generating done
+[2.785s] -- Build files have been written to: /SLAM/ros_ws/build/image_view
+[2.809s] Invoked command in '/SLAM/ros_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/astra_camera_msgs /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_view -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_view
+[2.815s] Invoking command in '/SLAM/ros_ws/build/image_view': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/astra_camera_msgs /usr/bin/cmake --build /SLAM/ros_ws/build/image_view -- -j16 -l16
+[2.894s] [35m[1mConsolidate compiler generated dependencies of target image_view_nodes[0m
+[2.976s] [ 36%] Built target image_view_nodes
+[3.009s] [35m[1mConsolidate compiler generated dependencies of target extract_images[0m
+[3.015s] [35m[1mConsolidate compiler generated dependencies of target video_recorder[0m
+[3.022s] [35m[1mConsolidate compiler generated dependencies of target stereo_view[0m
+[3.027s] [35m[1mConsolidate compiler generated dependencies of target image_view[0m
+[3.028s] [35m[1mConsolidate compiler generated dependencies of target image_saver[0m
+[3.030s] [35m[1mConsolidate compiler generated dependencies of target disparity_view[0m
+[3.066s] [ 47%] Built target extract_images
+[3.079s] [ 57%] Built target stereo_view
+[3.081s] [ 78%] Built target image_view
+[3.082s] [ 78%] Built target video_recorder
+[3.087s] [ 89%] Built target image_saver
+[3.087s] [100%] Built target disparity_view
+[3.276s] Invoked command in '/SLAM/ros_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/astra_camera_msgs /usr/bin/cmake --build /SLAM/ros_ws/build/image_view -- -j16 -l16
+[3.693s] Invoking command in '/SLAM/ros_ws/build/image_view': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/astra_camera_msgs /usr/bin/cmake --install /SLAM/ros_ws/build/image_view
+[3.708s] -- Install configuration: "Release"
+[3.708s] -- Execute custom install script
+[3.711s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/include/image_view/disparity_view_node.hpp
+[3.712s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/include/image_view/extract_images_node.hpp
+[3.712s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/include/image_view/image_saver_node.hpp
+[3.712s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/include/image_view/image_view_node.hpp
+[3.712s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/include/image_view/stereo_view_node.hpp
+[3.713s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/include/image_view/video_recorder_node.hpp
+[3.713s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/environment/library_path.sh
+[3.714s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/environment/library_path.dsv
+[3.721s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/lib/libimage_view_nodes.so
+[3.721s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/lib/image_view/disparity_view
+[3.722s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/lib/image_view/image_view
+[3.722s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/lib/image_view/stereo_view
+[3.722s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/lib/image_view/extract_images
+[3.722s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/lib/image_view/image_saver
+[3.722s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/lib/image_view/video_recorder
+[3.722s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/ament_index/resource_index/package_run_dependencies/image_view
+[3.723s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/ament_index/resource_index/parent_prefix_path/image_view
+[3.723s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/environment/ament_prefix_path.sh
+[3.723s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/environment/ament_prefix_path.dsv
+[3.723s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/environment/path.sh
+[3.723s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/environment/path.dsv
+[3.723s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/local_setup.bash
+[3.723s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/local_setup.sh
+[3.723s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/local_setup.zsh
+[3.723s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/local_setup.dsv
+[3.724s] -- Symlinking: /SLAM/ros_ws/install/image_view/share/image_view/package.dsv
+[3.746s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/ament_index/resource_index/packages/image_view
+[3.746s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/ament_index/resource_index/rclcpp_components/image_view
+[3.747s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.747s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.747s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/cmake/ament_cmake_export_libraries-extras.cmake
+[3.748s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/cmake/image_viewConfig.cmake
+[3.749s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/cmake/image_viewConfig-version.cmake
+[3.749s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/package.xml
+[4.079s] Invoked command in '/SLAM/ros_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/astra_camera_msgs /usr/bin/cmake --install /SLAM/ros_ws/build/image_view

@@ -1,0 +1,121 @@
+[0.234s] Invoking command in '/SLAM/ros_ws/build/astra_camera': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /SLAM/ros_ws/build/astra_camera -- -j16 -l16
+[0.355s] [  5%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_service.cpp.o[0m
+[20.226s] [ 10%] [32m[1mLinking CXX shared library libastra_camera.so[0m
+[21.304s] [ 68%] Built target astra_camera
+[21.334s] [ 73%] [32m[1mLinking CXX executable clean_shm_node[0m
+[21.336s] [ 78%] [32m[1mLinking CXX executable list_devices_node[0m
+[21.338s] [ 84%] [32m[1mLinking CXX executable astra_camera_node[0m
+[21.790s] [ 89%] Built target list_devices_node
+[21.889s] [ 94%] Built target astra_camera_node
+[22.758s] [100%] Built target clean_shm_node
+[22.773s] Invoked command in '/SLAM/ros_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /SLAM/ros_ws/build/astra_camera -- -j16 -l16
+[22.859s] Invoking command in '/SLAM/ros_ws/build/astra_camera': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /SLAM/ros_ws/build/astra_camera
+[22.870s] -- Install configuration: "Debug"
+[22.870s] -- Installing: /SLAM/ros_ws/install/astra_camera/lib/libastra_camera.so
+[22.975s] -- Set runtime path of "/SLAM/ros_ws/install/astra_camera/lib/libastra_camera.so" to ""
+[22.975s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/lib/libOpenNI2.so
+[22.975s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/lib//OpenNI2
+[22.975s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/lib//OpenNI2/Drivers
+[22.975s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/lib//OpenNI2/Drivers/OniFile.ini
+[22.975s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/lib//OpenNI2/Drivers/libOniFile.so
+[22.975s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/lib//OpenNI2/Drivers/orbbec.ini
+[22.976s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/lib//OpenNI2/Drivers/liborbbec.so
+[22.976s] -- Installing: /SLAM/ros_ws/install/astra_camera/lib/astra_camera/list_devices_node
+[22.977s] -- Set runtime path of "/SLAM/ros_ws/install/astra_camera/lib/astra_camera/list_devices_node" to ""
+[22.977s] -- Installing: /SLAM/ros_ws/install/astra_camera/lib/astra_camera/clean_shm_node
+[22.978s] -- Set runtime path of "/SLAM/ros_ws/install/astra_camera/lib/astra_camera/clean_shm_node" to ""
+[22.978s] -- Installing: /SLAM/ros_ws/install/astra_camera/lib/astra_camera/astra_camera_node
+[22.997s] -- Set runtime path of "/SLAM/ros_ws/install/astra_camera/lib/astra_camera/astra_camera_node" to ""
+[22.997s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include
+[22.997s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera
+[22.997s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/types.h
+[22.997s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/constants.h
+[22.998s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/ob_context.h
+[22.998s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/dynamic_params.h
+[22.998s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/json.hpp
+[22.998s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/ros_param_backend.h
+[22.998s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/uvc_camera_driver.h
+[22.998s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/utils.h
+[22.998s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/ob_camera_node_factory.h
+[22.998s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/point_cloud_proc
+[22.998s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyzrgb.h
+[22.998s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_proc.h
+[22.998s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyz.h
+[22.999s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/point_cloud_proc/depth_traits.h
+[22.999s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/ob_camera_node.h
+[22.999s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/ob_timer_filter.h
+[22.999s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2
+[22.999s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/OniTest.h
+[22.999s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/SonixCamera.h
+[22.999s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/PSLink.h
+[22.999s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/OniCAPI.h
+[22.999s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/KinectProperties.h
+[22.999s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/OniVersion.h
+[22.999s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/Linux-Arm
+[22.999s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/Linux-Arm/OniPlatformLinux-Arm.h
+[22.999s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/OniCEnums.h
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/PrimeSense.h
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/OniPlatform.h
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/Driver
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/Driver/OniDriverTypes.h
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/Driver/OniDriverAPI.h
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/util.h
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/OniCTypes.h
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/PS1080.h
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/OpenNI.h
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/OniProperties.h
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/Android-Arm
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/Android-Arm/OniPlatformAndroid-Arm.h
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/OniEnums.h
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/Linux-x86
+[23.000s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/Linux-x86/OniPlatformLinux-x86.h
+[23.001s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/OniCProperties.h
+[23.001s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/MacOSX
+[23.001s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/MacOSX/OniPlatformMacOSX.h
+[23.001s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/magic_enum
+[23.001s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/magic_enum/magic_enum.hpp
+[23.001s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch
+[23.001s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_pro.launch.xml
+[23.001s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/stereo_s.launch.xml
+[23.001s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/embedded_s.launch.xml
+[23.001s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_u3.launch.xml
+[23.001s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/stereo_s_u3.launch.xml
+[23.001s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/astra.launch.xml
+[23.001s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/gemini_e_lite.launch.xml
+[23.001s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/.gitkeep
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_pro.launch.xml
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_astra.launch.xml
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/astra_pro.launch.xml
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/embedded_u3.launch.xml
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/list_devices.launch.xml
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_dcw.launch.xml
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_gemini.launch.xml
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/gemini_e.launch.xml
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/gemini.launch.xml
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_dc1.launch.xml
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_dw.launch.xml
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/deeyea.launch.xml
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_dcw.launch.xml
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/astro_pro_plus.launch.xml
+[23.002s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_deeyea.launch.xml
+[23.003s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/environment/library_path.sh
+[23.003s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/environment/library_path.dsv
+[23.004s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera
+[23.004s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera
+[23.004s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh
+[23.004s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv
+[23.004s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/environment/path.sh
+[23.004s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/environment/path.dsv
+[23.005s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/local_setup.bash
+[23.005s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/local_setup.sh
+[23.005s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/local_setup.zsh
+[23.005s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/local_setup.dsv
+[23.005s] -- Installing: /SLAM/ros_ws/install/astra_camera/share/astra_camera/package.dsv
+[23.005s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/ament_index/resource_index/packages/astra_camera
+[23.006s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.006s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[23.006s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[23.006s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake
+[23.006s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake
+[23.007s] -- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera/package.xml
+[23.007s] Invoked command in '/SLAM/ros_ws/build/astra_camera' returned '0': CMAKE_PREFIX_PATH=/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/astra_camera_msgs:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble LD_LIBRARY_PATH=/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /SLAM/ros_ws/build/astra_camera

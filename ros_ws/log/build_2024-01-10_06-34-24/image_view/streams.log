@@ -1,0 +1,54 @@
+[0.415s] Invoking command in '/SLAM/ros_ws/build/image_view': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_view -- -j16 -l16
+[0.765s] [35m[1mConsolidate compiler generated dependencies of target image_view_nodes[0m
+[0.766s] [ 36%] Built target image_view_nodes
+[0.766s] [35m[1mConsolidate compiler generated dependencies of target disparity_view[0m
+[0.766s] [ 47%] Built target disparity_view
+[0.766s] [35m[1mConsolidate compiler generated dependencies of target video_recorder[0m
+[0.766s] [ 57%] Built target video_recorder
+[0.766s] [35m[1mConsolidate compiler generated dependencies of target image_saver[0m
+[0.766s] [ 68%] Built target image_saver
+[0.766s] [35m[1mConsolidate compiler generated dependencies of target extract_images[0m
+[0.766s] [ 78%] Built target extract_images
+[0.766s] [35m[1mConsolidate compiler generated dependencies of target stereo_view[0m
+[0.766s] [ 89%] Built target stereo_view
+[0.767s] [35m[1mConsolidate compiler generated dependencies of target image_view[0m
+[0.790s] [100%] Built target image_view
+[0.811s] Invoked command in '/SLAM/ros_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_view -- -j16 -l16
+[1.066s] Invoking command in '/SLAM/ros_ws/build/image_view': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_view
+[1.074s] -- Install configuration: "Release"
+[1.075s] -- Execute custom install script
+[1.075s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/include/image_view/disparity_view_node.hpp
+[1.075s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/include/image_view/extract_images_node.hpp
+[1.075s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/include/image_view/image_saver_node.hpp
+[1.076s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/include/image_view/image_view_node.hpp
+[1.076s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/include/image_view/stereo_view_node.hpp
+[1.076s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/include/image_view/video_recorder_node.hpp
+[1.077s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/environment/library_path.sh
+[1.077s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/environment/library_path.dsv
+[1.077s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/lib/libimage_view_nodes.so
+[1.077s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/lib/image_view/disparity_view
+[1.078s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/lib/image_view/image_view
+[1.078s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/lib/image_view/stereo_view
+[1.078s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/lib/image_view/extract_images
+[1.078s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/lib/image_view/image_saver
+[1.079s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/lib/image_view/video_recorder
+[1.079s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/ament_index/resource_index/package_run_dependencies/image_view
+[1.079s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/ament_index/resource_index/parent_prefix_path/image_view
+[1.080s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/environment/ament_prefix_path.sh
+[1.080s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/environment/ament_prefix_path.dsv
+[1.080s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/environment/path.sh
+[1.080s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/environment/path.dsv
+[1.080s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/local_setup.bash
+[1.080s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/local_setup.sh
+[1.080s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/local_setup.zsh
+[1.080s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/local_setup.dsv
+[1.080s] -- Symlinking: /SLAM/ros_ws/install/image_view/share/image_view/package.dsv
+[1.094s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/ament_index/resource_index/packages/image_view
+[1.094s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/ament_index/resource_index/rclcpp_components/image_view
+[1.094s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.094s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.095s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/cmake/ament_cmake_export_libraries-extras.cmake
+[1.095s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/cmake/image_viewConfig.cmake
+[1.095s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/cmake/image_viewConfig-version.cmake
+[1.095s] -- Up-to-date symlink: /SLAM/ros_ws/install/image_view/share/image_view/package.xml
+[1.359s] Invoked command in '/SLAM/ros_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_view

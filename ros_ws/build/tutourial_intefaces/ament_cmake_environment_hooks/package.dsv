@@ -1,0 +1,4 @@
+source;share/tutourial_intefaces/local_setup.bash
+source;share/tutourial_intefaces/local_setup.dsv
+source;share/tutourial_intefaces/local_setup.sh
+source;share/tutourial_intefaces/local_setup.zsh

@@ -1,0 +1,573 @@
+[0.000000] (-) TimerEvent: {}
+[0.000141] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000300] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000348] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.000375] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.000439] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.000455] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.000497] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.000648] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.000678] (-) JobUnselected: {'identifier': 'image_view'}
+[0.000701] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.000771] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.000785] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.000870] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.000884] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.000908] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.001048] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.001065] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.001087] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.001150] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.001164] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.001189] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.001243] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.001258] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001272] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.001293] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.001351] (rtabmap_viz) JobQueued: {'identifier': 'rtabmap_viz', 'dependencies': OrderedDict([('rtabmap', '/SLAM/ros_ws/install/rtabmap'), ('rtabmap_msgs', '/SLAM/ros_ws/install/rtabmap_msgs'), ('rtabmap_conversions', '/SLAM/ros_ws/install/rtabmap_conversions'), ('rtabmap_sync', '/SLAM/ros_ws/install/rtabmap_sync')])}
+[0.001388] (rtabmap_viz) JobStarted: {'identifier': 'rtabmap_viz'}
+[0.053120] (rtabmap_viz) JobProgress: {'identifier': 'rtabmap_viz', 'progress': 'cmake'}
+[0.053371] (rtabmap_viz) Command: {'cmd': ['/usr/bin/cmake', '/SLAM/ros_ws/src/rtabmap_ros/rtabmap_viz', '-DCMAKE_BUILD_TYPE=Release', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/rtabmap_viz'], 'cwd': '/SLAM/ros_ws/build/rtabmap_viz', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('ROS_PACKAGE_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/share'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/rtabmap_sync/lib:/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b767ac96-efed-4f0f-95be-a2aa688262b3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('MAKEFLAGS', '-j6'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/SLAM/ros_ws/install/rtabmap/bin:/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-300c5a9faf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/rtabmap_viz'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap')]), 'shell': False}
+[0.099273] (-) TimerEvent: {}
+[0.105355] (rtabmap_viz) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.154374] (rtabmap_viz) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.161088] (rtabmap_viz) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199376] (-) TimerEvent: {}
+[0.228897] (rtabmap_viz) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.234172] (rtabmap_viz) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.234356] (rtabmap_viz) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.234651] (rtabmap_viz) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.237132] (rtabmap_viz) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299473] (-) TimerEvent: {}
+[0.311311] (rtabmap_viz) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.317358] (rtabmap_viz) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.317555] (rtabmap_viz) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.317902] (rtabmap_viz) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.321976] (rtabmap_viz) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399558] (-) TimerEvent: {}
+[0.464002] (rtabmap_viz) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.499645] (-) TimerEvent: {}
+[0.513176] (rtabmap_viz) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.560020] (rtabmap_viz) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.599738] (-) TimerEvent: {}
+[0.618282] (rtabmap_viz) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.626162] (rtabmap_viz) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.636889] (rtabmap_viz) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.651284] (rtabmap_viz) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.672013] (rtabmap_viz) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.699818] (-) TimerEvent: {}
+[0.800038] (-) TimerEvent: {}
+[0.851412] (rtabmap_viz) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.900137] (-) TimerEvent: {}
+[0.916043] (rtabmap_viz) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.920001] (rtabmap_viz) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.000231] (-) TimerEvent: {}
+[1.039199] (rtabmap_viz) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.075159] (rtabmap_viz) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.100326] (-) TimerEvent: {}
+[1.137065] (rtabmap_viz) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.150852] (rtabmap_viz) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.200432] (-) TimerEvent: {}
+[1.221601] (rtabmap_viz) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.221802] (rtabmap_viz) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.292884] (rtabmap_viz) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.293762] (rtabmap_viz) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.301109] (-) TimerEvent: {}
+[1.399612] (rtabmap_viz) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[1.401185] (-) TimerEvent: {}
+[1.415487] (rtabmap_viz) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.483151] (rtabmap_viz) StdoutLine: {'line': b'-- Found rtabmap_msgs: 0.21.3 (/SLAM/ros_ws/install/rtabmap_msgs/share/rtabmap_msgs/cmake)\n'}
+[1.501272] (-) TimerEvent: {}
+[1.571160] (rtabmap_viz) StdoutLine: {'line': b'-- Found rtabmap_sync: 0.21.3 (/SLAM/ros_ws/install/rtabmap_sync/share/rtabmap_sync/cmake)\n'}
+[1.601357] (-) TimerEvent: {}
+[1.701586] (-) TimerEvent: {}
+[1.801886] (-) TimerEvent: {}
+[1.902343] (-) TimerEvent: {}
+[2.003068] (-) TimerEvent: {}
+[2.103360] (-) TimerEvent: {}
+[2.184442] (rtabmap_viz) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.184640] (rtabmap_viz) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.203878] (-) TimerEvent: {}
+[2.215222] (rtabmap_viz) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[2.232027] (rtabmap_viz) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[2.272205] (rtabmap_viz) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[2.272382] (rtabmap_viz) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.304386] (-) TimerEvent: {}
+[2.369984] (rtabmap_viz) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.385767] (rtabmap_viz) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.404470] (-) TimerEvent: {}
+[2.427168] (rtabmap_viz) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.427898] (rtabmap_viz) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.488632] (rtabmap_viz) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.505063] (-) TimerEvent: {}
+[2.605316] (-) TimerEvent: {}
+[2.705636] (-) TimerEvent: {}
+[2.805904] (-) TimerEvent: {}
+[2.906170] (-) TimerEvent: {}
+[3.006480] (-) TimerEvent: {}
+[3.107221] (-) TimerEvent: {}
+[3.207559] (-) TimerEvent: {}
+[3.308343] (-) TimerEvent: {}
+[3.356829] (rtabmap_viz) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[3.382310] (rtabmap_viz) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[3.400463] (rtabmap_viz) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[3.408416] (-) TimerEvent: {}
+[3.450329] (rtabmap_viz) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[3.450571] (rtabmap_viz) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[3.455618] (rtabmap_viz) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.508508] (-) TimerEvent: {}
+[3.608990] (-) TimerEvent: {}
+[3.709267] (-) TimerEvent: {}
+[3.809546] (-) TimerEvent: {}
+[3.813440] (rtabmap_viz) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.820226] (rtabmap_viz) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[3.909652] (-) TimerEvent: {}
+[3.938634] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.939350] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.940106] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.941001] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.941767] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.942536] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.943359] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.943771] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.944528] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.945424] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.946243] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.946665] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.947389] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.948169] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.949070] (rtabmap_viz) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[4.009729] (-) TimerEvent: {}
+[4.109989] (-) TimerEvent: {}
+[4.154692] (rtabmap_viz) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.203420] (rtabmap_viz) StdoutLine: {'line': b'-- Generating done\n'}
+[4.205924] (rtabmap_viz) StdoutLine: {'line': b'-- Build files have been written to: /SLAM/ros_ws/build/rtabmap_viz\n'}
+[4.210071] (-) TimerEvent: {}
+[4.223775] (rtabmap_viz) CommandEnded: {'returncode': 0}
+[4.224556] (rtabmap_viz) JobProgress: {'identifier': 'rtabmap_viz', 'progress': 'build'}
+[4.225162] (rtabmap_viz) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/rtabmap_viz'], 'cwd': '/SLAM/ros_ws/build/rtabmap_viz', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('ROS_PACKAGE_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/share'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/rtabmap_sync/lib:/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b767ac96-efed-4f0f-95be-a2aa688262b3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('MAKEFLAGS', '-j6'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/SLAM/ros_ws/install/rtabmap/bin:/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-300c5a9faf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/rtabmap_viz'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap')]), 'shell': False}
+[4.285987] (rtabmap_viz) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/GuiWrapper.cpp.o\x1b[0m\n'}
+[4.286176] (rtabmap_viz) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/GuiNode.cpp.o\x1b[0m\n'}
+[4.286260] (rtabmap_viz) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/rtabmap_viz.dir/src/PreferencesDialogROS.cpp.o\x1b[0m\n'}
+[4.310167] (-) TimerEvent: {}
+[4.410455] (-) TimerEvent: {}
+[4.510748] (-) TimerEvent: {}
+[4.611045] (-) TimerEvent: {}
+[4.711334] (-) TimerEvent: {}
+[4.811728] (-) TimerEvent: {}
+[4.912170] (-) TimerEvent: {}
+[5.012563] (-) TimerEvent: {}
+[5.112955] (-) TimerEvent: {}
+[5.213296] (-) TimerEvent: {}
+[5.313569] (-) TimerEvent: {}
+[5.413853] (-) TimerEvent: {}
+[5.514212] (-) TimerEvent: {}
+[5.614541] (-) TimerEvent: {}
+[5.714857] (-) TimerEvent: {}
+[5.815169] (-) TimerEvent: {}
+[5.915554] (-) TimerEvent: {}
+[6.015915] (-) TimerEvent: {}
+[6.116214] (-) TimerEvent: {}
+[6.216608] (-) TimerEvent: {}
+[6.317122] (-) TimerEvent: {}
+[6.417551] (-) TimerEvent: {}
+[6.517963] (-) TimerEvent: {}
+[6.618367] (-) TimerEvent: {}
+[6.718779] (-) TimerEvent: {}
+[6.819183] (-) TimerEvent: {}
+[6.919620] (-) TimerEvent: {}
+[7.019989] (-) TimerEvent: {}
+[7.120395] (-) TimerEvent: {}
+[7.220839] (-) TimerEvent: {}
+[7.321215] (-) TimerEvent: {}
+[7.421592] (-) TimerEvent: {}
+[7.521960] (-) TimerEvent: {}
+[7.622363] (-) TimerEvent: {}
+[7.722672] (-) TimerEvent: {}
+[7.822997] (-) TimerEvent: {}
+[7.923392] (-) TimerEvent: {}
+[8.023762] (-) TimerEvent: {}
+[8.124150] (-) TimerEvent: {}
+[8.224541] (-) TimerEvent: {}
+[8.324923] (-) TimerEvent: {}
+[8.425293] (-) TimerEvent: {}
+[8.525638] (-) TimerEvent: {}
+[8.625985] (-) TimerEvent: {}
+[8.726358] (-) TimerEvent: {}
+[8.826734] (-) TimerEvent: {}
+[8.927097] (-) TimerEvent: {}
+[9.027470] (-) TimerEvent: {}
+[9.127851] (-) TimerEvent: {}
+[9.228217] (-) TimerEvent: {}
+[9.328622] (-) TimerEvent: {}
+[9.429003] (-) TimerEvent: {}
+[9.529372] (-) TimerEvent: {}
+[9.629745] (-) TimerEvent: {}
+[9.730116] (-) TimerEvent: {}
+[9.830477] (-) TimerEvent: {}
+[9.930809] (-) TimerEvent: {}
+[10.031204] (-) TimerEvent: {}
+[10.131530] (-) TimerEvent: {}
+[10.231882] (-) TimerEvent: {}
+[10.332243] (-) TimerEvent: {}
+[10.432621] (-) TimerEvent: {}
+[10.532989] (-) TimerEvent: {}
+[10.633340] (-) TimerEvent: {}
+[10.733669] (-) TimerEvent: {}
+[10.834012] (-) TimerEvent: {}
+[10.934384] (-) TimerEvent: {}
+[11.034777] (-) TimerEvent: {}
+[11.135163] (-) TimerEvent: {}
+[11.235473] (-) TimerEvent: {}
+[11.335786] (-) TimerEvent: {}
+[11.436131] (-) TimerEvent: {}
+[11.536608] (-) TimerEvent: {}
+[11.637041] (-) TimerEvent: {}
+[11.737340] (-) TimerEvent: {}
+[11.837650] (-) TimerEvent: {}
+[11.937946] (-) TimerEvent: {}
+[12.038287] (-) TimerEvent: {}
+[12.138659] (-) TimerEvent: {}
+[12.239016] (-) TimerEvent: {}
+[12.339390] (-) TimerEvent: {}
+[12.439692] (-) TimerEvent: {}
+[12.539993] (-) TimerEvent: {}
+[12.640307] (-) TimerEvent: {}
+[12.740619] (-) TimerEvent: {}
+[12.840949] (-) TimerEvent: {}
+[12.941314] (-) TimerEvent: {}
+[13.041644] (-) TimerEvent: {}
+[13.141985] (-) TimerEvent: {}
+[13.242327] (-) TimerEvent: {}
+[13.342688] (-) TimerEvent: {}
+[13.443042] (-) TimerEvent: {}
+[13.543418] (-) TimerEvent: {}
+[13.644220] (-) TimerEvent: {}
+[13.744985] (-) TimerEvent: {}
+[13.845333] (-) TimerEvent: {}
+[13.945668] (-) TimerEvent: {}
+[14.045985] (-) TimerEvent: {}
+[14.146306] (-) TimerEvent: {}
+[14.246655] (-) TimerEvent: {}
+[14.346998] (-) TimerEvent: {}
+[14.447336] (-) TimerEvent: {}
+[14.547662] (-) TimerEvent: {}
+[14.648437] (-) TimerEvent: {}
+[14.749025] (-) TimerEvent: {}
+[14.849369] (-) TimerEvent: {}
+[14.949703] (-) TimerEvent: {}
+[15.050034] (-) TimerEvent: {}
+[15.150396] (-) TimerEvent: {}
+[15.251449] (-) TimerEvent: {}
+[15.352212] (-) TimerEvent: {}
+[15.452991] (-) TimerEvent: {}
+[15.553324] (-) TimerEvent: {}
+[15.653653] (-) TimerEvent: {}
+[15.753971] (-) TimerEvent: {}
+[15.854274] (-) TimerEvent: {}
+[15.954738] (-) TimerEvent: {}
+[16.055099] (-) TimerEvent: {}
+[16.155431] (-) TimerEvent: {}
+[16.255771] (-) TimerEvent: {}
+[16.356069] (-) TimerEvent: {}
+[16.456360] (-) TimerEvent: {}
+[16.556658] (-) TimerEvent: {}
+[16.656950] (-) TimerEvent: {}
+[16.757242] (-) TimerEvent: {}
+[16.857565] (-) TimerEvent: {}
+[16.957892] (-) TimerEvent: {}
+[17.058187] (-) TimerEvent: {}
+[17.158488] (-) TimerEvent: {}
+[17.258787] (-) TimerEvent: {}
+[17.359091] (-) TimerEvent: {}
+[17.459394] (-) TimerEvent: {}
+[17.559700] (-) TimerEvent: {}
+[17.660006] (-) TimerEvent: {}
+[17.760306] (-) TimerEvent: {}
+[17.860610] (-) TimerEvent: {}
+[17.960914] (-) TimerEvent: {}
+[18.061218] (-) TimerEvent: {}
+[18.161526] (-) TimerEvent: {}
+[18.261829] (-) TimerEvent: {}
+[18.362137] (-) TimerEvent: {}
+[18.462438] (-) TimerEvent: {}
+[18.562772] (-) TimerEvent: {}
+[18.663141] (-) TimerEvent: {}
+[18.763477] (-) TimerEvent: {}
+[18.863849] (-) TimerEvent: {}
+[18.964240] (-) TimerEvent: {}
+[19.064604] (-) TimerEvent: {}
+[19.164916] (-) TimerEvent: {}
+[19.265230] (-) TimerEvent: {}
+[19.365571] (-) TimerEvent: {}
+[19.465911] (-) TimerEvent: {}
+[19.566235] (-) TimerEvent: {}
+[19.666569] (-) TimerEvent: {}
+[19.766862] (-) TimerEvent: {}
+[19.867162] (-) TimerEvent: {}
+[19.967506] (-) TimerEvent: {}
+[20.067800] (-) TimerEvent: {}
+[20.168100] (-) TimerEvent: {}
+[20.268406] (-) TimerEvent: {}
+[20.368750] (-) TimerEvent: {}
+[20.469080] (-) TimerEvent: {}
+[20.569400] (-) TimerEvent: {}
+[20.669722] (-) TimerEvent: {}
+[20.770080] (-) TimerEvent: {}
+[20.870429] (-) TimerEvent: {}
+[20.970761] (-) TimerEvent: {}
+[21.071078] (-) TimerEvent: {}
+[21.171405] (-) TimerEvent: {}
+[21.271711] (-) TimerEvent: {}
+[21.372043] (-) TimerEvent: {}
+[21.472362] (-) TimerEvent: {}
+[21.572731] (-) TimerEvent: {}
+[21.673048] (-) TimerEvent: {}
+[21.773360] (-) TimerEvent: {}
+[21.873706] (-) TimerEvent: {}
+[21.974042] (-) TimerEvent: {}
+[22.074370] (-) TimerEvent: {}
+[22.174678] (-) TimerEvent: {}
+[22.275010] (-) TimerEvent: {}
+[22.375353] (-) TimerEvent: {}
+[22.475652] (-) TimerEvent: {}
+[22.575972] (-) TimerEvent: {}
+[22.676273] (-) TimerEvent: {}
+[22.776574] (-) TimerEvent: {}
+[22.876871] (-) TimerEvent: {}
+[22.977156] (-) TimerEvent: {}
+[23.077461] (-) TimerEvent: {}
+[23.177773] (-) TimerEvent: {}
+[23.278092] (-) TimerEvent: {}
+[23.378395] (-) TimerEvent: {}
+[23.478685] (-) TimerEvent: {}
+[23.579008] (-) TimerEvent: {}
+[23.679354] (-) TimerEvent: {}
+[23.779688] (-) TimerEvent: {}
+[23.880014] (-) TimerEvent: {}
+[23.980326] (-) TimerEvent: {}
+[24.080610] (-) TimerEvent: {}
+[24.180917] (-) TimerEvent: {}
+[24.281221] (-) TimerEvent: {}
+[24.381538] (-) TimerEvent: {}
+[24.481876] (-) TimerEvent: {}
+[24.582222] (-) TimerEvent: {}
+[24.682521] (-) TimerEvent: {}
+[24.782844] (-) TimerEvent: {}
+[24.883182] (-) TimerEvent: {}
+[24.983493] (-) TimerEvent: {}
+[25.083818] (-) TimerEvent: {}
+[25.184116] (-) TimerEvent: {}
+[25.284480] (-) TimerEvent: {}
+[25.384850] (-) TimerEvent: {}
+[25.485148] (-) TimerEvent: {}
+[25.585449] (-) TimerEvent: {}
+[25.685786] (-) TimerEvent: {}
+[25.786095] (-) TimerEvent: {}
+[25.886419] (-) TimerEvent: {}
+[25.986724] (-) TimerEvent: {}
+[26.087028] (-) TimerEvent: {}
+[26.187380] (-) TimerEvent: {}
+[26.287683] (-) TimerEvent: {}
+[26.387975] (-) TimerEvent: {}
+[26.488304] (-) TimerEvent: {}
+[26.588626] (-) TimerEvent: {}
+[26.688924] (-) TimerEvent: {}
+[26.789229] (-) TimerEvent: {}
+[26.889525] (-) TimerEvent: {}
+[26.989804] (-) TimerEvent: {}
+[27.090131] (-) TimerEvent: {}
+[27.190414] (-) TimerEvent: {}
+[27.290738] (-) TimerEvent: {}
+[27.391020] (-) TimerEvent: {}
+[27.491340] (-) TimerEvent: {}
+[27.591611] (-) TimerEvent: {}
+[27.691898] (-) TimerEvent: {}
+[27.792259] (-) TimerEvent: {}
+[27.892529] (-) TimerEvent: {}
+[27.993273] (-) TimerEvent: {}
+[28.093568] (-) TimerEvent: {}
+[28.193856] (-) TimerEvent: {}
+[28.294135] (-) TimerEvent: {}
+[28.394409] (-) TimerEvent: {}
+[28.494683] (-) TimerEvent: {}
+[28.594952] (-) TimerEvent: {}
+[28.695217] (-) TimerEvent: {}
+[28.795487] (-) TimerEvent: {}
+[28.895760] (-) TimerEvent: {}
+[28.996029] (-) TimerEvent: {}
+[29.096298] (-) TimerEvent: {}
+[29.196576] (-) TimerEvent: {}
+[29.297048] (-) TimerEvent: {}
+[29.397343] (-) TimerEvent: {}
+[29.497646] (-) TimerEvent: {}
+[29.597917] (-) TimerEvent: {}
+[29.698214] (-) TimerEvent: {}
+[29.798486] (-) TimerEvent: {}
+[29.898761] (-) TimerEvent: {}
+[29.999029] (-) TimerEvent: {}
+[30.099323] (-) TimerEvent: {}
+[30.199600] (-) TimerEvent: {}
+[30.299890] (-) TimerEvent: {}
+[30.400172] (-) TimerEvent: {}
+[30.500457] (-) TimerEvent: {}
+[30.601292] (-) TimerEvent: {}
+[30.701573] (-) TimerEvent: {}
+[30.801845] (-) TimerEvent: {}
+[30.902129] (-) TimerEvent: {}
+[31.002402] (-) TimerEvent: {}
+[31.102676] (-) TimerEvent: {}
+[31.202948] (-) TimerEvent: {}
+[31.303216] (-) TimerEvent: {}
+[31.403477] (-) TimerEvent: {}
+[31.503743] (-) TimerEvent: {}
+[31.604027] (-) TimerEvent: {}
+[31.704739] (-) TimerEvent: {}
+[31.805017] (-) TimerEvent: {}
+[31.905306] (-) TimerEvent: {}
+[32.005577] (-) TimerEvent: {}
+[32.105863] (-) TimerEvent: {}
+[32.206129] (-) TimerEvent: {}
+[32.306402] (-) TimerEvent: {}
+[32.406674] (-) TimerEvent: {}
+[32.506945] (-) TimerEvent: {}
+[32.607226] (-) TimerEvent: {}
+[32.707494] (-) TimerEvent: {}
+[32.807762] (-) TimerEvent: {}
+[32.908044] (-) TimerEvent: {}
+[33.008315] (-) TimerEvent: {}
+[33.108590] (-) TimerEvent: {}
+[33.208858] (-) TimerEvent: {}
+[33.309129] (-) TimerEvent: {}
+[33.409416] (-) TimerEvent: {}
+[33.509694] (-) TimerEvent: {}
+[33.609978] (-) TimerEvent: {}
+[33.710268] (-) TimerEvent: {}
+[33.810553] (-) TimerEvent: {}
+[33.910830] (-) TimerEvent: {}
+[34.011109] (-) TimerEvent: {}
+[34.111379] (-) TimerEvent: {}
+[34.211651] (-) TimerEvent: {}
+[34.311920] (-) TimerEvent: {}
+[34.412195] (-) TimerEvent: {}
+[34.512468] (-) TimerEvent: {}
+[34.613200] (-) TimerEvent: {}
+[34.713484] (-) TimerEvent: {}
+[34.813759] (-) TimerEvent: {}
+[34.914036] (-) TimerEvent: {}
+[35.014323] (-) TimerEvent: {}
+[35.114599] (-) TimerEvent: {}
+[35.214912] (-) TimerEvent: {}
+[35.315183] (-) TimerEvent: {}
+[35.415453] (-) TimerEvent: {}
+[35.515721] (-) TimerEvent: {}
+[35.615989] (-) TimerEvent: {}
+[35.716257] (-) TimerEvent: {}
+[35.816531] (-) TimerEvent: {}
+[35.916892] (-) TimerEvent: {}
+[36.017223] (-) TimerEvent: {}
+[36.117520] (-) TimerEvent: {}
+[36.217822] (-) TimerEvent: {}
+[36.318142] (-) TimerEvent: {}
+[36.418418] (-) TimerEvent: {}
+[36.518693] (-) TimerEvent: {}
+[36.618970] (-) TimerEvent: {}
+[36.719245] (-) TimerEvent: {}
+[36.819520] (-) TimerEvent: {}
+[36.919797] (-) TimerEvent: {}
+[37.020071] (-) TimerEvent: {}
+[37.120347] (-) TimerEvent: {}
+[37.221250] (-) TimerEvent: {}
+[37.321547] (-) TimerEvent: {}
+[37.421823] (-) TimerEvent: {}
+[37.522124] (-) TimerEvent: {}
+[37.622399] (-) TimerEvent: {}
+[37.722669] (-) TimerEvent: {}
+[37.822951] (-) TimerEvent: {}
+[37.923226] (-) TimerEvent: {}
+[38.023515] (-) TimerEvent: {}
+[38.123837] (-) TimerEvent: {}
+[38.224113] (-) TimerEvent: {}
+[38.324387] (-) TimerEvent: {}
+[38.424690] (-) TimerEvent: {}
+[38.524967] (-) TimerEvent: {}
+[38.625243] (-) TimerEvent: {}
+[38.725522] (-) TimerEvent: {}
+[38.825784] (-) TimerEvent: {}
+[38.926090] (-) TimerEvent: {}
+[39.026392] (-) TimerEvent: {}
+[39.126645] (-) TimerEvent: {}
+[39.226936] (-) TimerEvent: {}
+[39.327222] (-) TimerEvent: {}
+[39.427514] (-) TimerEvent: {}
+[39.527821] (-) TimerEvent: {}
+[39.628121] (-) TimerEvent: {}
+[39.728409] (-) TimerEvent: {}
+[39.828724] (-) TimerEvent: {}
+[39.929009] (-) TimerEvent: {}
+[40.029326] (-) TimerEvent: {}
+[40.129714] (-) TimerEvent: {}
+[40.199849] (rtabmap_viz) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable rtabmap_viz\x1b[0m\n'}
+[40.229817] (-) TimerEvent: {}
+[40.330147] (-) TimerEvent: {}
+[40.430465] (-) TimerEvent: {}
+[40.531226] (-) TimerEvent: {}
+[40.631764] (-) TimerEvent: {}
+[40.732197] (-) TimerEvent: {}
+[40.832903] (-) TimerEvent: {}
+[40.933252] (-) TimerEvent: {}
+[41.033655] (-) TimerEvent: {}
+[41.134017] (-) TimerEvent: {}
+[41.234368] (-) TimerEvent: {}
+[41.334654] (-) TimerEvent: {}
+[41.434991] (-) TimerEvent: {}
+[41.535432] (-) TimerEvent: {}
+[41.635809] (-) TimerEvent: {}
+[41.736178] (-) TimerEvent: {}
+[41.836591] (-) TimerEvent: {}
+[41.936975] (-) TimerEvent: {}
+[42.037394] (-) TimerEvent: {}
+[42.137788] (-) TimerEvent: {}
+[42.238160] (-) TimerEvent: {}
+[42.338628] (-) TimerEvent: {}
+[42.439051] (-) TimerEvent: {}
+[42.539445] (-) TimerEvent: {}
+[42.639749] (-) TimerEvent: {}
+[42.740522] (-) TimerEvent: {}
+[42.840862] (-) TimerEvent: {}
+[42.941170] (-) TimerEvent: {}
+[43.041492] (-) TimerEvent: {}
+[43.141809] (-) TimerEvent: {}
+[43.242151] (-) TimerEvent: {}
+[43.342501] (-) TimerEvent: {}
+[43.442806] (-) TimerEvent: {}
+[43.543101] (-) TimerEvent: {}
+[43.621203] (rtabmap_viz) StdoutLine: {'line': b'[100%] Built target rtabmap_viz\n'}
+[43.634079] (rtabmap_viz) CommandEnded: {'returncode': 0}
+[43.643173] (-) TimerEvent: {}
+[43.667561] (rtabmap_viz) JobProgress: {'identifier': 'rtabmap_viz', 'progress': 'install'}
+[43.677020] (rtabmap_viz) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/rtabmap_viz'], 'cwd': '/SLAM/ros_ws/build/rtabmap_viz', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('ROS_PACKAGE_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/share'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/rtabmap_sync/lib:/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b767ac96-efed-4f0f-95be-a2aa688262b3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('MAKEFLAGS', '-j6'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/SLAM/ros_ws/install/rtabmap/bin:/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock","/tmp/.X11-unix/X0","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-300c5a9faf.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9ab2f5d1-353e-48b2-a529-a74e9f1ed1d2.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/rtabmap_viz'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_conversions:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap')]), 'shell': False}
+[43.685252] (rtabmap_viz) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[43.685688] (rtabmap_viz) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[43.686049] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/lib/rtabmap_viz/rtabmap_viz\n'}
+[43.695706] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/ament_index/resource_index/package_run_dependencies/rtabmap_viz\n'}
+[43.704978] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/ament_index/resource_index/parent_prefix_path/rtabmap_viz\n'}
+[43.714216] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/rtabmap_viz/environment/ament_prefix_path.sh\n'}
+[43.723895] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/rtabmap_viz/environment/ament_prefix_path.dsv\n'}
+[43.733710] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/rtabmap_viz/environment/path.sh\n'}
+[43.743180] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/rtabmap_viz/environment/path.dsv\n'}
+[43.743343] (-) TimerEvent: {}
+[43.752784] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.bash\n'}
+[43.762350] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.sh\n'}
+[43.772774] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.zsh\n'}
+[43.782325] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/rtabmap_viz/local_setup.dsv\n'}
+[43.791467] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/rtabmap_viz/package.dsv\n'}
+[43.801034] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/ament_index/resource_index/packages/rtabmap_viz\n'}
+[43.810529] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/rtabmap_viz/cmake/rtabmap_vizConfig.cmake\n'}
+[43.819733] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/rtabmap_viz/cmake/rtabmap_vizConfig-version.cmake\n'}
+[43.829291] (rtabmap_viz) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/rtabmap_viz/share/rtabmap_viz/package.xml\n'}
+[43.840580] (rtabmap_viz) CommandEnded: {'returncode': 0}
+[43.843434] (-) TimerEvent: {}
+[43.943756] (-) TimerEvent: {}
+[43.962529] (rtabmap_viz) JobEnded: {'identifier': 'rtabmap_viz', 'rc': 0}
+[43.963051] (-) EventReactorShutdown: {}

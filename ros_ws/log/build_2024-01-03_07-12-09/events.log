@@ -1,0 +1,66 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.000226] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.000291] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.000350] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.051798] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.052388] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.052951] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/sllidar_ros2', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/sllidar_ros2', 'env': OrderedDict([('HOSTNAME', 'acer'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/orbbec_camera/lib:/SLAM/ros_ws/install/orbbec_camera_msgs/lib:/SLAM/ros_ws/install/libuvc/lib:/SLAM/ros_ws/install/glog/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('OLDPWD', '/SLAM'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-b7726fe3-f37c-447c-a611-e1ae35a23584.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/SLAM/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9412e913-db53-416a-8d3d-f7f55bf78b13.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/magic_enum/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/magic_enum/lib/pkgconfig:/SLAM/ros_ws/install/libuvc/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9412e913-db53-416a-8d3d-f7f55bf78b13.sock","/tmp/.X11-unix/X12","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-b0d69a0cdc.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9412e913-db53-416a-8d3d-f7f55bf78b13.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/astra_camera_msgs:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X12'), ('SHELL', '/bin/bash'), ('CMAKE_MODULE_PATH', '/SLAM/ros_ws/install/libuvc/lib/cmake/libuvc:/SLAM/ros_ws/install/glog/share/glog/cmake'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/sllidar_ros2'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/orbbec_camera_msgs/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/orbbec_description:/SLAM/ros_ws/install/orbbec_camera:/SLAM/ros_ws/install/orbbec_camera_msgs:/SLAM/ros_ws/install/magic_enum:/SLAM/ros_ws/install/libuvc:/SLAM/ros_ws/install/glog:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/astra_camera_msgs:/opt/ros/humble')]), 'shell': False}
+[0.099432] (-) TimerEvent: {}
+[0.103922] (sllidar_ros2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target sllidar_node\x1b[0m\n'}
+[0.119599] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] Built target sllidar_client\n'}
+[0.147364] (sllidar_ros2) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o\x1b[0m\n'}
+[0.199530] (-) TimerEvent: {}
+[0.299805] (-) TimerEvent: {}
+[0.400169] (-) TimerEvent: {}
+[0.500447] (-) TimerEvent: {}
+[0.600723] (-) TimerEvent: {}
+[0.701033] (-) TimerEvent: {}
+[0.801307] (-) TimerEvent: {}
+[0.901587] (-) TimerEvent: {}
+[1.001863] (-) TimerEvent: {}
+[1.102156] (-) TimerEvent: {}
+[1.202868] (-) TimerEvent: {}
+[1.303204] (-) TimerEvent: {}
+[1.403487] (-) TimerEvent: {}
+[1.503781] (-) TimerEvent: {}
+[1.604053] (-) TimerEvent: {}
+[1.704335] (-) TimerEvent: {}
+[1.804620] (-) TimerEvent: {}
+[1.904894] (-) TimerEvent: {}
+[2.005174] (-) TimerEvent: {}
+[2.013883] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:41\x1b[m\x1b[K,\n'}
+[2.014132] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[2.014208] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[2.014270] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[2.014330] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/./sdk/include/sl_lidar_protocol.h:66:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kdata\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.014419] (sllidar_ros2) StderrLine: {'line': b'   66 |     sl_u8 data[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[2.014479] (sllidar_ros2) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.014535] (sllidar_ros2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/./sdk/include/sl_lidar_driver.h:54\x1b[m\x1b[K,\n'}
+[2.014592] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/./sdk/include/sl_lidar.h:36\x1b[m\x1b[K,\n'}
+[2.014647] (sllidar_ros2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/src/sllidar_node.cpp:38\x1b[m\x1b[K:\n'}
+[2.014705] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/./sdk/include/sl_lidar_cmd.h:324:20:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids zero-size array \xe2\x80\x98\x1b[01m\x1b[Kpayload\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.014764] (sllidar_ros2) StderrLine: {'line': b'  324 |     sl_u8  payload[\x1b[01;35m\x1b[K0\x1b[m\x1b[K];\n'}
+[2.014819] (sllidar_ros2) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[2.038948] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/src/sllidar_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid SLlidarNode::init_param()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.039126] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/src/sllidar_node.cpp:98:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K)\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.039199] (sllidar_ros2) StderrLine: {'line': b'   98 |             this->get_parameter_or<float>("scan_frequency", scan_frequency, 3\x1b[01;31m\x1b[K;\x1b[m\x1b[K\n'}
+[2.039263] (sllidar_ros2) StderrLine: {'line': b'      |                                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.039335] (sllidar_ros2) StderrLine: {'line': b'\x1b[01m\x1b[K/SLAM/ros_ws/src/sllidar_ros2/src/sllidar_node.cpp:98:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K(\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.039397] (sllidar_ros2) StderrLine: {'line': b'   98 |             this->get_parameter_or<float>\x1b[01;36m\x1b[K(\x1b[m\x1b[K"scan_frequency", scan_frequency, 3;\n'}
+[2.039456] (sllidar_ros2) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.105288] (-) TimerEvent: {}
+[2.205558] (-) TimerEvent: {}
+[2.305833] (-) TimerEvent: {}
+[2.406110] (-) TimerEvent: {}
+[2.506842] (-) TimerEvent: {}
+[2.607117] (-) TimerEvent: {}
+[2.707401] (-) TimerEvent: {}
+[2.807703] (-) TimerEvent: {}
+[2.825158] (sllidar_ros2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/sllidar_node.dir/build.make:76: CMakeFiles/sllidar_node.dir/src/sllidar_node.cpp.o] Error 1\n'}
+[2.825589] (sllidar_ros2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/sllidar_node.dir/all] Error 2\n'}
+[2.825891] (sllidar_ros2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[2.828422] (sllidar_ros2) CommandEnded: {'returncode': 2}
+[2.907782] (-) TimerEvent: {}
+[2.966841] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 2}
+[2.977269] (-) EventReactorShutdown: {}

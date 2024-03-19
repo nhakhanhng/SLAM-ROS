@@ -1,0 +1,39 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/image_rotate.dir/src/image_rotate_node.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libimage_rotate.so[0m
+[ 50%] Built target image_rotate
+[35m[1mConsolidate compiler generated dependencies of target image_rotate_bin[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/image_rotate_bin.dir/src/image_rotate.cpp.o[0m
+[100%] [32m[1mLinking CXX executable image_rotate[0m
+[100%] Built target image_rotate_bin
+-- Install configuration: "Release"
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/include
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/include/image_rotate
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/include/image_rotate/image_rotate_node.hpp
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/include/image_rotate/visibility.h
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/library_path.sh
+-- Installing: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/library_path.dsv
+-- Installing: /SLAM/ros_ws/install/image_rotate/lib/libimage_rotate.so
+-- Set runtime path of "/SLAM/ros_ws/install/image_rotate/lib/libimage_rotate.so" to ""
+-- Installing: /SLAM/ros_ws/install/image_rotate/lib/image_rotate/image_rotate
+-- Set runtime path of "/SLAM/ros_ws/install/image_rotate/lib/image_rotate/image_rotate" to ""
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/launch
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/launch/image_rotate.launch.py
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/ament_index/resource_index/package_run_dependencies/image_rotate
+-- Installing: /SLAM/ros_ws/install/image_rotate/share/ament_index/resource_index/parent_prefix_path/image_rotate
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/ament_prefix_path.sh
+-- Installing: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/ament_prefix_path.dsv
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/path.sh
+-- Installing: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/path.dsv
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/local_setup.bash
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/local_setup.sh
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/local_setup.zsh
+-- Installing: /SLAM/ros_ws/install/image_rotate/share/image_rotate/local_setup.dsv
+-- Installing: /SLAM/ros_ws/install/image_rotate/share/image_rotate/package.dsv
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/ament_index/resource_index/packages/image_rotate
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/ament_index/resource_index/rclcpp_components/image_rotate
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/image_rotateConfig.cmake
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/image_rotateConfig-version.cmake
+-- Up-to-date: /SLAM/ros_ws/install/image_rotate/share/image_rotate/package.xml

@@ -1,0 +1,20 @@
+-- run_test.py: invoking following command in '/SLAM/ros_ws/build/br2_vff_avoidance/tests':
+ - /SLAM/ros_ws/build/br2_vff_avoidance/tests/vff_test --gtest_output=xml:/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/vff_test.gtest.xml
+
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from vff_tests
+[ RUN      ] vff_tests.get_vff
+[       OK ] vff_tests.get_vff (14 ms)
+[ RUN      ] vff_tests.ouput_vels
+[       OK ] vff_tests.ouput_vels (10144 ms)
+[----------] 2 tests from vff_tests (10158 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (10158 ms total)
+[  PASSED  ] 2 tests.
+
+
+-- run_test.py: return code 0
+-- run_test.py: inject classname prefix into gtest result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/vff_test.gtest.xml'
+-- run_test.py: verify result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/vff_test.gtest.xml'

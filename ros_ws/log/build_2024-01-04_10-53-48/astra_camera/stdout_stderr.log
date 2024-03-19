@@ -1,0 +1,47 @@
+[ 68%] Built target astra_camera
+[ 78%] Built target clean_shm_node
+[ 89%] Built target list_devices_node
+[100%] Built target astra_camera_node
+-- Install configuration: "Debug"
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/lib//OpenNI2
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/lib//OpenNI2/Drivers
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/lib/astra_camera/clean_shm_node
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/lib/astra_camera/astra_camera_node
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/include
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/ob_context.h
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/json.hpp
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/point_cloud_proc
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_proc.h
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/Linux-Arm
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/Driver
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/Android-Arm
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/Linux-x86
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/openni2/MacOSX
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/magic_enum
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/include/magic_enum/magic_enum.hpp
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_pro.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/stereo_s.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/embedded_s.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_u3.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/stereo_s_u3.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/astra.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/gemini_e_lite.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_pro.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_astra.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/astra_pro.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/embedded_u3.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/list_devices.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_dcw.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_gemini.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/gemini_e.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/gemini.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_dc1.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/dabai_dw.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/deeyea.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_dcw.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/astro_pro_plus.launch.xml
+-- Up-to-date: /SLAM/ros_ws/install/astra_camera/share/astra_camera//launch/multi_deeyea.launch.xml
+-- Installing: /SLAM/ros_ws/install/astra_camera/share/astra_camera/package.dsv

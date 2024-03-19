@@ -1,0 +1,29 @@
+[0.132s] Invoking command in '/home/khanh/Documents/SLAM/ros_ws/build/magic_enum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/khanh/Documents/SLAM/ros_ws/build/magic_enum -- -j16 -l16
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target enum_flag_example[0m
+[0.201s] [35m[1mConsolidate compiler generated dependencies of target example_switch[0m
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target example_custom_name[0m
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target example[0m
+[0.202s] [35m[1mConsolidate compiler generated dependencies of target example_nonascii_name[0m
+[0.203s] [35m[1mConsolidate compiler generated dependencies of target test_flags-cpp20[0m
+[0.203s] [35m[1mConsolidate compiler generated dependencies of target test-cpp20[0m
+[0.210s] [35m[1mConsolidate compiler generated dependencies of target test-cpp17[0m
+[0.210s] [35m[1mConsolidate compiler generated dependencies of target test_flags-cpp17[0m
+[0.234s] [ 11%] Built target example_custom_name
+[0.234s] [ 22%] Built target enum_flag_example
+[0.234s] [ 33%] Built target example_switch
+[0.236s] [ 44%] Built target test-cpp20
+[0.237s] [ 55%] Built target test_flags-cpp17
+[0.239s] [ 66%] Built target example
+[0.247s] [ 77%] Built target example_nonascii_name
+[0.249s] [100%] Built target test-cpp17
+[0.249s] [100%] Built target test_flags-cpp20
+[0.268s] Invoked command in '/home/khanh/Documents/SLAM/ros_ws/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/khanh/Documents/SLAM/ros_ws/build/magic_enum -- -j16 -l16
+[0.393s] Invoking command in '/home/khanh/Documents/SLAM/ros_ws/build/magic_enum': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/khanh/Documents/SLAM/ros_ws/build/magic_enum
+[0.403s] -- Install configuration: "Release"
+[0.404s] -- Up-to-date: /home/khanh/Documents/SLAM/ros_ws/install/magic_enum/lib/cmake/magic_enum/magic_enumConfigVersion.cmake
+[0.405s] -- Up-to-date: /home/khanh/Documents/SLAM/ros_ws/install/magic_enum/lib/cmake/magic_enum/magic_enumConfig.cmake
+[0.406s] -- Up-to-date: /home/khanh/Documents/SLAM/ros_ws/install/magic_enum/./include
+[0.406s] -- Up-to-date: /home/khanh/Documents/SLAM/ros_ws/install/magic_enum/./include/magic_enum_fuse.hpp
+[0.406s] -- Up-to-date: /home/khanh/Documents/SLAM/ros_ws/install/magic_enum/./include/magic_enum.hpp
+[0.406s] -- Up-to-date: /home/khanh/Documents/SLAM/ros_ws/install/magic_enum/share/magic_enum/package.xml
+[0.410s] Invoked command in '/home/khanh/Documents/SLAM/ros_ws/build/magic_enum' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/khanh/Documents/SLAM/ros_ws/build/magic_enum

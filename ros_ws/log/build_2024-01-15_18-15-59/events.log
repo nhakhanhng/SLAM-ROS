@@ -1,0 +1,233 @@
+[0.000000] (-) TimerEvent: {}
+[0.000720] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.001751] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.002024] (-) JobUnselected: {'identifier': 'br2_basics'}
+[0.002068] (-) JobUnselected: {'identifier': 'br2_bt_bumpgo'}
+[0.002095] (-) JobUnselected: {'identifier': 'br2_bt_patrolling'}
+[0.002129] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_cpp'}
+[0.002252] (-) JobUnselected: {'identifier': 'br2_fsm_bumpgo_py'}
+[0.002555] (-) JobUnselected: {'identifier': 'br2_navigation'}
+[0.002605] (-) JobUnselected: {'identifier': 'br2_tiago'}
+[0.002638] (-) JobUnselected: {'identifier': 'br2_tracking'}
+[0.002667] (-) JobUnselected: {'identifier': 'br2_tracking_msgs'}
+[0.002694] (-) JobUnselected: {'identifier': 'br2_vff_avoidance'}
+[0.002720] (-) JobUnselected: {'identifier': 'camera_calibration'}
+[0.002745] (-) JobUnselected: {'identifier': 'depth_image_proc'}
+[0.002772] (-) JobUnselected: {'identifier': 'groot'}
+[0.002797] (-) JobUnselected: {'identifier': 'hey5_description'}
+[0.002822] (-) JobUnselected: {'identifier': 'image_pipeline'}
+[0.002846] (-) JobUnselected: {'identifier': 'image_proc'}
+[0.002875] (-) JobUnselected: {'identifier': 'image_publisher'}
+[0.002907] (-) JobUnselected: {'identifier': 'image_rotate'}
+[0.002938] (-) JobUnselected: {'identifier': 'image_view'}
+[0.002969] (-) JobUnselected: {'identifier': 'launch_pal'}
+[0.002999] (-) JobUnselected: {'identifier': 'my_robot_controller'}
+[0.003028] (-) JobUnselected: {'identifier': 'pal_gazebo_worlds'}
+[0.003058] (-) JobUnselected: {'identifier': 'pal_gripper'}
+[0.003110] (-) JobUnselected: {'identifier': 'pal_gripper_controller_configuration'}
+[0.003268] (-) JobUnselected: {'identifier': 'pal_gripper_description'}
+[0.003316] (-) JobUnselected: {'identifier': 'pmb2_2dnav'}
+[0.003512] (-) JobUnselected: {'identifier': 'pmb2_bringup'}
+[0.003551] (-) JobUnselected: {'identifier': 'pmb2_controller_configuration'}
+[0.003595] (-) JobUnselected: {'identifier': 'pmb2_description'}
+[0.003634] (-) JobUnselected: {'identifier': 'pmb2_laser_sensors'}
+[0.003676] (-) JobUnselected: {'identifier': 'pmb2_maps'}
+[0.003715] (-) JobUnselected: {'identifier': 'pmb2_navigation'}
+[0.003754] (-) JobUnselected: {'identifier': 'pmb2_robot'}
+[0.003955] (-) JobUnselected: {'identifier': 'rf2o_laser_odometry'}
+[0.003991] (-) JobUnselected: {'identifier': 'rplidar_ros'}
+[0.004032] (-) JobUnselected: {'identifier': 'rtabmap'}
+[0.004186] (-) JobUnselected: {'identifier': 'rtabmap_conversions'}
+[0.004215] (-) JobUnselected: {'identifier': 'rtabmap_demos'}
+[0.004242] (-) JobUnselected: {'identifier': 'rtabmap_examples'}
+[0.004269] (-) JobUnselected: {'identifier': 'rtabmap_launch'}
+[0.004295] (-) JobUnselected: {'identifier': 'rtabmap_msgs'}
+[0.004321] (-) JobUnselected: {'identifier': 'rtabmap_odom'}
+[0.004348] (-) JobUnselected: {'identifier': 'rtabmap_python'}
+[0.004377] (-) JobUnselected: {'identifier': 'rtabmap_ros'}
+[0.004403] (-) JobUnselected: {'identifier': 'rtabmap_rviz_plugins'}
+[0.004427] (-) JobUnselected: {'identifier': 'rtabmap_slam'}
+[0.004453] (-) JobUnselected: {'identifier': 'rtabmap_sync'}
+[0.004477] (-) JobUnselected: {'identifier': 'rtabmap_util'}
+[0.004503] (-) JobUnselected: {'identifier': 'rtabmap_viz'}
+[0.004530] (-) JobUnselected: {'identifier': 'slam_toolbox'}
+[0.004553] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.004576] (-) JobUnselected: {'identifier': 'stereo_image_proc'}
+[0.004599] (-) JobUnselected: {'identifier': 'tiago_2dnav'}
+[0.004622] (-) JobUnselected: {'identifier': 'tiago_bringup'}
+[0.004647] (-) JobUnselected: {'identifier': 'tiago_controller_configuration'}
+[0.004669] (-) JobUnselected: {'identifier': 'tiago_description'}
+[0.004692] (-) JobUnselected: {'identifier': 'tiago_gazebo'}
+[0.004716] (-) JobUnselected: {'identifier': 'tiago_laser_sensors'}
+[0.004739] (-) JobUnselected: {'identifier': 'tiago_moveit_config'}
+[0.004761] (-) JobUnselected: {'identifier': 'tiago_navigation'}
+[0.004786] (-) JobUnselected: {'identifier': 'tiago_robot'}
+[0.004810] (-) JobUnselected: {'identifier': 'tiago_simulation'}
+[0.004874] (-) JobUnselected: {'identifier': 'tracetools_image_pipeline'}
+[0.004903] (-) JobUnselected: {'identifier': 'tutourial_intefaces'}
+[0.004929] (-) JobUnselected: {'identifier': 'urdf_test'}
+[0.004965] (br2_tf2_detector) JobQueued: {'identifier': 'br2_tf2_detector', 'dependencies': OrderedDict()}
+[0.005006] (br2_tf2_detector) JobStarted: {'identifier': 'br2_tf2_detector'}
+[0.093544] (br2_tf2_detector) JobProgress: {'identifier': 'br2_tf2_detector', 'progress': 'cmake'}
+[0.094260] (br2_tf2_detector) JobProgress: {'identifier': 'br2_tf2_detector', 'progress': 'build'}
+[0.095137] (br2_tf2_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/SLAM/ros_ws/build/br2_tf2_detector', '--', '-j16', '-l16'], 'cwd': '/SLAM/ros_ws/build/br2_tf2_detector', 'env': OrderedDict([('HOSTNAME', 'acer'), ('ROS_PACKAGE_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/share'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/tutourial_intefaces/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/rtabmap_slam/lib:/SLAM/ros_ws/install/rtabmap_odom/lib:/SLAM/ros_ws/install/rtabmap_util/lib:/SLAM/ros_ws/install/rtabmap_sync/lib:/SLAM/ros_ws/install/rtabmap_rviz_plugins/lib:/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:/SLAM/ros_ws/install/more_interfaces/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/SLAM/ros_ws/install/br2_vff_avoidance/lib:/SLAM/ros_ws/install/br2_tracking/lib:/SLAM/ros_ws/install/br2_tracking_msgs/lib:/SLAM/ros_ws/install/br2_tf2_detector/lib:/SLAM/ros_ws/install/br2_bt_patrolling/lib:/SLAM/ros_ws/install/br2_bt_bumpgo/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-2687b5a3-fe61-43a7-980e-c0261531824e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/SLAM/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d5368a01-2a6c-4362-a204-09078a2907df.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/SLAM/ros_ws/install/image_proc/bin:/SLAM/ros_ws/install/rtabmap/bin:/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-d5368a01-2a6c-4362-a204-09078a2907df.sock","/tmp/.X11-unix/X2","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-d5368a01-2a6c-4362-a204-09078a2907df.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/urdf_test:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/tiago_simulation:/SLAM/ros_ws/install/tiago_robot:/SLAM/ros_ws/install/tiago_navigation:/SLAM/ros_ws/install/tiago_gazebo:/SLAM/ros_ws/install/tiago_moveit_config:/SLAM/ros_ws/install/tiago_laser_sensors:/SLAM/ros_ws/install/tiago_bringup:/SLAM/ros_ws/install/tiago_description:/SLAM/ros_ws/install/tiago_controller_configuration:/SLAM/ros_ws/install/tiago_2dnav:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/pmb2_robot:/SLAM/ros_ws/install/pmb2_navigation:/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/SLAM/ros_ws/install/pmb2_bringup:/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/pal_gripper:/SLAM/ros_ws/install/pal_gripper_description:/SLAM/ros_ws/install/pal_gripper_controller_configuration:/SLAM/ros_ws/install/pal_gazebo_worlds:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/launch_pal:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/hey5_description:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/camera_calibration:/SLAM/ros_ws/install/br2_vff_avoidance:/SLAM/ros_ws/install/br2_tracking:/SLAM/ros_ws/install/br2_tracking_msgs:/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_tf2_detector:/SLAM/ros_ws/install/br2_navigation:/SLAM/ros_ws/install/br2_fsm_bumpgo_py:/SLAM/ros_ws/install/br2_fsm_bumpgo_cpp:/SLAM/ros_ws/install/br2_bt_patrolling:/SLAM/ros_ws/install/br2_bt_bumpgo:/SLAM/ros_ws/install/br2_basics:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/br2_tf2_detector'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/tutourial_intefaces/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/tiago_description/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/rtabmap_python:/SLAM/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/my_robot_controller:/SLAM/ros_ws/install/my_robot_controller/lib/python3.10/site-packages:/SLAM/ros_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/SLAM/ros_ws/build/camera_calibration/src:/SLAM/ros_ws/install/camera_calibration/lib/python3.10/site-packages:/SLAM/ros_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/br2_fsm_bumpgo_py:/SLAM/ros_ws/install/br2_fsm_bumpgo_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/urdf_test:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/tiago_simulation:/SLAM/ros_ws/install/tiago_robot:/SLAM/ros_ws/install/tiago_navigation:/SLAM/ros_ws/install/tiago_gazebo:/SLAM/ros_ws/install/tiago_moveit_config:/SLAM/ros_ws/install/tiago_laser_sensors:/SLAM/ros_ws/install/tiago_bringup:/SLAM/ros_ws/install/tiago_description:/SLAM/ros_ws/install/tiago_controller_configuration:/SLAM/ros_ws/install/tiago_2dnav:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/launch_pal:/SLAM/ros_ws/install/camera_calibration:/SLAM/ros_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/pmb2_robot:/SLAM/ros_ws/install/pmb2_navigation:/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/SLAM/ros_ws/install/pmb2_bringup:/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/pal_gripper:/SLAM/ros_ws/install/pal_gripper_description:/SLAM/ros_ws/install/pal_gripper_controller_configuration:/SLAM/ros_ws/install/pal_gazebo_worlds:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/hey5_description:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/br2_vff_avoidance:/SLAM/ros_ws/install/br2_tracking:/SLAM/ros_ws/install/br2_tracking_msgs:/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_tf2_detector:/SLAM/ros_ws/install/br2_navigation:/SLAM/ros_ws/install/br2_fsm_bumpgo_cpp:/SLAM/ros_ws/install/br2_bt_patrolling:/SLAM/ros_ws/install/br2_bt_bumpgo:/SLAM/ros_ws/install/br2_basics:/SLAM/ros_ws/install/astra_camera_msgs')]), 'shell': False}
+[0.099467] (-) TimerEvent: {}
+[0.200008] (-) TimerEvent: {}
+[0.213784] (br2_tf2_detector) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target br2_tf2_detector\x1b[0m\n'}
+[0.278595] (br2_tf2_detector) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/br2_tf2_detector.dir/src/br2_tf2_detector/ObstacleMonitorNode.cpp.o\x1b[0m\n'}
+[0.300169] (-) TimerEvent: {}
+[0.400782] (-) TimerEvent: {}
+[0.501463] (-) TimerEvent: {}
+[0.602220] (-) TimerEvent: {}
+[0.704065] (-) TimerEvent: {}
+[0.804617] (-) TimerEvent: {}
+[0.905182] (-) TimerEvent: {}
+[1.005760] (-) TimerEvent: {}
+[1.106173] (-) TimerEvent: {}
+[1.206706] (-) TimerEvent: {}
+[1.307179] (-) TimerEvent: {}
+[1.407685] (-) TimerEvent: {}
+[1.508250] (-) TimerEvent: {}
+[1.608945] (-) TimerEvent: {}
+[1.709570] (-) TimerEvent: {}
+[1.810156] (-) TimerEvent: {}
+[1.910701] (-) TimerEvent: {}
+[2.011283] (-) TimerEvent: {}
+[2.111961] (-) TimerEvent: {}
+[2.212630] (-) TimerEvent: {}
+[2.313228] (-) TimerEvent: {}
+[2.413915] (-) TimerEvent: {}
+[2.514593] (-) TimerEvent: {}
+[2.615543] (-) TimerEvent: {}
+[2.716381] (-) TimerEvent: {}
+[2.817087] (-) TimerEvent: {}
+[2.917595] (-) TimerEvent: {}
+[3.018073] (-) TimerEvent: {}
+[3.118732] (-) TimerEvent: {}
+[3.219443] (-) TimerEvent: {}
+[3.320316] (-) TimerEvent: {}
+[3.421328] (-) TimerEvent: {}
+[3.522070] (-) TimerEvent: {}
+[3.622805] (-) TimerEvent: {}
+[3.723468] (-) TimerEvent: {}
+[3.824380] (-) TimerEvent: {}
+[3.925036] (-) TimerEvent: {}
+[4.025721] (-) TimerEvent: {}
+[4.126644] (-) TimerEvent: {}
+[4.227428] (-) TimerEvent: {}
+[4.328151] (-) TimerEvent: {}
+[4.428813] (-) TimerEvent: {}
+[4.529561] (-) TimerEvent: {}
+[4.630207] (-) TimerEvent: {}
+[4.730902] (-) TimerEvent: {}
+[4.831544] (-) TimerEvent: {}
+[4.932158] (-) TimerEvent: {}
+[5.032815] (-) TimerEvent: {}
+[5.133649] (-) TimerEvent: {}
+[5.234442] (-) TimerEvent: {}
+[5.335147] (-) TimerEvent: {}
+[5.435770] (-) TimerEvent: {}
+[5.536403] (-) TimerEvent: {}
+[5.637005] (-) TimerEvent: {}
+[5.737628] (-) TimerEvent: {}
+[5.838178] (-) TimerEvent: {}
+[5.938870] (-) TimerEvent: {}
+[6.039472] (-) TimerEvent: {}
+[6.139960] (-) TimerEvent: {}
+[6.240405] (-) TimerEvent: {}
+[6.340994] (-) TimerEvent: {}
+[6.441546] (-) TimerEvent: {}
+[6.541937] (-) TimerEvent: {}
+[6.642422] (-) TimerEvent: {}
+[6.742899] (-) TimerEvent: {}
+[6.843428] (-) TimerEvent: {}
+[6.944060] (-) TimerEvent: {}
+[7.044675] (-) TimerEvent: {}
+[7.145196] (-) TimerEvent: {}
+[7.245754] (-) TimerEvent: {}
+[7.346315] (-) TimerEvent: {}
+[7.446896] (-) TimerEvent: {}
+[7.547573] (-) TimerEvent: {}
+[7.648598] (-) TimerEvent: {}
+[7.749146] (-) TimerEvent: {}
+[7.849919] (-) TimerEvent: {}
+[7.950617] (-) TimerEvent: {}
+[8.051244] (-) TimerEvent: {}
+[8.152061] (-) TimerEvent: {}
+[8.252820] (-) TimerEvent: {}
+[8.353411] (-) TimerEvent: {}
+[8.453916] (-) TimerEvent: {}
+[8.554480] (-) TimerEvent: {}
+[8.655153] (-) TimerEvent: {}
+[8.755553] (-) TimerEvent: {}
+[8.856010] (-) TimerEvent: {}
+[8.956445] (-) TimerEvent: {}
+[8.965916] (br2_tf2_detector) StdoutLine: {'line': b'[ 25%] \x1b[32m\x1b[1mLinking CXX shared library libbr2_tf2_detector.so\x1b[0m\n'}
+[9.056543] (-) TimerEvent: {}
+[9.157007] (-) TimerEvent: {}
+[9.257654] (-) TimerEvent: {}
+[9.358282] (-) TimerEvent: {}
+[9.458942] (-) TimerEvent: {}
+[9.559586] (-) TimerEvent: {}
+[9.660473] (-) TimerEvent: {}
+[9.761249] (-) TimerEvent: {}
+[9.861904] (-) TimerEvent: {}
+[9.962810] (-) TimerEvent: {}
+[10.063678] (-) TimerEvent: {}
+[10.164319] (-) TimerEvent: {}
+[10.264977] (-) TimerEvent: {}
+[10.365531] (-) TimerEvent: {}
+[10.466126] (-) TimerEvent: {}
+[10.566875] (-) TimerEvent: {}
+[10.667560] (-) TimerEvent: {}
+[10.739969] (br2_tf2_detector) StdoutLine: {'line': b'[ 50%] Built target br2_tf2_detector\n'}
+[10.767753] (-) TimerEvent: {}
+[10.802249] (br2_tf2_detector) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX executable detector\x1b[0m\n'}
+[10.802815] (br2_tf2_detector) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable detector_improved\x1b[0m\n'}
+[10.867934] (-) TimerEvent: {}
+[10.968646] (-) TimerEvent: {}
+[11.069259] (-) TimerEvent: {}
+[11.169972] (-) TimerEvent: {}
+[11.270621] (-) TimerEvent: {}
+[11.371397] (-) TimerEvent: {}
+[11.472043] (-) TimerEvent: {}
+[11.572753] (-) TimerEvent: {}
+[11.673410] (-) TimerEvent: {}
+[11.774035] (-) TimerEvent: {}
+[11.874633] (-) TimerEvent: {}
+[11.910979] (br2_tf2_detector) StdoutLine: {'line': b'[ 87%] Built target detector\n'}
+[11.974796] (-) TimerEvent: {}
+[11.978740] (br2_tf2_detector) StdoutLine: {'line': b'[100%] Built target detector_improved\n'}
+[12.009590] (br2_tf2_detector) CommandEnded: {'returncode': 0}
+[12.074980] (-) TimerEvent: {}
+[12.126211] (br2_tf2_detector) JobProgress: {'identifier': 'br2_tf2_detector', 'progress': 'install'}
+[12.149208] (br2_tf2_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/SLAM/ros_ws/build/br2_tf2_detector'], 'cwd': '/SLAM/ros_ws/build/br2_tf2_detector', 'env': OrderedDict([('HOSTNAME', 'acer'), ('ROS_PACKAGE_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/share'), ('GIT_ASKPASS', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/SLAM/ros_ws/install/tutourial_intefaces/lib:/SLAM/ros_ws/install/stereo_image_proc/lib:/SLAM/ros_ws/install/image_proc/lib:/SLAM/ros_ws/install/tracetools_image_pipeline/lib:/SLAM/ros_ws/install/rtabmap_slam/lib:/SLAM/ros_ws/install/rtabmap_odom/lib:/SLAM/ros_ws/install/rtabmap_util/lib:/SLAM/ros_ws/install/rtabmap_sync/lib:/SLAM/ros_ws/install/rtabmap_rviz_plugins/lib:/SLAM/ros_ws/install/rtabmap_conversions/lib:/SLAM/ros_ws/install/rtabmap_msgs/lib:/SLAM/ros_ws/install/rtabmap/lib:/SLAM/ros_ws/install/more_interfaces/lib:/SLAM/ros_ws/install/image_view/lib:/SLAM/ros_ws/install/image_rotate/lib:/SLAM/ros_ws/install/astra_camera/lib:/SLAM/ros_ws/install/image_publisher/lib:/SLAM/ros_ws/install/depth_image_proc/lib:/SLAM/ros_ws/install/br2_vff_avoidance/lib:/SLAM/ros_ws/install/br2_tracking/lib:/SLAM/ros_ws/install/br2_tracking_msgs/lib:/SLAM/ros_ws/install/br2_tf2_detector/lib:/SLAM/ros_ws/install/br2_bt_patrolling/lib:/SLAM/ros_ws/install/br2_bt_bumpgo/lib:/SLAM/ros_ws/install/astra_camera_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/helpers/browser.sh'), ('HOME', '/home/ros'), ('TERM_PROGRAM_VERSION', '1.85.1'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-2687b5a3-fe61-43a7-980e-c0261531824e.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/SLAM/ros_ws/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-d5368a01-2a6c-4362-a204-09078a2907df.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/SLAM/ros_ws/install/rtabmap_msgs/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap_msgs/lib/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/x86_64-linux-gnu/pkgconfig:/SLAM/ros_ws/install/rtabmap/lib/pkgconfig'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/SLAM/ros_ws/install/image_proc/bin:/SLAM/ros_ws/install/rtabmap/bin:/home/ros/.vscode-server/bin/0ee08df0cf4527e40edc9aa28f4b5bd38bbff2b2/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-d5368a01-2a6c-4362-a204-09078a2907df.sock","/tmp/.X11-unix/X2","/home/ros/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':1'), ('LANG', 'C.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-f5e5d8950f.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-d5368a01-2a6c-4362-a204-09078a2907df.sock'), ('AMENT_PREFIX_PATH', '/SLAM/ros_ws/install/urdf_test:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/tiago_simulation:/SLAM/ros_ws/install/tiago_robot:/SLAM/ros_ws/install/tiago_navigation:/SLAM/ros_ws/install/tiago_gazebo:/SLAM/ros_ws/install/tiago_moveit_config:/SLAM/ros_ws/install/tiago_laser_sensors:/SLAM/ros_ws/install/tiago_bringup:/SLAM/ros_ws/install/tiago_description:/SLAM/ros_ws/install/tiago_controller_configuration:/SLAM/ros_ws/install/tiago_2dnav:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/pmb2_robot:/SLAM/ros_ws/install/pmb2_navigation:/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/SLAM/ros_ws/install/pmb2_bringup:/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/pal_gripper:/SLAM/ros_ws/install/pal_gripper_description:/SLAM/ros_ws/install/pal_gripper_controller_configuration:/SLAM/ros_ws/install/pal_gazebo_worlds:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/launch_pal:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/hey5_description:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/camera_calibration:/SLAM/ros_ws/install/br2_vff_avoidance:/SLAM/ros_ws/install/br2_tracking:/SLAM/ros_ws/install/br2_tracking_msgs:/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_tf2_detector:/SLAM/ros_ws/install/br2_navigation:/SLAM/ros_ws/install/br2_fsm_bumpgo_py:/SLAM/ros_ws/install/br2_fsm_bumpgo_cpp:/SLAM/ros_ws/install/br2_bt_patrolling:/SLAM/ros_ws/install/br2_bt_bumpgo:/SLAM/ros_ws/install/br2_basics:/opt/ros/humble'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X2'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/SLAM/ros_ws/build/br2_tf2_detector'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/SLAM/ros_ws/install/urdf_test/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/tutourial_intefaces/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/tiago_description/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/rtabmap_python:/SLAM/ros_ws/install/rtabmap_python/lib/python3.10/site-packages:/SLAM/ros_ws/install/rtabmap_msgs/local/lib/python3.10/dist-packages:/SLAM/ros_ws/install/pmb2_description/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/my_robot_controller:/SLAM/ros_ws/install/my_robot_controller/lib/python3.10/site-packages:/SLAM/ros_ws/install/more_interfaces/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/launch_pal:/SLAM/ros_ws/install/launch_pal/lib/python3.10/site-packages:/SLAM/ros_ws/build/camera_calibration/src:/SLAM/ros_ws/install/camera_calibration/lib/python3.10/site-packages:/SLAM/ros_ws/install/br2_tracking_msgs/local/lib/python3.10/dist-packages:/SLAM/ros_ws/build/br2_fsm_bumpgo_py:/SLAM/ros_ws/install/br2_fsm_bumpgo_py/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/SLAM/ros_ws/install/urdf_test:/SLAM/ros_ws/install/tutourial_intefaces:/SLAM/ros_ws/install/image_pipeline:/SLAM/ros_ws/install/stereo_image_proc:/SLAM/ros_ws/install/image_proc:/SLAM/ros_ws/install/tracetools_image_pipeline:/SLAM/ros_ws/install/tiago_simulation:/SLAM/ros_ws/install/tiago_robot:/SLAM/ros_ws/install/tiago_navigation:/SLAM/ros_ws/install/tiago_gazebo:/SLAM/ros_ws/install/tiago_moveit_config:/SLAM/ros_ws/install/tiago_laser_sensors:/SLAM/ros_ws/install/tiago_bringup:/SLAM/ros_ws/install/tiago_description:/SLAM/ros_ws/install/tiago_controller_configuration:/SLAM/ros_ws/install/tiago_2dnav:/SLAM/ros_ws/install/sllidar_ros2:/SLAM/ros_ws/install/rtabmap_ros:/SLAM/ros_ws/install/rtabmap_launch:/SLAM/ros_ws/install/rtabmap_examples:/SLAM/ros_ws/install/rtabmap_demos:/SLAM/ros_ws/install/rtabmap_viz:/SLAM/ros_ws/install/rtabmap_slam:/SLAM/ros_ws/install/rtabmap_odom:/SLAM/ros_ws/install/rtabmap_util:/SLAM/ros_ws/install/rtabmap_sync:/SLAM/ros_ws/install/rtabmap_rviz_plugins:/SLAM/ros_ws/install/rtabmap_conversions:/SLAM/ros_ws/install/rtabmap_python:/SLAM/ros_ws/install/my_robot_controller:/SLAM/ros_ws/install/launch_pal:/SLAM/ros_ws/install/camera_calibration:/SLAM/ros_ws/install/br2_fsm_bumpgo_py:/opt/ros/humble:/SLAM/ros_ws/install/rtabmap_msgs:/SLAM/ros_ws/install/rtabmap:/SLAM/ros_ws/install/rplidar_ros:/SLAM/ros_ws/install/rf2o_laser_odometry:/SLAM/ros_ws/install/pmb2_robot:/SLAM/ros_ws/install/pmb2_navigation:/SLAM/ros_ws/install/pmb2_2dnav:/SLAM/ros_ws/install/pmb2_maps:/SLAM/ros_ws/install/pmb2_laser_sensors:/SLAM/ros_ws/install/pmb2_bringup:/SLAM/ros_ws/install/pmb2_description:/SLAM/ros_ws/install/pmb2_controller_configuration:/SLAM/ros_ws/install/pal_gripper:/SLAM/ros_ws/install/pal_gripper_description:/SLAM/ros_ws/install/pal_gripper_controller_configuration:/SLAM/ros_ws/install/pal_gazebo_worlds:/SLAM/ros_ws/install/more_interfaces:/SLAM/ros_ws/install/image_view:/SLAM/ros_ws/install/image_rotate:/SLAM/ros_ws/install/astra_camera:/SLAM/ros_ws/install/image_publisher:/SLAM/ros_ws/install/hey5_description:/SLAM/ros_ws/install/depth_image_proc:/SLAM/ros_ws/install/cpp_srvcli:/SLAM/ros_ws/install/cpp_pubsub:/SLAM/ros_ws/install/br2_vff_avoidance:/SLAM/ros_ws/install/br2_tracking:/SLAM/ros_ws/install/br2_tracking_msgs:/SLAM/ros_ws/install/br2_tiago:/SLAM/ros_ws/install/br2_tf2_detector:/SLAM/ros_ws/install/br2_navigation:/SLAM/ros_ws/install/br2_fsm_bumpgo_cpp:/SLAM/ros_ws/install/br2_bt_patrolling:/SLAM/ros_ws/install/br2_bt_bumpgo:/SLAM/ros_ws/install/br2_basics:/SLAM/ros_ws/install/astra_camera_msgs')]), 'shell': False}
+[12.169896] (br2_tf2_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.170378] (br2_tf2_detector) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[12.170632] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/lib/libbr2_tf2_detector.so\n'}
+[12.170816] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/lib/br2_tf2_detector/detector\n'}
+[12.171002] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/lib/br2_tf2_detector/detector_improved\n'}
+[12.171398] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/br2_tf2_detector/launch/detector_basic.launch.py\n'}
+[12.171580] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/br2_tf2_detector/launch/detector_improved.launch.py\n'}
+[12.171727] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/ament_index/resource_index/package_run_dependencies/br2_tf2_detector\n'}
+[12.171863] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/ament_index/resource_index/parent_prefix_path/br2_tf2_detector\n'}
+[12.172024] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/ament_prefix_path.sh\n'}
+[12.172181] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/ament_prefix_path.dsv\n'}
+[12.172377] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/path.sh\n'}
+[12.172518] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/br2_tf2_detector/environment/path.dsv\n'}
+[12.172658] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.bash\n'}
+[12.172808] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.sh\n'}
+[12.172963] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.zsh\n'}
+[12.173109] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/br2_tf2_detector/local_setup.dsv\n'}
+[12.173223] (br2_tf2_detector) StdoutLine: {'line': b'-- Symlinking: /SLAM/ros_ws/install/br2_tf2_detector/share/br2_tf2_detector/package.dsv\n'}
+[12.175027] (-) TimerEvent: {}
+[12.199756] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/ament_index/resource_index/packages/br2_tf2_detector\n'}
+[12.200334] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/br2_tf2_detector/cmake/br2_tf2_detectorConfig.cmake\n'}
+[12.200506] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/br2_tf2_detector/cmake/br2_tf2_detectorConfig-version.cmake\n'}
+[12.200654] (br2_tf2_detector) StdoutLine: {'line': b'-- Up-to-date symlink: /SLAM/ros_ws/install/br2_tf2_detector/share/br2_tf2_detector/package.xml\n'}
+[12.204670] (br2_tf2_detector) CommandEnded: {'returncode': 0}
+[12.275148] (-) TimerEvent: {}
+[12.375580] (-) TimerEvent: {}
+[12.476078] (-) TimerEvent: {}
+[12.554437] (br2_tf2_detector) JobEnded: {'identifier': 'br2_tf2_detector', 'rc': 0}
+[12.555284] (-) EventReactorShutdown: {}

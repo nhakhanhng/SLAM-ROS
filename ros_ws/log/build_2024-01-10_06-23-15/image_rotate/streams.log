@@ -1,0 +1,65 @@
+[0.521s] Invoking command in '/SLAM/ros_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_rotate
+[0.858s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.858s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.858s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.858s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.859s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.860s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.862s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.254s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.257s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.488s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.997s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.999s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.453s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.471s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.474s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.474s] -- Configured cppcheck include dirs: /SLAM/ros_ws/src/image_pipeline/image_rotate/include
+[2.474s] -- Configured cppcheck exclude dirs and/or files: 
+[2.476s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.476s] -- Configured cpplint exclude dirs and/or files: 
+[2.476s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.477s] -- Added test 'lint_cmake' to check CMake code style
+[2.477s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.479s] -- Added test 'uncrustify' to check C / C++ code style
+[2.480s] -- Configured uncrustify additional arguments: 
+[2.480s] -- Added test 'xmllint' to check XML markup files
+[2.485s] -- Configuring done
+[2.543s] -- Generating done
+[2.546s] -- Build files have been written to: /SLAM/ros_ws/build/image_rotate
+[2.657s] Invoked command in '/SLAM/ros_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_rotate -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_rotate
+[2.659s] Invoking command in '/SLAM/ros_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_rotate
+[2.725s] [35m[1mConsolidate compiler generated dependencies of target image_rotate[0m
+[2.760s] [ 50%] Built target image_rotate
+[2.775s] [35m[1mConsolidate compiler generated dependencies of target image_rotate_bin[0m
+[2.804s] [100%] Built target image_rotate_bin
+[2.819s] Invoked command in '/SLAM/ros_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_rotate
+[2.862s] Invoking command in '/SLAM/ros_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_rotate
+[2.873s] -- Install configuration: "Release"
+[2.874s] -- Execute custom install script
+[2.874s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/include/image_rotate/image_rotate_node.hpp
+[2.893s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/include/image_rotate/visibility.h
+[2.905s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/library_path.sh
+[2.921s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/library_path.dsv
+[2.938s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/lib/libimage_rotate.so
+[2.955s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/lib/image_rotate/image_rotate
+[2.979s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/launch/image_rotate.launch.py
+[2.985s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/ament_index/resource_index/package_run_dependencies/image_rotate
+[3.000s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/ament_index/resource_index/parent_prefix_path/image_rotate
+[3.014s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/ament_prefix_path.sh
+[3.028s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/ament_prefix_path.dsv
+[3.041s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/path.sh
+[3.054s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/environment/path.dsv
+[3.067s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/local_setup.bash
+[3.078s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/local_setup.sh
+[3.091s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/local_setup.zsh
+[3.103s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/local_setup.dsv
+[3.116s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/package.dsv
+[3.128s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/ament_index/resource_index/packages/image_rotate
+[3.141s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/ament_index/resource_index/rclcpp_components/image_rotate
+[3.153s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.164s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.175s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/ament_cmake_export_libraries-extras.cmake
+[3.186s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/image_rotateConfig.cmake
+[3.197s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/cmake/image_rotateConfig-version.cmake
+[3.211s] -- Symlinking: /SLAM/ros_ws/install/image_rotate/share/image_rotate/package.xml

@@ -1,0 +1,55 @@
+[35m[1mConsolidate compiler generated dependencies of target depth_image_proc[0m
+[  8%] [32mBuilding CXX object CMakeFiles/depth_image_proc.dir/src/point_cloud_xyzrgb_radial.cpp.o[0m
+[ 16%] [32m[1mLinking CXX shared library libdepth_image_proc.so[0m
+[100%] Built target depth_image_proc
+-- Install configuration: "Release"
+-- Execute custom install script
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/conversions.hpp
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/depth_traits.hpp
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyz.hpp
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyz_radial.hpp
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzi.hpp
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzi_radial.hpp
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzrgb.hpp
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/point_cloud_xyzrgb_radial.hpp
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/include/depth_image_proc/visibility.h
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/environment/library_path.sh
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/environment/library_path.dsv
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/lib/libdepth_image_proc.so
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/convert_metric.launch.py
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/crop_foremost.launch.py
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/disparity.launch.py
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyz.launch.py
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyz_radial.launch.py
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzi.launch.py
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzi_radial.launch.py
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzrgb.launch.py
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/point_cloud_xyzrgb_radial.launch.py
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/register.launch.py
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/convert_metric.rviz
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/crop_formost.rviz
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/disparity.rviz
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyz.rviz
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyz_radial.rviz
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyzi.rviz
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/point_cloud_xyzrgb.rviz
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/launch/rviz/register.rviz
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/ament_index/resource_index/package_run_dependencies/depth_image_proc
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/ament_index/resource_index/parent_prefix_path/depth_image_proc
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/environment/ament_prefix_path.sh
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/environment/ament_prefix_path.dsv
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/environment/path.sh
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/environment/path.dsv
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/local_setup.bash
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/local_setup.sh
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/local_setup.zsh
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/local_setup.dsv
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/package.dsv
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/ament_index/resource_index/packages/depth_image_proc
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/ament_index/resource_index/rclcpp_components/depth_image_proc
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/cmake/depth_image_procConfig.cmake
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/cmake/depth_image_procConfig-version.cmake
+-- Symlinking: /SLAM/ros_ws/install/depth_image_proc/share/depth_image_proc/package.xml

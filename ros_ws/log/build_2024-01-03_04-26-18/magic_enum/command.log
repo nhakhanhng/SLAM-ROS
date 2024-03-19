@@ -1,0 +1,2 @@
+Invoking command in '/SLAM/ros_ws/build/magic_enum': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/magic_enum-0.8.0 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/magic_enum
+Invoked command in '/SLAM/ros_ws/build/magic_enum' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/magic_enum-0.8.0 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/magic_enum
