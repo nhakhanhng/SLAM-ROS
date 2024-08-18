@@ -1,1 +1,0 @@
-/SLAM/ros_ws/build/tutourial_intefaces/rosidl_cmake/srv/AddThreeInts_Request.msg

@@ -1,2 +1,0 @@
-Invoking command in '/SLAM/ros_ws/build/libuvc': /usr/bin/cmake /SLAM/ros_ws/libuvc -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/libuvc
-Invoked command in '/SLAM/ros_ws/build/libuvc' returned '1': /usr/bin/cmake /SLAM/ros_ws/libuvc -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/libuvc

@@ -1,2 +1,0 @@
-Invoking command in '/SLAM/ros_ws/build/image_rotate': /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_rotate -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_rotate
-Invoked command in '/SLAM/ros_ws/build/image_rotate' returned '1': /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_rotate -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_rotate

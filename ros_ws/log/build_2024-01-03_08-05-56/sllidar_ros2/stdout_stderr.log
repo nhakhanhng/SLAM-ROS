@@ -1,8 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target sllidar_client[0m
-[35m[1mConsolidate compiler generated dependencies of target sllidar_node[0m
-[ 10%] Built target sllidar_client
-[100%] Built target sllidar_node
--- Install configuration: "Release"
--- Up-to-date: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/launch
--- Up-to-date: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/rviz
--- Installing: /SLAM/ros_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv

@@ -81,6 +81,12 @@
         "ranges": "cpp",
         "valarray": "cpp",
         "strstream": "cpp",
-        "*.ipp": "cpp"
+        "*.ipp": "cpp",
+        "filesystem": "cpp",
+        "scoped_allocator": "cpp",
+        "*.inc": "cpp",
+        "core": "cpp",
+        "numericaldiff": "cpp",
+        "*.txx": "cpp"
     }
 }

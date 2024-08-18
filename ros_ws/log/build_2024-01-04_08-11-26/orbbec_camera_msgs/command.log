@@ -1,4 +1,0 @@
-Invoking command in '/SLAM/ros_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/orbbec_camera_msgs -- -j16 -l16
-Invoked command in '/SLAM/ros_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/orbbec_camera_msgs -- -j16 -l16
-Invoking command in '/SLAM/ros_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/orbbec_camera_msgs
-Invoked command in '/SLAM/ros_ws/build/orbbec_camera_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/orbbec_camera_msgs

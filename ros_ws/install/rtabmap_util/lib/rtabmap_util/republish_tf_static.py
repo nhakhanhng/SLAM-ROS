@@ -1,1 +1,0 @@
-/SLAM/ros_ws/src/rtabmap_ros/rtabmap_util/scripts/republish_tf_static.py

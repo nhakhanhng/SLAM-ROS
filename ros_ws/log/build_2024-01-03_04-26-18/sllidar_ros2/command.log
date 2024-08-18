@@ -1,1 +1,0 @@
-Invoking command in '/SLAM/ros_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/sllidar_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/sllidar_ros2

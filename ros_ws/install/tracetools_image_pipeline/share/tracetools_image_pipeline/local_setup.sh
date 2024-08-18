@@ -1,1 +1,0 @@
-/SLAM/ros_ws/build/tracetools_image_pipeline/ament_cmake_environment_hooks/local_setup.sh

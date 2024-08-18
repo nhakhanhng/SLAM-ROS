@@ -1,3 +1,0 @@
-Invoking command in '/SLAM/ros_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_rotate -- -j16 -l16
-Invoked command in '/SLAM/ros_ws/build/image_rotate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_rotate -- -j16 -l16
-Invoking command in '/SLAM/ros_ws/build/image_rotate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_rotate

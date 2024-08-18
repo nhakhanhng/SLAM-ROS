@@ -1,0 +1,8 @@
+prefix=/SLAM/noetic_ws/install
+
+Name: goto_mover
+Description: Description of goto_mover
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

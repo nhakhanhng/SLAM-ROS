@@ -1,1 +1,0 @@
-Invoking command in '/SLAM/ros_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/orbbec_camera_msgs

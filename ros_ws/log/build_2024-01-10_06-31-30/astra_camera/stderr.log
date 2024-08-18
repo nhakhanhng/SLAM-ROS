@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/astra_camera.dir/build.make:202: CMakeFiles/astra_camera.dir/src/ros_service.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/astra_camera.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

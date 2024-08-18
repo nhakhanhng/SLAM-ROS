@@ -1,1 +1,0 @@
-Invoking command in '/SLAM/ros_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/orbbec_description -- -j16 -l16

@@ -1,4 +1,0 @@
-Invoking command in '/SLAM/ros_ws/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_publisher -- -j16 -l16
-Invoked command in '/SLAM/ros_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_publisher -- -j16 -l16
-Invoking command in '/SLAM/ros_ws/build/image_publisher': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_publisher
-Invoked command in '/SLAM/ros_ws/build/image_publisher' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_publisher

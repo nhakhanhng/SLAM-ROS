@@ -1,4 +1,0 @@
-Invoking command in '/SLAM/ros_ws/build/image_view': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_view
-Invoked command in '/SLAM/ros_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_view
-Invoking command in '/SLAM/ros_ws/build/image_view': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_view
-Invoked command in '/SLAM/ros_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_view

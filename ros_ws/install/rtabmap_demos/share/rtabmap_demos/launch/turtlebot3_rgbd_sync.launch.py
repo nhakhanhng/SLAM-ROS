@@ -1,1 +1,0 @@
-/SLAM/ros_ws/src/rtabmap_ros/rtabmap_demos/launch/turtlebot3_rgbd_sync.launch.py

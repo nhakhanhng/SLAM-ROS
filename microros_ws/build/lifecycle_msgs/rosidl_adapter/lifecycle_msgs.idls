@@ -1,8 +1,0 @@
-/home/khanh/Documents/microros_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/State.idl
-/home/khanh/Documents/microros_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/Transition.idl
-/home/khanh/Documents/microros_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionDescription.idl
-/home/khanh/Documents/microros_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:msg/TransitionEvent.idl
-/home/khanh/Documents/microros_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/ChangeState.idl
-/home/khanh/Documents/microros_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableStates.idl
-/home/khanh/Documents/microros_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetAvailableTransitions.idl
-/home/khanh/Documents/microros_ws/build/lifecycle_msgs/rosidl_adapter/lifecycle_msgs:srv/GetState.idl

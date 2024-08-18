@@ -1,1 +1,0 @@
-/SLAM/ros_ws/build/image_rotate/ament_cmake_core/image_rotateConfig-version.cmake

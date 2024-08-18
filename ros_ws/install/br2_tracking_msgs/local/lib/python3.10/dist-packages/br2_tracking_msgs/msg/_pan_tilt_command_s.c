@@ -1,1 +1,0 @@
-/SLAM/ros_ws/build/br2_tracking_msgs/rosidl_generator_py/br2_tracking_msgs/msg/_pan_tilt_command_s.c

@@ -1,5 +1,0 @@
-[0.080s] Invoking command in '/SLAM/ros_ws/build/orbbec_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/orbbec_description -- -j16 -l16
-[0.085s] [0mCMake Error: The current CMakeCache.txt directory /SLAM/ros_ws/build/orbbec_description/CMakeCache.txt is different than the directory /home/khanh/Documents/SLAM/ros_ws/build/orbbec_description where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
-[0.094s] [0mCMake Error: The source directory "/home/khanh/Documents/SLAM/ros_ws/src/OrbbecSDK_ROS2/orbbec_description" does not exist.
-[0.094s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.096s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1

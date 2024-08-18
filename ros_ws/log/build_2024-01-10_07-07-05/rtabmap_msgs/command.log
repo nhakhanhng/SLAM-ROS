@@ -1,4 +1,0 @@
-Invoking command in '/SLAM/ros_ws/build/rtabmap_msgs': /usr/bin/cmake --build /SLAM/ros_ws/build/rtabmap_msgs
-Invoked command in '/SLAM/ros_ws/build/rtabmap_msgs' returned '0': /usr/bin/cmake --build /SLAM/ros_ws/build/rtabmap_msgs
-Invoking command in '/SLAM/ros_ws/build/rtabmap_msgs': /usr/bin/cmake --install /SLAM/ros_ws/build/rtabmap_msgs
-Invoked command in '/SLAM/ros_ws/build/rtabmap_msgs' returned '0': /usr/bin/cmake --install /SLAM/ros_ws/build/rtabmap_msgs

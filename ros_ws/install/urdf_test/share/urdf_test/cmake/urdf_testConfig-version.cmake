@@ -1,1 +1,0 @@
-/SLAM/ros_ws/build/urdf_test/ament_cmake_core/urdf_testConfig-version.cmake

@@ -1,1 +1,0 @@
-/SLAM/ros_ws/build/tutourial_intefaces/ament_cmake_environment_hooks/pythonpath.sh

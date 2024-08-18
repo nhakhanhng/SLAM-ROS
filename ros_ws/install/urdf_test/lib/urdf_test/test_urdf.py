@@ -1,1 +1,0 @@
-/SLAM/ros_ws/src/ThirdParty/urdf_test/scripts/test_urdf.py

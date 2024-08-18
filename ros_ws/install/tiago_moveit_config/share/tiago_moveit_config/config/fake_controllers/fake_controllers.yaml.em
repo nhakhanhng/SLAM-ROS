@@ -1,1 +1,0 @@
-/SLAM/ros_ws/src/ThirdParty/tiago_moveit_config/config/fake_controllers/fake_controllers.yaml.em

@@ -1,1 +1,0 @@
-/SLAM/ros_ws/build/tutourial_intefaces/rosidl_generator_py/tutourial_intefaces/_tutourial_intefaces_s.ep.rosidl_typesupport_fastrtps_c.c

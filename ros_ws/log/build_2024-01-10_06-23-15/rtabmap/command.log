@@ -1,1 +1,0 @@
-Invoking command in '/SLAM/ros_ws/build/rtabmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/rtabmap -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/rtabmap

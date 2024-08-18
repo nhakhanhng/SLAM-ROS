@@ -17,8 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/SLAM/noetic_ws/devel/include"
-  "/SLAM/noetic_ws/src/hector_slam/hector_map_tools/include"
+  "/SLAM/noetic_ws/install/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/eigen3"

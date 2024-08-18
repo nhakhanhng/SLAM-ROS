@@ -1,6 +1,0 @@
-setup.py
-tutourial_intefaces/__init__.py
-tutourial_intefaces.egg-info/PKG-INFO
-tutourial_intefaces.egg-info/SOURCES.txt
-tutourial_intefaces.egg-info/dependency_links.txt
-tutourial_intefaces.egg-info/top_level.txt

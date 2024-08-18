@@ -1,6 +1,0 @@
-/SLAM/ros_ws/install/rtabmap_odom/lib/librtabmap_odom.so
-/SLAM/ros_ws/install/rtabmap_odom/lib/librtabmap_odom_plugins.so
-/SLAM/ros_ws/install/rtabmap_odom/include/rtabmap_odom/OdometryROS.h
-/SLAM/ros_ws/install/rtabmap_odom/include/rtabmap_odom/visibility.h
-/SLAM/ros_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport.cmake
-/SLAM/ros_ws/install/rtabmap_odom/share/rtabmap_odom/cmake/rtabmap_odomExport-noconfig.cmake

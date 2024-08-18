@@ -1,2 +1,0 @@
-Invoking command in '/SLAM/ros_ws/build/camera_calibration': /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/camera_calibration -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/camera_calibration
-Invoked command in '/SLAM/ros_ws/build/camera_calibration' returned '1': /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/camera_calibration -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/camera_calibration

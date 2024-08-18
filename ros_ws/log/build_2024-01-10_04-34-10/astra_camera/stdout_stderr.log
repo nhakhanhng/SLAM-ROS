@@ -1,4 +1,0 @@
-[  5%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyzrgb.cpp.o[0m
-gmake[2]: *** [CMakeFiles/astra_camera.dir/build.make:90: CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyzrgb.cpp.o] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/astra_camera.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt

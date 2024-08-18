@@ -1,5 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000277] (-) JobUnselected: {'identifier': 'astra_camera'}
-[0.000399] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
-[0.000453] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
-[0.000587] (-) EventReactorShutdown: {}

@@ -1,1 +1,0 @@
-/SLAM/ros_ws/src/book_ros2/br2_tracking_msgs/msg/PanTiltCommand.msg

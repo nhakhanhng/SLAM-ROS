@@ -1,1 +1,0 @@
-/SLAM/ros_ws/build/tutourial_intefaces/rosidl_generator_c/tutourial_intefaces/srv/detail/add_three_ints__struct.h

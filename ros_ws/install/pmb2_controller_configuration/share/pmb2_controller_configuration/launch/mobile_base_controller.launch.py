@@ -1,1 +1,0 @@
-/SLAM/ros_ws/src/ThirdParty/pmb2_robot/pmb2_controller_configuration/launch/mobile_base_controller.launch.py

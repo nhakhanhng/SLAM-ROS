@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/SLAM/ros_ws/build/depth_image_proc/libdepth_image_proc.so" "TARGETS" "depth_image_proc" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

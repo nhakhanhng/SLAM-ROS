@@ -1,6 +1,0 @@
-Invoking command in '/SLAM/ros_ws/build/image_view': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_view -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_view
-Invoked command in '/SLAM/ros_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /SLAM/ros_ws/src/image_pipeline/image_view -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/SLAM/ros_ws/install/image_view
-Invoking command in '/SLAM/ros_ws/build/image_view': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_view -- -j16 -l16
-Invoked command in '/SLAM/ros_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/image_view -- -j16 -l16
-Invoking command in '/SLAM/ros_ws/build/image_view': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_view
-Invoked command in '/SLAM/ros_ws/build/image_view' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /SLAM/ros_ws/build/image_view

@@ -1,0 +1,11 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/msg/BagfileProgress.msg;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/msg/HistogramBucket.msg;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/msg/LandmarkEntry.msg;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/msg/LandmarkList.msg;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/msg/MetricFamily.msg;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/msg/MetricLabel.msg;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/msg/Metric.msg;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/msg/StatusCode.msg;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/msg/StatusResponse.msg;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/msg/SubmapEntry.msg;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/msg/SubmapList.msg;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/msg/SubmapTexture.msg;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/msg/TrajectoryStates.msg"
+services_str = "/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/srv/FinishTrajectory.srv;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/srv/GetTrajectoryStates.srv;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/srv/ReadMetrics.srv;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/srv/StartTrajectory.srv;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/srv/SubmapQuery.srv;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/srv/TrajectoryQuery.srv;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/srv/WriteState.srv"
+pkg_name = "cartographer_ros_msgs"
+dependencies_str = "geometry_msgs;std_msgs"
+langs = "gencpp;geneus;genlisp;gennodejs;genpy"
+dep_include_paths_str = "cartographer_ros_msgs;/SLAM/catkin_ws/src/cartographer_ros/cartographer_ros_msgs/msg;geometry_msgs;/opt/ros/noetic/share/geometry_msgs/cmake/../msg;std_msgs;/opt/ros/noetic/share/std_msgs/cmake/../msg"
+PYTHON_EXECUTABLE = "/usr/bin/python3"
+package_has_static_sources = '' == 'TRUE'
+genmsg_check_deps_script = "/opt/ros/noetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

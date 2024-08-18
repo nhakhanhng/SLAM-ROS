@@ -1,5 +1,0 @@
-[0.305s] Invoking command in '/SLAM/ros_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/astra_camera_msgs -- -j16 -l16
-[0.547s] [0mCMake Error: The source directory "/SLAM/ros_ws/src/ros_astra_camera/astra_camera_msgs" does not exist.
-[0.548s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.548s] gmake: *** [Makefile:2475: cmake_check_build_system] Error 1
-[0.554s] Invoked command in '/SLAM/ros_ws/build/astra_camera_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/SLAM/ros_ws/install/camera_calibration:/opt/ros/humble /usr/bin/cmake --build /SLAM/ros_ws/build/astra_camera_msgs -- -j16 -l16

@@ -1,1 +1,0 @@
-/SLAM/ros_ws/build/tutourial_intefaces/rosidl_generator_py/tutourial_intefaces/srv/__init__.py

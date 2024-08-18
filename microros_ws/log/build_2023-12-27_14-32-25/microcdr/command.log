@@ -1,4 +1,0 @@
-Invoking command in '/home/khanh/Documents/microros_ws/build/microcdr': /usr/bin/cmake --build /home/khanh/Documents/microros_ws/build/microcdr -- -j16 -l16
-Invoked command in '/home/khanh/Documents/microros_ws/build/microcdr' returned '0': /usr/bin/cmake --build /home/khanh/Documents/microros_ws/build/microcdr -- -j16 -l16
-Invoking command in '/home/khanh/Documents/microros_ws/build/microcdr': /usr/bin/cmake --install /home/khanh/Documents/microros_ws/build/microcdr
-Invoked command in '/home/khanh/Documents/microros_ws/build/microcdr' returned '0': /usr/bin/cmake --install /home/khanh/Documents/microros_ws/build/microcdr

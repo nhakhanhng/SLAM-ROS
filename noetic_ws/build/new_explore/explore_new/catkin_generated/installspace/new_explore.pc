@@ -1,0 +1,8 @@
+prefix=/SLAM/noetic_ws/install
+
+Name: new_explore
+Description: Description of new_explore
+Version: 2.1.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: actionlib actionlib_msgs costmap_2d geometry_msgs map_msgs move_base_msgs nav_msgs roscpp std_msgs tf2_geometry_msgs tf visualization_msgs sensor_msgs nav_core pluginlib rospy

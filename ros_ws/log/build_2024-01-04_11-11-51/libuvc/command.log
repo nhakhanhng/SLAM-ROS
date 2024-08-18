@@ -1,3 +1,0 @@
-Invoking command in '/SLAM/ros_ws/build/libuvc': /usr/bin/cmake --build /SLAM/ros_ws/build/libuvc -- -j16 -l16
-Invoked command in '/SLAM/ros_ws/build/libuvc' returned '0': /usr/bin/cmake --build /SLAM/ros_ws/build/libuvc -- -j16 -l16
-Invoking command in '/SLAM/ros_ws/build/libuvc': /usr/bin/cmake --install /SLAM/ros_ws/build/libuvc

@@ -1,1 +1,0 @@
-/SLAM/ros_ws/src/more_interfaces/msg/AddressBook.msg

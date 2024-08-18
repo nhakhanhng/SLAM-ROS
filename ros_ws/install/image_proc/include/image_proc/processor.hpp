@@ -1,1 +1,0 @@
-/SLAM/ros_ws/src/image_pipeline/image_proc/include/image_proc/processor.hpp

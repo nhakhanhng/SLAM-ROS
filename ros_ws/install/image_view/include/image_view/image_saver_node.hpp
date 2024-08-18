@@ -1,1 +1,0 @@
-/SLAM/ros_ws/src/image_pipeline/image_view/include/image_view/image_saver_node.hpp

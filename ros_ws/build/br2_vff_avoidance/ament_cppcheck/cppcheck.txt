@@ -1,8 +1,0 @@
--- run_test.py: invoking following command in '/SLAM/ros_ws/src/book_ros2/br2_vff_avoidance':
- - /opt/ros/humble/bin/ament_cppcheck --xunit-file /SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/cppcheck.xunit.xml --include_dirs /SLAM/ros_ws/src/book_ros2/br2_vff_avoidance/include
-
-cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
-
-
--- run_test.py: return code 0
--- run_test.py: verify result file '/SLAM/ros_ws/build/br2_vff_avoidance/test_results/br2_vff_avoidance/cppcheck.xunit.xml'

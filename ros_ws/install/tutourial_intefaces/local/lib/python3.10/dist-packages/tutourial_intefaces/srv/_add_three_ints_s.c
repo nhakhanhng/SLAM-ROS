@@ -1,1 +1,0 @@
-/SLAM/ros_ws/build/tutourial_intefaces/rosidl_generator_py/tutourial_intefaces/srv/_add_three_ints_s.c
